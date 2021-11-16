@@ -11,17 +11,23 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-217 650.5,-217 650.5,4 -4,4"/>
 <!-- ndEntry -->
 <g id="node1" class="node"><title>ndEntry</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/lru_time_cache/blob/master/src/lib.rs#:~:text=enum%20Entry" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="327.5,-87.5 327.5,-124.5 387.5,-124.5 387.5,-87.5 327.5,-87.5"/>
 <polygon fill="none" stroke="black" points="327.5,-87.5 327.5,-124.5 387.5,-124.5 387.5,-87.5 327.5,-87.5"/>
 <text text-anchor="start" x="338.5" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">Entry</text>
 <polygon fill="none" stroke="black" points="326.5,-87 326.5,-126 388.5,-126 388.5,-87 326.5,-87"/>
+</a>
+</g>
 </g>
 <!-- ndLruCache -->
 <g id="node4" class="node"><title>ndLruCache</title>
+<g id="a_node4_1"><a xlink:href="https://github.com/maidsafe/lru_time_cache/blob/master/src/lib.rs#:~:text=struct%20LruCache" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="146.5,-4.5 146.5,-41.5 237.5,-41.5 237.5,-4.5 146.5,-4.5"/>
 <polygon fill="none" stroke="black" points="146.5,-4.5 146.5,-41.5 237.5,-41.5 237.5,-4.5 146.5,-4.5"/>
 <text text-anchor="start" x="157.5" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">LruCache</text>
 <polygon fill="none" stroke="black" points="145,-4 145,-43 238,-43 238,-4 145,-4"/>
+</a>
+</g>
 </g>
 <!-- ndEntry&#45;&gt;ndLruCache -->
 <g id="edge1" class="edge"><title>ndEntry&#45;&gt;ndLruCache</title>
@@ -30,10 +36,13 @@
 </g>
 <!-- ndVacantEntry -->
 <g id="node2" class="node"><title>ndVacantEntry</title>
+<g id="a_node2_2"><a xlink:href="https://github.com/maidsafe/lru_time_cache/blob/master/src/lib.rs#:~:text=struct%20VacantEntry" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="227.5,-170.5 227.5,-207.5 334.5,-207.5 334.5,-170.5 227.5,-170.5"/>
 <polygon fill="none" stroke="black" points="227.5,-170.5 227.5,-207.5 334.5,-207.5 334.5,-170.5 227.5,-170.5"/>
 <text text-anchor="start" x="238.5" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">VacantEntry</text>
 <polygon fill="none" stroke="black" points="226,-170 226,-209 335,-209 335,-170 226,-170"/>
+</a>
+</g>
 </g>
 <!-- ndVacantEntry&#45;&gt;ndEntry -->
 <g id="edge2" class="edge"><title>ndVacantEntry&#45;&gt;ndEntry</title>
@@ -42,10 +51,13 @@
 </g>
 <!-- ndOccupiedEntry -->
 <g id="node3" class="node"><title>ndOccupiedEntry</title>
+<g id="a_node3_3"><a xlink:href="https://github.com/maidsafe/lru_time_cache/blob/master/src/lib.rs#:~:text=struct%20OccupiedEntry" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="370.5,-170.5 370.5,-207.5 497.5,-207.5 497.5,-170.5 370.5,-170.5"/>
 <polygon fill="none" stroke="black" points="370.5,-170.5 370.5,-207.5 497.5,-207.5 497.5,-170.5 370.5,-170.5"/>
 <text text-anchor="start" x="381.5" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">OccupiedEntry</text>
 <polygon fill="none" stroke="black" points="369,-170 369,-209 498,-209 498,-170 369,-170"/>
+</a>
+</g>
 </g>
 <!-- ndOccupiedEntry&#45;&gt;ndEntry -->
 <g id="edge3" class="edge"><title>ndOccupiedEntry&#45;&gt;ndEntry</title>
@@ -54,10 +66,13 @@
 </g>
 <!-- ndIter -->
 <g id="node5" class="node"><title>ndIter</title>
+<g id="a_node5_4"><a xlink:href="https://github.com/maidsafe/lru_time_cache/blob/master/src/iter.rs#:~:text=struct%20Iter" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9.5,-87.5 9.5,-124.5 54.5,-124.5 54.5,-87.5 9.5,-87.5"/>
 <polygon fill="none" stroke="black" points="9.5,-87.5 9.5,-124.5 54.5,-124.5 54.5,-87.5 9.5,-87.5"/>
 <text text-anchor="start" x="20.5" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">Iter</text>
 <polygon fill="none" stroke="black" points="8,-87 8,-126 55,-126 55,-87 8,-87"/>
+</a>
+</g>
 </g>
 <!-- ndIter&#45;&gt;ndLruCache -->
 <g id="edge4" class="edge"><title>ndIter&#45;&gt;ndLruCache</title>
@@ -66,17 +81,23 @@
 </g>
 <!-- ndTimedEntry -->
 <g id="node6" class="node"><title>ndTimedEntry</title>
+<g id="a_node6_5"><a xlink:href="https://github.com/maidsafe/lru_time_cache/blob/master/src/iter.rs#:~:text=enum%20TimedEntry" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="533.5,-170.5 533.5,-207.5 637.5,-207.5 637.5,-170.5 533.5,-170.5"/>
 <polygon fill="none" stroke="black" points="533.5,-170.5 533.5,-207.5 637.5,-207.5 637.5,-170.5 533.5,-170.5"/>
 <text text-anchor="start" x="544.5" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">TimedEntry</text>
 <polygon fill="none" stroke="black" points="532.5,-170 532.5,-209 638.5,-209 638.5,-170 532.5,-170"/>
+</a>
+</g>
 </g>
 <!-- ndNotifyIter -->
 <g id="node7" class="node"><title>ndNotifyIter</title>
+<g id="a_node7_6"><a xlink:href="https://github.com/maidsafe/lru_time_cache/blob/master/src/iter.rs#:~:text=struct%20NotifyIter" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="90.5,-87.5 90.5,-124.5 175.5,-124.5 175.5,-87.5 90.5,-87.5"/>
 <polygon fill="none" stroke="black" points="90.5,-87.5 90.5,-124.5 175.5,-124.5 175.5,-87.5 90.5,-87.5"/>
 <text text-anchor="start" x="101.5" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">NotifyIter</text>
 <polygon fill="none" stroke="black" points="89,-87 89,-126 176,-126 176,-87 89,-87"/>
+</a>
+</g>
 </g>
 <!-- ndNotifyIter&#45;&gt;ndLruCache -->
 <g id="edge5" class="edge"><title>ndNotifyIter&#45;&gt;ndLruCache</title>
@@ -85,10 +106,13 @@
 </g>
 <!-- ndPeekIter -->
 <g id="node8" class="node"><title>ndPeekIter</title>
+<g id="a_node8_7"><a xlink:href="https://github.com/maidsafe/lru_time_cache/blob/master/src/iter.rs#:~:text=struct%20PeekIter" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="211.5,-87.5 211.5,-124.5 291.5,-124.5 291.5,-87.5 211.5,-87.5"/>
 <polygon fill="none" stroke="black" points="211.5,-87.5 211.5,-124.5 291.5,-124.5 291.5,-87.5 211.5,-87.5"/>
 <text text-anchor="start" x="222.5" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">PeekIter</text>
 <polygon fill="none" stroke="black" points="210.5,-87 210.5,-126 292.5,-126 292.5,-87 210.5,-87"/>
+</a>
+</g>
 </g>
 <!-- ndPeekIter&#45;&gt;ndLruCache -->
 <g id="edge6" class="edge"><title>ndPeekIter&#45;&gt;ndLruCache</title>

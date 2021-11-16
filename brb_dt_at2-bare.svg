@@ -11,24 +11,33 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-217 245.5,-217 245.5,4 -4,4"/>
 <!-- ndBank -->
 <g id="node1" class="node"><title>ndBank</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/brb_dt_at2/blob/master/src/bank.rs#:~:text=struct%20Bank" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9.5,-4.5 9.5,-41.5 68.5,-41.5 68.5,-4.5 9.5,-4.5"/>
 <polygon fill="none" stroke="black" points="9.5,-4.5 9.5,-41.5 68.5,-41.5 68.5,-4.5 9.5,-4.5"/>
 <text text-anchor="start" x="20.5" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">Bank</text>
 <polygon fill="none" stroke="black" points="8,-4 8,-43 69,-43 69,-4 8,-4"/>
+</a>
+</g>
 </g>
 <!-- ndValidationError -->
 <g id="node2" class="node"><title>ndValidationError</title>
+<g id="a_node2_1"><a xlink:href="https://github.com/maidsafe/brb_dt_at2/blob/master/src/bank.rs#:~:text=enum%20ValidationError" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="104.5,-4.5 104.5,-41.5 232.5,-41.5 232.5,-4.5 104.5,-4.5"/>
 <polygon fill="none" stroke="black" points="104.5,-4.5 104.5,-41.5 232.5,-41.5 232.5,-4.5 104.5,-4.5"/>
 <text text-anchor="start" x="115.5" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">ValidationError</text>
 <polygon fill="none" stroke="black" points="103.5,-4 103.5,-43 233.5,-43 233.5,-4 103.5,-4"/>
+</a>
+</g>
 </g>
 <!-- ndOp -->
 <g id="node3" class="node"><title>ndOp</title>
+<g id="a_node3_2"><a xlink:href="https://github.com/maidsafe/brb_dt_at2/blob/master/src/op.rs#:~:text=enum%20Op" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="76.5,-87.5 76.5,-124.5 119.5,-124.5 119.5,-87.5 76.5,-87.5"/>
 <polygon fill="none" stroke="black" points="76.5,-87.5 76.5,-124.5 119.5,-124.5 119.5,-87.5 76.5,-87.5"/>
 <text text-anchor="start" x="87.5" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">Op</text>
 <polygon fill="none" stroke="black" points="75,-87 75,-126 120,-126 120,-87 75,-87"/>
+</a>
+</g>
 </g>
 <!-- ndOp&#45;&gt;ndBank -->
 <g id="edge1" class="edge"><title>ndOp&#45;&gt;ndBank</title>
@@ -42,10 +51,13 @@
 </g>
 <!-- ndTransfer -->
 <g id="node4" class="node"><title>ndTransfer</title>
+<g id="a_node4_3"><a xlink:href="https://github.com/maidsafe/brb_dt_at2/blob/master/src/transfer.rs#:~:text=struct%20Transfer" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="26.5,-170.5 26.5,-207.5 108.5,-207.5 108.5,-170.5 26.5,-170.5"/>
 <polygon fill="none" stroke="black" points="26.5,-170.5 26.5,-207.5 108.5,-207.5 108.5,-170.5 26.5,-170.5"/>
 <text text-anchor="start" x="37.5" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">Transfer</text>
 <polygon fill="none" stroke="black" points="25.5,-170 25.5,-209 109.5,-209 109.5,-170 25.5,-170"/>
+</a>
+</g>
 </g>
 <!-- ndTransfer&#45;&gt;ndBank -->
 <g id="edge3" class="edge"><title>ndTransfer&#45;&gt;ndBank</title>

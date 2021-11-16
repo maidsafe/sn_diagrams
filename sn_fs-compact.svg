@@ -11,6 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-928 1128.4,-928 1128.4,4 -4,4"/>
 <!-- ndFsInodePosix -->
 <g id="node1" class="node"><title>ndFsInodePosix</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/sn_fs/blob/master/src/metadata.rs#:~:text=struct%20FsInodePosix" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="125.901,-821.5 125.901,-858.5 243.901,-858.5 243.901,-821.5 125.901,-821.5"/>
 <polygon fill="none" stroke="black" points="125.901,-821.5 125.901,-858.5 243.901,-858.5 243.901,-821.5 125.901,-821.5"/>
 <text text-anchor="start" x="136.901" y="-837.3" font-family="Arial" font-weight="bold" font-size="14.00">FsInodePosix</text>
@@ -21,9 +22,12 @@
 <text text-anchor="start" x="136.901" y="-769.3" font-family="Arial" font-size="14.00">+ gid: u32</text>
 <text text-anchor="start" x="136.901" y="-754.3" font-family="Arial" font-size="14.00">+ flags: u32</text>
 <polygon fill="none" stroke="black" points="124.901,-739 124.901,-860 244.901,-860 244.901,-739 124.901,-739"/>
+</a>
+</g>
 </g>
 <!-- ndFsInodeOs -->
 <g id="node3" class="node"><title>ndFsInodeOs</title>
+<g id="a_node3_1"><a xlink:href="https://github.com/maidsafe/sn_fs/blob/master/src/metadata.rs#:~:text=enum%20FsInodeOs" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="323.901,-597 323.901,-634 525.901,-634 525.901,-597 323.901,-597"/>
 <polygon fill="none" stroke="black" points="323.901,-597 323.901,-634 525.901,-634 525.901,-597 323.901,-597"/>
 <text text-anchor="start" x="386.901" y="-612.8" font-family="Arial" font-weight="bold" font-size="14.00">FsInodeOs</text>
@@ -33,6 +37,8 @@
 <text text-anchor="start" x="334.901" y="-559.8" font-family="Arial" font-size="14.00">Windows(FsInodeWindows)</text>
 <text text-anchor="start" x="334.901" y="-544.8" font-family="Arial" font-size="14.00">Empty</text>
 <polygon fill="none" stroke="black" points="322.901,-529 322.901,-635 526.901,-635 526.901,-529 322.901,-529"/>
+</a>
+</g>
 </g>
 <!-- ndFsInodePosix&#45;&gt;ndFsInodeOs -->
 <g id="edge1" class="edge"><title>ndFsInodePosix&#45;&gt;ndFsInodeOs</title>
@@ -41,6 +47,7 @@
 </g>
 <!-- ndFsMetadata -->
 <g id="node10" class="node"><title>ndFsMetadata</title>
+<g id="a_node10_2"><a xlink:href="https://github.com/maidsafe/sn_fs/blob/master/src/metadata.rs#:~:text=enum%20FsMetadata" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="551.901,-102 551.901,-139 787.901,-139 787.901,-102 551.901,-102"/>
 <polygon fill="none" stroke="black" points="551.901,-102 551.901,-139 787.901,-139 787.901,-102 551.901,-102"/>
 <text text-anchor="start" x="628.901" y="-117.8" font-family="Arial" font-weight="bold" font-size="14.00">FsMetadata</text>
@@ -52,6 +59,8 @@
 <text text-anchor="start" x="562.901" y="-34.8" font-family="Arial" font-size="14.00">RefFile(FsRefFile)</text>
 <text text-anchor="start" x="562.901" y="-19.8" font-family="Arial" font-size="14.00">Empty</text>
 <polygon fill="none" stroke="black" points="550.901,-4 550.901,-140 788.901,-140 788.901,-4 550.901,-4"/>
+</a>
+</g>
 </g>
 <!-- ndFsInodePosix&#45;&gt;ndFsMetadata -->
 <g id="edge2" class="edge"><title>ndFsInodePosix&#45;&gt;ndFsMetadata</title>
@@ -60,6 +69,7 @@
 </g>
 <!-- ndFsInodeWindows -->
 <g id="node2" class="node"><title>ndFsInodeWindows</title>
+<g id="a_node2_3"><a xlink:href="https://github.com/maidsafe/sn_fs/blob/master/src/metadata.rs#:~:text=struct%20FsInodeWindows" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="425.901,-881.5 425.901,-918.5 611.901,-918.5 611.901,-881.5 425.901,-881.5"/>
 <polygon fill="none" stroke="black" points="425.901,-881.5 425.901,-918.5 611.901,-918.5 611.901,-881.5 425.901,-881.5"/>
 <text text-anchor="start" x="458.901" y="-897.3" font-family="Arial" font-weight="bold" font-size="14.00">FsInodeWindows</text>
@@ -78,6 +88,8 @@
 <text text-anchor="start" x="436.901" y="-709.3" font-family="Arial" font-size="14.00">+ sparse: bool</text>
 <text text-anchor="start" x="436.901" y="-694.3" font-family="Arial" font-size="14.00">+ temporary: bool</text>
 <polygon fill="none" stroke="black" points="424.901,-679 424.901,-920 612.901,-920 612.901,-679 424.901,-679"/>
+</a>
+</g>
 </g>
 <!-- ndFsInodeWindows&#45;&gt;ndFsInodeOs -->
 <g id="edge3" class="edge"><title>ndFsInodeWindows&#45;&gt;ndFsInodeOs</title>
@@ -91,6 +103,7 @@
 </g>
 <!-- ndFsInodeCommon -->
 <g id="node4" class="node"><title>ndFsInodeCommon</title>
+<g id="a_node4_4"><a xlink:href="https://github.com/maidsafe/sn_fs/blob/master/src/metadata.rs#:~:text=struct%20FsInodeCommon" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="346.901,-446.5 346.901,-483.5 503.901,-483.5 503.901,-446.5 346.901,-446.5"/>
 <polygon fill="none" stroke="black" points="346.901,-446.5 346.901,-483.5 503.901,-483.5 503.901,-446.5 346.901,-446.5"/>
 <text text-anchor="start" x="365.401" y="-462.3" font-family="Arial" font-weight="bold" font-size="14.00">FsInodeCommon</text>
@@ -103,6 +116,8 @@
 <text text-anchor="start" x="357.901" y="-364.3" font-family="Arial" font-size="14.00">+ links: u32</text>
 <text text-anchor="start" x="357.901" y="-349.3" font-family="Arial" font-size="14.00">+ osattrs: FsInodeOs</text>
 <polygon fill="none" stroke="black" points="345.401,-334 345.401,-485 504.401,-485 504.401,-334 345.401,-334"/>
+</a>
+</g>
 </g>
 <!-- ndFsInodeOs&#45;&gt;ndFsInodeCommon -->
 <g id="edge5" class="edge"><title>ndFsInodeOs&#45;&gt;ndFsInodeCommon</title>
@@ -111,6 +126,7 @@
 </g>
 <!-- ndFsInodeDirectory -->
 <g id="node5" class="node"><title>ndFsInodeDirectory</title>
+<g id="a_node5_5"><a xlink:href="https://github.com/maidsafe/sn_fs/blob/master/src/metadata.rs#:~:text=struct%20FsInodeDirectory" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="565.901,-244 565.901,-281 774.901,-281 774.901,-244 565.901,-244"/>
 <polygon fill="none" stroke="black" points="565.901,-244 565.901,-281 774.901,-281 774.901,-244 565.901,-244"/>
 <text text-anchor="start" x="609.901" y="-259.8" font-family="Arial" font-weight="bold" font-size="14.00">FsInodeDirectory</text>
@@ -119,6 +135,8 @@
 <text text-anchor="start" x="576.901" y="-221.8" font-family="Arial" font-size="14.00">+ common: FsInodeCommon</text>
 <text text-anchor="start" x="576.901" y="-206.8" font-family="Arial" font-size="14.00">+ name: OsString</text>
 <polygon fill="none" stroke="black" points="564.401,-191.5 564.401,-282.5 775.401,-282.5 775.401,-191.5 564.401,-191.5"/>
+</a>
+</g>
 </g>
 <!-- ndFsInodeCommon&#45;&gt;ndFsInodeDirectory -->
 <g id="edge6" class="edge"><title>ndFsInodeCommon&#45;&gt;ndFsInodeDirectory</title>
@@ -127,6 +145,7 @@
 </g>
 <!-- ndFsInodeSymlink -->
 <g id="node6" class="node"><title>ndFsInodeSymlink</title>
+<g id="a_node6_6"><a xlink:href="https://github.com/maidsafe/sn_fs/blob/master/src/metadata.rs#:~:text=struct%20FsInodeSymlink" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="75.9011,-252 75.9011,-289 284.901,-289 284.901,-252 75.9011,-252"/>
 <polygon fill="none" stroke="black" points="75.9011,-252 75.9011,-289 284.901,-289 284.901,-252 75.9011,-252"/>
 <text text-anchor="start" x="124.401" y="-267.8" font-family="Arial" font-weight="bold" font-size="14.00">FsInodeSymlink</text>
@@ -136,6 +155,8 @@
 <text text-anchor="start" x="86.9011" y="-214.8" font-family="Arial" font-size="14.00">+ name: OsString</text>
 <text text-anchor="start" x="86.9011" y="-199.8" font-family="Arial" font-size="14.00">+ symlink: OsString</text>
 <polygon fill="none" stroke="black" points="74.4011,-184 74.4011,-290 285.401,-290 285.401,-184 74.4011,-184"/>
+</a>
+</g>
 </g>
 <!-- ndFsInodeCommon&#45;&gt;ndFsInodeSymlink -->
 <g id="edge7" class="edge"><title>ndFsInodeCommon&#45;&gt;ndFsInodeSymlink</title>
@@ -144,6 +165,7 @@
 </g>
 <!-- ndFsInodeFile -->
 <g id="node7" class="node"><title>ndFsInodeFile</title>
+<g id="a_node7_7"><a xlink:href="https://github.com/maidsafe/sn_fs/blob/master/src/metadata.rs#:~:text=struct%20FsInodeFile" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="320.901,-237 320.901,-274 529.901,-274 529.901,-237 320.901,-237"/>
 <polygon fill="none" stroke="black" points="320.901,-237 320.901,-274 529.901,-274 529.901,-237 320.901,-237"/>
 <text text-anchor="start" x="384.401" y="-252.8" font-family="Arial" font-weight="bold" font-size="14.00">FsInodeFile</text>
@@ -151,6 +173,8 @@
 <polygon fill="none" stroke="black" points="320.901,-200 320.901,-237 529.901,-237 529.901,-200 320.901,-200"/>
 <text text-anchor="start" x="331.901" y="-214.8" font-family="Arial" font-size="14.00">+ common: FsInodeCommon</text>
 <polygon fill="none" stroke="black" points="319.401,-199 319.401,-275 530.401,-275 530.401,-199 319.401,-199"/>
+</a>
+</g>
 </g>
 <!-- ndFsInodeCommon&#45;&gt;ndFsInodeFile -->
 <g id="edge8" class="edge"><title>ndFsInodeCommon&#45;&gt;ndFsInodeFile</title>
@@ -174,6 +198,7 @@
 </g>
 <!-- ndFsRefFile -->
 <g id="node8" class="node"><title>ndFsRefFile</title>
+<g id="a_node8_8"><a xlink:href="https://github.com/maidsafe/sn_fs/blob/master/src/metadata.rs#:~:text=struct%20FsRefFile" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="849.901,-244 849.901,-281 982.901,-281 982.901,-244 849.901,-244"/>
 <polygon fill="none" stroke="black" points="849.901,-244 849.901,-281 982.901,-281 982.901,-244 849.901,-244"/>
 <text text-anchor="start" x="883.901" y="-259.8" font-family="Arial" font-weight="bold" font-size="14.00">FsRefFile</text>
@@ -182,6 +207,8 @@
 <text text-anchor="start" x="860.901" y="-221.8" font-family="Arial" font-size="14.00">+ name: OsString</text>
 <text text-anchor="start" x="860.901" y="-206.8" font-family="Arial" font-size="14.00">+ inode_id: u64</text>
 <polygon fill="none" stroke="black" points="848.401,-191.5 848.401,-282.5 983.401,-282.5 983.401,-191.5 848.401,-191.5"/>
+</a>
+</g>
 </g>
 <!-- ndFsRefFile&#45;&gt;ndFsMetadata -->
 <g id="edge12" class="edge"><title>ndFsRefFile&#45;&gt;ndFsMetadata</title>
@@ -190,6 +217,7 @@
 </g>
 <!-- ndDirentKind -->
 <g id="node9" class="node"><title>ndDirentKind</title>
+<g id="a_node9_9"><a xlink:href="https://github.com/maidsafe/sn_fs/blob/master/src/metadata.rs#:~:text=enum%20DirentKind" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1018.9,-252 1018.9,-289 1115.9,-289 1115.9,-252 1018.9,-252"/>
 <polygon fill="none" stroke="black" points="1018.9,-252 1018.9,-289 1115.9,-289 1115.9,-252 1018.9,-252"/>
 <text text-anchor="start" x="1029.9" y="-267.8" font-family="Arial" font-weight="bold" font-size="14.00">DirentKind</text>
@@ -199,6 +227,8 @@
 <text text-anchor="start" x="1029.9" y="-214.8" font-family="Arial" font-size="14.00">Directory</text>
 <text text-anchor="start" x="1029.9" y="-199.8" font-family="Arial" font-size="14.00">Symlink</text>
 <polygon fill="none" stroke="black" points="1017.4,-184 1017.4,-290 1116.4,-290 1116.4,-184 1017.4,-184"/>
+</a>
+</g>
 </g>
 <!-- ndDirentKind&#45;&gt;ndFsMetadata -->
 <g id="edge13" class="edge"><title>ndDirentKind&#45;&gt;ndFsMetadata</title>
@@ -207,6 +237,7 @@
 </g>
 <!-- ndSnFs -->
 <g id="node11" class="node"><title>ndSnFs</title>
+<g id="a_node11_10"><a xlink:href="https://github.com/maidsafe/sn_fs/blob/master/src/main.rs#:~:text=struct%20SnFs" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="647.901,-806.5 647.901,-843.5 913.901,-843.5 913.901,-806.5 647.901,-806.5"/>
 <polygon fill="none" stroke="black" points="647.901,-806.5 647.901,-843.5 913.901,-843.5 913.901,-806.5 647.901,-806.5"/>
 <text text-anchor="start" x="762.401" y="-822.3" font-family="Arial" font-weight="bold" font-size="14.00">SnFs</text>
@@ -215,6 +246,8 @@
 <text text-anchor="start" x="658.901" y="-784.3" font-family="Arial" font-size="14.00">&#45; replica: Arc&lt;Mutex&lt;FsTreeReplica&gt;&gt;</text>
 <text text-anchor="start" x="658.901" y="-769.3" font-family="Arial" font-size="14.00">&#45; mountpoint: Dir</text>
 <polygon fill="none" stroke="black" points="646.901,-754 646.901,-845 914.901,-845 914.901,-754 646.901,-754"/>
+</a>
+</g>
 </g>
 </g>
 </svg>

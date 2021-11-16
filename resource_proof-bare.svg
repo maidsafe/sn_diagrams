@@ -11,17 +11,23 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-134 159,-134 159,4 -4,4"/>
 <!-- ndResourceProof -->
 <g id="node1" class="node"><title>ndResourceProof</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/resource_proof/blob/master/src/lib.rs#:~:text=struct%20ResourceProof" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="13.5,-4.5 13.5,-41.5 141.5,-41.5 141.5,-4.5 13.5,-4.5"/>
 <polygon fill="none" stroke="black" points="13.5,-4.5 13.5,-41.5 141.5,-41.5 141.5,-4.5 13.5,-4.5"/>
 <text text-anchor="start" x="24.5" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">ResourceProof</text>
 <polygon fill="none" stroke="black" points="12.5,-4 12.5,-43 142.5,-43 142.5,-4 12.5,-4"/>
+</a>
+</g>
 </g>
 <!-- ndResourceProver -->
 <g id="node2" class="node"><title>ndResourceProver</title>
+<g id="a_node2_1"><a xlink:href="https://github.com/maidsafe/resource_proof/blob/master/src/lib.rs#:~:text=struct%20ResourceProver" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9.5,-87.5 9.5,-124.5 146.5,-124.5 146.5,-87.5 9.5,-87.5"/>
 <polygon fill="none" stroke="black" points="9.5,-87.5 9.5,-124.5 146.5,-124.5 146.5,-87.5 9.5,-87.5"/>
 <text text-anchor="start" x="20.5" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">ResourceProver</text>
 <polygon fill="none" stroke="black" points="8,-87 8,-126 147,-126 147,-87 8,-87"/>
+</a>
+</g>
 </g>
 <!-- ndResourceProver&#45;&gt;ndResourceProof -->
 <g id="edge1" class="edge"><title>ndResourceProver&#45;&gt;ndResourceProof</title>

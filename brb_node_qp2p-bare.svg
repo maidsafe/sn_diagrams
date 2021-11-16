@@ -11,17 +11,23 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-134 409.5,-134 409.5,4 -4,4"/>
 <!-- ndSharedBRB -->
 <g id="node1" class="node"><title>ndSharedBRB</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/brb_node_qp2p/blob/master/src/brb_node.rs#:~:text=struct%20SharedBRB" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="146.5,-87.5 146.5,-124.5 250.5,-124.5 250.5,-87.5 146.5,-87.5"/>
 <polygon fill="none" stroke="black" points="146.5,-87.5 146.5,-124.5 250.5,-124.5 250.5,-87.5 146.5,-87.5"/>
 <text text-anchor="start" x="157.5" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">SharedBRB</text>
 <polygon fill="none" stroke="black" points="145.5,-87 145.5,-126 251.5,-126 251.5,-87 145.5,-87"/>
+</a>
+</g>
 </g>
 <!-- ndRepl -->
 <g id="node2" class="node"><title>ndRepl</title>
+<g id="a_node2_1"><a xlink:href="https://github.com/maidsafe/brb_node_qp2p/blob/master/src/brb_node.rs#:~:text=struct%20Repl" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="54.5,-4.5 54.5,-41.5 107.5,-41.5 107.5,-4.5 54.5,-4.5"/>
 <polygon fill="none" stroke="black" points="54.5,-4.5 54.5,-41.5 107.5,-41.5 107.5,-4.5 54.5,-4.5"/>
 <text text-anchor="start" x="65.5" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">Repl</text>
 <polygon fill="none" stroke="black" points="53,-4 53,-43 108,-43 108,-4 53,-4"/>
+</a>
+</g>
 </g>
 <!-- ndSharedBRB&#45;&gt;ndRepl -->
 <g id="edge1" class="edge"><title>ndSharedBRB&#45;&gt;ndRepl</title>
@@ -30,10 +36,13 @@
 </g>
 <!-- ndRouter -->
 <g id="node3" class="node"><title>ndRouter</title>
+<g id="a_node3_2"><a xlink:href="https://github.com/maidsafe/brb_node_qp2p/blob/master/src/brb_node.rs#:~:text=struct%20Router" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="164.5,-4.5 164.5,-41.5 233.5,-41.5 233.5,-4.5 164.5,-4.5"/>
 <polygon fill="none" stroke="black" points="164.5,-4.5 164.5,-41.5 233.5,-41.5 233.5,-4.5 164.5,-4.5"/>
 <text text-anchor="start" x="175.5" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">Router</text>
 <polygon fill="none" stroke="black" points="163,-4 163,-43 234,-43 234,-4 163,-4"/>
+</a>
+</g>
 </g>
 <!-- ndSharedBRB&#45;&gt;ndRouter -->
 <g id="edge2" class="edge"><title>ndSharedBRB&#45;&gt;ndRouter</title>
@@ -42,10 +51,13 @@
 </g>
 <!-- ndRouterCmd -->
 <g id="node4" class="node"><title>ndRouterCmd</title>
+<g id="a_node4_3"><a xlink:href="https://github.com/maidsafe/brb_node_qp2p/blob/master/src/brb_node.rs#:~:text=enum%20RouterCmd" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="9.5,-87.5 9.5,-124.5 110.5,-124.5 110.5,-87.5 9.5,-87.5"/>
 <polygon fill="none" stroke="black" points="9.5,-87.5 9.5,-124.5 110.5,-124.5 110.5,-87.5 9.5,-87.5"/>
 <text text-anchor="start" x="20.5" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">RouterCmd</text>
 <polygon fill="none" stroke="black" points="8,-87 8,-126 111,-126 111,-87 8,-87"/>
+</a>
+</g>
 </g>
 <!-- ndRouterCmd&#45;&gt;ndRepl -->
 <g id="edge3" class="edge"><title>ndRouterCmd&#45;&gt;ndRepl</title>
@@ -54,10 +66,13 @@
 </g>
 <!-- ndNetworkMsg -->
 <g id="node5" class="node"><title>ndNetworkMsg</title>
+<g id="a_node5_4"><a xlink:href="https://github.com/maidsafe/brb_node_qp2p/blob/master/src/brb_node.rs#:~:text=enum%20NetworkMsg" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="286.5,-87.5 286.5,-124.5 396.5,-124.5 396.5,-87.5 286.5,-87.5"/>
 <polygon fill="none" stroke="black" points="286.5,-87.5 286.5,-124.5 396.5,-124.5 396.5,-87.5 286.5,-87.5"/>
 <text text-anchor="start" x="297.5" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">NetworkMsg</text>
 <polygon fill="none" stroke="black" points="285.5,-87 285.5,-126 397.5,-126 397.5,-87 285.5,-87"/>
+</a>
+</g>
 </g>
 </g>
 </svg>

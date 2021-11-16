@@ -11,17 +11,23 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-134 316,-134 316,4 -4,4"/>
 <!-- ndSignatureAggregator -->
 <g id="node1" class="node"><title>ndSignatureAggregator</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/bls_signature_aggregator/blob/master/src/signature_aggregator.rs#:~:text=struct%20SignatureAggregator" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="39.5,-4.5 39.5,-41.5 208.5,-41.5 208.5,-4.5 39.5,-4.5"/>
 <polygon fill="none" stroke="black" points="39.5,-4.5 39.5,-41.5 208.5,-41.5 208.5,-4.5 39.5,-4.5"/>
 <text text-anchor="start" x="50.5" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">SignatureAggregator</text>
 <polygon fill="none" stroke="black" points="38,-4 38,-43 209,-43 209,-4 38,-4"/>
+</a>
+</g>
 </g>
 <!-- ndError -->
 <g id="node2" class="node"><title>ndError</title>
+<g id="a_node2_1"><a xlink:href="https://github.com/maidsafe/bls_signature_aggregator/blob/master/src/signature_aggregator.rs#:~:text=enum%20Error" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="244.5,-87.5 244.5,-124.5 303.5,-124.5 303.5,-87.5 244.5,-87.5"/>
 <polygon fill="none" stroke="black" points="244.5,-87.5 244.5,-124.5 303.5,-124.5 303.5,-87.5 244.5,-87.5"/>
 <text text-anchor="start" x="255.5" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">Error</text>
 <polygon fill="none" stroke="black" points="243,-87 243,-126 304,-126 304,-87 243,-87"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndSignatureAggregator -->
 <g id="edge1" class="edge"><title>ndError&#45;&gt;ndSignatureAggregator</title>
@@ -30,10 +36,13 @@
 </g>
 <!-- ndState -->
 <g id="node3" class="node"><title>ndState</title>
+<g id="a_node3_2"><a xlink:href="https://github.com/maidsafe/bls_signature_aggregator/blob/master/src/signature_aggregator.rs#:~:text=struct%20State" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="244.5,-4.5 244.5,-41.5 302.5,-41.5 302.5,-4.5 244.5,-4.5"/>
 <polygon fill="none" stroke="black" points="244.5,-4.5 244.5,-41.5 302.5,-41.5 302.5,-4.5 244.5,-4.5"/>
 <text text-anchor="start" x="255.5" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">State</text>
 <polygon fill="none" stroke="black" points="243.5,-4 243.5,-43 303.5,-43 303.5,-4 243.5,-4"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndState -->
 <g id="edge2" class="edge"><title>ndError&#45;&gt;ndState</title>
@@ -42,10 +51,13 @@
 </g>
 <!-- ndProof -->
 <g id="node4" class="node"><title>ndProof</title>
+<g id="a_node4_3"><a xlink:href="https://github.com/maidsafe/bls_signature_aggregator/blob/master/src/proof.rs#:~:text=struct%20Proof" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9.5,-87.5 9.5,-124.5 70.5,-124.5 70.5,-87.5 9.5,-87.5"/>
 <polygon fill="none" stroke="black" points="9.5,-87.5 9.5,-124.5 70.5,-124.5 70.5,-87.5 9.5,-87.5"/>
 <text text-anchor="start" x="20.5" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">Proof</text>
 <polygon fill="none" stroke="black" points="8,-87 8,-126 71,-126 71,-87 8,-87"/>
+</a>
+</g>
 </g>
 <!-- ndProof&#45;&gt;ndSignatureAggregator -->
 <g id="edge3" class="edge"><title>ndProof&#45;&gt;ndSignatureAggregator</title>
@@ -54,10 +66,13 @@
 </g>
 <!-- ndProofShare -->
 <g id="node5" class="node"><title>ndProofShare</title>
+<g id="a_node5_4"><a xlink:href="https://github.com/maidsafe/bls_signature_aggregator/blob/master/src/proof.rs#:~:text=struct%20ProofShare" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="105.5,-87.5 105.5,-124.5 207.5,-124.5 207.5,-87.5 105.5,-87.5"/>
 <polygon fill="none" stroke="black" points="105.5,-87.5 105.5,-124.5 207.5,-124.5 207.5,-87.5 105.5,-87.5"/>
 <text text-anchor="start" x="116.5" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">ProofShare</text>
 <polygon fill="none" stroke="black" points="104.5,-87 104.5,-126 208.5,-126 208.5,-87 104.5,-87"/>
+</a>
+</g>
 </g>
 <!-- ndProofShare&#45;&gt;ndSignatureAggregator -->
 <g id="edge4" class="edge"><title>ndProofShare&#45;&gt;ndSignatureAggregator</title>

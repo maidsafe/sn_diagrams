@@ -11,6 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-463 580,-463 580,4 -4,4"/>
 <!-- ndBank -->
 <g id="node1" class="node"><title>ndBank</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/brb_dt_at2/blob/master/src/bank.rs#:~:text=struct%20Bank" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9,-101.5 9,-138.5 325,-138.5 325,-101.5 9,-101.5"/>
 <polygon fill="none" stroke="black" points="9,-101.5 9,-138.5 325,-138.5 325,-101.5 9,-101.5"/>
 <text text-anchor="start" x="148.5" y="-117.3" font-family="Arial" font-weight="bold" font-size="14.00">Bank</text>
@@ -21,9 +22,12 @@
 <text text-anchor="start" x="20" y="-49.3" font-family="Arial" font-size="14.00">&#45; initial_balances: BTreeMap&lt;A, Money&gt;</text>
 <text text-anchor="start" x="20" y="-34.3" font-family="Arial" font-size="14.00">&#45; hist: BTreeMap&lt;A, BTreeSet&lt;Transfer&lt;A&gt;&gt;&gt;</text>
 <polygon fill="none" stroke="black" points="8,-19 8,-140 326,-140 326,-19 8,-19"/>
+</a>
+</g>
 </g>
 <!-- ndValidationError -->
 <g id="node2" class="node"><title>ndValidationError</title>
+<g id="a_node2_1"><a xlink:href="https://github.com/maidsafe/brb_dt_at2/blob/master/src/bank.rs#:~:text=enum%20ValidationError" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="361,-116.5 361,-153.5 567,-153.5 567,-116.5 361,-116.5"/>
 <polygon fill="none" stroke="black" points="361,-116.5 361,-153.5 567,-153.5 567,-116.5 361,-116.5"/>
 <text text-anchor="start" x="411" y="-132.3" font-family="Arial" font-weight="bold" font-size="14.00">ValidationError</text>
@@ -36,9 +40,12 @@
 <text text-anchor="start" x="372" y="-34.3" font-family="Arial" font-size="14.00">MissingDependentOps</text>
 <text text-anchor="start" x="372" y="-19.3" font-family="Arial" font-size="14.00">OwnerAlreadyHasAnAccount</text>
 <polygon fill="none" stroke="black" points="360,-4 360,-155 568,-155 568,-4 360,-4"/>
+</a>
+</g>
 </g>
 <!-- ndOp -->
 <g id="node3" class="node"><title>ndOp</title>
+<g id="a_node3_2"><a xlink:href="https://github.com/maidsafe/brb_dt_at2/blob/master/src/op.rs#:~:text=enum%20Op" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="205,-251.5 205,-288.5 368,-288.5 368,-251.5 205,-251.5"/>
 <polygon fill="none" stroke="black" points="205,-251.5 205,-288.5 368,-288.5 368,-251.5 205,-251.5"/>
 <text text-anchor="start" x="276" y="-267.3" font-family="Arial" font-weight="bold" font-size="14.00">Op</text>
@@ -47,6 +54,8 @@
 <text text-anchor="start" x="216" y="-229.3" font-family="Arial" font-size="14.00">Transfer(Transfer&lt;A&gt;)</text>
 <text text-anchor="start" x="216" y="-214.3" font-family="Arial" font-size="14.00">OpenAccount</text>
 <polygon fill="none" stroke="black" points="203.5,-199 203.5,-290 368.5,-290 368.5,-199 203.5,-199"/>
+</a>
+</g>
 </g>
 <!-- ndOp&#45;&gt;ndBank -->
 <g id="edge1" class="edge"><title>ndOp&#45;&gt;ndBank</title>
@@ -60,6 +69,7 @@
 </g>
 <!-- ndTransfer -->
 <g id="node4" class="node"><title>ndTransfer</title>
+<g id="a_node4_3"><a xlink:href="https://github.com/maidsafe/brb_dt_at2/blob/master/src/transfer.rs#:~:text=struct%20Transfer" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="113,-416.5 113,-453.5 340,-453.5 340,-416.5 113,-416.5"/>
 <polygon fill="none" stroke="black" points="113,-416.5 113,-453.5 340,-453.5 340,-416.5 113,-416.5"/>
 <text text-anchor="start" x="196.5" y="-432.3" font-family="Arial" font-weight="bold" font-size="14.00">Transfer</text>
@@ -70,6 +80,8 @@
 <text text-anchor="start" x="124" y="-364.3" font-family="Arial" font-size="14.00">&#45; amount: Money</text>
 <text text-anchor="start" x="124" y="-349.3" font-family="Arial" font-size="14.00">&#45; deps: BTreeSet&lt;Transfer&lt;A&gt;&gt;</text>
 <polygon fill="none" stroke="black" points="111.5,-334 111.5,-455 340.5,-455 340.5,-334 111.5,-334"/>
+</a>
+</g>
 </g>
 <!-- ndTransfer&#45;&gt;ndBank -->
 <g id="edge3" class="edge"><title>ndTransfer&#45;&gt;ndBank</title>

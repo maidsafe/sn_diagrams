@@ -11,6 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-530 1008,-530 1008,4 -4,4"/>
 <!-- ndBank -->
 <g id="node1" class="node"><title>ndBank</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/brb_dt_at2/blob/master/src/bank.rs#:~:text=struct%20Bank" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9,-184 9,-221 447,-221 447,-184 9,-184"/>
 <polygon fill="none" stroke="black" points="9,-184 9,-221 447,-221 447,-184 9,-184"/>
 <text text-anchor="start" x="209.5" y="-199.8" font-family="Arial" font-weight="bold" font-size="14.00">Bank</text>
@@ -28,9 +29,12 @@
 <text text-anchor="start" x="20" y="-34.8" font-family="Arial" font-size="14.00">&#45; history(&amp;self, actor: &amp;A) &#45;&gt; BTreeSet&lt;Transfer&lt;A&gt;&gt;</text>
 <text text-anchor="start" x="20" y="-19.8" font-family="Arial" font-size="14.00">&#45; transfer(&amp;self, from: A, to: A, amount: Money) &#45;&gt; Option&lt;Op&lt;A&gt;&gt;</text>
 <polygon fill="none" stroke="black" points="8,-4 8,-222 448,-222 448,-4 8,-4"/>
+</a>
+</g>
 </g>
 <!-- ndValidationError -->
 <g id="node2" class="node"><title>ndValidationError</title>
+<g id="a_node2_1"><a xlink:href="https://github.com/maidsafe/brb_dt_at2/blob/master/src/bank.rs#:~:text=enum%20ValidationError" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="483,-184 483,-221 995,-221 995,-184 483,-184"/>
 <polygon fill="none" stroke="black" points="483,-184 483,-221 995,-221 995,-184 483,-184"/>
 <text text-anchor="start" x="686" y="-199.8" font-family="Arial" font-weight="bold" font-size="14.00">ValidationError</text>
@@ -48,9 +52,12 @@
 <text text-anchor="start" x="494" y="-34.8" font-family="Arial" font-size="14.00">&#45; validate(&amp;self, source: &amp;A, op: &amp;Self::Op) &#45;&gt; Result&lt;(), Self::ValidationError&gt;</text>
 <text text-anchor="start" x="494" y="-19.8" font-family="Arial" font-size="14.00">&#45; apply(&amp;mut self, op: Self::Op)</text>
 <polygon fill="none" stroke="black" points="482,-4 482,-222 996,-222 996,-4 482,-4"/>
+</a>
+</g>
 </g>
 <!-- ndOp -->
 <g id="node3" class="node"><title>ndOp</title>
+<g id="a_node3_2"><a xlink:href="https://github.com/maidsafe/brb_dt_at2/blob/master/src/op.rs#:~:text=enum%20Op" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="266,-318.5 266,-355.5 429,-355.5 429,-318.5 266,-318.5"/>
 <polygon fill="none" stroke="black" points="266,-318.5 266,-355.5 429,-355.5 429,-318.5 266,-318.5"/>
 <text text-anchor="start" x="337" y="-334.3" font-family="Arial" font-weight="bold" font-size="14.00">Op</text>
@@ -59,6 +66,8 @@
 <text text-anchor="start" x="277" y="-296.3" font-family="Arial" font-size="14.00">Transfer(Transfer&lt;A&gt;)</text>
 <text text-anchor="start" x="277" y="-281.3" font-family="Arial" font-size="14.00">OpenAccount</text>
 <polygon fill="none" stroke="black" points="264.5,-266 264.5,-357 429.5,-357 429.5,-266 264.5,-266"/>
+</a>
+</g>
 </g>
 <!-- ndOp&#45;&gt;ndBank -->
 <g id="edge1" class="edge"><title>ndOp&#45;&gt;ndBank</title>
@@ -72,6 +81,7 @@
 </g>
 <!-- ndTransfer -->
 <g id="node4" class="node"><title>ndTransfer</title>
+<g id="a_node4_3"><a xlink:href="https://github.com/maidsafe/brb_dt_at2/blob/master/src/transfer.rs#:~:text=struct%20Transfer" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="174,-483.5 174,-520.5 401,-520.5 401,-483.5 174,-483.5"/>
 <polygon fill="none" stroke="black" points="174,-483.5 174,-520.5 401,-520.5 401,-483.5 174,-483.5"/>
 <text text-anchor="start" x="257.5" y="-499.3" font-family="Arial" font-weight="bold" font-size="14.00">Transfer</text>
@@ -82,6 +92,8 @@
 <text text-anchor="start" x="185" y="-431.3" font-family="Arial" font-size="14.00">&#45; amount: Money</text>
 <text text-anchor="start" x="185" y="-416.3" font-family="Arial" font-size="14.00">&#45; deps: BTreeSet&lt;Transfer&lt;A&gt;&gt;</text>
 <polygon fill="none" stroke="black" points="172.5,-401 172.5,-522 401.5,-522 401.5,-401 172.5,-401"/>
+</a>
+</g>
 </g>
 <!-- ndTransfer&#45;&gt;ndBank -->
 <g id="edge3" class="edge"><title>ndTransfer&#45;&gt;ndBank</title>

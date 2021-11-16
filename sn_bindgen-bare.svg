@@ -11,17 +11,23 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-549 1201.5,-549 1201.5,4 -4,4"/>
 <!-- ndInput -->
 <g id="node1" class="node"><title>ndInput</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/lib.rs#:~:text=enum%20Input" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="198.5,-253.5 198.5,-290.5 256.5,-290.5 256.5,-253.5 198.5,-253.5"/>
 <polygon fill="none" stroke="black" points="198.5,-253.5 198.5,-290.5 256.5,-290.5 256.5,-253.5 198.5,-253.5"/>
 <text text-anchor="start" x="209.5" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Input</text>
 <polygon fill="none" stroke="black" points="197.5,-253 197.5,-292 257.5,-292 257.5,-253 197.5,-253"/>
+</a>
+</g>
 </g>
 <!-- ndBindgen -->
 <g id="node2" class="node"><title>ndBindgen</title>
+<g id="a_node2_1"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/lib.rs#:~:text=struct%20Bindgen" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="199.5,-170.5 199.5,-207.5 280.5,-207.5 280.5,-170.5 199.5,-170.5"/>
 <polygon fill="none" stroke="black" points="199.5,-170.5 199.5,-207.5 280.5,-207.5 280.5,-170.5 199.5,-170.5"/>
 <text text-anchor="start" x="210.5" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">Bindgen</text>
 <polygon fill="none" stroke="black" points="198,-170 198,-209 281,-209 281,-170 198,-170"/>
+</a>
+</g>
 </g>
 <!-- ndInput&#45;&gt;ndBindgen -->
 <g id="edge1" class="edge"><title>ndInput&#45;&gt;ndBindgen</title>
@@ -30,17 +36,23 @@
 </g>
 <!-- ndIndentedWriter -->
 <g id="node3" class="node"><title>ndIndentedWriter</title>
+<g id="a_node3_2"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/output.rs#:~:text=struct%20IndentedWriter" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="607.5,-502.5 607.5,-539.5 732.5,-539.5 732.5,-502.5 607.5,-502.5"/>
 <polygon fill="none" stroke="black" points="607.5,-502.5 607.5,-539.5 732.5,-539.5 732.5,-502.5 607.5,-502.5"/>
 <text text-anchor="start" x="618.5" y="-518.3" font-family="Arial" font-weight="bold" font-size="14.00">IndentedWriter</text>
 <polygon fill="none" stroke="black" points="606,-502 606,-541 733,-541 733,-502 606,-502"/>
+</a>
+</g>
 </g>
 <!-- ndError -->
 <g id="node4" class="node"><title>ndError</title>
+<g id="a_node4_3"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/errors.rs#:~:text=struct%20Error" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="293.5,-253.5 293.5,-290.5 352.5,-290.5 352.5,-253.5 293.5,-253.5"/>
 <polygon fill="none" stroke="black" points="293.5,-253.5 293.5,-290.5 352.5,-290.5 352.5,-253.5 293.5,-253.5"/>
 <text text-anchor="start" x="304.5" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Error</text>
 <polygon fill="none" stroke="black" points="292,-253 292,-292 353,-292 353,-253 292,-253"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndBindgen -->
 <g id="edge2" class="edge"><title>ndError&#45;&gt;ndBindgen</title>
@@ -49,10 +61,13 @@
 </g>
 <!-- ndContext -->
 <g id="node9" class="node"><title>ndContext</title>
+<g id="a_node9_4"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/csharp/mod.rs#:~:text=struct%20Context" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="406.5,-87.5 406.5,-124.5 483.5,-124.5 483.5,-87.5 406.5,-87.5"/>
 <polygon fill="none" stroke="black" points="406.5,-87.5 406.5,-124.5 483.5,-124.5 483.5,-87.5 406.5,-87.5"/>
 <text text-anchor="start" x="417.5" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">Context</text>
 <polygon fill="none" stroke="black" points="405,-87 405,-126 484,-126 484,-87 405,-87"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndContext -->
 <g id="edge3" class="edge"><title>ndError&#45;&gt;ndContext</title>
@@ -61,10 +76,13 @@
 </g>
 <!-- ndLangC -->
 <g id="node16" class="node"><title>ndLangC</title>
+<g id="a_node16_5"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/lang_c/mod.rs#:~:text=struct%20LangC" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="758.5,-170.5 758.5,-207.5 826.5,-207.5 826.5,-170.5 758.5,-170.5"/>
 <polygon fill="none" stroke="black" points="758.5,-170.5 758.5,-207.5 826.5,-207.5 826.5,-170.5 758.5,-170.5"/>
 <text text-anchor="start" x="769.5" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">LangC</text>
 <polygon fill="none" stroke="black" points="757.5,-170 757.5,-209 827.5,-209 827.5,-170 757.5,-170"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndLangC -->
 <g id="edge4" class="edge"><title>ndError&#45;&gt;ndLangC</title>
@@ -73,10 +91,13 @@
 </g>
 <!-- ndSection -->
 <g id="node20" class="node"><title>ndSection</title>
+<g id="a_node20_6"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/csharp/mod.rs#:~:text=struct%20Section" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="571.5,-170.5 571.5,-207.5 646.5,-207.5 646.5,-170.5 571.5,-170.5"/>
 <polygon fill="none" stroke="black" points="571.5,-170.5 571.5,-207.5 646.5,-207.5 646.5,-170.5 571.5,-170.5"/>
 <text text-anchor="start" x="582.5" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">Section</text>
 <polygon fill="none" stroke="black" points="570,-170 570,-209 647,-209 647,-170 570,-170"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndSection -->
 <g id="edge5" class="edge"><title>ndError&#45;&gt;ndSection</title>
@@ -85,10 +106,13 @@
 </g>
 <!-- ndLevel -->
 <g id="node5" class="node"><title>ndLevel</title>
+<g id="a_node5_7"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/errors.rs#:~:text=enum%20Level" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="292.5,-336.5 292.5,-373.5 352.5,-373.5 352.5,-336.5 292.5,-336.5"/>
 <polygon fill="none" stroke="black" points="292.5,-336.5 292.5,-373.5 352.5,-373.5 352.5,-336.5 292.5,-336.5"/>
 <text text-anchor="start" x="303.5" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">Level</text>
 <polygon fill="none" stroke="black" points="291.5,-336 291.5,-375 353.5,-375 353.5,-336 291.5,-336"/>
+</a>
+</g>
 </g>
 <!-- ndLevel&#45;&gt;ndError -->
 <g id="edge6" class="edge"><title>ndLevel&#45;&gt;ndError</title>
@@ -97,24 +121,33 @@
 </g>
 <!-- ndJniArgResult -->
 <g id="node6" class="node"><title>ndJniArgResult</title>
+<g id="a_node6_8"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/java/jni.rs#:~:text=struct%20JniArgResult" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="768.5,-502.5 768.5,-539.5 880.5,-539.5 880.5,-502.5 768.5,-502.5"/>
 <polygon fill="none" stroke="black" points="768.5,-502.5 768.5,-539.5 880.5,-539.5 880.5,-502.5 768.5,-502.5"/>
 <text text-anchor="start" x="779.5" y="-518.3" font-family="Arial" font-weight="bold" font-size="14.00">JniArgResult</text>
 <polygon fill="none" stroke="black" points="767.5,-502 767.5,-541 881.5,-541 881.5,-502 767.5,-502"/>
+</a>
+</g>
 </g>
 <!-- ndJniCallback -->
 <g id="node7" class="node"><title>ndJniCallback</title>
+<g id="a_node7_9"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/java/jni.rs#:~:text=struct%20JniCallback" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="916.5,-502.5 916.5,-539.5 1020.5,-539.5 1020.5,-502.5 916.5,-502.5"/>
 <polygon fill="none" stroke="black" points="916.5,-502.5 916.5,-539.5 1020.5,-539.5 1020.5,-502.5 916.5,-502.5"/>
 <text text-anchor="start" x="927.5" y="-518.3" font-family="Arial" font-weight="bold" font-size="14.00">JniCallback</text>
 <polygon fill="none" stroke="black" points="915.5,-502 915.5,-541 1021.5,-541 1021.5,-502 915.5,-502"/>
+</a>
+</g>
 </g>
 <!-- ndLangJava -->
 <g id="node8" class="node"><title>ndLangJava</title>
+<g id="a_node8_10"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/java/mod.rs#:~:text=struct%20LangJava" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="399.5,-4.5 399.5,-41.5 490.5,-41.5 490.5,-4.5 399.5,-4.5"/>
 <polygon fill="none" stroke="black" points="399.5,-4.5 399.5,-41.5 490.5,-41.5 490.5,-4.5 399.5,-4.5"/>
 <text text-anchor="start" x="410.5" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">LangJava</text>
 <polygon fill="none" stroke="black" points="398,-4 398,-43 491,-43 491,-4 398,-4"/>
+</a>
+</g>
 </g>
 <!-- ndContext&#45;&gt;ndLangJava -->
 <g id="edge7" class="edge"><title>ndContext&#45;&gt;ndLangJava</title>
@@ -128,10 +161,13 @@
 </g>
 <!-- ndLangCSharp -->
 <g id="node19" class="node"><title>ndLangCSharp</title>
+<g id="a_node19_11"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/csharp/mod.rs#:~:text=struct%20LangCSharp" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="693.5,-4.5 693.5,-41.5 803.5,-41.5 803.5,-4.5 693.5,-4.5"/>
 <polygon fill="none" stroke="black" points="693.5,-4.5 693.5,-41.5 803.5,-41.5 803.5,-4.5 693.5,-4.5"/>
 <text text-anchor="start" x="704.5" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">LangCSharp</text>
 <polygon fill="none" stroke="black" points="692.5,-4 692.5,-43 804.5,-43 804.5,-4 692.5,-4"/>
+</a>
+</g>
 </g>
 <!-- ndContext&#45;&gt;ndLangCSharp -->
 <g id="edge8" class="edge"><title>ndContext&#45;&gt;ndLangCSharp</title>
@@ -145,17 +181,23 @@
 </g>
 <!-- ndJavaClassField -->
 <g id="node10" class="node"><title>ndJavaClassField</title>
+<g id="a_node10_12"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/java/mod.rs#:~:text=struct%20JavaClassField" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1056.5,-502.5 1056.5,-539.5 1184.5,-539.5 1184.5,-502.5 1056.5,-502.5"/>
 <polygon fill="none" stroke="black" points="1056.5,-502.5 1056.5,-539.5 1184.5,-539.5 1184.5,-502.5 1056.5,-502.5"/>
 <text text-anchor="start" x="1067.5" y="-518.3" font-family="Arial" font-weight="bold" font-size="14.00">JavaClassField</text>
 <polygon fill="none" stroke="black" points="1055.5,-502 1055.5,-541 1185.5,-541 1185.5,-502 1055.5,-502"/>
+</a>
+</g>
 </g>
 <!-- ndFilterMode -->
 <g id="node11" class="node"><title>ndFilterMode</title>
+<g id="a_node11_13"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/common.rs#:~:text=enum%20FilterMode" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="9.5,-253.5 9.5,-290.5 106.5,-290.5 106.5,-253.5 9.5,-253.5"/>
 <polygon fill="none" stroke="black" points="9.5,-253.5 9.5,-290.5 106.5,-290.5 106.5,-253.5 9.5,-253.5"/>
 <text text-anchor="start" x="20.5" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">FilterMode</text>
 <polygon fill="none" stroke="black" points="8,-253 8,-292 107,-292 107,-253 8,-253"/>
+</a>
+</g>
 </g>
 <!-- ndFilterMode&#45;&gt;ndLangJava -->
 <g id="edge9" class="edge"><title>ndFilterMode&#45;&gt;ndLangJava</title>
@@ -179,10 +221,13 @@
 </g>
 <!-- ndLang -->
 <g id="node12" class="node"><title>ndLang</title>
+<g id="a_node12_14"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/common.rs#:~:text=trait%20Lang" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="624.5,-253.5 624.5,-290.5 682.5,-290.5 682.5,-253.5 624.5,-253.5"/>
 <polygon fill="none" stroke="black" points="624.5,-253.5 624.5,-290.5 682.5,-290.5 682.5,-253.5 624.5,-253.5"/>
 <text text-anchor="start" x="635.5" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Lang</text>
 <polygon fill="none" stroke="black" points="623.5,-253 623.5,-292 683.5,-292 683.5,-253 623.5,-253"/>
+</a>
+</g>
 </g>
 <!-- ndLang&#45;&gt;ndLangC -->
 <g id="edge13" class="edge"><title>ndLang&#45;&gt;ndLangC</title>
@@ -196,17 +241,23 @@
 </g>
 <!-- ndStructField -->
 <g id="node13" class="node"><title>ndStructField</title>
+<g id="a_node13_15"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/csharp/intermediate.rs#:~:text=struct%20StructField" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1090.5,-336.5 1090.5,-373.5 1188.5,-373.5 1188.5,-336.5 1090.5,-336.5"/>
 <polygon fill="none" stroke="black" points="1090.5,-336.5 1090.5,-373.5 1188.5,-373.5 1188.5,-336.5 1090.5,-336.5"/>
 <text text-anchor="start" x="1101.5" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">StructField</text>
 <polygon fill="none" stroke="black" points="1089.5,-336 1089.5,-375 1189.5,-375 1189.5,-336 1089.5,-336"/>
+</a>
+</g>
 </g>
 <!-- ndStruct -->
 <g id="node27" class="node"><title>ndStruct</title>
+<g id="a_node27_16"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/csharp/intermediate.rs#:~:text=struct%20Struct" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1081.5,-253.5 1081.5,-290.5 1146.5,-290.5 1146.5,-253.5 1081.5,-253.5"/>
 <polygon fill="none" stroke="black" points="1081.5,-253.5 1081.5,-290.5 1146.5,-290.5 1146.5,-253.5 1081.5,-253.5"/>
 <text text-anchor="start" x="1092.5" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Struct</text>
 <polygon fill="none" stroke="black" points="1080,-253 1080,-292 1147,-292 1147,-253 1080,-253"/>
+</a>
+</g>
 </g>
 <!-- ndStructField&#45;&gt;ndStruct -->
 <g id="edge15" class="edge"><title>ndStructField&#45;&gt;ndStruct</title>
@@ -220,17 +271,23 @@
 </g>
 <!-- ndCPtrType -->
 <g id="node14" class="node"><title>ndCPtrType</title>
+<g id="a_node14_17"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/lang_c/types.rs#:~:text=enum%20CPtrType" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="966.5,-336.5 966.5,-373.5 1054.5,-373.5 1054.5,-336.5 966.5,-336.5"/>
 <polygon fill="none" stroke="black" points="966.5,-336.5 966.5,-373.5 1054.5,-373.5 1054.5,-336.5 966.5,-336.5"/>
 <text text-anchor="start" x="977.5" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">CPtrType</text>
 <polygon fill="none" stroke="black" points="965.5,-336 965.5,-375 1055.5,-375 1055.5,-336 965.5,-336"/>
+</a>
+</g>
 </g>
 <!-- ndCType -->
 <g id="node15" class="node"><title>ndCType</title>
+<g id="a_node15_18"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/lang_c/types.rs#:~:text=enum%20CType" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="976.5,-253.5 976.5,-290.5 1044.5,-290.5 1044.5,-253.5 976.5,-253.5"/>
 <polygon fill="none" stroke="black" points="976.5,-253.5 976.5,-290.5 1044.5,-290.5 1044.5,-253.5 976.5,-253.5"/>
 <text text-anchor="start" x="987.5" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">CType</text>
 <polygon fill="none" stroke="black" points="975.5,-253 975.5,-292 1045.5,-292 1045.5,-253 975.5,-253"/>
+</a>
+</g>
 </g>
 <!-- ndCPtrType&#45;&gt;ndCType -->
 <g id="edge16" class="edge"><title>ndCPtrType&#45;&gt;ndCType</title>
@@ -244,10 +301,13 @@
 </g>
 <!-- ndMode -->
 <g id="node17" class="node"><title>ndMode</title>
+<g id="a_node17_19"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/csharp/emit.rs#:~:text=enum%20Mode" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="388.5,-253.5 388.5,-290.5 450.5,-290.5 450.5,-253.5 388.5,-253.5"/>
 <polygon fill="none" stroke="black" points="388.5,-253.5 388.5,-290.5 450.5,-290.5 450.5,-253.5 388.5,-253.5"/>
 <text text-anchor="start" x="399.5" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Mode</text>
 <polygon fill="none" stroke="black" points="387.5,-253 387.5,-292 451.5,-292 451.5,-253 387.5,-253"/>
+</a>
+</g>
 </g>
 <!-- ndMode&#45;&gt;ndContext -->
 <g id="edge18" class="edge"><title>ndMode&#45;&gt;ndContext</title>
@@ -256,10 +316,13 @@
 </g>
 <!-- ndStructMode -->
 <g id="node18" class="node"><title>ndStructMode</title>
+<g id="a_node18_20"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/csharp/emit.rs#:~:text=enum%20StructMode" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="392.5,-170.5 392.5,-207.5 496.5,-207.5 496.5,-170.5 392.5,-170.5"/>
 <polygon fill="none" stroke="black" points="392.5,-170.5 392.5,-207.5 496.5,-207.5 496.5,-170.5 392.5,-170.5"/>
 <text text-anchor="start" x="403.5" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">StructMode</text>
 <polygon fill="none" stroke="black" points="391.5,-170 391.5,-209 497.5,-209 497.5,-170 391.5,-170"/>
+</a>
+</g>
 </g>
 <!-- ndMode&#45;&gt;ndStructMode -->
 <g id="edge19" class="edge"><title>ndMode&#45;&gt;ndStructMode</title>
@@ -278,10 +341,13 @@
 </g>
 <!-- ndType -->
 <g id="node21" class="node"><title>ndType</title>
+<g id="a_node21_21"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/csharp/intermediate.rs#:~:text=enum%20Type" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="497.5,-419.5 497.5,-456.5 554.5,-456.5 554.5,-419.5 497.5,-419.5"/>
 <polygon fill="none" stroke="black" points="497.5,-419.5 497.5,-456.5 554.5,-456.5 554.5,-419.5 497.5,-419.5"/>
 <text text-anchor="start" x="508.5" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">Type</text>
 <polygon fill="none" stroke="black" points="496,-419 496,-458 555,-458 555,-419 496,-419"/>
+</a>
+</g>
 </g>
 <!-- ndType&#45;&gt;ndContext -->
 <g id="edge24" class="edge"><title>ndType&#45;&gt;ndContext</title>
@@ -310,10 +376,13 @@
 </g>
 <!-- ndFunction -->
 <g id="node23" class="node"><title>ndFunction</title>
+<g id="a_node23_22"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/csharp/intermediate.rs#:~:text=struct%20Function" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="818.5,-253.5 818.5,-290.5 902.5,-290.5 902.5,-253.5 818.5,-253.5"/>
 <polygon fill="none" stroke="black" points="818.5,-253.5 818.5,-290.5 902.5,-290.5 902.5,-253.5 818.5,-253.5"/>
 <text text-anchor="start" x="829.5" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Function</text>
 <polygon fill="none" stroke="black" points="817.5,-253 817.5,-292 903.5,-292 903.5,-253 817.5,-253"/>
+</a>
+</g>
 </g>
 <!-- ndType&#45;&gt;ndFunction -->
 <g id="edge28" class="edge"><title>ndType&#45;&gt;ndFunction</title>
@@ -322,10 +391,13 @@
 </g>
 <!-- ndConst -->
 <g id="node25" class="node"><title>ndConst</title>
+<g id="a_node25_23"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/csharp/intermediate.rs#:~:text=struct%20Const" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="524.5,-253.5 524.5,-290.5 588.5,-290.5 588.5,-253.5 524.5,-253.5"/>
 <polygon fill="none" stroke="black" points="524.5,-253.5 524.5,-290.5 588.5,-290.5 588.5,-253.5 524.5,-253.5"/>
 <text text-anchor="start" x="535.5" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Const</text>
 <polygon fill="none" stroke="black" points="523.5,-253 523.5,-292 589.5,-292 589.5,-253 523.5,-253"/>
+</a>
+</g>
 </g>
 <!-- ndType&#45;&gt;ndConst -->
 <g id="edge29" class="edge"><title>ndType&#45;&gt;ndConst</title>
@@ -334,10 +406,13 @@
 </g>
 <!-- ndArraySize -->
 <g id="node22" class="node"><title>ndArraySize</title>
+<g id="a_node22_24"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/csharp/intermediate.rs#:~:text=enum%20ArraySize" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="480.5,-502.5 480.5,-539.5 570.5,-539.5 570.5,-502.5 480.5,-502.5"/>
 <polygon fill="none" stroke="black" points="480.5,-502.5 480.5,-539.5 570.5,-539.5 570.5,-502.5 480.5,-502.5"/>
 <text text-anchor="start" x="491.5" y="-518.3" font-family="Arial" font-weight="bold" font-size="14.00">ArraySize</text>
 <polygon fill="none" stroke="black" points="479.5,-502 479.5,-541 571.5,-541 571.5,-502 479.5,-502"/>
+</a>
+</g>
 </g>
 <!-- ndArraySize&#45;&gt;ndType -->
 <g id="edge31" class="edge"><title>ndArraySize&#45;&gt;ndType</title>
@@ -356,10 +431,13 @@
 </g>
 <!-- ndSnippet -->
 <g id="node24" class="node"><title>ndSnippet</title>
+<g id="a_node24_25"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/csharp/intermediate.rs#:~:text=struct%20Snippet" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="812.5,-87.5 812.5,-124.5 888.5,-124.5 888.5,-87.5 812.5,-87.5"/>
 <polygon fill="none" stroke="black" points="812.5,-87.5 812.5,-124.5 888.5,-124.5 888.5,-87.5 812.5,-87.5"/>
 <text text-anchor="start" x="823.5" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">Snippet</text>
 <polygon fill="none" stroke="black" points="811.5,-87 811.5,-126 889.5,-126 889.5,-87 811.5,-87"/>
+</a>
+</g>
 </g>
 <!-- ndSnippet&#45;&gt;ndLangCSharp -->
 <g id="edge34" class="edge"><title>ndSnippet&#45;&gt;ndLangCSharp</title>
@@ -388,10 +466,13 @@
 </g>
 <!-- ndConstValue -->
 <g id="node26" class="node"><title>ndConstValue</title>
+<g id="a_node26_26"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/csharp/intermediate.rs#:~:text=enum%20ConstValue" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="562.5,-336.5 562.5,-373.5 664.5,-373.5 664.5,-336.5 562.5,-336.5"/>
 <polygon fill="none" stroke="black" points="562.5,-336.5 562.5,-373.5 664.5,-373.5 664.5,-336.5 562.5,-336.5"/>
 <text text-anchor="start" x="573.5" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">ConstValue</text>
 <polygon fill="none" stroke="black" points="561.5,-336 561.5,-375 665.5,-375 665.5,-336 561.5,-336"/>
+</a>
+</g>
 </g>
 <!-- ndConstValue&#45;&gt;ndConst -->
 <g id="edge39" class="edge"><title>ndConstValue&#45;&gt;ndConst</title>
@@ -420,10 +501,13 @@
 </g>
 <!-- ndEnum -->
 <g id="node28" class="node"><title>ndEnum</title>
+<g id="a_node28_27"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/csharp/intermediate.rs#:~:text=struct%20Enum" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="719.5,-253.5 719.5,-290.5 782.5,-290.5 782.5,-253.5 719.5,-253.5"/>
 <polygon fill="none" stroke="black" points="719.5,-253.5 719.5,-290.5 782.5,-290.5 782.5,-253.5 719.5,-253.5"/>
 <text text-anchor="start" x="730.5" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Enum</text>
 <polygon fill="none" stroke="black" points="718,-253 718,-292 783,-292 783,-253 718,-253"/>
+</a>
+</g>
 </g>
 <!-- ndEnum&#45;&gt;ndContext -->
 <g id="edge45" class="edge"><title>ndEnum&#45;&gt;ndContext</title>
@@ -447,10 +531,13 @@
 </g>
 <!-- ndEnumVariant -->
 <g id="node29" class="node"><title>ndEnumVariant</title>
+<g id="a_node29_28"><a xlink:href="https://github.com/maidsafe/sn_bindgen/blob/master/src/csharp/intermediate.rs#:~:text=struct%20EnumVariant" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="700.5,-336.5 700.5,-373.5 812.5,-373.5 812.5,-336.5 700.5,-336.5"/>
 <polygon fill="none" stroke="black" points="700.5,-336.5 700.5,-373.5 812.5,-373.5 812.5,-336.5 700.5,-336.5"/>
 <text text-anchor="start" x="711.5" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">EnumVariant</text>
 <polygon fill="none" stroke="black" points="699.5,-336 699.5,-375 813.5,-375 813.5,-336 699.5,-336"/>
+</a>
+</g>
 </g>
 <!-- ndEnumVariant&#45;&gt;ndEnum -->
 <g id="edge49" class="edge"><title>ndEnumVariant&#45;&gt;ndEnum</title>

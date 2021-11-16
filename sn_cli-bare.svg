@@ -11,45 +11,63 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-134 4055,-134 4055,4 -4,4"/>
 <!-- ndCmdArgs -->
 <g id="node1" class="node"><title>ndCmdArgs</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/cli.rs#:~:text=struct%20CmdArgs" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="87,-4.5 87,-41.5 175,-41.5 175,-4.5 87,-4.5"/>
 <polygon fill="none" stroke="black" points="87,-4.5 87,-41.5 175,-41.5 175,-4.5 87,-4.5"/>
 <text text-anchor="start" x="98" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">CmdArgs</text>
 <polygon fill="none" stroke="black" points="86,-4 86,-43 176,-43 176,-4 86,-4"/>
+</a>
+</g>
 </g>
 <!-- ndSafeIdSubCommands -->
 <g id="node2" class="node"><title>ndSafeIdSubCommands</title>
+<g id="a_node2_1"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/subcommands/safe_id.rs#:~:text=enum%20SafeIdSubCommands" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="308,-87.5 308,-124.5 481,-124.5 481,-87.5 308,-87.5"/>
 <polygon fill="none" stroke="black" points="308,-87.5 308,-124.5 481,-124.5 481,-87.5 308,-87.5"/>
 <text text-anchor="start" x="319" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">SafeIdSubCommands</text>
 <polygon fill="none" stroke="black" points="306.5,-87 306.5,-126 481.5,-126 481.5,-87 306.5,-87"/>
+</a>
+</g>
 </g>
 <!-- ndNrsSubCommands -->
 <g id="node3" class="node"><title>ndNrsSubCommands</title>
+<g id="a_node3_2"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/subcommands/nrs.rs#:~:text=enum%20NrsSubCommands" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="517,-87.5 517,-124.5 671,-124.5 671,-87.5 517,-87.5"/>
 <polygon fill="none" stroke="black" points="517,-87.5 517,-124.5 671,-124.5 671,-87.5 517,-87.5"/>
 <text text-anchor="start" x="528" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">NrsSubCommands</text>
 <polygon fill="none" stroke="black" points="516,-87 516,-126 672,-126 672,-87 516,-87"/>
+</a>
+</g>
 </g>
 <!-- ndNetworksSubCommands -->
 <g id="node4" class="node"><title>ndNetworksSubCommands</title>
+<g id="a_node4_3"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/subcommands/networks.rs#:~:text=enum%20NetworksSubCommands" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="708,-87.5 708,-124.5 903,-124.5 903,-87.5 708,-87.5"/>
 <polygon fill="none" stroke="black" points="708,-87.5 708,-124.5 903,-124.5 903,-87.5 708,-87.5"/>
 <text text-anchor="start" x="719" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">NetworksSubCommands</text>
 <polygon fill="none" stroke="black" points="706.5,-87 706.5,-126 903.5,-126 903.5,-87 706.5,-87"/>
+</a>
+</g>
 </g>
 <!-- ndNodeSubCommands -->
 <g id="node5" class="node"><title>ndNodeSubCommands</title>
+<g id="a_node5_4"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/subcommands/node.rs#:~:text=enum%20NodeSubCommands" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="939,-87.5 939,-124.5 1105,-124.5 1105,-87.5 939,-87.5"/>
 <polygon fill="none" stroke="black" points="939,-87.5 939,-124.5 1105,-124.5 1105,-87.5 939,-87.5"/>
 <text text-anchor="start" x="950" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">NodeSubCommands</text>
 <polygon fill="none" stroke="black" points="938,-87 938,-126 1106,-126 1106,-87 938,-87"/>
+</a>
+</g>
 </g>
 <!-- ndOutputFmt -->
 <g id="node6" class="node"><title>ndOutputFmt</title>
+<g id="a_node6_5"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/subcommands/mod.rs#:~:text=enum%20OutputFmt" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="9,-87.5 9,-124.5 105,-124.5 105,-87.5 9,-87.5"/>
 <polygon fill="none" stroke="black" points="9,-87.5 9,-124.5 105,-124.5 105,-87.5 9,-87.5"/>
 <text text-anchor="start" x="20" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">OutputFmt</text>
 <polygon fill="none" stroke="black" points="8,-87 8,-126 106,-126 106,-87 8,-87"/>
+</a>
+</g>
 </g>
 <!-- ndOutputFmt&#45;&gt;ndCmdArgs -->
 <g id="edge1" class="edge"><title>ndOutputFmt&#45;&gt;ndCmdArgs</title>
@@ -58,10 +76,13 @@
 </g>
 <!-- ndSubCommands -->
 <g id="node7" class="node"><title>ndSubCommands</title>
+<g id="a_node7_6"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/subcommands/mod.rs#:~:text=enum%20SubCommands" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="141,-87.5 141,-124.5 271,-124.5 271,-87.5 141,-87.5"/>
 <polygon fill="none" stroke="black" points="141,-87.5 141,-124.5 271,-124.5 271,-87.5 141,-87.5"/>
 <text text-anchor="start" x="152" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">SubCommands</text>
 <polygon fill="none" stroke="black" points="140,-87 140,-126 272,-126 272,-87 140,-87"/>
+</a>
+</g>
 </g>
 <!-- ndSubCommands&#45;&gt;ndCmdArgs -->
 <g id="edge2" class="edge"><title>ndSubCommands&#45;&gt;ndCmdArgs</title>
@@ -70,38 +91,53 @@
 </g>
 <!-- ndCatCommands -->
 <g id="node8" class="node"><title>ndCatCommands</title>
+<g id="a_node8_7"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/subcommands/cat.rs#:~:text=struct%20CatCommands" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1142,-87.5 1142,-124.5 1267,-124.5 1267,-87.5 1142,-87.5"/>
 <polygon fill="none" stroke="black" points="1142,-87.5 1142,-124.5 1267,-124.5 1267,-87.5 1142,-87.5"/>
 <text text-anchor="start" x="1153" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">CatCommands</text>
 <polygon fill="none" stroke="black" points="1140.5,-87 1140.5,-126 1267.5,-126 1267.5,-87 1140.5,-87"/>
+</a>
+</g>
 </g>
 <!-- ndDogCommands -->
 <g id="node9" class="node"><title>ndDogCommands</title>
+<g id="a_node9_8"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/subcommands/dog.rs#:~:text=struct%20DogCommands" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1303,-87.5 1303,-124.5 1434,-124.5 1434,-87.5 1303,-87.5"/>
 <polygon fill="none" stroke="black" points="1303,-87.5 1303,-124.5 1434,-124.5 1434,-87.5 1303,-87.5"/>
 <text text-anchor="start" x="1314" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">DogCommands</text>
 <polygon fill="none" stroke="black" points="1301.5,-87 1301.5,-126 1434.5,-126 1434.5,-87 1301.5,-87"/>
+</a>
+</g>
 </g>
 <!-- ndXorurlSubCommands -->
 <g id="node10" class="node"><title>ndXorurlSubCommands</title>
+<g id="a_node10_9"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/subcommands/xorurl.rs#:~:text=enum%20XorurlSubCommands" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1470,-87.5 1470,-124.5 1643,-124.5 1643,-87.5 1470,-87.5"/>
 <polygon fill="none" stroke="black" points="1470,-87.5 1470,-124.5 1643,-124.5 1643,-87.5 1470,-87.5"/>
 <text text-anchor="start" x="1481" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">XorurlSubCommands</text>
 <polygon fill="none" stroke="black" points="1468.5,-87 1468.5,-126 1643.5,-126 1643.5,-87 1468.5,-87"/>
+</a>
+</g>
 </g>
 <!-- ndFileTreeNodeType -->
 <g id="node11" class="node"><title>ndFileTreeNodeType</title>
+<g id="a_node11_10"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/subcommands/files.rs#:~:text=enum%20FileTreeNodeType" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1679,-87.5 1679,-124.5 1828,-124.5 1828,-87.5 1679,-87.5"/>
 <polygon fill="none" stroke="black" points="1679,-87.5 1679,-124.5 1828,-124.5 1828,-87.5 1679,-87.5"/>
 <text text-anchor="start" x="1690" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">FileTreeNodeType</text>
 <polygon fill="none" stroke="black" points="1677.5,-87 1677.5,-126 1828.5,-126 1828.5,-87 1677.5,-87"/>
+</a>
+</g>
 </g>
 <!-- ndFileTreeNode -->
 <g id="node12" class="node"><title>ndFileTreeNode</title>
+<g id="a_node12_11"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/subcommands/files.rs#:~:text=struct%20FileTreeNode" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1696,-4.5 1696,-41.5 1811,-41.5 1811,-4.5 1696,-4.5"/>
 <polygon fill="none" stroke="black" points="1696,-4.5 1696,-41.5 1811,-41.5 1811,-4.5 1696,-4.5"/>
 <text text-anchor="start" x="1707" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">FileTreeNode</text>
 <polygon fill="none" stroke="black" points="1694.5,-4 1694.5,-43 1811.5,-43 1811.5,-4 1694.5,-4"/>
+</a>
+</g>
 </g>
 <!-- ndFileTreeNodeType&#45;&gt;ndFileTreeNode -->
 <g id="edge3" class="edge"><title>ndFileTreeNodeType&#45;&gt;ndFileTreeNode</title>
@@ -110,52 +146,73 @@
 </g>
 <!-- ndFilesSubCommands -->
 <g id="node13" class="node"><title>ndFilesSubCommands</title>
+<g id="a_node13_12"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/subcommands/files.rs#:~:text=enum%20FilesSubCommands" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1864,-87.5 1864,-124.5 2027,-124.5 2027,-87.5 1864,-87.5"/>
 <polygon fill="none" stroke="black" points="1864,-87.5 1864,-124.5 2027,-124.5 2027,-87.5 1864,-87.5"/>
 <text text-anchor="start" x="1875" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">FilesSubCommands</text>
 <polygon fill="none" stroke="black" points="1862.5,-87 1862.5,-126 2027.5,-126 2027.5,-87 1862.5,-87"/>
+</a>
+</g>
 </g>
 <!-- ndFilesGetStatus -->
 <g id="node14" class="node"><title>ndFilesGetStatus</title>
+<g id="a_node14_13"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/subcommands/files_get.rs#:~:text=struct%20FilesGetStatus" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="2063,-87.5 2063,-124.5 2187,-124.5 2187,-87.5 2063,-87.5"/>
 <polygon fill="none" stroke="black" points="2063,-87.5 2063,-124.5 2187,-124.5 2187,-87.5 2063,-87.5"/>
 <text text-anchor="start" x="2074" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">FilesGetStatus</text>
 <polygon fill="none" stroke="black" points="2062,-87 2062,-126 2188,-126 2188,-87 2062,-87"/>
+</a>
+</g>
 </g>
 <!-- ndFileExistsAction -->
 <g id="node15" class="node"><title>ndFileExistsAction</title>
+<g id="a_node15_14"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/subcommands/files_get.rs#:~:text=enum%20FileExistsAction" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2223,-87.5 2223,-124.5 2357,-124.5 2357,-87.5 2223,-87.5"/>
 <polygon fill="none" stroke="black" points="2223,-87.5 2223,-124.5 2357,-124.5 2357,-87.5 2223,-87.5"/>
 <text text-anchor="start" x="2234" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">FileExistsAction</text>
 <polygon fill="none" stroke="black" points="2222,-87 2222,-126 2358,-126 2358,-87 2222,-87"/>
+</a>
+</g>
 </g>
 <!-- ndProgressIndicator -->
 <g id="node16" class="node"><title>ndProgressIndicator</title>
+<g id="a_node16_15"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/subcommands/files_get.rs#:~:text=enum%20ProgressIndicator" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2394,-87.5 2394,-124.5 2543,-124.5 2543,-87.5 2394,-87.5"/>
 <polygon fill="none" stroke="black" points="2394,-87.5 2394,-124.5 2543,-124.5 2543,-87.5 2394,-87.5"/>
 <text text-anchor="start" x="2405" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">ProgressIndicator</text>
 <polygon fill="none" stroke="black" points="2392.5,-87 2392.5,-126 2543.5,-126 2543.5,-87 2392.5,-87"/>
+</a>
+</g>
 </g>
 <!-- ndKeysSubCommands -->
 <g id="node17" class="node"><title>ndKeysSubCommands</title>
+<g id="a_node17_16"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/subcommands/keys.rs#:~:text=enum%20KeysSubCommands" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2579,-87.5 2579,-124.5 2744,-124.5 2744,-87.5 2579,-87.5"/>
 <polygon fill="none" stroke="black" points="2579,-87.5 2579,-124.5 2744,-124.5 2744,-87.5 2579,-87.5"/>
 <text text-anchor="start" x="2590" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">KeysSubCommands</text>
 <polygon fill="none" stroke="black" points="2577.5,-87 2577.5,-126 2744.5,-126 2744.5,-87 2577.5,-87"/>
+</a>
+</g>
 </g>
 <!-- ndConfigSubCommands -->
 <g id="node18" class="node"><title>ndConfigSubCommands</title>
+<g id="a_node18_17"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/subcommands/config.rs#:~:text=enum%20ConfigSubCommands" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2847,-4.5 2847,-41.5 3023,-41.5 3023,-4.5 2847,-4.5"/>
 <polygon fill="none" stroke="black" points="2847,-4.5 2847,-41.5 3023,-41.5 3023,-4.5 2847,-4.5"/>
 <text text-anchor="start" x="2858" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">ConfigSubCommands</text>
 <polygon fill="none" stroke="black" points="2846,-4 2846,-43 3024,-43 3024,-4 2846,-4"/>
+</a>
+</g>
 </g>
 <!-- ndSettingAddCmd -->
 <g id="node19" class="node"><title>ndSettingAddCmd</title>
+<g id="a_node19_18"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/subcommands/config.rs#:~:text=enum%20SettingAddCmd" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2780,-87.5 2780,-124.5 2911,-124.5 2911,-87.5 2780,-87.5"/>
 <polygon fill="none" stroke="black" points="2780,-87.5 2780,-124.5 2911,-124.5 2911,-87.5 2780,-87.5"/>
 <text text-anchor="start" x="2791" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">SettingAddCmd</text>
 <polygon fill="none" stroke="black" points="2778.5,-87 2778.5,-126 2911.5,-126 2911.5,-87 2778.5,-87"/>
+</a>
+</g>
 </g>
 <!-- ndSettingAddCmd&#45;&gt;ndConfigSubCommands -->
 <g id="edge4" class="edge"><title>ndSettingAddCmd&#45;&gt;ndConfigSubCommands</title>
@@ -164,10 +221,13 @@
 </g>
 <!-- ndSettingRemoveCmd -->
 <g id="node20" class="node"><title>ndSettingRemoveCmd</title>
+<g id="a_node20_19"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/subcommands/config.rs#:~:text=enum%20SettingRemoveCmd" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2946,-87.5 2946,-124.5 3106,-124.5 3106,-87.5 2946,-87.5"/>
 <polygon fill="none" stroke="black" points="2946,-87.5 2946,-124.5 3106,-124.5 3106,-87.5 2946,-87.5"/>
 <text text-anchor="start" x="2957" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">SettingRemoveCmd</text>
 <polygon fill="none" stroke="black" points="2945,-87 2945,-126 3107,-126 3107,-87 2945,-87"/>
+</a>
+</g>
 </g>
 <!-- ndSettingRemoveCmd&#45;&gt;ndConfigSubCommands -->
 <g id="edge5" class="edge"><title>ndSettingRemoveCmd&#45;&gt;ndConfigSubCommands</title>
@@ -176,38 +236,53 @@
 </g>
 <!-- ndSetupSubCommands -->
 <g id="node21" class="node"><title>ndSetupSubCommands</title>
+<g id="a_node21_20"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/subcommands/setup.rs#:~:text=enum%20SetupSubCommands" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="3142,-87.5 3142,-124.5 3312,-124.5 3312,-87.5 3142,-87.5"/>
 <polygon fill="none" stroke="black" points="3142,-87.5 3142,-124.5 3312,-124.5 3312,-87.5 3142,-87.5"/>
 <text text-anchor="start" x="3153" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">SetupSubCommands</text>
 <polygon fill="none" stroke="black" points="3141,-87 3141,-126 3313,-126 3313,-87 3141,-87"/>
+</a>
+</g>
 </g>
 <!-- ndEnvironment -->
 <g id="node22" class="node"><title>ndEnvironment</title>
+<g id="a_node22_21"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/operations/auth_daemon.rs#:~:text=struct%20Environment" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="3348,-87.5 3348,-124.5 3460,-124.5 3460,-87.5 3348,-87.5"/>
 <polygon fill="none" stroke="black" points="3348,-87.5 3348,-124.5 3460,-124.5 3460,-87.5 3348,-87.5"/>
 <text text-anchor="start" x="3359" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">Environment</text>
 <polygon fill="none" stroke="black" points="3347,-87 3347,-126 3461,-126 3461,-87 3347,-87"/>
+</a>
+</g>
 </g>
 <!-- ndSafeSeed -->
 <g id="node23" class="node"><title>ndSafeSeed</title>
+<g id="a_node23_22"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/operations/auth_daemon.rs#:~:text=struct%20SafeSeed" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="3497,-87.5 3497,-124.5 3586,-124.5 3586,-87.5 3497,-87.5"/>
 <polygon fill="none" stroke="black" points="3497,-87.5 3497,-124.5 3586,-124.5 3586,-87.5 3497,-87.5"/>
 <text text-anchor="start" x="3508" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">SafeSeed</text>
 <polygon fill="none" stroke="black" points="3495.5,-87 3495.5,-126 3586.5,-126 3586.5,-87 3495.5,-87"/>
+</a>
+</g>
 </g>
 <!-- ndNetworkLauncher -->
 <g id="node24" class="node"><title>ndNetworkLauncher</title>
+<g id="a_node24_23"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/operations/config.rs#:~:text=trait%20NetworkLauncher" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="3622,-87.5 3622,-124.5 3768,-124.5 3768,-87.5 3622,-87.5"/>
 <polygon fill="none" stroke="black" points="3622,-87.5 3622,-124.5 3768,-124.5 3768,-87.5 3622,-87.5"/>
 <text text-anchor="start" x="3633" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">NetworkLauncher</text>
 <polygon fill="none" stroke="black" points="3621,-87 3621,-126 3769,-126 3769,-87 3621,-87"/>
+</a>
+</g>
 </g>
 <!-- ndSnLaunchToolNetworkLauncher -->
 <g id="node25" class="node"><title>ndSnLaunchToolNetworkLauncher</title>
+<g id="a_node25_24"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/operations/config.rs#:~:text=struct%20SnLaunchToolNetworkLauncher" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="3571,-4.5 3571,-41.5 3819,-41.5 3819,-4.5 3571,-4.5"/>
 <polygon fill="none" stroke="black" points="3571,-4.5 3571,-41.5 3819,-41.5 3819,-4.5 3571,-4.5"/>
 <text text-anchor="start" x="3582" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">SnLaunchToolNetworkLauncher</text>
 <polygon fill="none" stroke="black" points="3570,-4 3570,-43 3820,-43 3820,-4 3570,-4"/>
+</a>
+</g>
 </g>
 <!-- ndNetworkLauncher&#45;&gt;ndSnLaunchToolNetworkLauncher -->
 <g id="edge6" class="edge"><title>ndNetworkLauncher&#45;&gt;ndSnLaunchToolNetworkLauncher</title>
@@ -216,17 +291,23 @@
 </g>
 <!-- ndNetworkInfo -->
 <g id="node26" class="node"><title>ndNetworkInfo</title>
+<g id="a_node26_25"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/operations/config.rs#:~:text=enum%20NetworkInfo" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="3820,-87.5 3820,-124.5 3926,-124.5 3926,-87.5 3820,-87.5"/>
 <polygon fill="none" stroke="black" points="3820,-87.5 3820,-124.5 3926,-124.5 3926,-87.5 3820,-87.5"/>
 <text text-anchor="start" x="3831" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">NetworkInfo</text>
 <polygon fill="none" stroke="black" points="3819,-87 3819,-126 3927,-126 3927,-87 3819,-87"/>
+</a>
+</g>
 </g>
 <!-- ndConfig -->
 <g id="node28" class="node"><title>ndConfig</title>
+<g id="a_node28_26"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/operations/config.rs#:~:text=struct%20Config" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="3855,-4.5 3855,-41.5 3923,-41.5 3923,-4.5 3855,-4.5"/>
 <polygon fill="none" stroke="black" points="3855,-4.5 3855,-41.5 3923,-41.5 3923,-4.5 3855,-4.5"/>
 <text text-anchor="start" x="3866" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">Config</text>
 <polygon fill="none" stroke="black" points="3854,-4 3854,-43 3924,-43 3924,-4 3854,-4"/>
+</a>
+</g>
 </g>
 <!-- ndNetworkInfo&#45;&gt;ndConfig -->
 <g id="edge7" class="edge"><title>ndNetworkInfo&#45;&gt;ndConfig</title>
@@ -235,10 +316,13 @@
 </g>
 <!-- ndSettings -->
 <g id="node27" class="node"><title>ndSettings</title>
+<g id="a_node27_27"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/operations/config.rs#:~:text=struct%20Settings" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="3962,-87.5 3962,-124.5 4042,-124.5 4042,-87.5 3962,-87.5"/>
 <polygon fill="none" stroke="black" points="3962,-87.5 3962,-124.5 4042,-124.5 4042,-87.5 3962,-87.5"/>
 <text text-anchor="start" x="3973" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">Settings</text>
 <polygon fill="none" stroke="black" points="3961,-87 3961,-126 4043,-126 4043,-87 3961,-87"/>
+</a>
+</g>
 </g>
 <!-- ndSettings&#45;&gt;ndConfig -->
 <g id="edge8" class="edge"><title>ndSettings&#45;&gt;ndConfig</title>

@@ -11,6 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-1070 2166.5,-1070 2166.5,4 -4,4"/>
 <!-- ndError -->
 <g id="node1" class="node"><title>ndError</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/brb/blob/master/src/error.rs#:~:text=enum%20Error" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="944.5,-671 944.5,-708 1246.5,-708 1246.5,-671 944.5,-671"/>
 <polygon fill="none" stroke="black" points="944.5,-671 944.5,-708 1246.5,-708 1246.5,-671 944.5,-671"/>
 <text text-anchor="start" x="1077" y="-686.8" font-family="Arial" font-weight="bold" font-size="14.00">Error</text>
@@ -21,9 +22,12 @@
 <text text-anchor="start" x="955.5" y="-618.8" font-family="Arial" font-size="14.00">Validation(ValidationError&lt;A, S, V&gt;)</text>
 <text text-anchor="start" x="955.5" y="-603.8" font-family="Arial" font-size="14.00">Signature(signature::Error)</text>
 <polygon fill="none" stroke="black" points="943.5,-588.5 943.5,-709.5 1247.5,-709.5 1247.5,-588.5 943.5,-588.5"/>
+</a>
+</g>
 </g>
 <!-- ndOp -->
 <g id="node8" class="node"><title>ndOp</title>
+<g id="a_node8_1"><a xlink:href="https://github.com/maidsafe/brb/blob/master/src/deterministic_brb.rs#:~:text=enum%20Op" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="566.5,-484 566.5,-521 1624.5,-521 1624.5,-484 566.5,-484"/>
 <polygon fill="none" stroke="black" points="566.5,-484 566.5,-521 1624.5,-521 1624.5,-484 566.5,-484"/>
 <text text-anchor="start" x="1085" y="-499.8" font-family="Arial" font-weight="bold" font-size="14.00">Op</text>
@@ -61,6 +65,8 @@
 <text text-anchor="start" x="577.5" y="-34.8" font-family="Arial" font-size="14.00">&#45; sign(&amp;self, data: impl Serialize) &#45;&gt; Result&lt;S, Error&lt;A, S, BRBDT::ValidationError&gt;&gt;</text>
 <text text-anchor="start" x="577.5" y="-19.8" font-family="Arial" font-size="14.00">&#45; verify(&amp;self, data: impl Serialize, signer: &amp;A, sig: &amp;S) &#45;&gt; Result&lt;(), Error&lt;A, S, BRBDT::ValidationError&gt;&gt;</text>
 <polygon fill="none" stroke="black" points="565.5,-4 565.5,-522 1625.5,-522 1625.5,-4 565.5,-4"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndOp -->
 <g id="edge1" class="edge"><title>ndError&#45;&gt;ndOp</title>
@@ -69,6 +75,7 @@
 </g>
 <!-- ndValidationError -->
 <g id="node2" class="node"><title>ndValidationError</title>
+<g id="a_node2_2"><a xlink:href="https://github.com/maidsafe/brb/blob/master/src/error.rs#:~:text=enum%20ValidationError" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="940.5,-1024 940.5,-1061 1251.5,-1061 1251.5,-1024 940.5,-1024"/>
 <polygon fill="none" stroke="black" points="940.5,-1024 940.5,-1061 1251.5,-1061 1251.5,-1024 940.5,-1024"/>
 <text text-anchor="start" x="1043" y="-1039.8" font-family="Arial" font-weight="bold" font-size="14.00">ValidationError</text>
@@ -90,6 +97,8 @@
 <text text-anchor="start" x="951.5" y="-806.8" font-family="Arial" font-size="14.00">DeliveredForPacketWeAreNotWaitingOn</text>
 <text text-anchor="start" x="951.5" y="-791.8" font-family="Arial" font-size="14.00">PhantomSig(core::marker::PhantomData&lt;S&gt;)</text>
 <polygon fill="none" stroke="black" points="939,-776 939,-1062 1252,-1062 1252,-776 939,-776"/>
+</a>
+</g>
 </g>
 <!-- ndValidationError&#45;&gt;ndError -->
 <g id="edge2" class="edge"><title>ndValidationError&#45;&gt;ndError</title>
@@ -98,6 +107,7 @@
 </g>
 <!-- ndBRBDataType -->
 <g id="node3" class="node"><title>ndBRBDataType</title>
+<g id="a_node3_3"><a xlink:href="https://github.com/maidsafe/brb/blob/master/src/brb_data_type.rs#:~:text=trait%20BRBDataType" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="1287.5,-926 1287.5,-963 1718.5,-963 1718.5,-926 1287.5,-926"/>
 <polygon fill="none" stroke="black" points="1287.5,-926 1287.5,-963 1718.5,-963 1718.5,-926 1287.5,-926"/>
 <text text-anchor="start" x="1454.5" y="-941.8" font-family="Arial" font-weight="bold" font-size="14.00">BRBDataType</text>
@@ -106,9 +116,12 @@
 <text text-anchor="start" x="1298.5" y="-903.8" font-family="Arial" font-size="14.00">new(A) &#45;&gt; Self</text>
 <text text-anchor="start" x="1298.5" y="-888.8" font-family="Arial" font-size="14.00">validate(&amp;Self, &amp;A, &amp;Self::Op) &#45;&gt; Result&lt;(), Self::ValidationError&gt;</text>
 <polygon fill="none" stroke="black" points="1286,-873.5 1286,-964.5 1719,-964.5 1719,-873.5 1286,-873.5"/>
+</a>
+</g>
 </g>
 <!-- ndBRBDT -->
 <g id="node4" class="node"><title>ndBRBDT</title>
+<g id="a_node4_4"><a xlink:href="https://github.com/maidsafe/brb/blob/master/src/net.rs#:~:text=trait%20BRBDT" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="1754.5,-938 1754.5,-975 1828.5,-975 1828.5,-938 1754.5,-938"/>
 <polygon fill="none" stroke="black" points="1754.5,-938 1754.5,-975 1828.5,-975 1828.5,-938 1754.5,-938"/>
 <text text-anchor="start" x="1765.5" y="-953.8" font-family="Arial" font-weight="bold" font-size="14.00">BRBDT</text>
@@ -117,9 +130,12 @@
 <polygon fill="white" stroke="none" points="1754.5,-862 1754.5,-900 1828.5,-900 1828.5,-862 1754.5,-862"/>
 <polygon fill="none" stroke="black" points="1754.5,-862 1754.5,-900 1828.5,-900 1828.5,-862 1754.5,-862"/>
 <polygon fill="none" stroke="black" points="1753.5,-861.5 1753.5,-976.5 1829.5,-976.5 1829.5,-861.5 1753.5,-861.5"/>
+</a>
+</g>
 </g>
 <!-- ndDeterministicBRB -->
 <g id="node6" class="node"><title>ndDeterministicBRB</title>
+<g id="a_node6_5"><a xlink:href="https://github.com/maidsafe/brb/blob/master/src/deterministic_brb.rs#:~:text=struct%20DeterministicBRB" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1571.5,-694 1571.5,-731 2153.5,-731 2153.5,-694 1571.5,-694"/>
 <polygon fill="none" stroke="black" points="1571.5,-694 1571.5,-731 2153.5,-731 2153.5,-694 1571.5,-694"/>
 <text text-anchor="start" x="1801" y="-709.8" font-family="Arial" font-weight="bold" font-size="14.00">DeterministicBRB</text>
@@ -133,6 +149,8 @@
 <text text-anchor="start" x="1582.5" y="-596.8" font-family="Arial" font-size="14.00">+ history_from_source: BTreeMap&lt;A, Vec&lt;(Msg&lt;A, BRBDT::Op&gt;, BTreeMap&lt;A, S&gt;)&gt;&gt;</text>
 <text text-anchor="start" x="1582.5" y="-581.8" font-family="Arial" font-size="14.00">+ dt: BRBDT</text>
 <polygon fill="none" stroke="black" points="1570.5,-566 1570.5,-732 2154.5,-732 2154.5,-566 1570.5,-566"/>
+</a>
+</g>
 </g>
 <!-- ndBRBDT&#45;&gt;ndDeterministicBRB -->
 <g id="edge3" class="edge"><title>ndBRBDT&#45;&gt;ndDeterministicBRB</title>
@@ -141,6 +159,7 @@
 </g>
 <!-- ndNet -->
 <g id="node5" class="node"><title>ndNet</title>
+<g id="a_node5_6"><a xlink:href="https://github.com/maidsafe/brb/blob/master/src/net.rs#:~:text=struct%20Net" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9.5,-394 9.5,-431 530.5,-431 530.5,-394 9.5,-394"/>
 <polygon fill="none" stroke="black" points="9.5,-394 9.5,-431 530.5,-431 530.5,-394 9.5,-394"/>
 <text text-anchor="start" x="258.5" y="-409.8" font-family="Arial" font-weight="bold" font-size="14.00">Net</text>
@@ -166,9 +185,12 @@
 <text text-anchor="start" x="20.5" y="-124.8" font-family="Arial" font-size="14.00">&#45; run_packets_to_completion(&amp;mut self, mut packets: Vec&lt;Packet&lt;DT::Op&gt;&gt;)</text>
 <text text-anchor="start" x="20.5" y="-109.8" font-family="Arial" font-size="14.00">&#45; generate_msc(&amp;self, chart_name: &amp;str)</text>
 <polygon fill="none" stroke="black" points="8,-94 8,-432 531,-432 531,-94 8,-94"/>
+</a>
+</g>
 </g>
 <!-- ndMsg -->
 <g id="node7" class="node"><title>ndMsg</title>
+<g id="a_node7_7"><a xlink:href="https://github.com/maidsafe/brb/blob/master/src/deterministic_brb.rs#:~:text=struct%20Msg" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1865.5,-934 1865.5,-971 2004.5,-971 2004.5,-934 1865.5,-934"/>
 <polygon fill="none" stroke="black" points="1865.5,-934 1865.5,-971 2004.5,-971 2004.5,-934 1865.5,-934"/>
 <text text-anchor="start" x="1919.5" y="-949.8" font-family="Arial" font-weight="bold" font-size="14.00">Msg</text>
@@ -178,6 +200,8 @@
 <text text-anchor="start" x="1876.5" y="-896.8" font-family="Arial" font-size="14.00">+ op: DataTypeOp</text>
 <text text-anchor="start" x="1876.5" y="-881.8" font-family="Arial" font-size="14.00">+ dot: Dot&lt;A&gt;</text>
 <polygon fill="none" stroke="black" points="1864,-866 1864,-972 2005,-972 2005,-866 1864,-866"/>
+</a>
+</g>
 </g>
 <!-- ndMsg&#45;&gt;ndDeterministicBRB -->
 <g id="edge4" class="edge"><title>ndMsg&#45;&gt;ndDeterministicBRB</title>
@@ -186,6 +210,7 @@
 </g>
 <!-- ndPacket -->
 <g id="node9" class="node"><title>ndPacket</title>
+<g id="a_node9_8"><a xlink:href="https://github.com/maidsafe/brb/blob/master/src/packet.rs#:~:text=struct%20Packet" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="395.5,-671 395.5,-708 608.5,-708 608.5,-671 395.5,-671"/>
 <polygon fill="none" stroke="black" points="395.5,-671 395.5,-708 608.5,-708 608.5,-671 395.5,-671"/>
 <text text-anchor="start" x="478" y="-686.8" font-family="Arial" font-weight="bold" font-size="14.00">Packet</text>
@@ -196,6 +221,8 @@
 <text text-anchor="start" x="406.5" y="-618.8" font-family="Arial" font-size="14.00">+ payload: Payload&lt;A, S, Op&gt;</text>
 <text text-anchor="start" x="406.5" y="-603.8" font-family="Arial" font-size="14.00">+ sig: S</text>
 <polygon fill="none" stroke="black" points="394,-588.5 394,-709.5 609,-709.5 609,-588.5 394,-588.5"/>
+</a>
+</g>
 </g>
 <!-- ndPacket&#45;&gt;ndNet -->
 <g id="edge5" class="edge"><title>ndPacket&#45;&gt;ndNet</title>
@@ -209,6 +236,7 @@
 </g>
 <!-- ndPayload -->
 <g id="node10" class="node"><title>ndPayload</title>
+<g id="a_node10_9"><a xlink:href="https://github.com/maidsafe/brb/blob/master/src/packet.rs#:~:text=enum%20Payload" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="331.5,-934 331.5,-971 672.5,-971 672.5,-934 331.5,-934"/>
 <polygon fill="none" stroke="black" points="331.5,-934 331.5,-971 672.5,-971 672.5,-934 331.5,-934"/>
 <text text-anchor="start" x="473.5" y="-949.8" font-family="Arial" font-weight="bold" font-size="14.00">Payload</text>
@@ -218,6 +246,8 @@
 <text text-anchor="start" x="342.5" y="-896.8" font-family="Arial" font-size="14.00">BRB(deterministic_brb::Op&lt;A, S, DataTypeOp&gt;)</text>
 <text text-anchor="start" x="342.5" y="-881.8" font-family="Arial" font-size="14.00">Membership(Box&lt;brb_membership::Vote&lt;A, S&gt;&gt;)</text>
 <polygon fill="none" stroke="black" points="330,-866 330,-972 673,-972 673,-866 330,-866"/>
+</a>
+</g>
 </g>
 <!-- ndPayload&#45;&gt;ndPacket -->
 <g id="edge7" class="edge"><title>ndPayload&#45;&gt;ndPacket</title>

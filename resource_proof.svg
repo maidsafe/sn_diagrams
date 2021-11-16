@@ -11,6 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-477 575,-477 575,4 -4,4"/>
 <!-- ndResourceProof -->
 <g id="node1" class="node"><title>ndResourceProof</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/resource_proof/blob/master/src/lib.rs#:~:text=struct%20ResourceProof" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9.5,-198.5 9.5,-235.5 562.5,-235.5 562.5,-198.5 9.5,-198.5"/>
 <polygon fill="none" stroke="black" points="9.5,-198.5 9.5,-235.5 562.5,-235.5 562.5,-198.5 9.5,-198.5"/>
 <text text-anchor="start" x="233" y="-214.3" font-family="Arial" font-weight="bold" font-size="14.00">ResourceProof</text>
@@ -29,9 +30,12 @@
 <text text-anchor="start" x="20.5" y="-34.3" font-family="Arial" font-size="14.00">&#45; check_hash(&amp;self, data: &amp;VecDeque&lt;u8&gt;) &#45;&gt; u8</text>
 <text text-anchor="start" x="20.5" y="-19.3" font-family="Arial" font-size="14.00">&#45; leading_zeros(data: &amp;[u8]) &#45;&gt; u8</text>
 <polygon fill="none" stroke="black" points="8,-4 8,-237 563,-237 563,-4 8,-4"/>
+</a>
+</g>
 </g>
 <!-- ndResourceProver -->
 <g id="node2" class="node"><title>ndResourceProver</title>
+<g id="a_node2_1"><a xlink:href="https://github.com/maidsafe/resource_proof/blob/master/src/lib.rs#:~:text=struct%20ResourceProver" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="158.5,-431 158.5,-468 412.5,-468 412.5,-431 158.5,-431"/>
 <polygon fill="none" stroke="black" points="158.5,-431 158.5,-468 412.5,-468 412.5,-431 158.5,-431"/>
 <text text-anchor="start" x="228" y="-446.8" font-family="Arial" font-weight="bold" font-size="14.00">ResourceProver</text>
@@ -47,6 +51,8 @@
 <text text-anchor="start" x="169.5" y="-311.8" font-family="Arial" font-size="14.00">&#45; solve(&amp;mut self) &#45;&gt; u64</text>
 <text text-anchor="start" x="169.5" y="-296.8" font-family="Arial" font-size="14.00">&#45; check_hash(&amp;self) &#45;&gt; u8</text>
 <polygon fill="none" stroke="black" points="157.5,-281 157.5,-469 413.5,-469 413.5,-281 157.5,-281"/>
+</a>
+</g>
 </g>
 <!-- ndResourceProver&#45;&gt;ndResourceProof -->
 <g id="edge1" class="edge"><title>ndResourceProver&#45;&gt;ndResourceProof</title>

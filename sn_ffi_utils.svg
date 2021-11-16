@@ -11,6 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-523 2341.5,-523 2341.5,4 -4,4"/>
 <!-- ndErrorCode -->
 <g id="node1" class="node"><title>ndErrorCode</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/sn_ffi_utils/blob/master/src/lib.rs#:~:text=trait%20ErrorCode" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="84.5,-368.5 84.5,-405.5 261.5,-405.5 261.5,-368.5 84.5,-368.5"/>
 <polygon fill="none" stroke="black" points="84.5,-368.5 84.5,-405.5 261.5,-405.5 261.5,-368.5 84.5,-368.5"/>
 <text text-anchor="start" x="136" y="-384.3" font-family="Arial" font-weight="bold" font-size="14.00">ErrorCode</text>
@@ -18,9 +19,12 @@
 <polygon fill="none" stroke="black" points="84.5,-331.5 84.5,-368.5 261.5,-368.5 261.5,-331.5 84.5,-331.5"/>
 <text text-anchor="start" x="95.5" y="-346.3" font-family="Arial" font-size="14.00">error_code(&amp;Self) &#45;&gt; i32</text>
 <polygon fill="none" stroke="black" points="83,-330.5 83,-406.5 262,-406.5 262,-330.5 83,-330.5"/>
+</a>
+</g>
 </g>
 <!-- ndTestError -->
 <g id="node10" class="node"><title>ndTestError</title>
+<g id="a_node10_1"><a xlink:href="https://github.com/maidsafe/sn_ffi_utils/blob/master/src/test_utils.rs#:~:text=enum%20TestError" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="9.5,-132 9.5,-169 336.5,-169 336.5,-132 9.5,-132"/>
 <polygon fill="none" stroke="black" points="9.5,-132 9.5,-169 336.5,-169 336.5,-132 9.5,-132"/>
 <text text-anchor="start" x="139.5" y="-147.8" font-family="Arial" font-weight="bold" font-size="14.00">TestError</text>
@@ -34,6 +38,8 @@
 <text text-anchor="start" x="20.5" y="-42.8" font-family="Arial" font-size="14.00">&#45; error_code(&amp;self) &#45;&gt; i32</text>
 <text text-anchor="start" x="20.5" y="-27.8" font-family="Arial" font-size="14.00">&#45; fmt(&amp;self, f: &amp;mut fmt::Formatter) &#45;&gt; fmt::Result</text>
 <polygon fill="none" stroke="black" points="8,-12 8,-170 337,-170 337,-12 8,-12"/>
+</a>
+</g>
 </g>
 <!-- ndErrorCode&#45;&gt;ndTestError -->
 <g id="edge1" class="edge"><title>ndErrorCode&#45;&gt;ndTestError</title>
@@ -42,6 +48,7 @@
 </g>
 <!-- ndEnvGuard -->
 <g id="node2" class="node"><title>ndEnvGuard</title>
+<g id="a_node2_2"><a xlink:href="https://github.com/maidsafe/sn_ffi_utils/blob/master/src/java.rs#:~:text=enum%20EnvGuard" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="297.5,-401.5 297.5,-438.5 642.5,-438.5 642.5,-401.5 297.5,-401.5"/>
 <polygon fill="none" stroke="black" points="297.5,-401.5 297.5,-438.5 642.5,-438.5 642.5,-401.5 297.5,-401.5"/>
 <text text-anchor="start" x="434.5" y="-417.3" font-family="Arial" font-weight="bold" font-size="14.00">EnvGuard</text>
@@ -54,9 +61,12 @@
 <text text-anchor="start" x="308.5" y="-327.3" font-family="Arial" font-size="14.00">&#45; new(vm: Option&lt;&amp;&#39;a JavaVM&gt;) &#45;&gt; JniResult&lt;Self&gt;</text>
 <text text-anchor="start" x="308.5" y="-312.3" font-family="Arial" font-size="14.00">&#45; env(&amp;self) &#45;&gt; &amp;JNIEnv</text>
 <polygon fill="none" stroke="black" points="296,-297 296,-440 643,-440 643,-297 296,-297"/>
+</a>
+</g>
 </g>
 <!-- ndReprC -->
 <g id="node3" class="node"><title>ndReprC</title>
+<g id="a_node3_3"><a xlink:href="https://github.com/maidsafe/sn_ffi_utils/blob/master/src/repr_c.rs#:~:text=trait%20ReprC" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="677.5,-476.5 677.5,-513.5 1105.5,-513.5 1105.5,-476.5 677.5,-476.5"/>
 <polygon fill="none" stroke="black" points="677.5,-476.5 677.5,-513.5 1105.5,-513.5 1105.5,-476.5 677.5,-476.5"/>
 <text text-anchor="start" x="869.5" y="-492.3" font-family="Arial" font-weight="bold" font-size="14.00">ReprC</text>
@@ -79,9 +89,12 @@
 <text text-anchor="start" x="688.5" y="-252.3" font-family="Arial" font-size="14.00">&#45; clone_from_repr_c(repr_c: Self::C) &#45;&gt; Result&lt;Self, Self::Error&gt;</text>
 <text text-anchor="start" x="688.5" y="-237.3" font-family="Arial" font-size="14.00">&#45; clone_from_repr_c(repr_c: Self::C) &#45;&gt; Result&lt;Self, Self::Error&gt;</text>
 <polygon fill="none" stroke="black" points="676.5,-222 676.5,-515 1106.5,-515 1106.5,-222 676.5,-222"/>
+</a>
+</g>
 </g>
 <!-- ndNativeResult -->
 <g id="node7" class="node"><title>ndNativeResult</title>
+<g id="a_node7_4"><a xlink:href="https://github.com/maidsafe/sn_ffi_utils/blob/master/src/result.rs#:~:text=struct%20NativeResult" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="974.5,-124 974.5,-161 1402.5,-161 1402.5,-124 974.5,-124"/>
 <polygon fill="none" stroke="black" points="974.5,-124 974.5,-161 1402.5,-161 1402.5,-124 974.5,-124"/>
 <text text-anchor="start" x="1145" y="-139.8" font-family="Arial" font-weight="bold" font-size="14.00">NativeResult</text>
@@ -94,6 +107,8 @@
 <text text-anchor="start" x="985.5" y="-49.8" font-family="Arial" font-size="14.00">&#45; into_repr_c(self) &#45;&gt; Result&lt;FfiResult, StringError&gt;</text>
 <text text-anchor="start" x="985.5" y="-34.8" font-family="Arial" font-size="14.00">&#45; clone_from_repr_c(repr_c: Self::C) &#45;&gt; Result&lt;Self, Self::Error&gt;</text>
 <polygon fill="none" stroke="black" points="973.5,-19.5 973.5,-162.5 1403.5,-162.5 1403.5,-19.5 973.5,-19.5"/>
+</a>
+</g>
 </g>
 <!-- ndReprC&#45;&gt;ndNativeResult -->
 <g id="edge2" class="edge"><title>ndReprC&#45;&gt;ndNativeResult</title>
@@ -102,6 +117,7 @@
 </g>
 <!-- ndCallback -->
 <g id="node4" class="node"><title>ndCallback</title>
+<g id="a_node4_5"><a xlink:href="https://github.com/maidsafe/sn_ffi_utils/blob/master/src/callback.rs#:~:text=trait%20Callback" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="1438.5,-140 1438.5,-177 1944.5,-177 1944.5,-140 1438.5,-140"/>
 <polygon fill="none" stroke="black" points="1438.5,-140 1438.5,-177 1944.5,-177 1944.5,-140 1438.5,-140"/>
 <text text-anchor="start" x="1661" y="-155.8" font-family="Arial" font-weight="bold" font-size="14.00">Callback</text>
@@ -115,9 +131,12 @@
 <text text-anchor="start" x="1449.5" y="-34.8" font-family="Arial" font-size="14.00">&#45; call(&amp;self, user_data: *mut c_void, error: *const FfiResult, args: Self::Args)</text>
 <text text-anchor="start" x="1449.5" y="-19.8" font-family="Arial" font-size="14.00">&#45; call(&amp;self, user_data: *mut c_void, error: *const FfiResult, args: Self::Args)</text>
 <polygon fill="none" stroke="black" points="1437.5,-4 1437.5,-178 1945.5,-178 1945.5,-4 1437.5,-4"/>
+</a>
+</g>
 </g>
 <!-- ndCallbackArgs -->
 <g id="node5" class="node"><title>ndCallbackArgs</title>
+<g id="a_node5_6"><a xlink:href="https://github.com/maidsafe/sn_ffi_utils/blob/master/src/callback.rs#:~:text=trait%20CallbackArgs" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="1698.5,-476.5 1698.5,-513.5 1826.5,-513.5 1826.5,-476.5 1698.5,-476.5"/>
 <polygon fill="none" stroke="black" points="1698.5,-476.5 1698.5,-513.5 1826.5,-513.5 1826.5,-476.5 1698.5,-476.5"/>
 <text text-anchor="start" x="1715.5" y="-492.3" font-family="Arial" font-weight="bold" font-size="14.00">CallbackArgs</text>
@@ -140,9 +159,12 @@
 <text text-anchor="start" x="1709.5" y="-252.3" font-family="Arial" font-size="14.00">&#45; default() &#45;&gt; Self</text>
 <text text-anchor="start" x="1709.5" y="-237.3" font-family="Arial" font-size="14.00">&#45; default() &#45;&gt; Self</text>
 <polygon fill="none" stroke="black" points="1697.5,-222 1697.5,-515 1827.5,-515 1827.5,-222 1697.5,-222"/>
+</a>
+</g>
 </g>
 <!-- ndSafePtr -->
 <g id="node6" class="node"><title>ndSafePtr</title>
+<g id="a_node6_7"><a xlink:href="https://github.com/maidsafe/sn_ffi_utils/blob/master/src/vec.rs#:~:text=trait%20SafePtr" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="1863.5,-386.5 1863.5,-423.5 2120.5,-423.5 2120.5,-386.5 1863.5,-386.5"/>
 <polygon fill="none" stroke="black" points="1863.5,-386.5 1863.5,-423.5 2120.5,-423.5 2120.5,-386.5 1863.5,-386.5"/>
 <text text-anchor="start" x="1966" y="-402.3" font-family="Arial" font-weight="bold" font-size="14.00">SafePtr</text>
@@ -153,9 +175,12 @@
 <polygon fill="none" stroke="black" points="1863.5,-312.5 1863.5,-349.5 2120.5,-349.5 2120.5,-312.5 1863.5,-312.5"/>
 <text text-anchor="start" x="1874.5" y="-327.3" font-family="Arial" font-size="14.00">&#45; as_safe_ptr(&amp;self) &#45;&gt; *const T</text>
 <polygon fill="none" stroke="black" points="1862,-312 1862,-425 2121,-425 2121,-312 1862,-312"/>
+</a>
+</g>
 </g>
 <!-- ndFfiResult -->
 <g id="node8" class="node"><title>ndFfiResult</title>
+<g id="a_node8_8"><a xlink:href="https://github.com/maidsafe/sn_ffi_utils/blob/master/src/result.rs#:~:text=struct%20FfiResult" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1464.5,-394.5 1464.5,-431.5 1662.5,-431.5 1662.5,-394.5 1464.5,-394.5"/>
 <polygon fill="none" stroke="black" points="1464.5,-394.5 1464.5,-431.5 1662.5,-431.5 1662.5,-394.5 1464.5,-394.5"/>
 <text text-anchor="start" x="1533" y="-410.3" font-family="Arial" font-weight="bold" font-size="14.00">FfiResult</text>
@@ -167,6 +192,8 @@
 <polygon fill="none" stroke="black" points="1464.5,-305.5 1464.5,-342.5 1662.5,-342.5 1662.5,-305.5 1464.5,-305.5"/>
 <text text-anchor="start" x="1475.5" y="-320.3" font-family="Arial" font-size="14.00">&#45; drop(&amp;mut self)</text>
 <polygon fill="none" stroke="black" points="1463.5,-304.5 1463.5,-432.5 1663.5,-432.5 1663.5,-304.5 1463.5,-304.5"/>
+</a>
+</g>
 </g>
 <!-- ndFfiResult&#45;&gt;ndCallback -->
 <g id="edge3" class="edge"><title>ndFfiResult&#45;&gt;ndCallback</title>
@@ -180,6 +207,7 @@
 </g>
 <!-- ndUserData -->
 <g id="node9" class="node"><title>ndUserData</title>
+<g id="a_node9_9"><a xlink:href="https://github.com/maidsafe/sn_ffi_utils/blob/master/src/test_utils.rs#:~:text=struct%20UserData" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="2156.5,-394.5 2156.5,-431.5 2328.5,-431.5 2328.5,-394.5 2156.5,-394.5"/>
 <polygon fill="none" stroke="black" points="2156.5,-394.5 2156.5,-431.5 2328.5,-431.5 2328.5,-394.5 2156.5,-394.5"/>
 <text text-anchor="start" x="2210.5" y="-410.3" font-family="Arial" font-weight="bold" font-size="14.00">UserData</text>
@@ -191,9 +219,12 @@
 <polygon fill="none" stroke="black" points="2156.5,-305.5 2156.5,-342.5 2328.5,-342.5 2328.5,-305.5 2156.5,-305.5"/>
 <text text-anchor="start" x="2167.5" y="-320.3" font-family="Arial" font-size="14.00">&#45; default() &#45;&gt; Self</text>
 <polygon fill="none" stroke="black" points="2155.5,-304.5 2155.5,-432.5 2329.5,-432.5 2329.5,-304.5 2155.5,-304.5"/>
+</a>
+</g>
 </g>
 <!-- ndStringError -->
 <g id="node11" class="node"><title>ndStringError</title>
+<g id="a_node11_10"><a xlink:href="https://github.com/maidsafe/sn_ffi_utils/blob/master/src/string.rs#:~:text=enum%20StringError" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1141.5,-416.5 1141.5,-453.5 1364.5,-453.5 1364.5,-416.5 1141.5,-416.5"/>
 <polygon fill="none" stroke="black" points="1141.5,-416.5 1141.5,-453.5 1364.5,-453.5 1364.5,-416.5 1141.5,-416.5"/>
 <text text-anchor="start" x="1213.5" y="-432.3" font-family="Arial" font-weight="bold" font-size="14.00">StringError</text>
@@ -208,6 +239,8 @@
 <text text-anchor="start" x="1152.5" y="-312.3" font-family="Arial" font-size="14.00">&#45; from(e: NulError) &#45;&gt; Self</text>
 <text text-anchor="start" x="1152.5" y="-297.3" font-family="Arial" font-size="14.00">&#45; from(e: IntoStringError) &#45;&gt; Self</text>
 <polygon fill="none" stroke="black" points="1140,-282 1140,-455 1365,-455 1365,-282 1140,-282"/>
+</a>
+</g>
 </g>
 <!-- ndStringError&#45;&gt;ndNativeResult -->
 <g id="edge5" class="edge"><title>ndStringError&#45;&gt;ndNativeResult</title>

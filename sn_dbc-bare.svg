@@ -11,17 +11,23 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-549 1542.29,-549 1542.29,4 -4,4"/>
 <!-- ndDbcHelper -->
 <g id="node1" class="node"><title>ndDbcHelper</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/lib.rs#:~:text=struct%20DbcHelper" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9.5,-253.5 9.5,-290.5 104.5,-290.5 104.5,-253.5 9.5,-253.5"/>
 <polygon fill="none" stroke="black" points="9.5,-253.5 9.5,-290.5 104.5,-290.5 104.5,-253.5 9.5,-253.5"/>
 <text text-anchor="start" x="20.5" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">DbcHelper</text>
 <polygon fill="none" stroke="black" points="8,-253 8,-292 105,-292 105,-253 8,-253"/>
+</a>
+</g>
 </g>
 <!-- ndError -->
 <g id="node2" class="node"><title>ndError</title>
+<g id="a_node2_1"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/error.rs#:~:text=enum%20Error" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="194.5,-502.5 194.5,-539.5 253.5,-539.5 253.5,-502.5 194.5,-502.5"/>
 <polygon fill="none" stroke="black" points="194.5,-502.5 194.5,-539.5 253.5,-539.5 253.5,-502.5 194.5,-502.5"/>
 <text text-anchor="start" x="205.5" y="-518.3" font-family="Arial" font-weight="bold" font-size="14.00">Error</text>
 <polygon fill="none" stroke="black" points="193,-502 193,-541 254,-541 254,-502 193,-502"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndDbcHelper -->
 <g id="edge1" class="edge"><title>ndError&#45;&gt;ndDbcHelper</title>
@@ -30,10 +36,13 @@
 </g>
 <!-- ndAmountSecrets -->
 <g id="node12" class="node"><title>ndAmountSecrets</title>
+<g id="a_node12_2"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/dbc_content.rs#:~:text=struct%20AmountSecrets" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="105.5,-419.5 105.5,-456.5 235.5,-456.5 235.5,-419.5 105.5,-419.5"/>
 <polygon fill="none" stroke="black" points="105.5,-419.5 105.5,-456.5 235.5,-456.5 235.5,-419.5 105.5,-419.5"/>
 <text text-anchor="start" x="116.5" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">AmountSecrets</text>
 <polygon fill="none" stroke="black" points="104.5,-419 104.5,-458 236.5,-458 236.5,-419 104.5,-419"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndAmountSecrets -->
 <g id="edge2" class="edge"><title>ndError&#45;&gt;ndAmountSecrets</title>
@@ -42,10 +51,13 @@
 </g>
 <!-- ndDbcContent -->
 <g id="node13" class="node"><title>ndDbcContent</title>
+<g id="a_node13_3"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/dbc_content.rs#:~:text=struct%20DbcContent" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="292.5,-336.5 292.5,-373.5 397.5,-373.5 397.5,-336.5 292.5,-336.5"/>
 <polygon fill="none" stroke="black" points="292.5,-336.5 292.5,-373.5 397.5,-373.5 397.5,-336.5 292.5,-336.5"/>
 <text text-anchor="start" x="303.5" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">DbcContent</text>
 <polygon fill="none" stroke="black" points="291,-336 291,-375 398,-375 398,-336 291,-336"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndDbcContent -->
 <g id="edge3" class="edge"><title>ndError&#45;&gt;ndDbcContent</title>
@@ -54,10 +66,13 @@
 </g>
 <!-- ndDbc -->
 <g id="node15" class="node"><title>ndDbc</title>
+<g id="a_node15_4"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/dbc.rs#:~:text=struct%20Dbc" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="469.5,-253.5 469.5,-290.5 519.5,-290.5 519.5,-253.5 469.5,-253.5"/>
 <polygon fill="none" stroke="black" points="469.5,-253.5 469.5,-290.5 519.5,-290.5 519.5,-253.5 469.5,-253.5"/>
 <text text-anchor="start" x="480.5" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Dbc</text>
 <polygon fill="none" stroke="black" points="468.5,-253 468.5,-292 520.5,-292 520.5,-253 468.5,-253"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndDbc -->
 <g id="edge4" class="edge"><title>ndError&#45;&gt;ndDbc</title>
@@ -66,17 +81,23 @@
 </g>
 <!-- ndNodeSignature -->
 <g id="node3" class="node"><title>ndNodeSignature</title>
+<g id="a_node3_5"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/key_manager.rs#:~:text=struct%20NodeSignature" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1280.5,-170.5 1280.5,-207.5 1406.5,-207.5 1406.5,-170.5 1280.5,-170.5"/>
 <polygon fill="none" stroke="black" points="1280.5,-170.5 1280.5,-207.5 1406.5,-207.5 1406.5,-170.5 1280.5,-170.5"/>
 <text text-anchor="start" x="1291.5" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">NodeSignature</text>
 <polygon fill="none" stroke="black" points="1279.5,-170 1279.5,-209 1407.5,-209 1407.5,-170 1279.5,-170"/>
+</a>
+</g>
 </g>
 <!-- ndSimpleKeyManager -->
 <g id="node6" class="node"><title>ndSimpleKeyManager</title>
+<g id="a_node6_6"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/key_manager.rs#:~:text=struct%20SimpleKeyManager" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="819.5,-87.5 819.5,-124.5 977.5,-124.5 977.5,-87.5 819.5,-87.5"/>
 <polygon fill="none" stroke="black" points="819.5,-87.5 819.5,-124.5 977.5,-124.5 977.5,-87.5 819.5,-87.5"/>
 <text text-anchor="start" x="830.5" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">SimpleKeyManager</text>
 <polygon fill="none" stroke="black" points="818.5,-87 818.5,-126 978.5,-126 978.5,-87 818.5,-87"/>
+</a>
+</g>
 </g>
 <!-- ndNodeSignature&#45;&gt;ndSimpleKeyManager -->
 <g id="edge5" class="edge"><title>ndNodeSignature&#45;&gt;ndSimpleKeyManager</title>
@@ -85,10 +106,13 @@
 </g>
 <!-- ndGenesisDbcShare -->
 <g id="node7" class="node"><title>ndGenesisDbcShare</title>
+<g id="a_node7_7"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/mint.rs#:~:text=struct%20GenesisDbcShare" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1334.5,-87.5 1334.5,-124.5 1483.5,-124.5 1483.5,-87.5 1334.5,-87.5"/>
 <polygon fill="none" stroke="black" points="1334.5,-87.5 1334.5,-124.5 1483.5,-124.5 1483.5,-87.5 1334.5,-87.5"/>
 <text text-anchor="start" x="1345.5" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">GenesisDbcShare</text>
 <polygon fill="none" stroke="black" points="1333,-87 1333,-126 1484,-126 1484,-87 1333,-87"/>
+</a>
+</g>
 </g>
 <!-- ndNodeSignature&#45;&gt;ndGenesisDbcShare -->
 <g id="edge6" class="edge"><title>ndNodeSignature&#45;&gt;ndGenesisDbcShare</title>
@@ -97,10 +121,13 @@
 </g>
 <!-- ndMintNode -->
 <g id="node11" class="node"><title>ndMintNode</title>
+<g id="a_node11_8"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/mint.rs#:~:text=struct%20MintNode" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1253.5,-4.5 1253.5,-41.5 1342.5,-41.5 1342.5,-4.5 1253.5,-4.5"/>
 <polygon fill="none" stroke="black" points="1253.5,-4.5 1253.5,-41.5 1342.5,-41.5 1342.5,-4.5 1253.5,-4.5"/>
 <text text-anchor="start" x="1264.5" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">MintNode</text>
 <polygon fill="none" stroke="black" points="1252,-4 1252,-43 1343,-43 1343,-4 1252,-4"/>
+</a>
+</g>
 </g>
 <!-- ndNodeSignature&#45;&gt;ndMintNode -->
 <g id="edge7" class="edge"><title>ndNodeSignature&#45;&gt;ndMintNode</title>
@@ -109,10 +136,13 @@
 </g>
 <!-- ndSpentProofShare -->
 <g id="node20" class="node"><title>ndSpentProofShare</title>
+<g id="a_node20_9"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/spent_proof.rs#:~:text=struct%20SpentProofShare" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1031.5,-87.5 1031.5,-124.5 1174.5,-124.5 1174.5,-87.5 1031.5,-87.5"/>
 <polygon fill="none" stroke="black" points="1031.5,-87.5 1031.5,-124.5 1174.5,-124.5 1174.5,-87.5 1031.5,-87.5"/>
 <text text-anchor="start" x="1042.5" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">SpentProofShare</text>
 <polygon fill="none" stroke="black" points="1030,-87 1030,-126 1175,-126 1175,-87 1030,-87"/>
+</a>
+</g>
 </g>
 <!-- ndNodeSignature&#45;&gt;ndSpentProofShare -->
 <g id="edge8" class="edge"><title>ndNodeSignature&#45;&gt;ndSpentProofShare</title>
@@ -121,10 +151,13 @@
 </g>
 <!-- ndKeyManager -->
 <g id="node4" class="node"><title>ndKeyManager</title>
+<g id="a_node4_10"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/key_manager.rs#:~:text=trait%20KeyManager" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="843.5,-170.5 843.5,-207.5 954.5,-207.5 954.5,-170.5 843.5,-170.5"/>
 <polygon fill="none" stroke="black" points="843.5,-170.5 843.5,-207.5 954.5,-207.5 954.5,-170.5 843.5,-170.5"/>
 <text text-anchor="start" x="854.5" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">KeyManager</text>
 <polygon fill="none" stroke="black" points="842,-170 842,-209 955,-209 955,-170 842,-170"/>
+</a>
+</g>
 </g>
 <!-- ndKeyManager&#45;&gt;ndSimpleKeyManager -->
 <g id="edge9" class="edge"><title>ndKeyManager&#45;&gt;ndSimpleKeyManager</title>
@@ -133,10 +166,13 @@
 </g>
 <!-- ndSimpleSigner -->
 <g id="node5" class="node"><title>ndSimpleSigner</title>
+<g id="a_node5_11"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/key_manager.rs#:~:text=struct%20SimpleSigner" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="553.5,-170.5 553.5,-207.5 669.5,-207.5 669.5,-170.5 553.5,-170.5"/>
 <polygon fill="none" stroke="black" points="553.5,-170.5 553.5,-207.5 669.5,-207.5 669.5,-170.5 553.5,-170.5"/>
 <text text-anchor="start" x="564.5" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">SimpleSigner</text>
 <polygon fill="none" stroke="black" points="552.5,-170 552.5,-209 670.5,-209 670.5,-170 552.5,-170"/>
+</a>
+</g>
 </g>
 <!-- ndSimpleSigner&#45;&gt;ndSimpleKeyManager -->
 <g id="edge10" class="edge"><title>ndSimpleSigner&#45;&gt;ndSimpleKeyManager</title>
@@ -150,17 +186,23 @@
 </g>
 <!-- ndReissueTransaction -->
 <g id="node8" class="node"><title>ndReissueTransaction</title>
+<g id="a_node8_12"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/mint.rs#:~:text=struct%20ReissueTransaction" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="318.5,-170.5 318.5,-207.5 479.5,-207.5 479.5,-170.5 318.5,-170.5"/>
 <polygon fill="none" stroke="black" points="318.5,-170.5 318.5,-207.5 479.5,-207.5 479.5,-170.5 318.5,-170.5"/>
 <text text-anchor="start" x="329.5" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">ReissueTransaction</text>
 <polygon fill="none" stroke="black" points="317,-170 317,-209 480,-209 480,-170 317,-170"/>
+</a>
+</g>
 </g>
 <!-- ndReissueRequest -->
 <g id="node9" class="node"><title>ndReissueRequest</title>
+<g id="a_node9_13"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/mint.rs#:~:text=struct%20ReissueRequest" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="436.5,-87.5 436.5,-124.5 571.5,-124.5 571.5,-87.5 436.5,-87.5"/>
 <polygon fill="none" stroke="black" points="436.5,-87.5 436.5,-124.5 571.5,-124.5 571.5,-87.5 436.5,-87.5"/>
 <text text-anchor="start" x="447.5" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">ReissueRequest</text>
 <polygon fill="none" stroke="black" points="435,-87 435,-126 572,-126 572,-87 435,-87"/>
+</a>
+</g>
 </g>
 <!-- ndReissueTransaction&#45;&gt;ndReissueRequest -->
 <g id="edge12" class="edge"><title>ndReissueTransaction&#45;&gt;ndReissueRequest</title>
@@ -169,10 +211,13 @@
 </g>
 <!-- ndTransactionBuilder -->
 <g id="node17" class="node"><title>ndTransactionBuilder</title>
+<g id="a_node17_14"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/builder.rs#:~:text=struct%20TransactionBuilder" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="132.5,-87.5 132.5,-124.5 288.5,-124.5 288.5,-87.5 132.5,-87.5"/>
 <polygon fill="none" stroke="black" points="132.5,-87.5 132.5,-124.5 288.5,-124.5 288.5,-87.5 132.5,-87.5"/>
 <text text-anchor="start" x="143.5" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">TransactionBuilder</text>
 <polygon fill="none" stroke="black" points="131.5,-87 131.5,-126 289.5,-126 289.5,-87 131.5,-87"/>
+</a>
+</g>
 </g>
 <!-- ndReissueTransaction&#45;&gt;ndTransactionBuilder -->
 <g id="edge13" class="edge"><title>ndReissueTransaction&#45;&gt;ndTransactionBuilder</title>
@@ -181,10 +226,13 @@
 </g>
 <!-- ndReissueRequestBuilder -->
 <g id="node18" class="node"><title>ndReissueRequestBuilder</title>
+<g id="a_node18_15"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/builder.rs#:~:text=struct%20ReissueRequestBuilder" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="411.5,-4.5 411.5,-41.5 596.5,-41.5 596.5,-4.5 411.5,-4.5"/>
 <polygon fill="none" stroke="black" points="411.5,-4.5 411.5,-41.5 596.5,-41.5 596.5,-4.5 411.5,-4.5"/>
 <text text-anchor="start" x="422.5" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">ReissueRequestBuilder</text>
 <polygon fill="none" stroke="black" points="410,-4 410,-43 597,-43 597,-4 410,-4"/>
+</a>
+</g>
 </g>
 <!-- ndReissueTransaction&#45;&gt;ndReissueRequestBuilder -->
 <g id="edge14" class="edge"><title>ndReissueTransaction&#45;&gt;ndReissueRequestBuilder</title>
@@ -193,10 +241,13 @@
 </g>
 <!-- ndDbcBuilder -->
 <g id="node19" class="node"><title>ndDbcBuilder</title>
+<g id="a_node19_16"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/builder.rs#:~:text=struct%20DbcBuilder" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="607.5,-87.5 607.5,-124.5 708.5,-124.5 708.5,-87.5 607.5,-87.5"/>
 <polygon fill="none" stroke="black" points="607.5,-87.5 607.5,-124.5 708.5,-124.5 708.5,-87.5 607.5,-87.5"/>
 <text text-anchor="start" x="618.5" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">DbcBuilder</text>
 <polygon fill="none" stroke="black" points="606,-87 606,-126 709,-126 709,-87 606,-87"/>
+</a>
+</g>
 </g>
 <!-- ndReissueTransaction&#45;&gt;ndDbcBuilder -->
 <g id="edge15" class="edge"><title>ndReissueTransaction&#45;&gt;ndDbcBuilder</title>
@@ -215,10 +266,13 @@
 </g>
 <!-- ndReissueShare -->
 <g id="node10" class="node"><title>ndReissueShare</title>
+<g id="a_node10_17"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/mint.rs#:~:text=struct%20ReissueShare" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1125.5,-170.5 1125.5,-207.5 1244.5,-207.5 1244.5,-170.5 1125.5,-170.5"/>
 <polygon fill="none" stroke="black" points="1125.5,-170.5 1125.5,-207.5 1244.5,-207.5 1244.5,-170.5 1125.5,-170.5"/>
 <text text-anchor="start" x="1136.5" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">ReissueShare</text>
 <polygon fill="none" stroke="black" points="1124,-170 1124,-209 1245,-209 1245,-170 1124,-170"/>
+</a>
+</g>
 </g>
 <!-- ndReissueShare&#45;&gt;ndMintNode -->
 <g id="edge18" class="edge"><title>ndReissueShare&#45;&gt;ndMintNode</title>
@@ -267,10 +321,13 @@
 </g>
 <!-- ndDbcTransaction -->
 <g id="node14" class="node"><title>ndDbcTransaction</title>
+<g id="a_node14_18"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/dbc_transaction.rs#:~:text=struct%20DbcTransaction" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1117.5,-336.5 1117.5,-373.5 1251.5,-373.5 1251.5,-336.5 1117.5,-336.5"/>
 <polygon fill="none" stroke="black" points="1117.5,-336.5 1117.5,-373.5 1251.5,-373.5 1251.5,-336.5 1117.5,-336.5"/>
 <text text-anchor="start" x="1128.5" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">DbcTransaction</text>
 <polygon fill="none" stroke="black" points="1116.5,-336 1116.5,-375 1252.5,-375 1252.5,-336 1116.5,-336"/>
+</a>
+</g>
 </g>
 <!-- ndDbcTransaction&#45;&gt;ndGenesisDbcShare -->
 <g id="edge27" class="edge"><title>ndDbcTransaction&#45;&gt;ndGenesisDbcShare</title>
@@ -314,10 +371,13 @@
 </g>
 <!-- ndSpentProof -->
 <g id="node21" class="node"><title>ndSpentProof</title>
+<g id="a_node21_19"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/spent_proof.rs#:~:text=struct%20SpentProof" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="706.5,-170.5 706.5,-207.5 807.5,-207.5 807.5,-170.5 706.5,-170.5"/>
 <polygon fill="none" stroke="black" points="706.5,-170.5 706.5,-207.5 807.5,-207.5 807.5,-170.5 706.5,-170.5"/>
 <text text-anchor="start" x="717.5" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">SpentProof</text>
 <polygon fill="none" stroke="black" points="705,-170 705,-209 808,-209 808,-170 705,-170"/>
+</a>
+</g>
 </g>
 <!-- ndDbc&#45;&gt;ndSpentProof -->
 <g id="edge35" class="edge"><title>ndDbc&#45;&gt;ndSpentProof</title>
@@ -326,10 +386,13 @@
 </g>
 <!-- ndDbcPacket -->
 <g id="node23" class="node"><title>ndDbcPacket</title>
+<g id="a_node23_20"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/dbc_packet.rs#:~:text=struct%20DbcPacket" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="990.5,-170.5 990.5,-207.5 1088.5,-207.5 1088.5,-170.5 990.5,-170.5"/>
 <polygon fill="none" stroke="black" points="990.5,-170.5 990.5,-207.5 1088.5,-207.5 1088.5,-170.5 990.5,-170.5"/>
 <text text-anchor="start" x="1001.5" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">DbcPacket</text>
 <polygon fill="none" stroke="black" points="989.5,-170 989.5,-209 1089.5,-209 1089.5,-170 989.5,-170"/>
+</a>
+</g>
 </g>
 <!-- ndDbc&#45;&gt;ndDbcPacket -->
 <g id="edge36" class="edge"><title>ndDbc&#45;&gt;ndDbcPacket</title>
@@ -338,10 +401,13 @@
 </g>
 <!-- ndOutput -->
 <g id="node16" class="node"><title>ndOutput</title>
+<g id="a_node16_21"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/builder.rs#:~:text=struct%20Output" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="211.5,-170.5 211.5,-207.5 281.5,-207.5 281.5,-170.5 211.5,-170.5"/>
 <polygon fill="none" stroke="black" points="211.5,-170.5 211.5,-207.5 281.5,-207.5 281.5,-170.5 211.5,-170.5"/>
 <text text-anchor="start" x="222.5" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">Output</text>
 <polygon fill="none" stroke="black" points="210.5,-170 210.5,-209 282.5,-209 282.5,-170 210.5,-170"/>
+</a>
+</g>
 </g>
 <!-- ndOutput&#45;&gt;ndTransactionBuilder -->
 <g id="edge37" class="edge"><title>ndOutput&#45;&gt;ndTransactionBuilder</title>
@@ -355,10 +421,13 @@
 </g>
 <!-- ndDerivedKeySet -->
 <g id="node22" class="node"><title>ndDerivedKeySet</title>
+<g id="a_node22_22"><a xlink:href="https://github.com/maidsafe/sn_dbc/blob/master/src/dbc_packet.rs#:~:text=struct%20DerivedKeySet" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="976.5,-253.5 976.5,-290.5 1102.5,-290.5 1102.5,-253.5 976.5,-253.5"/>
 <polygon fill="none" stroke="black" points="976.5,-253.5 976.5,-290.5 1102.5,-290.5 1102.5,-253.5 976.5,-253.5"/>
 <text text-anchor="start" x="987.5" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">DerivedKeySet</text>
 <polygon fill="none" stroke="black" points="975.5,-253 975.5,-292 1103.5,-292 1103.5,-253 975.5,-253"/>
+</a>
+</g>
 </g>
 <!-- ndDerivedKeySet&#45;&gt;ndDbcPacket -->
 <g id="edge39" class="edge"><title>ndDerivedKeySet&#45;&gt;ndDbcPacket</title>

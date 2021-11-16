@@ -11,10 +11,13 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-51 118,-51 118,4 -4,4"/>
 <!-- ndFakeClock -->
 <g id="node1" class="node"><title>ndFakeClock</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/sn_fake_clock/blob/master/src/lib.rs#:~:text=struct%20FakeClock" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9,-4.5 9,-41.5 105,-41.5 105,-4.5 9,-4.5"/>
 <polygon fill="none" stroke="black" points="9,-4.5 9,-41.5 105,-41.5 105,-4.5 9,-4.5"/>
 <text text-anchor="start" x="20" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">FakeClock</text>
 <polygon fill="none" stroke="black" points="8,-4 8,-43 106,-43 106,-4 8,-4"/>
+</a>
+</g>
 </g>
 </g>
 </svg>

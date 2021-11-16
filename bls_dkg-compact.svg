@@ -11,6 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-658 2613,-658 2613,4 -4,4"/>
 <!-- ndEncryptor -->
 <g id="node1" class="node"><title>ndEncryptor</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/bls_dkg/blob/master/src/key_gen/encryptor.rs#:~:text=struct%20Encryptor" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="306,-349.5 306,-386.5 611,-386.5 611,-349.5 306,-349.5"/>
 <polygon fill="none" stroke="black" points="306,-349.5 306,-386.5 611,-386.5 611,-349.5 306,-349.5"/>
 <text text-anchor="start" x="423.5" y="-365.3" font-family="Arial" font-weight="bold" font-size="14.00">Encryptor</text>
@@ -18,9 +19,12 @@
 <polygon fill="none" stroke="black" points="306,-312.5 306,-349.5 611,-349.5 611,-312.5 306,-312.5"/>
 <text text-anchor="start" x="317" y="-327.3" font-family="Arial" font-size="14.00">&#45; keys_map: BTreeMap&lt;XorName, (Key, Iv)&gt;</text>
 <polygon fill="none" stroke="black" points="304.5,-311.5 304.5,-387.5 611.5,-387.5 611.5,-311.5 304.5,-311.5"/>
+</a>
+</g>
 </g>
 <!-- ndKeyGen -->
 <g id="node10" class="node"><title>ndKeyGen</title>
+<g id="a_node10_1"><a xlink:href="https://github.com/maidsafe/bls_dkg/blob/master/src/key_gen/mod.rs#:~:text=struct%20KeyGen" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="994,-192 994,-229 1335,-229 1335,-192 994,-192"/>
 <polygon fill="none" stroke="black" points="994,-192 994,-229 1335,-229 1335,-192 994,-192"/>
 <text text-anchor="start" x="1136.5" y="-207.8" font-family="Arial" font-weight="bold" font-size="14.00">KeyGen</text>
@@ -38,6 +42,8 @@
 <text text-anchor="start" x="1005" y="-34.8" font-family="Arial" font-size="14.00">&#45; pending_complain_messages: Vec&lt;Message&gt;</text>
 <text text-anchor="start" x="1005" y="-19.8" font-family="Arial" font-size="14.00">&#45; pending_messages: Vec&lt;Message&gt;</text>
 <polygon fill="none" stroke="black" points="992.5,-4 992.5,-230 1335.5,-230 1335.5,-4 992.5,-4"/>
+</a>
+</g>
 </g>
 <!-- ndEncryptor&#45;&gt;ndKeyGen -->
 <g id="edge1" class="edge"><title>ndEncryptor&#45;&gt;ndKeyGen</title>
@@ -46,6 +52,7 @@
 </g>
 <!-- ndOutcome -->
 <g id="node2" class="node"><title>ndOutcome</title>
+<g id="a_node2_2"><a xlink:href="https://github.com/maidsafe/bls_dkg/blob/master/src/key_gen/outcome.rs#:~:text=struct%20Outcome" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9,-364.5 9,-401.5 269,-401.5 269,-364.5 9,-364.5"/>
 <polygon fill="none" stroke="black" points="9,-364.5 9,-401.5 269,-401.5 269,-364.5 9,-364.5"/>
 <text text-anchor="start" x="107" y="-380.3" font-family="Arial" font-weight="bold" font-size="14.00">Outcome</text>
@@ -55,6 +62,8 @@
 <text text-anchor="start" x="20" y="-327.3" font-family="Arial" font-size="14.00">+ secret_key_share: SecretKeyShare</text>
 <text text-anchor="start" x="20" y="-312.3" font-family="Arial" font-size="14.00">+ index: usize</text>
 <polygon fill="none" stroke="black" points="8,-296.5 8,-402.5 270,-402.5 270,-296.5 8,-296.5"/>
+</a>
+</g>
 </g>
 <!-- ndOutcome&#45;&gt;ndKeyGen -->
 <g id="edge2" class="edge"><title>ndOutcome&#45;&gt;ndKeyGen</title>
@@ -63,6 +72,7 @@
 </g>
 <!-- ndError -->
 <g id="node3" class="node"><title>ndError</title>
+<g id="a_node3_3"><a xlink:href="https://github.com/maidsafe/bls_dkg/blob/master/src/key_gen/mod.rs#:~:text=enum%20Error" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="425,-611.5 425,-648.5 682,-648.5 682,-611.5 425,-611.5"/>
 <polygon fill="none" stroke="black" points="425,-611.5 425,-648.5 682,-648.5 682,-611.5 425,-611.5"/>
 <text text-anchor="start" x="535" y="-627.3" font-family="Arial" font-weight="bold" font-size="14.00">Error</text>
@@ -77,6 +87,8 @@
 <text text-anchor="start" x="436" y="-499.3" font-family="Arial" font-size="14.00">UnexpectedPhase</text>
 <text text-anchor="start" x="436" y="-484.3" font-family="Arial" font-size="14.00">MissingPart</text>
 <polygon fill="none" stroke="black" points="423.5,-469 423.5,-650 682.5,-650 682.5,-469 423.5,-469"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndEncryptor -->
 <g id="edge3" class="edge"><title>ndError&#45;&gt;ndEncryptor</title>
@@ -90,6 +102,7 @@
 </g>
 <!-- ndPart -->
 <g id="node4" class="node"><title>ndPart</title>
+<g id="a_node4_4"><a xlink:href="https://github.com/maidsafe/bls_dkg/blob/master/src/key_gen/mod.rs#:~:text=struct%20Part" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="686,-371.5 686,-408.5 915,-408.5 915,-371.5 686,-371.5"/>
 <polygon fill="none" stroke="black" points="686,-371.5 686,-408.5 915,-408.5 915,-371.5 686,-371.5"/>
 <text text-anchor="start" x="786" y="-387.3" font-family="Arial" font-weight="bold" font-size="14.00">Part</text>
@@ -100,6 +113,8 @@
 <text text-anchor="start" x="697" y="-319.3" font-family="Arial" font-size="14.00">&#45; ser_row: Vec&lt;u8&gt;</text>
 <text text-anchor="start" x="697" y="-304.3" font-family="Arial" font-size="14.00">&#45; enc_rows: Vec&lt;Vec&lt;u8&gt;&gt;</text>
 <polygon fill="none" stroke="black" points="684.5,-289 684.5,-410 915.5,-410 915.5,-289 684.5,-289"/>
+</a>
+</g>
 </g>
 <!-- ndPart&#45;&gt;ndKeyGen -->
 <g id="edge5" class="edge"><title>ndPart&#45;&gt;ndKeyGen</title>
@@ -108,6 +123,7 @@
 </g>
 <!-- ndProposalState -->
 <g id="node5" class="node"><title>ndProposalState</title>
+<g id="a_node5_5"><a xlink:href="https://github.com/maidsafe/bls_dkg/blob/master/src/key_gen/mod.rs#:~:text=struct%20ProposalState" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="718,-581.5 718,-618.5 947,-618.5 947,-581.5 718,-581.5"/>
 <polygon fill="none" stroke="black" points="718,-581.5 718,-618.5 947,-618.5 947,-581.5 718,-581.5"/>
 <text text-anchor="start" x="783" y="-597.3" font-family="Arial" font-weight="bold" font-size="14.00">ProposalState</text>
@@ -118,9 +134,12 @@
 <text text-anchor="start" x="729" y="-529.3" font-family="Arial" font-size="14.00">&#45; enc_values: Vec&lt;Vec&lt;u8&gt;&gt;</text>
 <text text-anchor="start" x="729" y="-514.3" font-family="Arial" font-size="14.00">&#45; acks: BTreeSet&lt;u64&gt;</text>
 <polygon fill="none" stroke="black" points="716.5,-499 716.5,-620 947.5,-620 947.5,-499 716.5,-499"/>
+</a>
+</g>
 </g>
 <!-- ndPartOutcome -->
 <g id="node6" class="node"><title>ndPartOutcome</title>
+<g id="a_node6_6"><a xlink:href="https://github.com/maidsafe/bls_dkg/blob/master/src/key_gen/mod.rs#:~:text=enum%20PartOutcome" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2370,-124 2370,-161 2600,-161 2600,-124 2370,-124"/>
 <polygon fill="none" stroke="black" points="2370,-124 2370,-161 2600,-161 2600,-124 2370,-124"/>
 <text text-anchor="start" x="2439" y="-139.8" font-family="Arial" font-weight="bold" font-size="14.00">PartOutcome</text>
@@ -129,9 +148,12 @@
 <text text-anchor="start" x="2381" y="-101.8" font-family="Arial" font-size="14.00">Valid(Option&lt;Acknowledgment&gt;)</text>
 <text text-anchor="start" x="2381" y="-86.8" font-family="Arial" font-size="14.00">Invalid(PartFault)</text>
 <polygon fill="none" stroke="black" points="2369,-71.5 2369,-162.5 2601,-162.5 2601,-71.5 2369,-71.5"/>
+</a>
+</g>
 </g>
 <!-- ndPhase -->
 <g id="node7" class="node"><title>ndPhase</title>
+<g id="a_node7_7"><a xlink:href="https://github.com/maidsafe/bls_dkg/blob/master/src/key_gen/mod.rs#:~:text=enum%20Phase" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="951,-386.5 951,-423.5 1055,-423.5 1055,-386.5 951,-386.5"/>
 <polygon fill="none" stroke="black" points="951,-386.5 951,-423.5 1055,-423.5 1055,-386.5 951,-386.5"/>
 <text text-anchor="start" x="981" y="-402.3" font-family="Arial" font-weight="bold" font-size="14.00">Phase</text>
@@ -144,6 +166,8 @@
 <text text-anchor="start" x="962" y="-304.3" font-family="Arial" font-size="14.00">Commitment</text>
 <text text-anchor="start" x="962" y="-289.3" font-family="Arial" font-size="14.00">Finalization</text>
 <polygon fill="none" stroke="black" points="950,-274 950,-425 1056,-425 1056,-274 950,-274"/>
+</a>
+</g>
 </g>
 <!-- ndPhase&#45;&gt;ndKeyGen -->
 <g id="edge6" class="edge"><title>ndPhase&#45;&gt;ndKeyGen</title>
@@ -152,6 +176,7 @@
 </g>
 <!-- ndInitializationAccumulator -->
 <g id="node8" class="node"><title>ndInitializationAccumulator</title>
+<g id="a_node8_8"><a xlink:href="https://github.com/maidsafe/bls_dkg/blob/master/src/key_gen/mod.rs#:~:text=struct%20InitializationAccumulator" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1092,-356.5 1092,-393.5 1559,-393.5 1559,-356.5 1092,-356.5"/>
 <polygon fill="none" stroke="black" points="1092,-356.5 1092,-393.5 1559,-393.5 1559,-356.5 1092,-356.5"/>
 <text text-anchor="start" x="1239.5" y="-372.3" font-family="Arial" font-weight="bold" font-size="14.00">InitializationAccumulator</text>
@@ -160,6 +185,8 @@
 <text text-anchor="start" x="1103" y="-334.3" font-family="Arial" font-size="14.00">&#45; senders: BTreeSet&lt;u64&gt;</text>
 <text text-anchor="start" x="1103" y="-319.3" font-family="Arial" font-size="14.00">&#45; initializations: BTreeMap&lt;(usize, usize, BTreeSet&lt;XorName&gt;), usize&gt;</text>
 <polygon fill="none" stroke="black" points="1090.5,-304 1090.5,-395 1559.5,-395 1559.5,-304 1090.5,-304"/>
+</a>
+</g>
 </g>
 <!-- ndInitializationAccumulator&#45;&gt;ndKeyGen -->
 <g id="edge7" class="edge"><title>ndInitializationAccumulator&#45;&gt;ndKeyGen</title>
@@ -168,6 +195,7 @@
 </g>
 <!-- ndComplaintsAccumulator -->
 <g id="node9" class="node"><title>ndComplaintsAccumulator</title>
+<g id="a_node9_9"><a xlink:href="https://github.com/maidsafe/bls_dkg/blob/master/src/key_gen/mod.rs#:~:text=struct%20ComplaintsAccumulator" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1595,-364.5 1595,-401.5 1989,-401.5 1989,-364.5 1595,-364.5"/>
 <polygon fill="none" stroke="black" points="1595,-364.5 1595,-401.5 1989,-401.5 1989,-364.5 1595,-364.5"/>
 <text text-anchor="start" x="1708" y="-380.3" font-family="Arial" font-weight="bold" font-size="14.00">ComplaintsAccumulator</text>
@@ -177,6 +205,8 @@
 <text text-anchor="start" x="1606" y="-327.3" font-family="Arial" font-size="14.00">&#45; threshold: usize</text>
 <text text-anchor="start" x="1606" y="-312.3" font-family="Arial" font-size="14.00">&#45; complaints: BTreeMap&lt;XorName, BTreeSet&lt;XorName&gt;&gt;</text>
 <polygon fill="none" stroke="black" points="1594,-296.5 1594,-402.5 1990,-402.5 1990,-296.5 1594,-296.5"/>
+</a>
+</g>
 </g>
 <!-- ndComplaintsAccumulator&#45;&gt;ndKeyGen -->
 <g id="edge8" class="edge"><title>ndComplaintsAccumulator&#45;&gt;ndKeyGen</title>
@@ -185,6 +215,7 @@
 </g>
 <!-- ndAcknowledgmentFault -->
 <g id="node11" class="node"><title>ndAcknowledgmentFault</title>
+<g id="a_node11_10"><a xlink:href="https://github.com/maidsafe/bls_dkg/blob/master/src/key_gen/mod.rs#:~:text=enum%20AcknowledgmentFault" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2026,-379.5 2026,-416.5 2203,-416.5 2203,-379.5 2026,-379.5"/>
 <polygon fill="none" stroke="black" points="2026,-379.5 2026,-416.5 2203,-416.5 2203,-379.5 2026,-379.5"/>
 <text text-anchor="start" x="2037" y="-395.3" font-family="Arial" font-weight="bold" font-size="14.00">AcknowledgmentFault</text>
@@ -196,6 +227,8 @@
 <text text-anchor="start" x="2037" y="-312.3" font-family="Arial" font-size="14.00">DeserializeValue</text>
 <text text-anchor="start" x="2037" y="-297.3" font-family="Arial" font-size="14.00">ValueAcknowledgment</text>
 <polygon fill="none" stroke="black" points="2024.5,-281.5 2024.5,-417.5 2203.5,-417.5 2203.5,-281.5 2024.5,-281.5"/>
+</a>
+</g>
 </g>
 <!-- ndAcknowledgmentFault&#45;&gt;ndKeyGen -->
 <g id="edge9" class="edge"><title>ndAcknowledgmentFault&#45;&gt;ndKeyGen</title>
@@ -204,6 +237,7 @@
 </g>
 <!-- ndPartFault -->
 <g id="node12" class="node"><title>ndPartFault</title>
+<g id="a_node12_11"><a xlink:href="https://github.com/maidsafe/bls_dkg/blob/master/src/key_gen/mod.rs#:~:text=enum%20PartFault" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2405,-379.5 2405,-416.5 2565,-416.5 2565,-379.5 2405,-379.5"/>
 <polygon fill="none" stroke="black" points="2405,-379.5 2405,-416.5 2565,-416.5 2565,-379.5 2405,-379.5"/>
 <text text-anchor="start" x="2453" y="-395.3" font-family="Arial" font-weight="bold" font-size="14.00">PartFault</text>
@@ -215,6 +249,8 @@
 <text text-anchor="start" x="2416" y="-312.3" font-family="Arial" font-size="14.00">DeserializeRow</text>
 <text text-anchor="start" x="2416" y="-297.3" font-family="Arial" font-size="14.00">RowAcknowledgment</text>
 <polygon fill="none" stroke="black" points="2404,-281.5 2404,-417.5 2566,-417.5 2566,-281.5 2404,-281.5"/>
+</a>
+</g>
 </g>
 <!-- ndPartFault&#45;&gt;ndPartOutcome -->
 <g id="edge10" class="edge"><title>ndPartFault&#45;&gt;ndPartOutcome</title>
@@ -228,6 +264,7 @@
 </g>
 <!-- ndMessage -->
 <g id="node13" class="node"><title>ndMessage</title>
+<g id="a_node13_12"><a xlink:href="https://github.com/maidsafe/bls_dkg/blob/master/src/key_gen/message.rs#:~:text=enum%20Message" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2239,-379.5 2239,-416.5 2370,-416.5 2370,-379.5 2239,-379.5"/>
 <polygon fill="none" stroke="black" points="2239,-379.5 2239,-416.5 2370,-416.5 2370,-379.5 2239,-379.5"/>
 <text text-anchor="start" x="2272.5" y="-395.3" font-family="Arial" font-weight="bold" font-size="14.00">Message</text>
@@ -239,6 +276,8 @@
 <text text-anchor="start" x="2250" y="-312.3" font-family="Arial" font-size="14.00">Justification</text>
 <text text-anchor="start" x="2250" y="-297.3" font-family="Arial" font-size="14.00">Acknowledgment</text>
 <polygon fill="none" stroke="black" points="2237.5,-281.5 2237.5,-417.5 2370.5,-417.5 2370.5,-281.5 2237.5,-281.5"/>
+</a>
+</g>
 </g>
 <!-- ndMessage&#45;&gt;ndKeyGen -->
 <g id="edge12" class="edge"><title>ndMessage&#45;&gt;ndKeyGen</title>
@@ -247,6 +286,7 @@
 </g>
 <!-- ndPeerId -->
 <g id="node14" class="node"><title>ndPeerId</title>
+<g id="a_node14_13"><a xlink:href="https://github.com/maidsafe/bls_dkg/blob/master/src/dev_utils/peer.rs#:~:text=struct%20PeerId" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="983,-574.5 983,-611.5 1158,-611.5 1158,-574.5 983,-574.5"/>
 <polygon fill="none" stroke="black" points="983,-574.5 983,-611.5 1158,-611.5 1158,-574.5 983,-574.5"/>
 <text text-anchor="start" x="1047.5" y="-590.3" font-family="Arial" font-weight="bold" font-size="14.00">PeerId</text>
@@ -256,6 +296,8 @@
 <text text-anchor="start" x="994" y="-537.3" font-family="Arial" font-size="14.00">&#45; public_key: PublicKey</text>
 <text text-anchor="start" x="994" y="-522.3" font-family="Arial" font-size="14.00">&#45; secret_key: SecretKey</text>
 <polygon fill="none" stroke="black" points="981.5,-506.5 981.5,-612.5 1158.5,-612.5 1158.5,-506.5 981.5,-506.5"/>
+</a>
+</g>
 </g>
 </g>
 </svg>

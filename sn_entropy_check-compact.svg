@@ -11,6 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-103 487.5,-103 487.5,4 -4,4"/>
 <!-- ndChunk -->
 <g id="node1" class="node"><title>ndChunk</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/sn_entropy_check/blob/master/src/lib.rs#:~:text=struct%20Chunk" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9,-49.5 9,-86.5 89,-86.5 89,-49.5 9,-49.5"/>
 <polygon fill="none" stroke="black" points="9,-49.5 9,-86.5 89,-86.5 89,-49.5 9,-49.5"/>
 <text text-anchor="start" x="26" y="-65.3" font-family="Arial" font-weight="bold" font-size="14.00">Chunk</text>
@@ -18,9 +19,12 @@
 <polygon fill="none" stroke="black" points="9,-12.5 9,-49.5 89,-49.5 89,-12.5 9,-12.5"/>
 <text text-anchor="start" x="20" y="-27.3" font-family="Arial" font-size="14.00">&#45; file: File</text>
 <polygon fill="none" stroke="black" points="8,-11.5 8,-87.5 90,-87.5 90,-11.5 8,-11.5"/>
+</a>
+</g>
 </g>
 <!-- ndError -->
 <g id="node2" class="node"><title>ndError</title>
+<g id="a_node2_1"><a xlink:href="https://github.com/maidsafe/sn_entropy_check/blob/master/src/lib.rs#:~:text=enum%20Error" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="125,-56.5 125,-93.5 319,-93.5 319,-56.5 125,-56.5"/>
 <polygon fill="none" stroke="black" points="125,-56.5 125,-93.5 319,-93.5 319,-56.5 125,-56.5"/>
 <text text-anchor="start" x="203.5" y="-72.3" font-family="Arial" font-weight="bold" font-size="14.00">Error</text>
@@ -29,9 +33,12 @@
 <text text-anchor="start" x="136" y="-34.3" font-family="Arial" font-size="14.00">IoError(std::io::Error)</text>
 <text text-anchor="start" x="136" y="-19.3" font-family="Arial" font-size="14.00">WalkDirError(walkdir::Error)</text>
 <polygon fill="none" stroke="black" points="124,-4 124,-95 320,-95 320,-4 124,-4"/>
+</a>
+</g>
 </g>
 <!-- ndCmdArgs -->
 <g id="node3" class="node"><title>ndCmdArgs</title>
+<g id="a_node3_2"><a xlink:href="https://github.com/maidsafe/sn_entropy_check/blob/master/src/main.rs#:~:text=struct%20CmdArgs" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="356,-49.5 356,-86.5 475,-86.5 475,-49.5 356,-49.5"/>
 <polygon fill="none" stroke="black" points="356,-49.5 356,-86.5 475,-86.5 475,-49.5 356,-49.5"/>
 <text text-anchor="start" x="382.5" y="-65.3" font-family="Arial" font-weight="bold" font-size="14.00">CmdArgs</text>
@@ -39,6 +46,8 @@
 <polygon fill="none" stroke="black" points="356,-12.5 356,-49.5 475,-49.5 475,-12.5 356,-12.5"/>
 <text text-anchor="start" x="367" y="-27.3" font-family="Arial" font-size="14.00">&#45; input: PathBuf</text>
 <polygon fill="none" stroke="black" points="354.5,-11.5 354.5,-87.5 475.5,-87.5 475.5,-11.5 354.5,-11.5"/>
+</a>
+</g>
 </g>
 </g>
 </svg>

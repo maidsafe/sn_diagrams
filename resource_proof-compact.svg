@@ -11,6 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-253 187,-253 187,4 -4,4"/>
 <!-- ndResourceProof -->
 <g id="node1" class="node"><title>ndResourceProof</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/resource_proof/blob/master/src/lib.rs#:~:text=struct%20ResourceProof" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="27.5,-56.5 27.5,-93.5 155.5,-93.5 155.5,-56.5 27.5,-56.5"/>
 <polygon fill="none" stroke="black" points="27.5,-56.5 27.5,-93.5 155.5,-93.5 155.5,-56.5 27.5,-56.5"/>
 <text text-anchor="start" x="38.5" y="-72.3" font-family="Arial" font-weight="bold" font-size="14.00">ResourceProof</text>
@@ -19,9 +20,12 @@
 <text text-anchor="start" x="38.5" y="-34.3" font-family="Arial" font-size="14.00">&#45; min_size: usize</text>
 <text text-anchor="start" x="38.5" y="-19.3" font-family="Arial" font-size="14.00">&#45; difficulty: u8</text>
 <polygon fill="none" stroke="black" points="26.5,-4 26.5,-95 156.5,-95 156.5,-4 26.5,-4"/>
+</a>
+</g>
 </g>
 <!-- ndResourceProver -->
 <g id="node2" class="node"><title>ndResourceProver</title>
+<g id="a_node2_1"><a xlink:href="https://github.com/maidsafe/resource_proof/blob/master/src/lib.rs#:~:text=struct%20ResourceProver" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9.5,-207 9.5,-244 174.5,-244 174.5,-207 9.5,-207"/>
 <polygon fill="none" stroke="black" points="9.5,-207 9.5,-244 174.5,-244 174.5,-207 9.5,-207"/>
 <text text-anchor="start" x="34.5" y="-222.8" font-family="Arial" font-weight="bold" font-size="14.00">ResourceProver</text>
@@ -31,6 +35,8 @@
 <text text-anchor="start" x="20.5" y="-169.8" font-family="Arial" font-size="14.00">&#45; count: u64</text>
 <text text-anchor="start" x="20.5" y="-154.8" font-family="Arial" font-size="14.00">&#45; data: VecDeque&lt;u8&gt;</text>
 <polygon fill="none" stroke="black" points="8,-139 8,-245 175,-245 175,-139 8,-139"/>
+</a>
+</g>
 </g>
 <!-- ndResourceProver&#45;&gt;ndResourceProof -->
 <g id="edge1" class="edge"><title>ndResourceProver&#45;&gt;ndResourceProof</title>

@@ -11,6 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-1714 1743.5,-1714 1743.5,4 -4,4"/>
 <!-- ndTreeReplica -->
 <g id="node1" class="node"><title>ndTreeReplica</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/crdt_tree/blob/master/src/treereplica.rs#:~:text=struct%20TreeReplica" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="861,-318.5 861,-355.5 1397,-355.5 1397,-318.5 861,-318.5"/>
 <polygon fill="none" stroke="black" points="861,-318.5 861,-355.5 1397,-355.5 1397,-318.5 861,-318.5"/>
 <text text-anchor="start" x="1087.5" y="-334.3" font-family="Arial" font-weight="bold" font-size="14.00">TreeReplica</text>
@@ -37,9 +38,12 @@
 <text text-anchor="start" x="872" y="-34.3" font-family="Arial" font-size="14.00">&#45; causally_stable_threshold(&amp;self) &#45;&gt; Option&lt;&amp;Clock&lt;A&gt;&gt;</text>
 <text text-anchor="start" x="872" y="-19.3" font-family="Arial" font-size="14.00">&#45; truncate_log(&amp;mut self) &#45;&gt; bool</text>
 <polygon fill="none" stroke="black" points="860,-4 860,-357 1398,-357 1398,-4 860,-4"/>
+</a>
+</g>
 </g>
 <!-- ndLogOpMove -->
 <g id="node2" class="node"><title>ndLogOpMove</title>
+<g id="a_node2_1"><a xlink:href="https://github.com/maidsafe/crdt_tree/blob/master/src/logopmove.rs#:~:text=struct%20LogOpMove" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="647,-978 647,-1015 1265,-1015 1265,-978 647,-978"/>
 <polygon fill="none" stroke="black" points="647,-978 647,-1015 1265,-1015 1265,-978 647,-978"/>
 <text text-anchor="start" x="913" y="-993.8" font-family="Arial" font-weight="bold" font-size="14.00">LogOpMove</text>
@@ -57,9 +61,12 @@
 <text text-anchor="start" x="658" y="-828.8" font-family="Arial" font-size="14.00">&#45; oldp(&amp;self) &#45;&gt; &amp;Option&lt;TreeNode&lt;ID, TM&gt;&gt;</text>
 <text text-anchor="start" x="658" y="-813.8" font-family="Arial" font-size="14.00">&#45; op_into(self) &#45;&gt; OpMove&lt;ID, TM, A&gt;</text>
 <polygon fill="none" stroke="black" points="646,-798 646,-1016 1266,-1016 1266,-798 646,-798"/>
+</a>
+</g>
 </g>
 <!-- ndState -->
 <g id="node5" class="node"><title>ndState</title>
+<g id="a_node5_2"><a xlink:href="https://github.com/maidsafe/crdt_tree/blob/master/src/state.rs#:~:text=struct%20State" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="718,-671 718,-708 1195,-708 1195,-671 718,-671"/>
 <polygon fill="none" stroke="black" points="718,-671 718,-708 1195,-708 1195,-671 718,-671"/>
 <text text-anchor="start" x="938.5" y="-686.8" font-family="Arial" font-weight="bold" font-size="14.00">State</text>
@@ -83,6 +90,8 @@
 <text text-anchor="start" x="729" y="-431.8" font-family="Arial" font-size="14.00">&#45; apply_ops(&amp;mut self, ops: &amp;[OpMove&lt;ID, TM, A&gt;])</text>
 <text text-anchor="start" x="729" y="-416.8" font-family="Arial" font-size="14.00">&#45; default() &#45;&gt; Self</text>
 <polygon fill="none" stroke="black" points="716.5,-401 716.5,-709 1195.5,-709 1195.5,-401 716.5,-401"/>
+</a>
+</g>
 </g>
 <!-- ndLogOpMove&#45;&gt;ndState -->
 <g id="edge1" class="edge"><title>ndLogOpMove&#45;&gt;ndState</title>
@@ -91,6 +100,7 @@
 </g>
 <!-- ndOpMove -->
 <g id="node3" class="node"><title>ndOpMove</title>
+<g id="a_node3_3"><a xlink:href="https://github.com/maidsafe/crdt_tree/blob/master/src/opmove.rs#:~:text=struct%20OpMove" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="921,-1315 921,-1352 1430,-1352 1430,-1315 921,-1315"/>
 <polygon fill="none" stroke="black" points="921,-1315 921,-1352 1430,-1352 1430,-1315 921,-1315"/>
 <text text-anchor="start" x="1146" y="-1330.8" font-family="Arial" font-weight="bold" font-size="14.00">OpMove</text>
@@ -110,6 +120,8 @@
 <text text-anchor="start" x="932" y="-1135.8" font-family="Arial" font-size="14.00">&#45; from(l: LogOpMove&lt;ID, TM, A&gt;) &#45;&gt; Self</text>
 <text text-anchor="start" x="932" y="-1120.8" font-family="Arial" font-size="14.00">&#45; arbitrary(g: &amp;mut G) &#45;&gt; Self</text>
 <polygon fill="none" stroke="black" points="919.5,-1105 919.5,-1353 1430.5,-1353 1430.5,-1105 919.5,-1105"/>
+</a>
+</g>
 </g>
 <!-- ndOpMove&#45;&gt;ndTreeReplica -->
 <g id="edge2" class="edge"><title>ndOpMove&#45;&gt;ndTreeReplica</title>
@@ -123,6 +135,7 @@
 </g>
 <!-- ndTreeMeta -->
 <g id="node4" class="node"><title>ndTreeMeta</title>
+<g id="a_node4_4"><a xlink:href="https://github.com/maidsafe/crdt_tree/blob/master/src/treemeta.rs#:~:text=trait%20TreeMeta" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="1539,-1570.5 1539,-1607.5 1627,-1607.5 1627,-1570.5 1539,-1570.5"/>
 <polygon fill="none" stroke="black" points="1539,-1570.5 1539,-1607.5 1627,-1607.5 1627,-1570.5 1539,-1570.5"/>
 <text text-anchor="start" x="1550" y="-1586.3" font-family="Arial" font-weight="bold" font-size="14.00">TreeMeta</text>
@@ -131,6 +144,8 @@
 <polygon fill="white" stroke="none" points="1539,-1494.5 1539,-1532.5 1627,-1532.5 1627,-1494.5 1539,-1494.5"/>
 <polygon fill="none" stroke="black" points="1539,-1494.5 1539,-1532.5 1627,-1532.5 1627,-1494.5 1539,-1494.5"/>
 <polygon fill="none" stroke="black" points="1538,-1494 1538,-1609 1628,-1609 1628,-1494 1538,-1494"/>
+</a>
+</g>
 </g>
 <!-- ndState&#45;&gt;ndTreeReplica -->
 <g id="edge4" class="edge"><title>ndState&#45;&gt;ndTreeReplica</title>
@@ -139,6 +154,7 @@
 </g>
 <!-- ndClock -->
 <g id="node6" class="node"><title>ndClock</title>
+<g id="a_node6_5"><a xlink:href="https://github.com/maidsafe/crdt_tree/blob/master/src/clock.rs#:~:text=struct%20Clock" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1140,-1667.5 1140,-1704.5 1503,-1704.5 1503,-1667.5 1140,-1667.5"/>
 <polygon fill="none" stroke="black" points="1140,-1667.5 1140,-1704.5 1503,-1704.5 1503,-1667.5 1140,-1667.5"/>
 <text text-anchor="start" x="1301.5" y="-1683.3" font-family="Arial" font-weight="bold" font-size="14.00">Clock</text>
@@ -161,6 +177,8 @@
 <text text-anchor="start" x="1151" y="-1426.5" font-family="Arial" font-size="14.00">&#45; arbitrary(g: &amp;mut G) &#45;&gt; Self</text>
 <text text-anchor="start" x="1151" y="-1411.5" font-family="Arial" font-size="14.00">&#45; shrink(&amp;self) &#45;&gt; Box&lt;dyn Iterator&lt;Item = Self&gt;&gt;</text>
 <polygon fill="none" stroke="black" points="1138.5,-1397 1138.5,-1706 1503.5,-1706 1503.5,-1397 1138.5,-1397"/>
+</a>
+</g>
 </g>
 <!-- ndClock&#45;&gt;ndTreeReplica -->
 <g id="edge5" class="edge"><title>ndClock&#45;&gt;ndTreeReplica</title>
@@ -174,6 +192,7 @@
 </g>
 <!-- ndTree -->
 <g id="node7" class="node"><title>ndTree</title>
+<g id="a_node7_6"><a xlink:href="https://github.com/maidsafe/crdt_tree/blob/master/src/tree.rs#:~:text=struct%20Tree" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9,-1023 9,-1060 611,-1060 611,-1023 9,-1023"/>
 <polygon fill="none" stroke="black" points="9,-1023 9,-1060 611,-1060 611,-1023 9,-1023"/>
 <text text-anchor="start" x="294" y="-1038.8" font-family="Arial" font-weight="bold" font-size="14.00">Tree</text>
@@ -197,6 +216,8 @@
 <text text-anchor="start" x="20" y="-783.8" font-family="Arial" font-size="14.00">&#45; print_treenode(&amp;self, f: &amp;mut fmt::Formatter&lt;&#39;_&gt;, node_id: &amp;ID, depth: usize) &#45;&gt; fmt::Result</text>
 <text text-anchor="start" x="20" y="-768.8" font-family="Arial" font-size="14.00">&#45; print_tree(&amp;self, f: &amp;mut fmt::Formatter&lt;&#39;_&gt;) &#45;&gt; fmt::Result</text>
 <polygon fill="none" stroke="black" points="8,-753 8,-1061 612,-1061 612,-753 8,-753"/>
+</a>
+</g>
 </g>
 <!-- ndTree&#45;&gt;ndTreeReplica -->
 <g id="edge7" class="edge"><title>ndTree&#45;&gt;ndTreeReplica</title>
@@ -210,6 +231,7 @@
 </g>
 <!-- ndTreeId -->
 <g id="node8" class="node"><title>ndTreeId</title>
+<g id="a_node8_7"><a xlink:href="https://github.com/maidsafe/crdt_tree/blob/master/src/treeid.rs#:~:text=trait%20TreeId" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="1664,-1570.5 1664,-1607.5 1731,-1607.5 1731,-1570.5 1664,-1570.5"/>
 <polygon fill="none" stroke="black" points="1664,-1570.5 1664,-1607.5 1731,-1607.5 1731,-1570.5 1664,-1570.5"/>
 <text text-anchor="start" x="1675" y="-1586.3" font-family="Arial" font-weight="bold" font-size="14.00">TreeId</text>
@@ -218,9 +240,12 @@
 <polygon fill="white" stroke="none" points="1664,-1494.5 1664,-1532.5 1731,-1532.5 1731,-1494.5 1664,-1494.5"/>
 <polygon fill="none" stroke="black" points="1664,-1494.5 1664,-1532.5 1731,-1532.5 1731,-1494.5 1664,-1494.5"/>
 <polygon fill="none" stroke="black" points="1662.5,-1494 1662.5,-1609 1731.5,-1609 1731.5,-1494 1662.5,-1494"/>
+</a>
+</g>
 </g>
 <!-- ndTreeNode -->
 <g id="node9" class="node"><title>ndTreeNode</title>
+<g id="a_node9_8"><a xlink:href="https://github.com/maidsafe/crdt_tree/blob/master/src/treenode.rs#:~:text=struct%20TreeNode" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="598,-1270 598,-1307 885,-1307 885,-1270 598,-1270"/>
 <polygon fill="none" stroke="black" points="598,-1270 598,-1307 885,-1307 885,-1270 598,-1270"/>
 <text text-anchor="start" x="707.5" y="-1285.8" font-family="Arial" font-weight="bold" font-size="14.00">TreeNode</text>
@@ -234,6 +259,8 @@
 <text text-anchor="start" x="609" y="-1180.8" font-family="Arial" font-size="14.00">&#45; parent_id(&amp;self) &#45;&gt; &amp;ID</text>
 <text text-anchor="start" x="609" y="-1165.8" font-family="Arial" font-size="14.00">&#45; metadata(&amp;self) &#45;&gt; &amp;TM</text>
 <polygon fill="none" stroke="black" points="596.5,-1150 596.5,-1308 885.5,-1308 885.5,-1150 596.5,-1150"/>
+</a>
+</g>
 </g>
 <!-- ndTreeNode&#45;&gt;ndLogOpMove -->
 <g id="edge9" class="edge"><title>ndTreeNode&#45;&gt;ndLogOpMove</title>

@@ -11,6 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-1496 1402.5,-1496 1402.5,4 -4,4"/>
 <!-- ndError -->
 <g id="node1" class="node"><title>ndError</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/brb_membership/blob/master/src/error.rs#:~:text=enum%20Error" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="626,-790.5 626,-827.5 895,-827.5 895,-790.5 626,-790.5"/>
 <polygon fill="none" stroke="black" points="626,-790.5 626,-827.5 895,-827.5 895,-790.5 626,-790.5"/>
 <text text-anchor="start" x="742" y="-806.3" font-family="Arial" font-weight="bold" font-size="14.00">Error</text>
@@ -37,9 +38,12 @@
 <text text-anchor="start" x="637" y="-506.3" font-family="Arial" font-size="14.00">&#45; from(v: String) &#45;&gt; Self</text>
 <text text-anchor="start" x="637" y="-491.3" font-family="Arial" font-size="14.00">&#45; from(v: &amp;&#39;static str) &#45;&gt; Self</text>
 <polygon fill="none" stroke="black" points="624.5,-476 624.5,-829 895.5,-829 895.5,-476 624.5,-476"/>
+</a>
+</g>
 </g>
 <!-- ndVoteMsg -->
 <g id="node6" class="node"><title>ndVoteMsg</title>
+<g id="a_node6_1"><a xlink:href="https://github.com/maidsafe/brb_membership/blob/master/src/brb_membership.rs#:~:text=struct%20VoteMsg" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="567,-394 567,-431 1298,-431 1298,-394 567,-394"/>
 <polygon fill="none" stroke="black" points="567,-394 567,-431 1298,-431 1298,-394 567,-394"/>
 <text text-anchor="start" x="902" y="-409.8" font-family="Arial" font-weight="bold" font-size="14.00">VoteMsg</text>
@@ -71,6 +75,8 @@
 <text text-anchor="start" x="578" y="-34.8" font-family="Arial" font-size="14.00">&#45; broadcast(&amp;self, vote: Vote&lt;A, S&gt;) &#45;&gt; Result&lt;Vec&lt;VoteMsg&lt;A, S&gt;&gt;, Error&lt;A, S&gt;&gt;</text>
 <text text-anchor="start" x="578" y="-19.8" font-family="Arial" font-size="14.00">&#45; send(&amp;self, vote: Vote&lt;A, S&gt;, dest: A) &#45;&gt; VoteMsg&lt;A, S&gt;</text>
 <polygon fill="none" stroke="black" points="565.5,-4 565.5,-432 1298.5,-432 1298.5,-4 565.5,-4"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndVoteMsg -->
 <g id="edge1" class="edge"><title>ndError&#45;&gt;ndVoteMsg</title>
@@ -79,6 +85,7 @@
 </g>
 <!-- ndState -->
 <g id="node2" class="node"><title>ndState</title>
+<g id="a_node2_2"><a xlink:href="https://github.com/maidsafe/brb_membership/blob/master/src/brb_membership.rs#:~:text=struct%20State" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9,-1263 9,-1300 481,-1300 481,-1263 9,-1263"/>
 <polygon fill="none" stroke="black" points="9,-1263 9,-1300 481,-1300 481,-1263 9,-1263"/>
 <text text-anchor="start" x="227" y="-1278.8" font-family="Arial" font-weight="bold" font-size="14.00">State</text>
@@ -92,9 +99,12 @@
 <text text-anchor="start" x="20" y="-1165.8" font-family="Arial" font-size="14.00">+ votes: BTreeMap&lt;A, Vote&lt;A, S&gt;&gt;</text>
 <text text-anchor="start" x="20" y="-1150.8" font-family="Arial" font-size="14.00">+ faulty: bool</text>
 <polygon fill="none" stroke="black" points="8,-1135 8,-1301 482,-1301 482,-1135 8,-1135"/>
+</a>
+</g>
 </g>
 <!-- ndReconfig -->
 <g id="node3" class="node"><title>ndReconfig</title>
+<g id="a_node3_3"><a xlink:href="https://github.com/maidsafe/brb_membership/blob/master/src/brb_membership.rs#:~:text=enum%20Reconfig" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="639,-1449.5 639,-1486.5 1048,-1486.5 1048,-1449.5 639,-1449.5"/>
 <polygon fill="none" stroke="black" points="639,-1449.5 639,-1486.5 1048,-1486.5 1048,-1449.5 639,-1449.5"/>
 <text text-anchor="start" x="812.5" y="-1465.3" font-family="Arial" font-weight="bold" font-size="14.00">Reconfig</text>
@@ -107,6 +117,8 @@
 <text text-anchor="start" x="650" y="-1375.3" font-family="Arial" font-size="14.00">&#45; fmt(&amp;self, f: &amp;mut std::fmt::Formatter&lt;&#39;_&gt;) &#45;&gt; std::fmt::Result</text>
 <text text-anchor="start" x="650" y="-1360.3" font-family="Arial" font-size="14.00">&#45; apply(self, members: &amp;mut BTreeSet&lt;A&gt;)</text>
 <polygon fill="none" stroke="black" points="637.5,-1345 637.5,-1488 1048.5,-1488 1048.5,-1345 637.5,-1345"/>
+</a>
+</g>
 </g>
 <!-- ndReconfig&#45;&gt;ndState -->
 <g id="edge2" class="edge"><title>ndReconfig&#45;&gt;ndState</title>
@@ -115,6 +127,7 @@
 </g>
 <!-- ndBallot -->
 <g id="node4" class="node"><title>ndBallot</title>
+<g id="a_node4_4"><a xlink:href="https://github.com/maidsafe/brb_membership/blob/master/src/brb_membership.rs#:~:text=enum%20Ballot" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="518,-1251 518,-1288 927,-1288 927,-1251 518,-1251"/>
 <polygon fill="none" stroke="black" points="518,-1251 518,-1288 927,-1288 927,-1251 518,-1251"/>
 <text text-anchor="start" x="702.5" y="-1266.8" font-family="Arial" font-weight="bold" font-size="14.00">Ballot</text>
@@ -127,6 +140,8 @@
 <polygon fill="none" stroke="black" points="518,-1147 518,-1184 927,-1184 927,-1147 518,-1147"/>
 <text text-anchor="start" x="529" y="-1161.8" font-family="Arial" font-size="14.00">&#45; fmt(&amp;self, f: &amp;mut std::fmt::Formatter&lt;&#39;_&gt;) &#45;&gt; std::fmt::Result</text>
 <polygon fill="none" stroke="black" points="516.5,-1146.5 516.5,-1289.5 927.5,-1289.5 927.5,-1146.5 516.5,-1146.5"/>
+</a>
+</g>
 </g>
 <!-- ndReconfig&#45;&gt;ndBallot -->
 <g id="edge3" class="edge"><title>ndReconfig&#45;&gt;ndBallot</title>
@@ -135,6 +150,7 @@
 </g>
 <!-- ndVote -->
 <g id="node5" class="node"><title>ndVote</title>
+<g id="a_node5_5"><a xlink:href="https://github.com/maidsafe/brb_membership/blob/master/src/brb_membership.rs#:~:text=struct%20Vote" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="556,-1053 556,-1090 965,-1090 965,-1053 556,-1053"/>
 <polygon fill="none" stroke="black" points="556,-1053 556,-1090 965,-1090 965,-1053 556,-1053"/>
 <text text-anchor="start" x="745" y="-1068.8" font-family="Arial" font-weight="bold" font-size="14.00">Vote</text>
@@ -152,6 +168,8 @@
 <text text-anchor="start" x="567" y="-903.8" font-family="Arial" font-size="14.00">&#45; reconfigs(&amp;self) &#45;&gt; BTreeSet&lt;(A, Reconfig&lt;A&gt;)&gt;</text>
 <text text-anchor="start" x="567" y="-888.8" font-family="Arial" font-size="14.00">&#45; supersedes(&amp;self, vote: &amp;Vote&lt;A, S&gt;) &#45;&gt; bool</text>
 <polygon fill="none" stroke="black" points="554.5,-873 554.5,-1091 965.5,-1091 965.5,-873 554.5,-873"/>
+</a>
+</g>
 </g>
 <!-- ndReconfig&#45;&gt;ndVote -->
 <g id="edge4" class="edge"><title>ndReconfig&#45;&gt;ndVote</title>
@@ -180,6 +198,7 @@
 </g>
 <!-- ndActor -->
 <g id="node7" class="node"><title>ndActor</title>
+<g id="a_node7_6"><a xlink:href="https://github.com/maidsafe/brb_membership/blob/master/src/actor.rs#:~:text=trait%20Actor" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="1084,-1435.5 1084,-1472.5 1144,-1472.5 1144,-1435.5 1084,-1435.5"/>
 <polygon fill="none" stroke="black" points="1084,-1435.5 1084,-1472.5 1144,-1472.5 1144,-1435.5 1084,-1435.5"/>
 <text text-anchor="start" x="1095" y="-1451.3" font-family="Arial" font-weight="bold" font-size="14.00">Actor</text>
@@ -188,9 +207,12 @@
 <polygon fill="white" stroke="none" points="1084,-1359.5 1084,-1397.5 1144,-1397.5 1144,-1359.5 1084,-1359.5"/>
 <polygon fill="none" stroke="black" points="1084,-1359.5 1084,-1397.5 1144,-1397.5 1144,-1359.5 1084,-1359.5"/>
 <polygon fill="none" stroke="black" points="1083,-1359 1083,-1474 1145,-1474 1145,-1359 1083,-1359"/>
+</a>
+</g>
 </g>
 <!-- ndSigningActor -->
 <g id="node8" class="node"><title>ndSigningActor</title>
+<g id="a_node8_7"><a xlink:href="https://github.com/maidsafe/brb_membership/blob/master/src/actor.rs#:~:text=trait%20SigningActor" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="1180,-1416.5 1180,-1453.5 1308,-1453.5 1308,-1416.5 1180,-1416.5"/>
 <polygon fill="none" stroke="black" points="1180,-1416.5 1180,-1453.5 1308,-1453.5 1308,-1416.5 1180,-1416.5"/>
 <text text-anchor="start" x="1198.5" y="-1432.3" font-family="Arial" font-weight="bold" font-size="14.00">SigningActor</text>
@@ -198,9 +220,12 @@
 <polygon fill="none" stroke="black" points="1180,-1379.5 1180,-1416.5 1308,-1416.5 1308,-1379.5 1180,-1379.5"/>
 <text text-anchor="start" x="1191" y="-1394.3" font-family="Arial" font-size="14.00">actor(&amp;Self) &#45;&gt; A</text>
 <polygon fill="none" stroke="black" points="1179,-1378.5 1179,-1454.5 1309,-1454.5 1309,-1378.5 1179,-1378.5"/>
+</a>
+</g>
 </g>
 <!-- ndSig -->
 <g id="node9" class="node"><title>ndSig</title>
+<g id="a_node9_8"><a xlink:href="https://github.com/maidsafe/brb_membership/blob/master/src/actor.rs#:~:text=trait%20Sig" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="1345,-1435.5 1345,-1472.5 1390,-1472.5 1390,-1435.5 1345,-1435.5"/>
 <polygon fill="none" stroke="black" points="1345,-1435.5 1345,-1472.5 1390,-1472.5 1390,-1435.5 1345,-1435.5"/>
 <text text-anchor="start" x="1356" y="-1451.3" font-family="Arial" font-weight="bold" font-size="14.00">Sig</text>
@@ -209,6 +234,8 @@
 <polygon fill="white" stroke="none" points="1345,-1359.5 1345,-1397.5 1390,-1397.5 1390,-1359.5 1345,-1359.5"/>
 <polygon fill="none" stroke="black" points="1345,-1359.5 1345,-1397.5 1390,-1397.5 1390,-1359.5 1345,-1359.5"/>
 <polygon fill="none" stroke="black" points="1343.5,-1359 1343.5,-1474 1390.5,-1474 1390.5,-1359 1343.5,-1359"/>
+</a>
+</g>
 </g>
 </g>
 </svg>

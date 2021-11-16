@@ -11,6 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-1397 1190,-1397 1190,4 -4,4"/>
 <!-- ndJsonRpcRequest -->
 <g id="node1" class="node"><title>ndJsonRpcRequest</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/qjsonrpc/blob/master/src/jsonrpc.rs#:~:text=struct%20JsonRpcRequest" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9,-984 9,-1021 377,-1021 377,-984 9,-984"/>
 <polygon fill="none" stroke="black" points="9,-984 9,-1021 377,-1021 377,-984 9,-984"/>
 <text text-anchor="start" x="133.5" y="-999.8" font-family="Arial" font-weight="bold" font-size="14.00">JsonRpcRequest</text>
@@ -24,9 +25,12 @@
 <polygon fill="none" stroke="black" points="9,-865 9,-902 377,-902 377,-865 9,-865"/>
 <text text-anchor="start" x="20" y="-879.8" font-family="Arial" font-size="14.00">&#45; new(method: &amp;str, params: serde_json::Value) &#45;&gt; Self</text>
 <polygon fill="none" stroke="black" points="8,-864 8,-1022 378,-1022 378,-864 8,-864"/>
+</a>
+</g>
 </g>
 <!-- ndIncomingJsonRpcRequest -->
 <g id="node6" class="node"><title>ndIncomingJsonRpcRequest</title>
+<g id="a_node6_1"><a xlink:href="https://github.com/maidsafe/qjsonrpc/blob/master/src/server_endpoint.rs#:~:text=struct%20IncomingJsonRpcRequest" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="149,-782 149,-819 679,-819 679,-782 149,-782"/>
 <polygon fill="none" stroke="black" points="149,-782 149,-819 679,-819 679,-782 149,-782"/>
 <text text-anchor="start" x="322" y="-797.8" font-family="Arial" font-weight="bold" font-size="14.00">IncomingJsonRpcRequest</text>
@@ -38,6 +42,8 @@
 <text text-anchor="start" x="160" y="-722.8" font-family="Arial" font-size="14.00">&#45; new(bi_streams: quinn::IncomingBiStreams) &#45;&gt; Self</text>
 <text text-anchor="start" x="160" y="-707.8" font-family="Arial" font-size="14.00">&#45; get_next(&amp;mut self) &#45;&gt; Option&lt;(JsonRpcRequest, JsonRpcResponseStream)&gt;</text>
 <polygon fill="none" stroke="black" points="148,-692 148,-820 680,-820 680,-692 148,-692"/>
+</a>
+</g>
 </g>
 <!-- ndJsonRpcRequest&#45;&gt;ndIncomingJsonRpcRequest -->
 <g id="edge1" class="edge"><title>ndJsonRpcRequest&#45;&gt;ndIncomingJsonRpcRequest</title>
@@ -46,6 +52,7 @@
 </g>
 <!-- ndJsonRpcResponse -->
 <g id="node2" class="node"><title>ndJsonRpcResponse</title>
+<g id="a_node2_2"><a xlink:href="https://github.com/maidsafe/qjsonrpc/blob/master/src/jsonrpc.rs#:~:text=struct%20JsonRpcResponse" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="514,-1148.5 514,-1185.5 759,-1185.5 759,-1148.5 514,-1148.5"/>
 <polygon fill="none" stroke="black" points="514,-1148.5 514,-1185.5 759,-1185.5 759,-1148.5 514,-1148.5"/>
 <text text-anchor="start" x="570.5" y="-1164.3" font-family="Arial" font-weight="bold" font-size="14.00">JsonRpcResponse</text>
@@ -56,9 +63,12 @@
 <text text-anchor="start" x="525" y="-1096.3" font-family="Arial" font-size="14.00">&#45; error: Option&lt;JsonRpcError&gt;</text>
 <text text-anchor="start" x="525" y="-1081.3" font-family="Arial" font-size="14.00">&#45; id: Option&lt;u32&gt;</text>
 <polygon fill="none" stroke="black" points="512.5,-1066 512.5,-1187 759.5,-1187 759.5,-1066 512.5,-1066"/>
+</a>
+</g>
 </g>
 <!-- ndJsonRpcResponseStream -->
 <g id="node7" class="node"><title>ndJsonRpcResponseStream</title>
+<g id="a_node7_3"><a xlink:href="https://github.com/maidsafe/qjsonrpc/blob/master/src/server_endpoint.rs#:~:text=struct%20JsonRpcResponseStream" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="413,-976 413,-1013 859,-1013 859,-976 413,-976"/>
 <polygon fill="none" stroke="black" points="413,-976 413,-1013 859,-1013 859,-976 413,-976"/>
 <text text-anchor="start" x="545.5" y="-991.8" font-family="Arial" font-weight="bold" font-size="14.00">JsonRpcResponseStream</text>
@@ -71,6 +81,8 @@
 <text text-anchor="start" x="424" y="-901.8" font-family="Arial" font-size="14.00">&#45; respond(&amp;mut self, response: &amp;JsonRpcResponse) &#45;&gt; Result&lt;()&gt;</text>
 <text text-anchor="start" x="424" y="-886.8" font-family="Arial" font-size="14.00">&#45; finish(&amp;mut self) &#45;&gt; Result&lt;()&gt;</text>
 <polygon fill="none" stroke="black" points="412,-871.5 412,-1014.5 860,-1014.5 860,-871.5 412,-871.5"/>
+</a>
+</g>
 </g>
 <!-- ndJsonRpcResponse&#45;&gt;ndJsonRpcResponseStream -->
 <g id="edge2" class="edge"><title>ndJsonRpcResponse&#45;&gt;ndJsonRpcResponseStream</title>
@@ -79,6 +91,7 @@
 </g>
 <!-- ndJsonRpcError -->
 <g id="node3" class="node"><title>ndJsonRpcError</title>
+<g id="a_node3_4"><a xlink:href="https://github.com/maidsafe/qjsonrpc/blob/master/src/jsonrpc.rs#:~:text=struct%20JsonRpcError" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="434,-1351 434,-1388 838,-1388 838,-1351 434,-1351"/>
 <polygon fill="none" stroke="black" points="434,-1351 434,-1388 838,-1388 838,-1351 434,-1351"/>
 <text text-anchor="start" x="586.5" y="-1366.8" font-family="Arial" font-weight="bold" font-size="14.00">JsonRpcError</text>
@@ -92,6 +105,8 @@
 <text text-anchor="start" x="445" y="-1261.8" font-family="Arial" font-size="14.00">&#45; result(result: serde_json::Value, id: u32) &#45;&gt; Self</text>
 <text text-anchor="start" x="445" y="-1246.8" font-family="Arial" font-size="14.00">&#45; error(message: String, code: isize, id: Option&lt;u32&gt;) &#45;&gt; Self</text>
 <polygon fill="none" stroke="black" points="433,-1231 433,-1389 839,-1389 839,-1231 433,-1231"/>
+</a>
+</g>
 </g>
 <!-- ndJsonRpcError&#45;&gt;ndJsonRpcResponse -->
 <g id="edge3" class="edge"><title>ndJsonRpcError&#45;&gt;ndJsonRpcResponse</title>
@@ -100,6 +115,7 @@
 </g>
 <!-- ndEndpoint -->
 <g id="node4" class="node"><title>ndEndpoint</title>
+<g id="a_node4_5"><a xlink:href="https://github.com/maidsafe/qjsonrpc/blob/master/src/server_endpoint.rs#:~:text=struct%20Endpoint" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="170,-438 170,-475 659,-475 659,-438 170,-438"/>
 <polygon fill="none" stroke="black" points="170,-438 170,-475 659,-475 659,-438 170,-438"/>
 <text text-anchor="start" x="382.5" y="-453.8" font-family="Arial" font-weight="bold" font-size="14.00">Endpoint</text>
@@ -111,9 +127,12 @@
 <text text-anchor="start" x="181" y="-378.8" font-family="Arial" font-size="14.00">&#45; new(cert_base_path: P, idle_timeout: Option&lt;u64&gt;) &#45;&gt; Result&lt;Self&gt;</text>
 <text text-anchor="start" x="181" y="-363.8" font-family="Arial" font-size="14.00">&#45; bind(&amp;self, listen_socket_addr: &amp;SocketAddr) &#45;&gt; Result&lt;IncomingConn&gt;</text>
 <polygon fill="none" stroke="black" points="168.5,-348 168.5,-476 659.5,-476 659.5,-348 168.5,-348"/>
+</a>
+</g>
 </g>
 <!-- ndOutgoingConn -->
 <g id="node10" class="node"><title>ndOutgoingConn</title>
+<g id="a_node10_6"><a xlink:href="https://github.com/maidsafe/qjsonrpc/blob/master/src/client_endpoint.rs#:~:text=struct%20OutgoingConn" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="333,-266 333,-303 1018,-303 1018,-266 333,-266"/>
 <polygon fill="none" stroke="black" points="333,-266 333,-303 1018,-303 1018,-266 333,-266"/>
 <text text-anchor="start" x="624" y="-281.8" font-family="Arial" font-weight="bold" font-size="14.00">OutgoingConn</text>
@@ -125,6 +144,8 @@
 <text text-anchor="start" x="344" y="-206.8" font-family="Arial" font-size="14.00">&#45; new(quinn_endpoint: quinn::Endpoint) &#45;&gt; Self</text>
 <text text-anchor="start" x="344" y="-191.8" font-family="Arial" font-size="14.00">&#45; connect(&amp;mut self, dest_endpoint: &amp;str, cert_host: Option&lt;&amp;str&gt;) &#45;&gt; Result&lt;OutgoingJsonRpcRequest&gt;</text>
 <polygon fill="none" stroke="black" points="331.5,-176 331.5,-304 1018.5,-304 1018.5,-176 331.5,-176"/>
+</a>
+</g>
 </g>
 <!-- ndEndpoint&#45;&gt;ndOutgoingConn -->
 <g id="edge4" class="edge"><title>ndEndpoint&#45;&gt;ndOutgoingConn</title>
@@ -133,6 +154,7 @@
 </g>
 <!-- ndIncomingConn -->
 <g id="node5" class="node"><title>ndIncomingConn</title>
+<g id="a_node5_7"><a xlink:href="https://github.com/maidsafe/qjsonrpc/blob/master/src/server_endpoint.rs#:~:text=struct%20IncomingConn" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="213,-610 213,-647 616,-647 616,-610 213,-610"/>
 <polygon fill="none" stroke="black" points="213,-610 213,-647 616,-647 616,-610 213,-610"/>
 <text text-anchor="start" x="363" y="-625.8" font-family="Arial" font-weight="bold" font-size="14.00">IncomingConn</text>
@@ -144,6 +166,8 @@
 <text text-anchor="start" x="224" y="-550.8" font-family="Arial" font-size="14.00">&#45; new(quinn_incoming: quinn::Incoming) &#45;&gt; Self</text>
 <text text-anchor="start" x="224" y="-535.8" font-family="Arial" font-size="14.00">&#45; get_next(&amp;mut self) &#45;&gt; Option&lt;IncomingJsonRpcRequest&gt;</text>
 <polygon fill="none" stroke="black" points="211.5,-520 211.5,-648 616.5,-648 616.5,-520 211.5,-520"/>
+</a>
+</g>
 </g>
 <!-- ndIncomingConn&#45;&gt;ndEndpoint -->
 <g id="edge5" class="edge"><title>ndIncomingConn&#45;&gt;ndEndpoint</title>
@@ -162,6 +186,7 @@
 </g>
 <!-- ndError -->
 <g id="node8" class="node"><title>ndError</title>
+<g id="a_node8_8"><a xlink:href="https://github.com/maidsafe/qjsonrpc/blob/master/src/errors.rs#:~:text=enum%20Error" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="874,-1343 874,-1380 1104,-1380 1104,-1343 874,-1343"/>
 <polygon fill="none" stroke="black" points="874,-1343 874,-1380 1104,-1380 1104,-1343 874,-1343"/>
 <text text-anchor="start" x="970.5" y="-1358.8" font-family="Arial" font-weight="bold" font-size="14.00">Error</text>
@@ -174,9 +199,12 @@
 <polygon fill="none" stroke="black" points="874,-1239 874,-1276 1104,-1276 1104,-1239 874,-1239"/>
 <text text-anchor="start" x="885" y="-1253.8" font-family="Arial" font-size="14.00">&#45; from(error: std::io::Error) &#45;&gt; Self</text>
 <polygon fill="none" stroke="black" points="873,-1238.5 873,-1381.5 1105,-1381.5 1105,-1238.5 873,-1238.5"/>
+</a>
+</g>
 </g>
 <!-- ndClientEndpoint -->
 <g id="node9" class="node"><title>ndClientEndpoint</title>
+<g id="a_node9_9"><a xlink:href="https://github.com/maidsafe/qjsonrpc/blob/master/src/client_endpoint.rs#:~:text=struct%20ClientEndpoint" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="404,-94 404,-131 946,-131 946,-94 404,-94"/>
 <polygon fill="none" stroke="black" points="404,-94 404,-131 946,-131 946,-94 404,-94"/>
 <text text-anchor="start" x="623.5" y="-109.8" font-family="Arial" font-weight="bold" font-size="14.00">ClientEndpoint</text>
@@ -188,6 +216,8 @@
 <text text-anchor="start" x="415" y="-34.8" font-family="Arial" font-size="14.00">&#45; new(cert_base_path: P, idle_timeout: Option&lt;u64&gt;, keylog: bool) &#45;&gt; Result&lt;Self&gt;</text>
 <text text-anchor="start" x="415" y="-19.8" font-family="Arial" font-size="14.00">&#45; bind(&amp;self) &#45;&gt; Result&lt;OutgoingConn&gt;</text>
 <polygon fill="none" stroke="black" points="403,-4 403,-132 947,-132 947,-4 403,-4"/>
+</a>
+</g>
 </g>
 <!-- ndOutgoingConn&#45;&gt;ndClientEndpoint -->
 <g id="edge8" class="edge"><title>ndOutgoingConn&#45;&gt;ndClientEndpoint</title>
@@ -196,6 +226,7 @@
 </g>
 <!-- ndOutgoingJsonRpcRequest -->
 <g id="node11" class="node"><title>ndOutgoingJsonRpcRequest</title>
+<g id="a_node11_10"><a xlink:href="https://github.com/maidsafe/qjsonrpc/blob/master/src/client_endpoint.rs#:~:text=struct%20OutgoingJsonRpcRequest" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="695,-438 695,-475 1177,-475 1177,-438 695,-438"/>
 <polygon fill="none" stroke="black" points="695,-438 695,-475 1177,-475 1177,-438 695,-438"/>
 <text text-anchor="start" x="844" y="-453.8" font-family="Arial" font-weight="bold" font-size="14.00">OutgoingJsonRpcRequest</text>
@@ -207,6 +238,8 @@
 <text text-anchor="start" x="706" y="-378.8" font-family="Arial" font-size="14.00">&#45; new(quinn_connection: quinn::Connection) &#45;&gt; Self</text>
 <text text-anchor="start" x="706" y="-363.8" font-family="Arial" font-size="14.00">&#45; send(&amp;mut self, method: &amp;str, params: serde_json::Value) &#45;&gt; Result&lt;T&gt;</text>
 <polygon fill="none" stroke="black" points="694,-348 694,-476 1178,-476 1178,-348 694,-348"/>
+</a>
+</g>
 </g>
 <!-- ndOutgoingJsonRpcRequest&#45;&gt;ndOutgoingConn -->
 <g id="edge9" class="edge"><title>ndOutgoingJsonRpcRequest&#45;&gt;ndOutgoingConn</title>

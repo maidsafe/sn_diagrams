@@ -11,24 +11,33 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-217 216,-217 216,4 -4,4"/>
 <!-- ndLaunch -->
 <g id="node1" class="node"><title>ndLaunch</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/sn_launch_tool/blob/master/src/lib.rs#:~:text=struct%20Launch" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9.5,-4.5 9.5,-41.5 84.5,-41.5 84.5,-4.5 9.5,-4.5"/>
 <polygon fill="none" stroke="black" points="9.5,-4.5 9.5,-41.5 84.5,-41.5 84.5,-4.5 9.5,-4.5"/>
 <text text-anchor="start" x="20.5" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">Launch</text>
 <polygon fill="none" stroke="black" points="8,-4 8,-43 85,-43 85,-4 8,-4"/>
+</a>
+</g>
 </g>
 <!-- ndJoin -->
 <g id="node2" class="node"><title>ndJoin</title>
+<g id="a_node2_1"><a xlink:href="https://github.com/maidsafe/sn_launch_tool/blob/master/src/lib.rs#:~:text=struct%20Join" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="120.5,-4.5 120.5,-41.5 173.5,-41.5 173.5,-4.5 120.5,-4.5"/>
 <polygon fill="none" stroke="black" points="120.5,-4.5 120.5,-41.5 173.5,-41.5 173.5,-4.5 120.5,-4.5"/>
 <text text-anchor="start" x="131.5" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">Join</text>
 <polygon fill="none" stroke="black" points="119,-4 119,-43 174,-43 174,-4 119,-4"/>
+</a>
+</g>
 </g>
 <!-- ndCommonArgs -->
 <g id="node3" class="node"><title>ndCommonArgs</title>
+<g id="a_node3_2"><a xlink:href="https://github.com/maidsafe/sn_launch_tool/blob/master/src/lib.rs#:~:text=struct%20CommonArgs" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="84.5,-87.5 84.5,-124.5 203.5,-124.5 203.5,-87.5 84.5,-87.5"/>
 <polygon fill="none" stroke="black" points="84.5,-87.5 84.5,-124.5 203.5,-124.5 203.5,-87.5 84.5,-87.5"/>
 <text text-anchor="start" x="95.5" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">CommonArgs</text>
 <polygon fill="none" stroke="black" points="83,-87 83,-126 204,-126 204,-87 83,-87"/>
+</a>
+</g>
 </g>
 <!-- ndCommonArgs&#45;&gt;ndLaunch -->
 <g id="edge1" class="edge"><title>ndCommonArgs&#45;&gt;ndLaunch</title>
@@ -42,10 +51,13 @@
 </g>
 <!-- ndNodeCmd -->
 <g id="node4" class="node"><title>ndNodeCmd</title>
+<g id="a_node4_3"><a xlink:href="https://github.com/maidsafe/sn_launch_tool/blob/master/src/cmd.rs#:~:text=struct%20NodeCmd" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="49.5,-170.5 49.5,-207.5 140.5,-207.5 140.5,-170.5 49.5,-170.5"/>
 <polygon fill="none" stroke="black" points="49.5,-170.5 49.5,-207.5 140.5,-207.5 140.5,-170.5 49.5,-170.5"/>
 <text text-anchor="start" x="60.5" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">NodeCmd</text>
 <polygon fill="none" stroke="black" points="48,-170 48,-209 141,-209 141,-170 48,-170"/>
+</a>
+</g>
 </g>
 <!-- ndNodeCmd&#45;&gt;ndLaunch -->
 <g id="edge3" class="edge"><title>ndNodeCmd&#45;&gt;ndLaunch</title>

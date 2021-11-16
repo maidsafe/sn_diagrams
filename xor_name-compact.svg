@@ -11,6 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-238 339.5,-238 339.5,4 -4,4"/>
 <!-- ndPrefix -->
 <g id="node1" class="node"><title>ndPrefix</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/xor_name/blob/master/src/prefix.rs#:~:text=struct%20Prefix" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="13,-191.5 13,-228.5 147,-228.5 147,-191.5 13,-191.5"/>
 <polygon fill="none" stroke="black" points="13,-191.5 13,-228.5 147,-228.5 147,-191.5 13,-191.5"/>
 <text text-anchor="start" x="59.5" y="-207.3" font-family="Arial" font-weight="bold" font-size="14.00">Prefix</text>
@@ -19,9 +20,12 @@
 <text text-anchor="start" x="24" y="-169.3" font-family="Arial" font-size="14.00">&#45; bit_count: u16</text>
 <text text-anchor="start" x="24" y="-154.3" font-family="Arial" font-size="14.00">&#45; name: XorName</text>
 <polygon fill="none" stroke="black" points="12,-139 12,-230 148,-230 148,-139 12,-139"/>
+</a>
+</g>
 </g>
 <!-- ndAncestors -->
 <g id="node3" class="node"><title>ndAncestors</title>
+<g id="a_node3_1"><a xlink:href="https://github.com/maidsafe/xor_name/blob/master/src/prefix.rs#:~:text=struct%20Ancestors" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9,-56.5 9,-93.5 151,-93.5 151,-56.5 9,-56.5"/>
 <polygon fill="none" stroke="black" points="9,-56.5 9,-93.5 151,-93.5 151,-56.5 9,-56.5"/>
 <text text-anchor="start" x="44" y="-72.3" font-family="Arial" font-weight="bold" font-size="14.00">Ancestors</text>
@@ -30,6 +34,8 @@
 <text text-anchor="start" x="20" y="-34.3" font-family="Arial" font-size="14.00">&#45; target: Prefix</text>
 <text text-anchor="start" x="20" y="-19.3" font-family="Arial" font-size="14.00">&#45; current_len: usize</text>
 <polygon fill="none" stroke="black" points="8,-4 8,-95 152,-95 152,-4 8,-4"/>
+</a>
+</g>
 </g>
 <!-- ndPrefix&#45;&gt;ndAncestors -->
 <g id="edge1" class="edge"><title>ndPrefix&#45;&gt;ndAncestors</title>
@@ -38,6 +44,7 @@
 </g>
 <!-- ndFromStrError -->
 <g id="node2" class="node"><title>ndFromStrError</title>
+<g id="a_node2_2"><a xlink:href="https://github.com/maidsafe/xor_name/blob/master/src/prefix.rs#:~:text=struct%20FromStrError" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="184,-184.5 184,-221.5 327,-221.5 327,-184.5 184,-184.5"/>
 <polygon fill="none" stroke="black" points="184,-184.5 184,-221.5 327,-221.5 327,-184.5 184,-184.5"/>
 <text text-anchor="start" x="208.5" y="-200.3" font-family="Arial" font-weight="bold" font-size="14.00">FromStrError</text>
@@ -45,6 +52,8 @@
 <polygon fill="none" stroke="black" points="184,-147.5 184,-184.5 327,-184.5 327,-147.5 184,-147.5"/>
 <text text-anchor="start" x="195" y="-162.3" font-family="Arial" font-size="14.00">+ invalid_char: char</text>
 <polygon fill="none" stroke="black" points="182.5,-146.5 182.5,-222.5 327.5,-222.5 327.5,-146.5 182.5,-146.5"/>
+</a>
+</g>
 </g>
 </g>
 </svg>

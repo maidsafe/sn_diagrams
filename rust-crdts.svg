@@ -11,6 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-1650 6697.5,-1650 6697.5,4 -4,4"/>
 <!-- ndVal -->
 <g id="node1" class="node"><title>ndVal</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/map.rs#:~:text=trait%20Val" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="1022.5,-1513 1022.5,-1550 1066.5,-1550 1066.5,-1513 1022.5,-1513"/>
 <polygon fill="none" stroke="black" points="1022.5,-1513 1022.5,-1550 1066.5,-1550 1066.5,-1513 1022.5,-1513"/>
 <text text-anchor="start" x="1033.5" y="-1528.8" font-family="Arial" font-weight="bold" font-size="14.00">Val</text>
@@ -19,9 +20,12 @@
 <polygon fill="white" stroke="none" points="1022.5,-1437 1022.5,-1475 1066.5,-1475 1066.5,-1437 1022.5,-1437"/>
 <polygon fill="none" stroke="black" points="1022.5,-1437 1022.5,-1475 1066.5,-1475 1066.5,-1437 1022.5,-1437"/>
 <polygon fill="none" stroke="black" points="1021.5,-1436.5 1021.5,-1551.5 1067.5,-1551.5 1067.5,-1436.5 1021.5,-1436.5"/>
+</a>
+</g>
 </g>
 <!-- ndMap -->
 <g id="node2" class="node"><title>ndMap</title>
+<g id="a_node2_1"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/map.rs#:~:text=struct%20Map" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="2845.5,-852 2845.5,-889 3180.5,-889 3180.5,-852 2845.5,-852"/>
 <polygon fill="none" stroke="black" points="2845.5,-852 2845.5,-889 3180.5,-889 3180.5,-852 2845.5,-852"/>
 <text text-anchor="start" x="2997.5" y="-867.8" font-family="Arial" font-weight="bold" font-size="14.00">Map</text>
@@ -31,9 +35,12 @@
 <text text-anchor="start" x="2856.5" y="-814.8" font-family="Arial" font-size="14.00">&#45; entries: BTreeMap&lt;K, Entry&lt;V, A&gt;&gt;</text>
 <text text-anchor="start" x="2856.5" y="-799.8" font-family="Arial" font-size="14.00">&#45; deferred: HashMap&lt;VClock&lt;A&gt;, BTreeSet&lt;K&gt;&gt;</text>
 <polygon fill="none" stroke="black" points="2844,-784 2844,-890 3181,-890 3181,-784 2844,-784"/>
+</a>
+</g>
 </g>
 <!-- ndEntry -->
 <g id="node3" class="node"><title>ndEntry</title>
+<g id="a_node3_2"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/map.rs#:~:text=struct%20Entry" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="3216.5,-844 3216.5,-881 3359.5,-881 3359.5,-844 3216.5,-844"/>
 <polygon fill="none" stroke="black" points="3216.5,-844 3216.5,-881 3359.5,-881 3359.5,-844 3216.5,-844"/>
 <text text-anchor="start" x="3269" y="-859.8" font-family="Arial" font-weight="bold" font-size="14.00">Entry</text>
@@ -42,9 +49,12 @@
 <text text-anchor="start" x="3227.5" y="-821.8" font-family="Arial" font-size="14.00">&#45; clock: VClock&lt;A&gt;</text>
 <text text-anchor="start" x="3227.5" y="-806.8" font-family="Arial" font-size="14.00">&#45; val: V</text>
 <polygon fill="none" stroke="black" points="3215,-791.5 3215,-882.5 3360,-882.5 3360,-791.5 3215,-791.5"/>
+</a>
+</g>
 </g>
 <!-- ndOp -->
 <g id="node4" class="node"><title>ndOp</title>
+<g id="a_node4_3"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/orswot.rs#:~:text=enum%20Op" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1407.5,-702 1407.5,-739 1834.5,-739 1834.5,-702 1407.5,-702"/>
 <polygon fill="none" stroke="black" points="1407.5,-702 1407.5,-739 1834.5,-739 1834.5,-702 1407.5,-702"/>
 <text text-anchor="start" x="1610.5" y="-717.8" font-family="Arial" font-weight="bold" font-size="14.00">Op</text>
@@ -58,6 +68,8 @@
 <text text-anchor="start" x="1418.5" y="-612.8" font-family="Arial" font-size="14.00">&#45; validate_op(&amp;self, op: &amp;Self::Op) &#45;&gt; Result&lt;(), Self::Validation&gt;</text>
 <text text-anchor="start" x="1418.5" y="-597.8" font-family="Arial" font-size="14.00">&#45; apply(&amp;mut self, op: Self::Op)</text>
 <polygon fill="none" stroke="black" points="1406,-582 1406,-740 1835,-740 1835,-582 1406,-582"/>
+</a>
+</g>
 </g>
 <!-- ndOp&#45;&gt;ndOp -->
 <g id="edge6" class="edge"><title>ndOp&#45;&gt;ndOp</title>
@@ -131,6 +143,7 @@
 </g>
 <!-- ndCvRDTValidation -->
 <g id="node6" class="node"><title>ndCvRDTValidation</title>
+<g id="a_node6_4"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/map.rs#:~:text=enum%20CvRDTValidation" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1510.5,-492.5 1510.5,-529.5 2008.5,-529.5 2008.5,-492.5 1510.5,-492.5"/>
 <polygon fill="none" stroke="black" points="1510.5,-492.5 1510.5,-529.5 2008.5,-529.5 2008.5,-492.5 1510.5,-492.5"/>
 <text text-anchor="start" x="1700.5" y="-508.3" font-family="Arial" font-weight="bold" font-size="14.00">CvRDTValidation</text>
@@ -158,6 +171,8 @@
 <text text-anchor="start" x="1521.5" y="-176.5" font-family="Arial" font-size="14.00">&#45; values(&amp;self) &#45;&gt; impl Iterator&lt;Item = ReadCtx&lt;&amp;V, A&gt;&gt;</text>
 <text text-anchor="start" x="1521.5" y="-161.5" font-family="Arial" font-size="14.00">&#45; iter(&amp;self) &#45;&gt; impl Iterator&lt;Item = ReadCtx&lt;(&amp;K, &amp;V), A&gt;&gt;</text>
 <polygon fill="none" stroke="black" points="1509.5,-146.5 1509.5,-530.5 2009.5,-530.5 2009.5,-146.5 1509.5,-146.5"/>
+</a>
+</g>
 </g>
 <!-- ndOp&#45;&gt;ndCvRDTValidation -->
 <g id="edge1" class="edge"><title>ndOp&#45;&gt;ndCvRDTValidation</title>
@@ -191,6 +206,7 @@
 </g>
 <!-- ndValidationError -->
 <g id="node17" class="node"><title>ndValidationError</title>
+<g id="a_node17_5"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/merkle_reg.rs#:~:text=enum%20ValidationError" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="9.5,-394.5 9.5,-431.5 436.5,-431.5 436.5,-394.5 9.5,-394.5"/>
 <polygon fill="none" stroke="black" points="9.5,-394.5 9.5,-431.5 436.5,-431.5 436.5,-394.5 9.5,-394.5"/>
 <text text-anchor="start" x="170" y="-410.3" font-family="Arial" font-weight="bold" font-size="14.00">ValidationError</text>
@@ -205,6 +221,8 @@
 <text text-anchor="start" x="20.5" y="-273.5" font-family="Arial" font-size="14.00">&#45; validate_merge(&amp;self, _: &amp;Self) &#45;&gt; Result&lt;(), Self::Validation&gt;</text>
 <text text-anchor="start" x="20.5" y="-258.5" font-family="Arial" font-size="14.00">&#45; merge(&amp;mut self, other: Self)</text>
 <polygon fill="none" stroke="black" points="8,-244 8,-433 437,-433 437,-244 8,-244"/>
+</a>
+</g>
 </g>
 <!-- ndOp&#45;&gt;ndValidationError -->
 <g id="edge2" class="edge"><title>ndOp&#45;&gt;ndValidationError</title>
@@ -238,6 +256,7 @@
 </g>
 <!-- ndGSet -->
 <g id="node19" class="node"><title>ndGSet</title>
+<g id="a_node19_6"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/gset.rs#:~:text=struct%20GSet" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="472.5,-424.5 472.5,-461.5 921.5,-461.5 921.5,-424.5 472.5,-424.5"/>
 <polygon fill="none" stroke="black" points="472.5,-424.5 472.5,-461.5 921.5,-461.5 921.5,-424.5 472.5,-424.5"/>
 <text text-anchor="start" x="680" y="-440.3" font-family="Arial" font-weight="bold" font-size="14.00">GSet</text>
@@ -257,6 +276,8 @@
 <text text-anchor="start" x="483.5" y="-245.3" font-family="Arial" font-size="14.00">&#45; contains(&amp;self, element: &amp;T) &#45;&gt; bool</text>
 <text text-anchor="start" x="483.5" y="-230.3" font-family="Arial" font-size="14.00">&#45; read(&amp;self) &#45;&gt; BTreeSet&lt;T&gt;</text>
 <polygon fill="none" stroke="black" points="471,-214.5 471,-462.5 922,-462.5 922,-214.5 471,-214.5"/>
+</a>
+</g>
 </g>
 <!-- ndOp&#45;&gt;ndGSet -->
 <g id="edge3" class="edge"><title>ndOp&#45;&gt;ndGSet</title>
@@ -290,6 +311,7 @@
 </g>
 <!-- ndGCounter -->
 <g id="node20" class="node"><title>ndGCounter</title>
+<g id="a_node20_7"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/gcounter.rs#:~:text=struct%20GCounter" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="2539.5,-424.5 2539.5,-461.5 2988.5,-461.5 2988.5,-424.5 2539.5,-424.5"/>
 <polygon fill="none" stroke="black" points="2539.5,-424.5 2539.5,-461.5 2988.5,-461.5 2988.5,-424.5 2539.5,-424.5"/>
 <text text-anchor="start" x="2730" y="-440.3" font-family="Arial" font-weight="bold" font-size="14.00">GCounter</text>
@@ -309,6 +331,8 @@
 <text text-anchor="start" x="2550.5" y="-245.3" font-family="Arial" font-size="14.00">&#45; inc_many(&amp;self, actor: A, steps: u64) &#45;&gt; Dot&lt;A&gt;</text>
 <text text-anchor="start" x="2550.5" y="-230.3" font-family="Arial" font-size="14.00">&#45; read(&amp;self) &#45;&gt; BigUint</text>
 <polygon fill="none" stroke="black" points="2538,-214.5 2538,-462.5 2989,-462.5 2989,-214.5 2538,-214.5"/>
+</a>
+</g>
 </g>
 <!-- ndOp&#45;&gt;ndGCounter -->
 <g id="edge4" class="edge"><title>ndOp&#45;&gt;ndGCounter</title>
@@ -342,6 +366,7 @@
 </g>
 <!-- ndValidation -->
 <g id="node25" class="node"><title>ndValidation</title>
+<g id="a_node25_8"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/orswot.rs#:~:text=enum%20Validation" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2044.5,-499.5 2044.5,-536.5 2484.5,-536.5 2484.5,-499.5 2044.5,-499.5"/>
 <polygon fill="none" stroke="black" points="2044.5,-499.5 2044.5,-536.5 2484.5,-536.5 2484.5,-499.5 2044.5,-499.5"/>
 <text text-anchor="start" x="2230" y="-515.3" font-family="Arial" font-weight="bold" font-size="14.00">Validation</text>
@@ -370,6 +395,8 @@
 <text text-anchor="start" x="2055.5" y="-168.5" font-family="Arial" font-size="14.00">&#45; shrink(&amp;self) &#45;&gt; Box&lt;dyn Iterator&lt;Item = Self&gt;&gt;</text>
 <text text-anchor="start" x="2055.5" y="-153.5" font-family="Arial" font-size="14.00">&#45; fmt(&amp;self, f: &amp;mut std::fmt::Formatter&lt;&#39;_&gt;) &#45;&gt; std::fmt::Result</text>
 <polygon fill="none" stroke="black" points="2043.5,-139 2043.5,-538 2485.5,-538 2485.5,-139 2043.5,-139"/>
+</a>
+</g>
 </g>
 <!-- ndOp&#45;&gt;ndValidation -->
 <g id="edge5" class="edge"><title>ndOp&#45;&gt;ndValidation</title>
@@ -433,6 +460,7 @@
 </g>
 <!-- ndGList -->
 <g id="node30" class="node"><title>ndGList</title>
+<g id="a_node30_9"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/glist.rs#:~:text=struct%20GList" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="957.5,-484.5 957.5,-521.5 1474.5,-521.5 1474.5,-484.5 957.5,-484.5"/>
 <polygon fill="none" stroke="black" points="957.5,-484.5 957.5,-521.5 1474.5,-521.5 1474.5,-484.5 957.5,-484.5"/>
 <text text-anchor="start" x="1197.5" y="-500.3" font-family="Arial" font-weight="bold" font-size="14.00">GList</text>
@@ -460,6 +488,8 @@
 <text text-anchor="start" x="968.5" y="-185.3" font-family="Arial" font-size="14.00">&#45; merge(&amp;mut self, other: Self)</text>
 <text text-anchor="start" x="968.5" y="-170.3" font-family="Arial" font-size="14.00">&#45; arbitrary(g: &amp;mut G) &#45;&gt; Self</text>
 <polygon fill="none" stroke="black" points="956,-154.5 956,-522.5 1475,-522.5 1475,-154.5 956,-154.5"/>
+</a>
+</g>
 </g>
 <!-- ndOp&#45;&gt;ndGList -->
 <g id="edge7" class="edge"><title>ndOp&#45;&gt;ndGList</title>
@@ -493,6 +523,7 @@
 </g>
 <!-- ndVClock -->
 <g id="node32" class="node"><title>ndVClock</title>
+<g id="a_node32_10"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/vclock.rs#:~:text=struct%20VClock" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="2162.5,-1264 2162.5,-1301 2611.5,-1301 2611.5,-1264 2162.5,-1264"/>
 <polygon fill="none" stroke="black" points="2162.5,-1264 2162.5,-1301 2611.5,-1301 2611.5,-1264 2162.5,-1264"/>
 <text text-anchor="start" x="2362" y="-1279.8" font-family="Arial" font-weight="bold" font-size="14.00">VClock</text>
@@ -520,6 +551,8 @@
 <text text-anchor="start" x="2173.5" y="-964.8" font-family="Arial" font-size="14.00">&#45; glb(&amp;mut self, other: &amp;Self)</text>
 <text text-anchor="start" x="2173.5" y="-949.8" font-family="Arial" font-size="14.00">&#45; iter(&amp;self) &#45;&gt; impl Iterator&lt;Item = Dot&lt;&amp;A&gt;&gt;</text>
 <polygon fill="none" stroke="black" points="2161,-934 2161,-1302 2612,-1302 2612,-934 2161,-934"/>
+</a>
+</g>
 </g>
 <!-- ndOp&#45;&gt;ndVClock -->
 <g id="edge9" class="edge"><title>ndOp&#45;&gt;ndVClock</title>
@@ -553,6 +586,7 @@
 </g>
 <!-- ndCmRDTValidation -->
 <g id="node5" class="node"><title>ndCmRDTValidation</title>
+<g id="a_node5_11"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/map.rs#:~:text=enum%20CmRDTValidation" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="4152.5,-1528 4152.5,-1565 4507.5,-1565 4507.5,-1528 4152.5,-1528"/>
 <polygon fill="none" stroke="black" points="4152.5,-1528 4152.5,-1565 4507.5,-1565 4507.5,-1528 4152.5,-1528"/>
 <text text-anchor="start" x="4269" y="-1543.8" font-family="Arial" font-weight="bold" font-size="14.00">CmRDTValidation</text>
@@ -564,9 +598,12 @@
 <polygon fill="none" stroke="black" points="4152.5,-1423 4152.5,-1476 4507.5,-1476 4507.5,-1423 4152.5,-1423"/>
 <text text-anchor="start" x="4163.5" y="-1453.8" font-family="Arial" font-size="14.00">&#45; fmt(&amp;self, f: &amp;mut fmt::Formatter&lt;&#39;_&gt;) &#45;&gt; fmt::Result</text>
 <polygon fill="none" stroke="black" points="4151,-1422 4151,-1566 4508,-1566 4508,-1422 4151,-1422"/>
+</a>
+</g>
 </g>
 <!-- ndActor -->
 <g id="node7" class="node"><title>ndActor</title>
+<g id="a_node7_12"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/traits.rs#:~:text=trait%20Actor" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="4543.5,-1513 4543.5,-1550 4603.5,-1550 4603.5,-1513 4543.5,-1513"/>
 <polygon fill="none" stroke="black" points="4543.5,-1513 4543.5,-1550 4603.5,-1550 4603.5,-1513 4543.5,-1513"/>
 <text text-anchor="start" x="4554.5" y="-1528.8" font-family="Arial" font-weight="bold" font-size="14.00">Actor</text>
@@ -575,9 +612,12 @@
 <polygon fill="white" stroke="none" points="4543.5,-1437 4543.5,-1475 4603.5,-1475 4603.5,-1437 4543.5,-1437"/>
 <polygon fill="none" stroke="black" points="4543.5,-1437 4543.5,-1475 4603.5,-1475 4603.5,-1437 4543.5,-1437"/>
 <polygon fill="none" stroke="black" points="4542.5,-1436.5 4542.5,-1551.5 4604.5,-1551.5 4604.5,-1436.5 4542.5,-1436.5"/>
+</a>
+</g>
 </g>
 <!-- ndCvRDT -->
 <g id="node8" class="node"><title>ndCvRDT</title>
+<g id="a_node8_13"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/traits.rs#:~:text=trait%20CvRDT" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="1536.5,-1494 1536.5,-1531 1931.5,-1531 1931.5,-1494 1536.5,-1494"/>
 <polygon fill="none" stroke="black" points="1536.5,-1494 1536.5,-1531 1931.5,-1531 1931.5,-1494 1536.5,-1494"/>
 <text text-anchor="start" x="1709.5" y="-1509.8" font-family="Arial" font-weight="bold" font-size="14.00">CvRDT</text>
@@ -585,6 +625,8 @@
 <polygon fill="none" stroke="black" points="1536.5,-1457 1536.5,-1494 1931.5,-1494 1931.5,-1457 1536.5,-1457"/>
 <text text-anchor="start" x="1547.5" y="-1471.8" font-family="Arial" font-size="14.00">validate_merge(&amp;Self, &amp;Self) &#45;&gt; Result&lt;(), Self::Validation&gt;</text>
 <polygon fill="none" stroke="black" points="1535,-1456 1535,-1532 1932,-1532 1932,-1456 1535,-1456"/>
+</a>
+</g>
 </g>
 <!-- ndCvRDT&#45;&gt;ndOp -->
 <g id="edge19" class="edge"><title>ndCvRDT&#45;&gt;ndOp</title>
@@ -638,6 +680,7 @@
 </g>
 <!-- ndCmRDT -->
 <g id="node9" class="node"><title>ndCmRDT</title>
+<g id="a_node9_14"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/traits.rs#:~:text=trait%20CmRDT" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="1103.5,-1494 1103.5,-1531 1500.5,-1531 1500.5,-1494 1103.5,-1494"/>
 <polygon fill="none" stroke="black" points="1103.5,-1494 1103.5,-1531 1500.5,-1531 1500.5,-1494 1103.5,-1494"/>
 <text text-anchor="start" x="1275" y="-1509.8" font-family="Arial" font-weight="bold" font-size="14.00">CmRDT</text>
@@ -645,6 +688,8 @@
 <polygon fill="none" stroke="black" points="1103.5,-1457 1103.5,-1494 1500.5,-1494 1500.5,-1457 1103.5,-1457"/>
 <text text-anchor="start" x="1114.5" y="-1471.8" font-family="Arial" font-size="14.00">validate_op(&amp;Self, &amp;Self::Op) &#45;&gt; Result&lt;(), Self::Validation&gt;</text>
 <polygon fill="none" stroke="black" points="1102,-1456 1102,-1532 1501,-1532 1501,-1456 1102,-1456"/>
+</a>
+</g>
 </g>
 <!-- ndCmRDT&#45;&gt;ndOp -->
 <g id="edge28" class="edge"><title>ndCmRDT&#45;&gt;ndOp</title>
@@ -703,12 +748,15 @@
 </g>
 <!-- ndResetRemove -->
 <g id="node10" class="node"><title>ndResetRemove</title>
+<g id="a_node10_15"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/traits.rs#:~:text=trait%20ResetRemove" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="2147.5,-1494 2147.5,-1531 2265.5,-1531 2265.5,-1494 2147.5,-1494"/>
 <polygon fill="none" stroke="black" points="2147.5,-1494 2147.5,-1531 2265.5,-1531 2265.5,-1494 2147.5,-1494"/>
 <text text-anchor="start" x="2158.5" y="-1509.8" font-family="Arial" font-weight="bold" font-size="14.00">ResetRemove</text>
 <polygon fill="white" stroke="none" points="2147.5,-1456 2147.5,-1494 2265.5,-1494 2265.5,-1456 2147.5,-1456"/>
 <polygon fill="none" stroke="black" points="2147.5,-1456 2147.5,-1494 2265.5,-1494 2265.5,-1456 2147.5,-1456"/>
 <polygon fill="none" stroke="black" points="2146.5,-1455.5 2146.5,-1532.5 2266.5,-1532.5 2266.5,-1455.5 2146.5,-1455.5"/>
+</a>
+</g>
 </g>
 <!-- ndResetRemove&#45;&gt;ndOp -->
 <g id="edge34" class="edge"><title>ndResetRemove&#45;&gt;ndOp</title>
@@ -742,6 +790,7 @@
 </g>
 <!-- ndReadCtx -->
 <g id="node11" class="node"><title>ndReadCtx</title>
+<g id="a_node11_16"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/ctx.rs#:~:text=struct%20ReadCtx" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="2263.5,-852 2263.5,-889 2442.5,-889 2442.5,-852 2263.5,-852"/>
 <polygon fill="none" stroke="black" points="2263.5,-852 2263.5,-889 2442.5,-889 2442.5,-852 2263.5,-852"/>
 <text text-anchor="start" x="2323.5" y="-867.8" font-family="Arial" font-weight="bold" font-size="14.00">ReadCtx</text>
@@ -751,6 +800,8 @@
 <text text-anchor="start" x="2274.5" y="-814.8" font-family="Arial" font-size="14.00">+ rm_clock: VClock&lt;A&gt;</text>
 <text text-anchor="start" x="2274.5" y="-799.8" font-family="Arial" font-size="14.00">+ val: V</text>
 <polygon fill="none" stroke="black" points="2262,-784 2262,-890 2443,-890 2443,-784 2262,-784"/>
+</a>
+</g>
 </g>
 <!-- ndReadCtx&#45;&gt;ndOp -->
 <g id="edge42" class="edge"><title>ndReadCtx&#45;&gt;ndOp</title>
@@ -764,6 +815,7 @@
 </g>
 <!-- ndRmCtx -->
 <g id="node13" class="node"><title>ndRmCtx</title>
+<g id="a_node13_17"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/ctx.rs#:~:text=struct%20RmCtx" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="3520.5,-694 3520.5,-731 3829.5,-731 3829.5,-694 3520.5,-694"/>
 <polygon fill="none" stroke="black" points="3520.5,-694 3520.5,-731 3829.5,-731 3829.5,-694 3520.5,-694"/>
 <text text-anchor="start" x="3652" y="-709.8" font-family="Arial" font-weight="bold" font-size="14.00">RmCtx</text>
@@ -776,6 +828,8 @@
 <text text-anchor="start" x="3531.5" y="-619.8" font-family="Arial" font-size="14.00">&#45; derive_rm_ctx(self) &#45;&gt; RmCtx&lt;A&gt;</text>
 <text text-anchor="start" x="3531.5" y="-604.8" font-family="Arial" font-size="14.00">&#45; split(self) &#45;&gt; (V, ReadCtx&lt;(), A&gt;)</text>
 <polygon fill="none" stroke="black" points="3519,-589.5 3519,-732.5 3830,-732.5 3830,-589.5 3519,-589.5"/>
+</a>
+</g>
 </g>
 <!-- ndReadCtx&#45;&gt;ndRmCtx -->
 <g id="edge41" class="edge"><title>ndReadCtx&#45;&gt;ndRmCtx</title>
@@ -789,6 +843,7 @@
 </g>
 <!-- ndAddCtx -->
 <g id="node12" class="node"><title>ndAddCtx</title>
+<g id="a_node12_18"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/ctx.rs#:~:text=struct%20AddCtx" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="3712.5,-844 3712.5,-881 3859.5,-881 3859.5,-844 3712.5,-844"/>
 <polygon fill="none" stroke="black" points="3712.5,-844 3712.5,-881 3859.5,-881 3859.5,-844 3712.5,-844"/>
 <text text-anchor="start" x="3760" y="-859.8" font-family="Arial" font-weight="bold" font-size="14.00">AddCtx</text>
@@ -797,6 +852,8 @@
 <text text-anchor="start" x="3723.5" y="-821.8" font-family="Arial" font-size="14.00">+ clock: VClock&lt;A&gt;</text>
 <text text-anchor="start" x="3723.5" y="-806.8" font-family="Arial" font-size="14.00">+ dot: Dot&lt;A&gt;</text>
 <polygon fill="none" stroke="black" points="3711,-791.5 3711,-882.5 3860,-882.5 3860,-791.5 3711,-791.5"/>
+</a>
+</g>
 </g>
 <!-- ndAddCtx&#45;&gt;ndRmCtx -->
 <g id="edge44" class="edge"><title>ndAddCtx&#45;&gt;ndRmCtx</title>
@@ -805,6 +862,7 @@
 </g>
 <!-- ndNode -->
 <g id="node14" class="node"><title>ndNode</title>
+<g id="a_node14_19"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/merkle_reg.rs#:~:text=struct%20Node" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4640.5,-1520 4640.5,-1557 4841.5,-1557 4841.5,-1520 4640.5,-1520"/>
 <polygon fill="none" stroke="black" points="4640.5,-1520 4640.5,-1557 4841.5,-1557 4841.5,-1520 4640.5,-1520"/>
 <text text-anchor="start" x="4722.5" y="-1535.8" font-family="Arial" font-weight="bold" font-size="14.00">Node</text>
@@ -816,9 +874,12 @@
 <polygon fill="none" stroke="black" points="4640.5,-1431 4640.5,-1468 4841.5,-1468 4841.5,-1431 4640.5,-1431"/>
 <text text-anchor="start" x="4651.5" y="-1445.8" font-family="Arial" font-size="14.00">&#45; hash(&amp;self) &#45;&gt; Hash</text>
 <polygon fill="none" stroke="black" points="4639,-1430 4639,-1558 4842,-1558 4842,-1430 4639,-1430"/>
+</a>
+</g>
 </g>
 <!-- ndMerkleReg -->
 <g id="node16" class="node"><title>ndMerkleReg</title>
+<g id="a_node16_20"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/merkle_reg.rs#:~:text=struct%20MerkleReg" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4818.5,-1219 4818.5,-1256 5230.5,-1256 5230.5,-1219 4818.5,-1219"/>
 <polygon fill="none" stroke="black" points="4818.5,-1219 4818.5,-1256 5230.5,-1256 5230.5,-1219 4818.5,-1219"/>
 <text text-anchor="start" x="4987" y="-1234.8" font-family="Arial" font-weight="bold" font-size="14.00">MerkleReg</text>
@@ -840,6 +901,8 @@
 <text text-anchor="start" x="4829.5" y="-1009.8" font-family="Arial" font-size="14.00">&#45; num_orphans(&amp;self) &#45;&gt; usize</text>
 <text text-anchor="start" x="4829.5" y="-994.8" font-family="Arial" font-size="14.00">&#45; all_hashes_seen(&amp;self, hashes: &amp;BTreeSet&lt;Hash&gt;) &#45;&gt; bool</text>
 <polygon fill="none" stroke="black" points="4817.5,-979 4817.5,-1257 5231.5,-1257 5231.5,-979 4817.5,-979"/>
+</a>
+</g>
 </g>
 <!-- ndNode&#45;&gt;ndMerkleReg -->
 <g id="edge45" class="edge"><title>ndNode&#45;&gt;ndMerkleReg</title>
@@ -848,6 +911,7 @@
 </g>
 <!-- ndContent -->
 <g id="node15" class="node"><title>ndContent</title>
+<g id="a_node15_21"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/merkle_reg.rs#:~:text=struct%20Content" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4877.5,-1542 4877.5,-1579 5350.5,-1579 5350.5,-1542 4877.5,-1542"/>
 <polygon fill="none" stroke="black" points="4877.5,-1542 4877.5,-1579 5350.5,-1579 5350.5,-1542 4877.5,-1542"/>
 <text text-anchor="start" x="5086.5" y="-1557.8" font-family="Arial" font-weight="bold" font-size="14.00">Content</text>
@@ -862,6 +926,8 @@
 <text text-anchor="start" x="4888.5" y="-1437.8" font-family="Arial" font-size="14.00">&#45; hashes(&amp;self) &#45;&gt; BTreeSet&lt;Hash&gt;</text>
 <text text-anchor="start" x="4888.5" y="-1422.8" font-family="Arial" font-size="14.00">&#45; hashes_and_nodes(&amp;self) &#45;&gt; impl Iterator&lt;Item = (Hash, &amp;Node&lt;T&gt;)&gt;</text>
 <polygon fill="none" stroke="black" points="4876,-1407.5 4876,-1580.5 5351,-1580.5 5351,-1407.5 4876,-1407.5"/>
+</a>
+</g>
 </g>
 <!-- ndContent&#45;&gt;ndMerkleReg -->
 <g id="edge46" class="edge"><title>ndContent&#45;&gt;ndMerkleReg</title>
@@ -870,6 +936,7 @@
 </g>
 <!-- ndSha3Hash -->
 <g id="node18" class="node"><title>ndSha3Hash</title>
+<g id="a_node18_22"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/merkle_reg.rs#:~:text=trait%20Sha3Hash" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="5385.5,-1520 5385.5,-1557 5615.5,-1557 5615.5,-1520 5385.5,-1520"/>
 <polygon fill="none" stroke="black" points="5385.5,-1520 5385.5,-1557 5615.5,-1557 5615.5,-1520 5385.5,-1520"/>
 <text text-anchor="start" x="5465" y="-1535.8" font-family="Arial" font-weight="bold" font-size="14.00">Sha3Hash</text>
@@ -880,9 +947,12 @@
 <text text-anchor="start" x="5396.5" y="-1459.8" font-family="Arial" font-size="14.00">&#45; hash(&amp;self, hasher: &amp;mut Sha3)</text>
 <text text-anchor="start" x="5396.5" y="-1444.8" font-family="Arial" font-size="14.00">&#45; arbitrary(g: &amp;mut G) &#45;&gt; Self</text>
 <polygon fill="none" stroke="black" points="5384.5,-1429.5 5384.5,-1558.5 5616.5,-1558.5 5616.5,-1429.5 5384.5,-1429.5"/>
+</a>
+</g>
 </g>
 <!-- ndPNCounter -->
 <g id="node34" class="node"><title>ndPNCounter</title>
+<g id="a_node34_23"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/pncounter.rs#:~:text=struct%20PNCounter" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="2696.5,-56.5 2696.5,-93.5 2830.5,-93.5 2830.5,-56.5 2696.5,-56.5"/>
 <polygon fill="none" stroke="black" points="2696.5,-56.5 2696.5,-93.5 2830.5,-93.5 2830.5,-56.5 2696.5,-56.5"/>
 <text text-anchor="start" x="2725.5" y="-72.3" font-family="Arial" font-weight="bold" font-size="14.00">PNCounter</text>
@@ -891,6 +961,8 @@
 <text text-anchor="start" x="2707.5" y="-34.3" font-family="Arial" font-size="14.00">&#45; p: GCounter&lt;A&gt;</text>
 <text text-anchor="start" x="2707.5" y="-19.3" font-family="Arial" font-size="14.00">&#45; n: GCounter&lt;A&gt;</text>
 <polygon fill="none" stroke="black" points="2695.5,-4 2695.5,-95 2831.5,-95 2831.5,-4 2695.5,-4"/>
+</a>
+</g>
 </g>
 <!-- ndGCounter&#45;&gt;ndPNCounter -->
 <g id="edge47" class="edge"><title>ndGCounter&#45;&gt;ndPNCounter</title>
@@ -899,6 +971,7 @@
 </g>
 <!-- ndDot -->
 <g id="node21" class="node"><title>ndDot</title>
+<g id="a_node21_24"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/dot.rs#:~:text=struct%20Dot" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="3753.5,-1604 3753.5,-1641 4116.5,-1641 4116.5,-1604 3753.5,-1604"/>
 <polygon fill="none" stroke="black" points="3753.5,-1604 3753.5,-1641 4116.5,-1641 4116.5,-1604 3753.5,-1604"/>
 <text text-anchor="start" x="3922.5" y="-1619.8" font-family="Arial" font-weight="bold" font-size="14.00">Dot</text>
@@ -919,6 +992,8 @@
 <text text-anchor="start" x="3764.5" y="-1376.2" font-family="Arial" font-size="14.00">&#45; arbitrary(g: &amp;mut G) &#45;&gt; Self</text>
 <text text-anchor="start" x="3764.5" y="-1361.2" font-family="Arial" font-size="14.00">&#45; shrink(&amp;self) &#45;&gt; Box&lt;dyn Iterator&lt;Item = Self&gt;&gt;</text>
 <polygon fill="none" stroke="black" points="3752,-1346 3752,-1642 4117,-1642 4117,-1346 3752,-1346"/>
+</a>
+</g>
 </g>
 <!-- ndDot&#45;&gt;ndOp -->
 <g id="edge51" class="edge"><title>ndDot&#45;&gt;ndOp</title>
@@ -942,6 +1017,7 @@
 </g>
 <!-- ndCausalityBarrier -->
 <g id="node26" class="node"><title>ndCausalityBarrier</title>
+<g id="a_node26_25"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/vvwe.rs#:~:text=struct%20CausalityBarrier" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4047.5,-1125 4047.5,-1162 4289.5,-1162 4289.5,-1125 4047.5,-1125"/>
 <polygon fill="none" stroke="black" points="4047.5,-1125 4047.5,-1162 4289.5,-1162 4289.5,-1125 4047.5,-1125"/>
 <text text-anchor="start" x="4111.5" y="-1140.8" font-family="Arial" font-weight="bold" font-size="14.00">CausalityBarrier</text>
@@ -950,6 +1026,8 @@
 <text text-anchor="start" x="4058.5" y="-1102.8" font-family="Arial" font-size="14.00">&#45; peers: HashMap&lt;A, VectorEntry&gt;</text>
 <text text-anchor="start" x="4058.5" y="-1087.8" font-family="Arial" font-size="14.00">&#45; buffer: HashMap&lt;Dot&lt;A&gt;, T&gt;</text>
 <polygon fill="none" stroke="black" points="4046.5,-1072.5 4046.5,-1163.5 4290.5,-1163.5 4290.5,-1072.5 4046.5,-1072.5"/>
+</a>
+</g>
 </g>
 <!-- ndDot&#45;&gt;ndCausalityBarrier -->
 <g id="edge50" class="edge"><title>ndDot&#45;&gt;ndCausalityBarrier</title>
@@ -963,6 +1041,7 @@
 </g>
 <!-- ndIntoIter -->
 <g id="node33" class="node"><title>ndIntoIter</title>
+<g id="a_node33_26"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/vclock.rs#:~:text=struct%20IntoIter" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4363.5,-1174 4363.5,-1211 4692.5,-1211 4692.5,-1174 4363.5,-1174"/>
 <polygon fill="none" stroke="black" points="4363.5,-1174 4363.5,-1211 4692.5,-1211 4692.5,-1174 4363.5,-1174"/>
 <text text-anchor="start" x="4503.5" y="-1189.8" font-family="Arial" font-weight="bold" font-size="14.00">IntoIter</text>
@@ -978,6 +1057,8 @@
 <text text-anchor="start" x="4374.5" y="-1054.8" font-family="Arial" font-size="14.00">&#45; arbitrary(g: &amp;mut G) &#45;&gt; Self</text>
 <text text-anchor="start" x="4374.5" y="-1039.8" font-family="Arial" font-size="14.00">&#45; shrink(&amp;self) &#45;&gt; Box&lt;dyn Iterator&lt;Item = Self&gt;&gt;</text>
 <polygon fill="none" stroke="black" points="4362,-1024 4362,-1212 4693,-1212 4693,-1024 4362,-1024"/>
+</a>
+</g>
 </g>
 <!-- ndDot&#45;&gt;ndIntoIter -->
 <g id="edge53" class="edge"><title>ndDot&#45;&gt;ndIntoIter</title>
@@ -986,6 +1067,7 @@
 </g>
 <!-- ndOrdDot -->
 <g id="node22" class="node"><title>ndOrdDot</title>
+<g id="a_node22_27"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/dot.rs#:~:text=struct%20OrdDot" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1779.5,-1151 1779.5,-1188 2126.5,-1188 2126.5,-1151 1779.5,-1151"/>
 <polygon fill="none" stroke="black" points="1779.5,-1151 1779.5,-1188 2126.5,-1188 2126.5,-1151 1779.5,-1151"/>
 <text text-anchor="start" x="1927.5" y="-1166.8" font-family="Arial" font-weight="bold" font-size="14.00">OrdDot</text>
@@ -998,6 +1080,8 @@
 <text text-anchor="start" x="1790.5" y="-1076.8" font-family="Arial" font-size="14.00">&#45; from(OrdDot { actor, counter }: OrdDot&lt;A&gt;) &#45;&gt; Self</text>
 <text text-anchor="start" x="1790.5" y="-1061.8" font-family="Arial" font-size="14.00">&#45; from(Dot { actor, counter }: Dot&lt;A&gt;) &#45;&gt; Self</text>
 <polygon fill="none" stroke="black" points="1778,-1046.5 1778,-1189.5 2127,-1189.5 2127,-1046.5 1778,-1046.5"/>
+</a>
+</g>
 </g>
 <!-- ndOrdDot&#45;&gt;ndOp -->
 <g id="edge56" class="edge"><title>ndOrdDot&#45;&gt;ndOp</title>
@@ -1006,6 +1090,7 @@
 </g>
 <!-- ndList -->
 <g id="node29" class="node"><title>ndList</title>
+<g id="a_node29_28"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/list.rs#:~:text=struct%20List" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1792.5,-844 1792.5,-881 2098.5,-881 2098.5,-844 1792.5,-844"/>
 <polygon fill="none" stroke="black" points="1792.5,-844 1792.5,-881 2098.5,-881 2098.5,-844 1792.5,-844"/>
 <text text-anchor="start" x="1932.5" y="-859.8" font-family="Arial" font-weight="bold" font-size="14.00">List</text>
@@ -1014,6 +1099,8 @@
 <text text-anchor="start" x="1803.5" y="-821.8" font-family="Arial" font-size="14.00">&#45; seq: BTreeMap&lt;Identifier&lt;OrdDot&lt;A&gt;&gt;, T&gt;</text>
 <text text-anchor="start" x="1803.5" y="-806.8" font-family="Arial" font-size="14.00">&#45; clock: VClock&lt;A&gt;</text>
 <polygon fill="none" stroke="black" points="1791.5,-791.5 1791.5,-882.5 2099.5,-882.5 2099.5,-791.5 1791.5,-791.5"/>
+</a>
+</g>
 </g>
 <!-- ndOrdDot&#45;&gt;ndList -->
 <g id="edge55" class="edge"><title>ndOrdDot&#45;&gt;ndList</title>
@@ -1022,6 +1109,7 @@
 </g>
 <!-- ndDotRange -->
 <g id="node23" class="node"><title>ndDotRange</title>
+<g id="a_node23_29"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/dot.rs#:~:text=struct%20DotRange" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="5652.5,-1535 5652.5,-1572 6007.5,-1572 6007.5,-1535 5652.5,-1535"/>
 <polygon fill="none" stroke="black" points="5652.5,-1535 5652.5,-1572 6007.5,-1572 6007.5,-1535 5652.5,-1535"/>
 <text text-anchor="start" x="5795.5" y="-1550.8" font-family="Arial" font-weight="bold" font-size="14.00">DotRange</text>
@@ -1034,9 +1122,12 @@
 <text text-anchor="start" x="5663.5" y="-1460.8" font-family="Arial" font-size="14.00">&#45; fmt(&amp;self, f: &amp;mut fmt::Formatter&lt;&#39;_&gt;) &#45;&gt; fmt::Result</text>
 <text text-anchor="start" x="5663.5" y="-1445.8" font-family="Arial" font-size="14.00">&#45; fmt(&amp;self, f: &amp;mut fmt::Formatter&lt;&#39;_&gt;) &#45;&gt; fmt::Result</text>
 <polygon fill="none" stroke="black" points="5651,-1414.5 5651,-1573.5 6008,-1573.5 6008,-1414.5 5651,-1414.5"/>
+</a>
+</g>
 </g>
 <!-- ndLWWReg -->
 <g id="node24" class="node"><title>ndLWWReg</title>
+<g id="a_node24_30"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/lwwreg.rs#:~:text=struct%20LWWReg" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="6043.5,-1520 6043.5,-1557 6171.5,-1557 6171.5,-1520 6043.5,-1520"/>
 <polygon fill="none" stroke="black" points="6043.5,-1520 6043.5,-1557 6171.5,-1557 6171.5,-1520 6043.5,-1520"/>
 <text text-anchor="start" x="6077" y="-1535.8" font-family="Arial" font-weight="bold" font-size="14.00">LWWReg</text>
@@ -1048,6 +1139,8 @@
 <polygon fill="none" stroke="black" points="6043.5,-1431 6043.5,-1468 6171.5,-1468 6171.5,-1431 6043.5,-1431"/>
 <text text-anchor="start" x="6054.5" y="-1445.8" font-family="Arial" font-size="14.00">&#45; default() &#45;&gt; Self</text>
 <polygon fill="none" stroke="black" points="6042.5,-1430 6042.5,-1558 6172.5,-1558 6172.5,-1430 6042.5,-1430"/>
+</a>
+</g>
 </g>
 <!-- ndValidation&#45;&gt;ndValidation -->
 <g id="edge119" class="edge"><title>ndValidation&#45;&gt;ndValidation</title>
@@ -1056,6 +1149,7 @@
 </g>
 <!-- ndVectorEntry -->
 <g id="node27" class="node"><title>ndVectorEntry</title>
+<g id="a_node27_31"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/vvwe.rs#:~:text=struct%20VectorEntry" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="6207.5,-1550 6207.5,-1587 6567.5,-1587 6567.5,-1550 6207.5,-1550"/>
 <polygon fill="none" stroke="black" points="6207.5,-1550 6207.5,-1587 6567.5,-1587 6567.5,-1550 6207.5,-1550"/>
 <text text-anchor="start" x="6346" y="-1565.8" font-family="Arial" font-weight="bold" font-size="14.00">VectorEntry</text>
@@ -1071,9 +1165,12 @@
 <text text-anchor="start" x="6218.5" y="-1430.8" font-family="Arial" font-size="14.00">&#45; diff_from(&amp;self, other: &amp;Self) &#45;&gt; HashSet&lt;LogTime&gt;</text>
 <text text-anchor="start" x="6218.5" y="-1415.8" font-family="Arial" font-size="14.00">&#45; no_exceptions(&amp;self, clk: LogTime) &#45;&gt; bool</text>
 <polygon fill="none" stroke="black" points="6206.5,-1400 6206.5,-1588 6568.5,-1588 6568.5,-1400 6206.5,-1400"/>
+</a>
+</g>
 </g>
 <!-- ndCausalOp -->
 <g id="node28" class="node"><title>ndCausalOp</title>
+<g id="a_node28_32"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/vvwe.rs#:~:text=trait%20CausalOp" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="6090.5,-1189 6090.5,-1226 6684.5,-1226 6684.5,-1189 6090.5,-1189"/>
 <polygon fill="none" stroke="black" points="6090.5,-1189 6090.5,-1226 6684.5,-1226 6684.5,-1189 6090.5,-1189"/>
 <text text-anchor="start" x="6353" y="-1204.8" font-family="Arial" font-weight="bold" font-size="14.00">CausalOp</text>
@@ -1091,6 +1188,8 @@
 <text text-anchor="start" x="6101.5" y="-1039.8" font-family="Arial" font-size="14.00">&#45; diff_from(&amp;self, other: &amp;HashMap&lt;A, VectorEntry&gt;) &#45;&gt; HashMap&lt;A, HashSet&lt;LogTime&gt;&gt;</text>
 <text text-anchor="start" x="6101.5" y="-1024.8" font-family="Arial" font-size="14.00">&#45; vvwe(&amp;self) &#45;&gt; HashMap&lt;A, VectorEntry&gt;</text>
 <polygon fill="none" stroke="black" points="6089.5,-1009 6089.5,-1227 6685.5,-1227 6685.5,-1009 6089.5,-1009"/>
+</a>
+</g>
 </g>
 <!-- ndVectorEntry&#45;&gt;ndCausalOp -->
 <g id="edge57" class="edge"><title>ndVectorEntry&#45;&gt;ndCausalOp</title>
@@ -1099,6 +1198,7 @@
 </g>
 <!-- ndMVReg -->
 <g id="node31" class="node"><title>ndMVReg</title>
+<g id="a_node31_33"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/mvreg.rs#:~:text=struct%20MVReg" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="3434.5,-837 3434.5,-874 3637.5,-874 3637.5,-837 3434.5,-837"/>
 <polygon fill="none" stroke="black" points="3434.5,-837 3434.5,-874 3637.5,-874 3637.5,-837 3434.5,-837"/>
 <text text-anchor="start" x="3511" y="-852.8" font-family="Arial" font-weight="bold" font-size="14.00">MVReg</text>
@@ -1106,6 +1206,8 @@
 <polygon fill="none" stroke="black" points="3434.5,-800 3434.5,-837 3637.5,-837 3637.5,-800 3434.5,-800"/>
 <text text-anchor="start" x="3445.5" y="-814.8" font-family="Arial" font-size="14.00">&#45; vals: Vec&lt;(VClock&lt;A&gt;, V)&gt;</text>
 <polygon fill="none" stroke="black" points="3433,-799 3433,-875 3638,-875 3638,-799 3433,-799"/>
+</a>
+</g>
 </g>
 <!-- ndVClock&#45;&gt;ndMap -->
 <g id="edge91" class="edge"><title>ndVClock&#45;&gt;ndMap</title>
@@ -1154,6 +1256,7 @@
 </g>
 <!-- ndOrswot -->
 <g id="node36" class="node"><title>ndOrswot</title>
+<g id="a_node36_34"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/orswot.rs#:~:text=struct%20Orswot" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="2478.5,-852 2478.5,-889 2808.5,-889 2808.5,-852 2478.5,-852"/>
 <polygon fill="none" stroke="black" points="2478.5,-852 2478.5,-889 2808.5,-889 2808.5,-852 2478.5,-852"/>
 <text text-anchor="start" x="2618" y="-867.8" font-family="Arial" font-weight="bold" font-size="14.00">Orswot</text>
@@ -1163,6 +1266,8 @@
 <text text-anchor="start" x="2489.5" y="-814.8" font-family="Arial" font-size="14.00">&#45; entries: HashMap&lt;M, VClock&lt;A&gt;&gt;</text>
 <text text-anchor="start" x="2489.5" y="-799.8" font-family="Arial" font-size="14.00">&#45; deferred: HashMap&lt;VClock&lt;A&gt;, HashSet&lt;M&gt;&gt;</text>
 <polygon fill="none" stroke="black" points="2477.5,-784 2477.5,-890 2809.5,-890 2809.5,-784 2477.5,-784"/>
+</a>
+</g>
 </g>
 <!-- ndVClock&#45;&gt;ndOrswot -->
 <g id="edge99" class="edge"><title>ndVClock&#45;&gt;ndOrswot</title>
@@ -1171,6 +1276,7 @@
 </g>
 <!-- ndDir -->
 <g id="node35" class="node"><title>ndDir</title>
+<g id="a_node35_35"><a xlink:href="https://github.com/rust-crdt/rust-crdt/blob/master/src/pncounter.rs#:~:text=enum%20Dir" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1389.5,-844 1389.5,-881 1438.5,-881 1438.5,-844 1389.5,-844"/>
 <polygon fill="none" stroke="black" points="1389.5,-844 1389.5,-881 1438.5,-881 1438.5,-844 1389.5,-844"/>
 <text text-anchor="start" x="1403.5" y="-859.8" font-family="Arial" font-weight="bold" font-size="14.00">Dir</text>
@@ -1179,6 +1285,8 @@
 <text text-anchor="start" x="1400.5" y="-821.8" font-family="Arial" font-size="14.00">Pos</text>
 <text text-anchor="start" x="1400.5" y="-806.8" font-family="Arial" font-size="14.00">Neg</text>
 <polygon fill="none" stroke="black" points="1388,-791.5 1388,-882.5 1439,-882.5 1439,-791.5 1388,-791.5"/>
+</a>
+</g>
 </g>
 <!-- ndDir&#45;&gt;ndOp -->
 <g id="edge101" class="edge"><title>ndDir&#45;&gt;ndOp</title>

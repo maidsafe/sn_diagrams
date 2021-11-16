@@ -11,6 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-672 1210,-672 1210,4 -4,4"/>
 <!-- ndSharedBRB -->
 <g id="node1" class="node"><title>ndSharedBRB</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/brb_node_qp2p/blob/master/src/brb_node.rs#:~:text=struct%20SharedBRB" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="478,-625.5 478,-662.5 983,-662.5 983,-625.5 478,-625.5"/>
 <polygon fill="none" stroke="black" points="478,-625.5 478,-662.5 983,-662.5 983,-625.5 478,-625.5"/>
 <text text-anchor="start" x="689.5" y="-641.3" font-family="Arial" font-weight="bold" font-size="14.00">SharedBRB</text>
@@ -33,9 +34,12 @@
 <text text-anchor="start" x="489" y="-401.3" font-family="Arial" font-size="14.00">&#45; apply(&amp;self, packet: Packet) &#45;&gt; Vec&lt;Packet&gt;</text>
 <text text-anchor="start" x="489" y="-386.3" font-family="Arial" font-size="14.00">&#45; read(&amp;self) &#45;&gt; HashSet&lt;Value&gt;</text>
 <polygon fill="none" stroke="black" points="476.5,-371 476.5,-664 983.5,-664 983.5,-371 476.5,-371"/>
+</a>
+</g>
 </g>
 <!-- ndRepl -->
 <g id="node2" class="node"><title>ndRepl</title>
+<g id="a_node2_1"><a xlink:href="https://github.com/maidsafe/brb_node_qp2p/blob/master/src/brb_node.rs#:~:text=struct%20Repl" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9,-288.5 9,-325.5 573,-325.5 573,-288.5 9,-288.5"/>
 <polygon fill="none" stroke="black" points="9,-288.5 9,-325.5 573,-325.5 573,-288.5 9,-288.5"/>
 <text text-anchor="start" x="275.5" y="-304.3" font-family="Arial" font-weight="bold" font-size="14.00">Repl</text>
@@ -60,6 +64,8 @@
 <text text-anchor="start" x="20" y="-34.3" font-family="Arial" font-size="14.00">&#45; read(&amp;mut self, _args: &amp;[String]) &#45;&gt; CommandResult</text>
 <text text-anchor="start" x="20" y="-19.3" font-family="Arial" font-size="14.00">&#45; dbg(&amp;mut self, _args: &amp;[String]) &#45;&gt; CommandResult</text>
 <polygon fill="none" stroke="black" points="8,-4 8,-327 574,-327 574,-4 8,-4"/>
+</a>
+</g>
 </g>
 <!-- ndSharedBRB&#45;&gt;ndRepl -->
 <g id="edge1" class="edge"><title>ndSharedBRB&#45;&gt;ndRepl</title>
@@ -68,6 +74,7 @@
 </g>
 <!-- ndRouter -->
 <g id="node3" class="node"><title>ndRouter</title>
+<g id="a_node3_2"><a xlink:href="https://github.com/maidsafe/brb_node_qp2p/blob/master/src/brb_node.rs#:~:text=struct%20Router" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="609,-202.5 609,-239.5 947,-239.5 947,-202.5 609,-202.5"/>
 <polygon fill="none" stroke="black" points="609,-202.5 609,-239.5 947,-239.5 947,-202.5 609,-202.5"/>
 <text text-anchor="start" x="754.5" y="-218.3" font-family="Arial" font-weight="bold" font-size="14.00">Router</text>
@@ -80,6 +87,8 @@
 <text text-anchor="start" x="620" y="-120.3" font-family="Arial" font-size="14.00">&#45; lastconn: HashMap&lt;SocketAddr, MyConnection&gt;</text>
 <text text-anchor="start" x="620" y="-105.3" font-family="Arial" font-size="14.00">&#45; unacked_packets: VecDeque&lt;Packet&gt;</text>
 <polygon fill="none" stroke="black" points="608,-90 608,-241 948,-241 948,-90 608,-90"/>
+</a>
+</g>
 </g>
 <!-- ndSharedBRB&#45;&gt;ndRouter -->
 <g id="edge2" class="edge"><title>ndSharedBRB&#45;&gt;ndRouter</title>
@@ -88,6 +97,7 @@
 </g>
 <!-- ndRouterCmd -->
 <g id="node4" class="node"><title>ndRouterCmd</title>
+<g id="a_node4_3"><a xlink:href="https://github.com/maidsafe/brb_node_qp2p/blob/master/src/brb_node.rs#:~:text=enum%20RouterCmd" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="189,-607.5 189,-644.5 393,-644.5 393,-607.5 189,-607.5"/>
 <polygon fill="none" stroke="black" points="189,-607.5 189,-644.5 393,-644.5 393,-607.5 189,-607.5"/>
 <text text-anchor="start" x="251.5" y="-623.3" font-family="Arial" font-weight="bold" font-size="14.00">RouterCmd</text>
@@ -107,6 +117,8 @@
 <text text-anchor="start" x="200" y="-420.3" font-family="Arial" font-size="14.00">Apply(Packet)</text>
 <text text-anchor="start" x="200" y="-405.3" font-family="Arial" font-size="14.00">Acked(Packet)</text>
 <polygon fill="none" stroke="black" points="188,-389.5 188,-645.5 394,-645.5 394,-389.5 188,-389.5"/>
+</a>
+</g>
 </g>
 <!-- ndRouterCmd&#45;&gt;ndRepl -->
 <g id="edge3" class="edge"><title>ndRouterCmd&#45;&gt;ndRepl</title>
@@ -115,6 +127,7 @@
 </g>
 <!-- ndNetworkMsg -->
 <g id="node5" class="node"><title>ndNetworkMsg</title>
+<g id="a_node5_4"><a xlink:href="https://github.com/maidsafe/brb_node_qp2p/blob/master/src/brb_node.rs#:~:text=enum%20NetworkMsg" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1019,-532.5 1019,-569.5 1197,-569.5 1197,-532.5 1019,-532.5"/>
 <polygon fill="none" stroke="black" points="1019,-532.5 1019,-569.5 1197,-569.5 1197,-532.5 1019,-532.5"/>
 <text text-anchor="start" x="1064" y="-548.3" font-family="Arial" font-weight="bold" font-size="14.00">NetworkMsg</text>
@@ -124,6 +137,8 @@
 <text text-anchor="start" x="1030" y="-495.3" font-family="Arial" font-size="14.00">Packet(Packet)</text>
 <text text-anchor="start" x="1030" y="-480.3" font-family="Arial" font-size="14.00">Ack(Packet)</text>
 <polygon fill="none" stroke="black" points="1018,-464.5 1018,-570.5 1198,-570.5 1198,-464.5 1018,-464.5"/>
+</a>
+</g>
 </g>
 </g>
 </svg>

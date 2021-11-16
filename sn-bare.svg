@@ -11,17 +11,23 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-1960 9563,-1960 9563,4 -4,4"/>
 <!-- ndChunk -->
 <g id="node1" class="node"><title>ndChunk</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/chunk.rs#:~:text=struct%20Chunk" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="3973,-1664.5 3973,-1701.5 4041,-1701.5 4041,-1664.5 3973,-1664.5"/>
 <polygon fill="none" stroke="black" points="3973,-1664.5 3973,-1701.5 4041,-1701.5 4041,-1664.5 3973,-1664.5"/>
 <text text-anchor="start" x="3984" y="-1680.3" font-family="Arial" font-weight="bold" font-size="14.00">Chunk</text>
 <polygon fill="none" stroke="black" points="3972,-1664 3972,-1703 4042,-1703 4042,-1664 3972,-1664"/>
+</a>
+</g>
 </g>
 <!-- ndNodeCmd -->
 <g id="node42" class="node"><title>ndNodeCmd</title>
+<g id="a_node42_1"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/system/node_msgs.rs#:~:text=enum%20NodeCmd" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="6047,-1581.5 6047,-1618.5 6138,-1618.5 6138,-1581.5 6047,-1581.5"/>
 <polygon fill="none" stroke="black" points="6047,-1581.5 6047,-1618.5 6138,-1618.5 6138,-1581.5 6047,-1581.5"/>
 <text text-anchor="start" x="6058" y="-1597.3" font-family="Arial" font-weight="bold" font-size="14.00">NodeCmd</text>
 <polygon fill="none" stroke="black" points="6045.5,-1581 6045.5,-1620 6138.5,-1620 6138.5,-1581 6045.5,-1581"/>
+</a>
+</g>
 </g>
 <!-- ndChunk&#45;&gt;ndNodeCmd -->
 <g id="edge1" class="edge"><title>ndChunk&#45;&gt;ndNodeCmd</title>
@@ -30,10 +36,13 @@
 </g>
 <!-- ndNodeQueryResponse -->
 <g id="node44" class="node"><title>ndNodeQueryResponse</title>
+<g id="a_node44_2"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/system/node_msgs.rs#:~:text=enum%20NodeQueryResponse" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="4012,-1581.5 4012,-1618.5 4183,-1618.5 4183,-1581.5 4012,-1581.5"/>
 <polygon fill="none" stroke="black" points="4012,-1581.5 4012,-1618.5 4183,-1618.5 4183,-1581.5 4012,-1581.5"/>
 <text text-anchor="start" x="4023" y="-1597.3" font-family="Arial" font-weight="bold" font-size="14.00">NodeQueryResponse</text>
 <polygon fill="none" stroke="black" points="4010.5,-1581 4010.5,-1620 4183.5,-1620 4183.5,-1581 4010.5,-1581"/>
+</a>
+</g>
 </g>
 <!-- ndChunk&#45;&gt;ndNodeQueryResponse -->
 <g id="edge2" class="edge"><title>ndChunk&#45;&gt;ndNodeQueryResponse</title>
@@ -42,10 +51,13 @@
 </g>
 <!-- ndDataCmd -->
 <g id="node58" class="node"><title>ndDataCmd</title>
+<g id="a_node58_3"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/data/cmd.rs#:~:text=enum%20DataCmd" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2935,-668.5 2935,-705.5 3021,-705.5 3021,-668.5 2935,-668.5"/>
 <polygon fill="none" stroke="black" points="2935,-668.5 2935,-705.5 3021,-705.5 3021,-668.5 2935,-668.5"/>
 <text text-anchor="start" x="2946" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">DataCmd</text>
 <polygon fill="none" stroke="black" points="2934,-668 2934,-707 3022,-707 3022,-668 2934,-668"/>
+</a>
+</g>
 </g>
 <!-- ndChunk&#45;&gt;ndDataCmd -->
 <g id="edge3" class="edge"><title>ndChunk&#45;&gt;ndDataCmd</title>
@@ -54,10 +66,13 @@
 </g>
 <!-- ndQueryResponse -->
 <g id="node67" class="node"><title>ndQueryResponse</title>
+<g id="a_node67_4"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/data/mod.rs#:~:text=enum%20QueryResponse" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2206,-1000.5 2206,-1037.5 2341,-1037.5 2341,-1000.5 2206,-1000.5"/>
 <polygon fill="none" stroke="black" points="2206,-1000.5 2206,-1037.5 2341,-1037.5 2341,-1000.5 2206,-1000.5"/>
 <text text-anchor="start" x="2217" y="-1016.3" font-family="Arial" font-weight="bold" font-size="14.00">QueryResponse</text>
 <polygon fill="none" stroke="black" points="2204.5,-1000 2204.5,-1039 2341.5,-1039 2341.5,-1000 2204.5,-1000"/>
+</a>
+</g>
 </g>
 <!-- ndChunk&#45;&gt;ndQueryResponse -->
 <g id="edge4" class="edge"><title>ndChunk&#45;&gt;ndQueryResponse</title>
@@ -66,10 +81,13 @@
 </g>
 <!-- ndHeadChunk -->
 <g id="node88" class="node"><title>ndHeadChunk</title>
+<g id="a_node88_5"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/client/client_api/blob_apis.rs#:~:text=struct%20HeadChunk" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="966,-170.5 966,-207.5 1070,-207.5 1070,-170.5 966,-170.5"/>
 <polygon fill="none" stroke="black" points="966,-170.5 966,-207.5 1070,-207.5 1070,-170.5 966,-170.5"/>
 <text text-anchor="start" x="977" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">HeadChunk</text>
 <polygon fill="none" stroke="black" points="965,-170 965,-209 1071,-209 1071,-170 965,-170"/>
+</a>
+</g>
 </g>
 <!-- ndChunk&#45;&gt;ndHeadChunk -->
 <g id="edge5" class="edge"><title>ndChunk&#45;&gt;ndHeadChunk</title>
@@ -78,10 +96,13 @@
 </g>
 <!-- ndChunkStore -->
 <g id="node145" class="node"><title>ndChunkStore</title>
+<g id="a_node145_6"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/core/chunk_store/mod.rs#:~:text=struct%20ChunkStore" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4085,-1498.5 4085,-1535.5 4191,-1535.5 4191,-1498.5 4085,-1498.5"/>
 <polygon fill="none" stroke="black" points="4085,-1498.5 4085,-1535.5 4191,-1535.5 4191,-1498.5 4085,-1498.5"/>
 <text text-anchor="start" x="4096" y="-1514.3" font-family="Arial" font-weight="bold" font-size="14.00">ChunkStore</text>
 <polygon fill="none" stroke="black" points="4084,-1498 4084,-1537 4192,-1537 4192,-1498 4084,-1498"/>
+</a>
+</g>
 </g>
 <!-- ndChunk&#45;&gt;ndChunkStore -->
 <g id="edge6" class="edge"><title>ndChunk&#45;&gt;ndChunkStore</title>
@@ -90,10 +111,13 @@
 </g>
 <!-- ndAdultRole -->
 <g id="node174" class="node"><title>ndAdultRole</title>
+<g id="a_node174_7"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/node_api/role/adult_role.rs#:~:text=struct%20AdultRole" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="2590,-668.5 2590,-705.5 2679,-705.5 2679,-668.5 2590,-668.5"/>
 <polygon fill="none" stroke="black" points="2590,-668.5 2590,-705.5 2679,-705.5 2679,-668.5 2590,-668.5"/>
 <text text-anchor="start" x="2601" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">AdultRole</text>
 <polygon fill="none" stroke="black" points="2588.5,-668 2588.5,-707 2679.5,-707 2679.5,-668 2588.5,-668"/>
+</a>
+</g>
 </g>
 <!-- ndChunk&#45;&gt;ndAdultRole -->
 <g id="edge7" class="edge"><title>ndChunk&#45;&gt;ndAdultRole</title>
@@ -102,24 +126,33 @@
 </g>
 <!-- ndCache -->
 <g id="node2" class="node"><title>ndCache</title>
+<g id="a_node2_8"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/cache/mod.rs#:~:text=struct%20Cache" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="6495,-1913.5 6495,-1950.5 6562,-1950.5 6562,-1913.5 6495,-1913.5"/>
 <polygon fill="none" stroke="black" points="6495,-1913.5 6495,-1950.5 6562,-1950.5 6562,-1913.5 6495,-1913.5"/>
 <text text-anchor="start" x="6506" y="-1929.3" font-family="Arial" font-weight="bold" font-size="14.00">Cache</text>
 <polygon fill="none" stroke="black" points="6493.5,-1913 6493.5,-1952 6562.5,-1952 6562.5,-1913 6493.5,-1913"/>
+</a>
+</g>
 </g>
 <!-- ndItem -->
 <g id="node3" class="node"><title>ndItem</title>
+<g id="a_node3_9"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/cache/item.rs#:~:text=struct%20Item" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="7339,-834.5 7339,-871.5 7391,-871.5 7391,-834.5 7339,-834.5"/>
 <polygon fill="none" stroke="black" points="7339,-834.5 7339,-871.5 7391,-871.5 7391,-834.5 7339,-834.5"/>
 <text text-anchor="start" x="7350" y="-850.3" font-family="Arial" font-weight="bold" font-size="14.00">Item</text>
 <polygon fill="none" stroke="black" points="7338,-834 7338,-873 7392,-873 7392,-834 7338,-834"/>
+</a>
+</g>
 </g>
 <!-- ndNetworkPrefixMap -->
 <g id="node83" class="node"><title>ndNetworkPrefixMap</title>
+<g id="a_node83_10"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/prefix_map/mod.rs#:~:text=struct%20NetworkPrefixMap" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="5968,-585.5 5968,-622.5 6118,-622.5 6118,-585.5 5968,-585.5"/>
 <polygon fill="none" stroke="black" points="5968,-585.5 5968,-622.5 6118,-622.5 6118,-585.5 5968,-585.5"/>
 <text text-anchor="start" x="5979" y="-601.3" font-family="Arial" font-weight="bold" font-size="14.00">NetworkPrefixMap</text>
 <polygon fill="none" stroke="black" points="5967,-585 5967,-624 6119,-624 6119,-585 5967,-585"/>
+</a>
+</g>
 </g>
 <!-- ndItem&#45;&gt;ndNetworkPrefixMap -->
 <g id="edge8" class="edge"><title>ndItem&#45;&gt;ndNetworkPrefixMap</title>
@@ -128,10 +161,13 @@
 </g>
 <!-- ndElderCandidates -->
 <g id="node120" class="node"><title>ndElderCandidates</title>
+<g id="a_node120_11"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/network_knowledge/elder_candidates.rs#:~:text=struct%20ElderCandidates" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="7565,-751.5 7565,-788.5 7703,-788.5 7703,-751.5 7565,-751.5"/>
 <polygon fill="none" stroke="black" points="7565,-751.5 7565,-788.5 7703,-788.5 7703,-751.5 7565,-751.5"/>
 <text text-anchor="start" x="7576" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">ElderCandidates</text>
 <polygon fill="none" stroke="black" points="7564,-751 7564,-790 7704,-790 7704,-751 7564,-751"/>
+</a>
+</g>
 </g>
 <!-- ndItem&#45;&gt;ndElderCandidates -->
 <g id="edge9" class="edge"><title>ndItem&#45;&gt;ndElderCandidates</title>
@@ -140,10 +176,13 @@
 </g>
 <!-- ndSectionPeers -->
 <g id="node122" class="node"><title>ndSectionPeers</title>
+<g id="a_node122_12"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/network_knowledge/section_peers.rs#:~:text=struct%20SectionPeers" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="7524,-585.5 7524,-622.5 7640,-622.5 7640,-585.5 7524,-585.5"/>
 <polygon fill="none" stroke="black" points="7524,-585.5 7524,-622.5 7640,-622.5 7640,-585.5 7524,-585.5"/>
 <text text-anchor="start" x="7535" y="-601.3" font-family="Arial" font-weight="bold" font-size="14.00">SectionPeers</text>
 <polygon fill="none" stroke="black" points="7523,-585 7523,-624 7641,-624 7641,-585 7523,-585"/>
+</a>
+</g>
 </g>
 <!-- ndItem&#45;&gt;ndSectionPeers -->
 <g id="edge10" class="edge"><title>ndItem&#45;&gt;ndSectionPeers</title>
@@ -152,10 +191,13 @@
 </g>
 <!-- ndTime -->
 <g id="node4" class="node"><title>ndTime</title>
+<g id="a_node4_13"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/cache/item.rs#:~:text=struct%20Time" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="7335,-917.5 7335,-954.5 7392,-954.5 7392,-917.5 7335,-917.5"/>
 <polygon fill="none" stroke="black" points="7335,-917.5 7335,-954.5 7392,-954.5 7392,-917.5 7335,-917.5"/>
 <text text-anchor="start" x="7346" y="-933.3" font-family="Arial" font-weight="bold" font-size="14.00">Time</text>
 <polygon fill="none" stroke="black" points="7333.5,-917 7333.5,-956 7392.5,-956 7392.5,-917 7333.5,-917"/>
+</a>
+</g>
 </g>
 <!-- ndTime&#45;&gt;ndItem -->
 <g id="edge11" class="edge"><title>ndTime&#45;&gt;ndItem</title>
@@ -164,10 +206,13 @@
 </g>
 <!-- ndError -->
 <g id="node5" class="node"><title>ndError</title>
+<g id="a_node5_14"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/error.rs#:~:text=enum%20Error" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2694,-917.5 2694,-954.5 2753,-954.5 2753,-917.5 2694,-917.5"/>
 <polygon fill="none" stroke="black" points="2694,-917.5 2694,-954.5 2753,-954.5 2753,-917.5 2694,-917.5"/>
 <text text-anchor="start" x="2705" y="-933.3" font-family="Arial" font-weight="bold" font-size="14.00">Error</text>
 <polygon fill="none" stroke="black" points="2692.5,-917 2692.5,-956 2753.5,-956 2753.5,-917 2692.5,-917"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndError -->
 <g id="edge20" class="edge"><title>ndError&#45;&gt;ndError</title>
@@ -246,10 +291,13 @@
 </g>
 <!-- ndNodeState -->
 <g id="node51" class="node"><title>ndNodeState</title>
+<g id="a_node51_15"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/network_knowledge/node_state.rs#:~:text=struct%20NodeState" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4360,-668.5 4360,-705.5 4454,-705.5 4454,-668.5 4360,-668.5"/>
 <polygon fill="none" stroke="black" points="4360,-668.5 4360,-705.5 4454,-705.5 4454,-668.5 4360,-668.5"/>
 <text text-anchor="start" x="4371" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">NodeState</text>
 <polygon fill="none" stroke="black" points="4359,-668 4359,-707 4455,-707 4455,-668 4359,-668"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndNodeState -->
 <g id="edge26" class="edge"><title>ndError&#45;&gt;ndNodeState</title>
@@ -298,10 +346,13 @@
 </g>
 <!-- ndSignatureAggregator -->
 <g id="node55" class="node"><title>ndSignatureAggregator</title>
+<g id="a_node55_16"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/signature_aggregator.rs#:~:text=struct%20SignatureAggregator" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="3555,-834.5 3555,-871.5 3724,-871.5 3724,-834.5 3555,-834.5"/>
 <polygon fill="none" stroke="black" points="3555,-834.5 3555,-871.5 3724,-871.5 3724,-834.5 3555,-834.5"/>
 <text text-anchor="start" x="3566" y="-850.3" font-family="Arial" font-weight="bold" font-size="14.00">SignatureAggregator</text>
 <polygon fill="none" stroke="black" points="3553.5,-834 3553.5,-873 3724.5,-873 3724.5,-834 3553.5,-834"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndSignatureAggregator -->
 <g id="edge12" class="edge"><title>ndError&#45;&gt;ndSignatureAggregator</title>
@@ -350,10 +401,13 @@
 </g>
 <!-- ndState -->
 <g id="node56" class="node"><title>ndState</title>
+<g id="a_node56_17"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/signature_aggregator.rs#:~:text=struct%20State" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="3186,-834.5 3186,-871.5 3244,-871.5 3244,-834.5 3186,-834.5"/>
 <polygon fill="none" stroke="black" points="3186,-834.5 3186,-871.5 3244,-871.5 3244,-834.5 3186,-834.5"/>
 <text text-anchor="start" x="3197" y="-850.3" font-family="Arial" font-weight="bold" font-size="14.00">State</text>
 <polygon fill="none" stroke="black" points="3185,-834 3185,-873 3245,-873 3245,-834 3185,-834"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndState -->
 <g id="edge13" class="edge"><title>ndError&#45;&gt;ndState</title>
@@ -447,10 +501,13 @@
 </g>
 <!-- ndRegisterWrite -->
 <g id="node61" class="node"><title>ndRegisterWrite</title>
+<g id="a_node61_18"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/data/register.rs#:~:text=enum%20RegisterWrite" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2483,-751.5 2483,-788.5 2599,-788.5 2599,-751.5 2483,-751.5"/>
 <polygon fill="none" stroke="black" points="2483,-751.5 2483,-788.5 2599,-788.5 2599,-751.5 2483,-751.5"/>
 <text text-anchor="start" x="2494" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">RegisterWrite</text>
 <polygon fill="none" stroke="black" points="2482,-751 2482,-790 2600,-790 2600,-751 2482,-751"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndRegisterWrite -->
 <g id="edge15" class="edge"><title>ndError&#45;&gt;ndRegisterWrite</title>
@@ -499,10 +556,13 @@
 </g>
 <!-- ndServiceError -->
 <g id="node64" class="node"><title>ndServiceError</title>
+<g id="a_node64_19"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/data/mod.rs#:~:text=struct%20ServiceError" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="2320,-834.5 2320,-871.5 2432,-871.5 2432,-834.5 2320,-834.5"/>
 <polygon fill="none" stroke="black" points="2320,-834.5 2320,-871.5 2432,-871.5 2432,-834.5 2320,-834.5"/>
 <text text-anchor="start" x="2331" y="-850.3" font-family="Arial" font-weight="bold" font-size="14.00">ServiceError</text>
 <polygon fill="none" stroke="black" points="2319,-834 2319,-873 2433,-873 2433,-834 2319,-834"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndServiceError -->
 <g id="edge16" class="edge"><title>ndError&#45;&gt;ndServiceError</title>
@@ -551,10 +611,13 @@
 </g>
 <!-- ndCmdError -->
 <g id="node66" class="node"><title>ndCmdError</title>
+<g id="a_node66_20"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/data/mod.rs#:~:text=enum%20CmdError" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2036,-834.5 2036,-871.5 2128,-871.5 2128,-834.5 2036,-834.5"/>
 <polygon fill="none" stroke="black" points="2036,-834.5 2036,-871.5 2128,-871.5 2128,-834.5 2036,-834.5"/>
 <text text-anchor="start" x="2047" y="-850.3" font-family="Arial" font-weight="bold" font-size="14.00">CmdError</text>
 <polygon fill="none" stroke="black" points="2035,-834 2035,-873 2129,-873 2129,-834 2035,-834"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndCmdError -->
 <g id="edge17" class="edge"><title>ndError&#45;&gt;ndCmdError</title>
@@ -603,10 +666,13 @@
 </g>
 <!-- ndTryFromError -->
 <g id="node68" class="node"><title>ndTryFromError</title>
+<g id="a_node68_21"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/data/mod.rs#:~:text=enum%20TryFromError" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2165,-834.5 2165,-871.5 2284,-871.5 2284,-834.5 2165,-834.5"/>
 <polygon fill="none" stroke="black" points="2165,-834.5 2165,-871.5 2284,-871.5 2284,-834.5 2165,-834.5"/>
 <text text-anchor="start" x="2176" y="-850.3" font-family="Arial" font-weight="bold" font-size="14.00">TryFromError</text>
 <polygon fill="none" stroke="black" points="2163.5,-834 2163.5,-873 2284.5,-873 2284.5,-834 2163.5,-834"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndTryFromError -->
 <g id="edge18" class="edge"><title>ndError&#45;&gt;ndTryFromError</title>
@@ -655,10 +721,13 @@
 </g>
 <!-- ndDataQuery -->
 <g id="node69" class="node"><title>ndDataQuery</title>
+<g id="a_node69_22"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/data/query.rs#:~:text=enum%20DataQuery" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="3281,-834.5 3281,-871.5 3378,-871.5 3378,-834.5 3281,-834.5"/>
 <polygon fill="none" stroke="black" points="3281,-834.5 3281,-871.5 3378,-871.5 3378,-834.5 3281,-834.5"/>
 <text text-anchor="start" x="3292" y="-850.3" font-family="Arial" font-weight="bold" font-size="14.00">DataQuery</text>
 <polygon fill="none" stroke="black" points="3279.5,-834 3279.5,-873 3378.5,-873 3378.5,-834 3279.5,-834"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndDataQuery -->
 <g id="edge19" class="edge"><title>ndError&#45;&gt;ndDataQuery</title>
@@ -707,10 +776,13 @@
 </g>
 <!-- ndClient -->
 <g id="node92" class="node"><title>ndClient</title>
+<g id="a_node92_23"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/client/client_api/mod.rs#:~:text=struct%20Client" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="940,-253.5 940,-290.5 1002,-290.5 1002,-253.5 940,-253.5"/>
 <polygon fill="none" stroke="black" points="940,-253.5 940,-290.5 1002,-290.5 1002,-253.5 940,-253.5"/>
 <text text-anchor="start" x="951" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Client</text>
 <polygon fill="none" stroke="black" points="939,-253 939,-292 1003,-292 1003,-253 939,-253"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndClient -->
 <g id="edge21" class="edge"><title>ndError&#45;&gt;ndClient</title>
@@ -759,10 +831,13 @@
 </g>
 <!-- ndRelocatePayloadUtils -->
 <g id="node96" class="node"><title>ndRelocatePayloadUtils</title>
+<g id="a_node96_24"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/relocation.rs#:~:text=trait%20RelocatePayloadUtils" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="1467,-834.5 1467,-871.5 1636,-871.5 1636,-834.5 1467,-834.5"/>
 <polygon fill="none" stroke="black" points="1467,-834.5 1467,-871.5 1636,-871.5 1636,-834.5 1467,-834.5"/>
 <text text-anchor="start" x="1478" y="-850.3" font-family="Arial" font-weight="bold" font-size="14.00">RelocatePayloadUtils</text>
 <polygon fill="none" stroke="black" points="1465.5,-834 1465.5,-873 1636.5,-873 1636.5,-834 1465.5,-834"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndRelocatePayloadUtils -->
 <g id="edge22" class="edge"><title>ndError&#45;&gt;ndRelocatePayloadUtils</title>
@@ -811,10 +886,13 @@
 </g>
 <!-- ndConfig -->
 <g id="node113" class="node"><title>ndConfig</title>
+<g id="a_node113_25"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/config_handler.rs#:~:text=struct%20Config" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1307,-834.5 1307,-871.5 1375,-871.5 1375,-834.5 1307,-834.5"/>
 <polygon fill="none" stroke="black" points="1307,-834.5 1307,-871.5 1375,-871.5 1375,-834.5 1307,-834.5"/>
 <text text-anchor="start" x="1318" y="-850.3" font-family="Arial" font-weight="bold" font-size="14.00">Config</text>
 <polygon fill="none" stroke="black" points="1306,-834 1306,-873 1376,-873 1376,-834 1306,-834"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndConfig -->
 <g id="edge30" class="edge"><title>ndError&#45;&gt;ndConfig</title>
@@ -863,10 +941,13 @@
 </g>
 <!-- ndMemberInfoUtils -->
 <g id="node116" class="node"><title>ndMemberInfoUtils</title>
+<g id="a_node116_26"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/network_knowledge/member_info.rs#:~:text=trait%20MemberInfoUtils" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="3014,-834.5 3014,-871.5 3150,-871.5 3150,-834.5 3014,-834.5"/>
 <polygon fill="none" stroke="black" points="3014,-834.5 3014,-871.5 3150,-871.5 3150,-834.5 3014,-834.5"/>
 <text text-anchor="start" x="3025" y="-850.3" font-family="Arial" font-weight="bold" font-size="14.00">MemberInfoUtils</text>
 <polygon fill="none" stroke="black" points="3013,-834 3013,-873 3151,-873 3151,-834 3013,-834"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndMemberInfoUtils -->
 <g id="edge24" class="edge"><title>ndError&#45;&gt;ndMemberInfoUtils</title>
@@ -915,10 +996,13 @@
 </g>
 <!-- ndNetworkKnowledge -->
 <g id="node119" class="node"><title>ndNetworkKnowledge</title>
+<g id="a_node119_27"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/network_knowledge/mod.rs#:~:text=struct%20NetworkKnowledge" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="7105,-502.5 7105,-539.5 7263,-539.5 7263,-502.5 7105,-502.5"/>
 <polygon fill="none" stroke="black" points="7105,-502.5 7105,-539.5 7263,-539.5 7263,-502.5 7105,-502.5"/>
 <text text-anchor="start" x="7116" y="-518.3" font-family="Arial" font-weight="bold" font-size="14.00">NetworkKnowledge</text>
 <polygon fill="none" stroke="black" points="7104,-502 7104,-541 7264,-541 7264,-502 7104,-502"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndNetworkKnowledge -->
 <g id="edge25" class="edge"><title>ndError&#45;&gt;ndNetworkKnowledge</title>
@@ -967,10 +1051,13 @@
 </g>
 <!-- ndWireMsgUtils -->
 <g id="node128" class="node"><title>ndWireMsgUtils</title>
+<g id="a_node128_28"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/messages/mod.rs#:~:text=trait%20WireMsgUtils" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="1081,-419.5 1081,-456.5 1194,-456.5 1194,-419.5 1081,-419.5"/>
 <polygon fill="none" stroke="black" points="1081,-419.5 1081,-456.5 1194,-456.5 1194,-419.5 1081,-419.5"/>
 <text text-anchor="start" x="1092" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">WireMsgUtils</text>
 <polygon fill="none" stroke="black" points="1079.5,-419 1079.5,-458 1194.5,-458 1194.5,-419 1079.5,-419"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndWireMsgUtils -->
 <g id="edge27" class="edge"><title>ndError&#45;&gt;ndWireMsgUtils</title>
@@ -1019,10 +1106,13 @@
 </g>
 <!-- ndComm -->
 <g id="node130" class="node"><title>ndComm</title>
+<g id="a_node130_29"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/core/comm.rs#:~:text=struct%20Comm" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4049,-419.5 4049,-456.5 4117,-456.5 4117,-419.5 4049,-419.5"/>
 <polygon fill="none" stroke="black" points="4049,-419.5 4049,-456.5 4117,-456.5 4117,-419.5 4049,-419.5"/>
 <text text-anchor="start" x="4060" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">Comm</text>
 <polygon fill="none" stroke="black" points="4048,-419 4048,-458 4118,-458 4118,-419 4048,-419"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndComm -->
 <g id="edge28" class="edge"><title>ndError&#45;&gt;ndComm</title>
@@ -1071,10 +1161,13 @@
 </g>
 <!-- ndElderStores -->
 <g id="node178" class="node"><title>ndElderStores</title>
+<g id="a_node178_30"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/metadata/elder_stores.rs#:~:text=struct%20ElderStores" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="3414,-834.5 3414,-871.5 3519,-871.5 3519,-834.5 3414,-834.5"/>
 <polygon fill="none" stroke="black" points="3414,-834.5 3414,-871.5 3519,-871.5 3519,-834.5 3414,-834.5"/>
 <text text-anchor="start" x="3425" y="-850.3" font-family="Arial" font-weight="bold" font-size="14.00">ElderStores</text>
 <polygon fill="none" stroke="black" points="3412.5,-834 3412.5,-873 3519.5,-873 3519.5,-834 3412.5,-834"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndElderStores -->
 <g id="edge29" class="edge"><title>ndError&#45;&gt;ndElderStores</title>
@@ -1123,17 +1216,23 @@
 </g>
 <!-- ndPolicy -->
 <g id="node6" class="node"><title>ndPolicy</title>
+<g id="a_node6_31"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/register/policy.rs#:~:text=enum%20Policy" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1632,-1166.5 1632,-1203.5 1697,-1203.5 1697,-1166.5 1632,-1166.5"/>
 <polygon fill="none" stroke="black" points="1632,-1166.5 1632,-1203.5 1697,-1203.5 1697,-1166.5 1632,-1166.5"/>
 <text text-anchor="start" x="1643" y="-1182.3" font-family="Arial" font-weight="bold" font-size="14.00">Policy</text>
 <polygon fill="none" stroke="black" points="1630.5,-1166 1630.5,-1205 1697.5,-1205 1697.5,-1166 1630.5,-1166"/>
+</a>
+</g>
 </g>
 <!-- ndRegister -->
 <g id="node14" class="node"><title>ndRegister</title>
+<g id="a_node14_32"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/register/mod.rs#:~:text=struct%20Register" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1325,-1083.5 1325,-1120.5 1405,-1120.5 1405,-1083.5 1325,-1083.5"/>
 <polygon fill="none" stroke="black" points="1325,-1083.5 1325,-1120.5 1405,-1120.5 1405,-1083.5 1325,-1083.5"/>
 <text text-anchor="start" x="1336" y="-1099.3" font-family="Arial" font-weight="bold" font-size="14.00">Register</text>
 <polygon fill="none" stroke="black" points="1324,-1083 1324,-1122 1406,-1122 1406,-1083 1324,-1083"/>
+</a>
+</g>
 </g>
 <!-- ndPolicy&#45;&gt;ndRegister -->
 <g id="edge31" class="edge"><title>ndPolicy&#45;&gt;ndRegister</title>
@@ -1147,10 +1246,13 @@
 </g>
 <!-- ndPermissions -->
 <g id="node7" class="node"><title>ndPermissions</title>
+<g id="a_node7_33"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/register/policy.rs#:~:text=enum%20Permissions" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1593,-1332.5 1593,-1369.5 1703,-1369.5 1703,-1332.5 1593,-1332.5"/>
 <polygon fill="none" stroke="black" points="1593,-1332.5 1593,-1369.5 1703,-1369.5 1703,-1332.5 1593,-1332.5"/>
 <text text-anchor="start" x="1604" y="-1348.3" font-family="Arial" font-weight="bold" font-size="14.00">Permissions</text>
 <polygon fill="none" stroke="black" points="1592,-1332 1592,-1371 1704,-1371 1704,-1332 1592,-1332"/>
+</a>
+</g>
 </g>
 <!-- ndPermissions&#45;&gt;ndPolicy -->
 <g id="edge33" class="edge"><title>ndPermissions&#45;&gt;ndPolicy</title>
@@ -1159,10 +1261,13 @@
 </g>
 <!-- ndPublicPolicy -->
 <g id="node11" class="node"><title>ndPublicPolicy</title>
+<g id="a_node11_34"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/register/policy.rs#:~:text=struct%20PublicPolicy" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1392,-1249.5 1392,-1286.5 1501,-1286.5 1501,-1249.5 1392,-1249.5"/>
 <polygon fill="none" stroke="black" points="1392,-1249.5 1392,-1286.5 1501,-1286.5 1501,-1249.5 1392,-1249.5"/>
 <text text-anchor="start" x="1403" y="-1265.3" font-family="Arial" font-weight="bold" font-size="14.00">PublicPolicy</text>
 <polygon fill="none" stroke="black" points="1390.5,-1249 1390.5,-1288 1501.5,-1288 1501.5,-1249 1390.5,-1249"/>
+</a>
+</g>
 </g>
 <!-- ndPermissions&#45;&gt;ndPublicPolicy -->
 <g id="edge34" class="edge"><title>ndPermissions&#45;&gt;ndPublicPolicy</title>
@@ -1171,10 +1276,13 @@
 </g>
 <!-- ndPrivatePolicy -->
 <g id="node12" class="node"><title>ndPrivatePolicy</title>
+<g id="a_node12_35"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/register/policy.rs#:~:text=struct%20PrivatePolicy" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1846,-1249.5 1846,-1286.5 1960,-1286.5 1960,-1249.5 1846,-1249.5"/>
 <polygon fill="none" stroke="black" points="1846,-1249.5 1846,-1286.5 1960,-1286.5 1960,-1249.5 1846,-1249.5"/>
 <text text-anchor="start" x="1857" y="-1265.3" font-family="Arial" font-weight="bold" font-size="14.00">PrivatePolicy</text>
 <polygon fill="none" stroke="black" points="1845,-1249 1845,-1288 1961,-1288 1961,-1249 1845,-1249"/>
+</a>
+</g>
 </g>
 <!-- ndPermissions&#45;&gt;ndPrivatePolicy -->
 <g id="edge35" class="edge"><title>ndPermissions&#45;&gt;ndPrivatePolicy</title>
@@ -1193,10 +1301,13 @@
 </g>
 <!-- ndPublicPermissions -->
 <g id="node8" class="node"><title>ndPublicPermissions</title>
+<g id="a_node8_36"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/register/policy.rs#:~:text=struct%20PublicPermissions" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1519,-1415.5 1519,-1452.5 1672,-1452.5 1672,-1415.5 1519,-1415.5"/>
 <polygon fill="none" stroke="black" points="1519,-1415.5 1519,-1452.5 1672,-1452.5 1672,-1415.5 1519,-1415.5"/>
 <text text-anchor="start" x="1530" y="-1431.3" font-family="Arial" font-weight="bold" font-size="14.00">PublicPermissions</text>
 <polygon fill="none" stroke="black" points="1517.5,-1415 1517.5,-1454 1672.5,-1454 1672.5,-1415 1517.5,-1415"/>
+</a>
+</g>
 </g>
 <!-- ndPublicPermissions&#45;&gt;ndPermissions -->
 <g id="edge38" class="edge"><title>ndPublicPermissions&#45;&gt;ndPermissions</title>
@@ -1205,10 +1316,13 @@
 </g>
 <!-- ndPrivatePermissions -->
 <g id="node9" class="node"><title>ndPrivatePermissions</title>
+<g id="a_node9_37"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/register/policy.rs#:~:text=struct%20PrivatePermissions" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1708,-1415.5 1708,-1452.5 1866,-1452.5 1866,-1415.5 1708,-1415.5"/>
 <polygon fill="none" stroke="black" points="1708,-1415.5 1708,-1452.5 1866,-1452.5 1866,-1415.5 1708,-1415.5"/>
 <text text-anchor="start" x="1719" y="-1431.3" font-family="Arial" font-weight="bold" font-size="14.00">PrivatePermissions</text>
 <polygon fill="none" stroke="black" points="1707,-1415 1707,-1454 1867,-1454 1867,-1415 1707,-1415"/>
+</a>
+</g>
 </g>
 <!-- ndPrivatePermissions&#45;&gt;ndPermissions -->
 <g id="edge39" class="edge"><title>ndPrivatePermissions&#45;&gt;ndPermissions</title>
@@ -1217,10 +1331,13 @@
 </g>
 <!-- ndUser -->
 <g id="node10" class="node"><title>ndUser</title>
+<g id="a_node10_38"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/register/policy.rs#:~:text=enum%20User" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2043,-1332.5 2043,-1369.5 2098,-1369.5 2098,-1332.5 2043,-1332.5"/>
 <polygon fill="none" stroke="black" points="2043,-1332.5 2043,-1369.5 2098,-1369.5 2098,-1332.5 2043,-1332.5"/>
 <text text-anchor="start" x="2054" y="-1348.3" font-family="Arial" font-weight="bold" font-size="14.00">User</text>
 <polygon fill="none" stroke="black" points="2041.5,-1332 2041.5,-1371 2098.5,-1371 2098.5,-1332 2041.5,-1332"/>
+</a>
+</g>
 </g>
 <!-- ndUser&#45;&gt;ndPolicy -->
 <g id="edge40" class="edge"><title>ndUser&#45;&gt;ndPolicy</title>
@@ -1244,10 +1361,13 @@
 </g>
 <!-- ndStateEntry -->
 <g id="node138" class="node"><title>ndStateEntry</title>
+<g id="a_node138_39"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/core/register_storage.rs#:~:text=struct%20StateEntry" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="2130,-585.5 2130,-622.5 2225,-622.5 2225,-585.5 2130,-585.5"/>
 <polygon fill="none" stroke="black" points="2130,-585.5 2130,-622.5 2225,-622.5 2225,-585.5 2130,-585.5"/>
 <text text-anchor="start" x="2141" y="-601.3" font-family="Arial" font-weight="bold" font-size="14.00">StateEntry</text>
 <polygon fill="none" stroke="black" points="2128.5,-585 2128.5,-624 2225.5,-624 2225.5,-585 2128.5,-585"/>
+</a>
+</g>
 </g>
 <!-- ndUser&#45;&gt;ndStateEntry -->
 <g id="edge44" class="edge"><title>ndUser&#45;&gt;ndStateEntry</title>
@@ -1266,10 +1386,13 @@
 </g>
 <!-- ndAction -->
 <g id="node13" class="node"><title>ndAction</title>
+<g id="a_node13_40"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/register/metadata.rs#:~:text=enum%20Action" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1562,-1498.5 1562,-1535.5 1629,-1535.5 1629,-1498.5 1562,-1498.5"/>
 <polygon fill="none" stroke="black" points="1562,-1498.5 1562,-1535.5 1629,-1535.5 1629,-1498.5 1562,-1498.5"/>
 <text text-anchor="start" x="1573" y="-1514.3" font-family="Arial" font-weight="bold" font-size="14.00">Action</text>
 <polygon fill="none" stroke="black" points="1560.5,-1498 1560.5,-1537 1629.5,-1537 1629.5,-1498 1560.5,-1498"/>
+</a>
+</g>
 </g>
 <!-- ndAction&#45;&gt;ndPolicy -->
 <g id="edge47" class="edge"><title>ndAction&#45;&gt;ndPolicy</title>
@@ -1323,17 +1446,23 @@
 </g>
 <!-- ndCrdtOperation -->
 <g id="node15" class="node"><title>ndCrdtOperation</title>
+<g id="a_node15_41"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/register/reg_crdt.rs#:~:text=struct%20CrdtOperation" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="543,-1249.5 543,-1286.5 665,-1286.5 665,-1249.5 543,-1249.5"/>
 <polygon fill="none" stroke="black" points="543,-1249.5 543,-1286.5 665,-1286.5 665,-1249.5 543,-1249.5"/>
 <text text-anchor="start" x="554" y="-1265.3" font-family="Arial" font-weight="bold" font-size="14.00">CrdtOperation</text>
 <polygon fill="none" stroke="black" points="542,-1249 542,-1288 666,-1288 666,-1249 542,-1249"/>
+</a>
+</g>
 </g>
 <!-- ndRegisterCrdt -->
 <g id="node16" class="node"><title>ndRegisterCrdt</title>
+<g id="a_node16_42"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/register/reg_crdt.rs#:~:text=struct%20RegisterCrdt" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="467,-1166.5 467,-1203.5 577,-1203.5 577,-1166.5 467,-1166.5"/>
 <polygon fill="none" stroke="black" points="467,-1166.5 467,-1203.5 577,-1203.5 577,-1166.5 467,-1166.5"/>
 <text text-anchor="start" x="478" y="-1182.3" font-family="Arial" font-weight="bold" font-size="14.00">RegisterCrdt</text>
 <polygon fill="none" stroke="black" points="466,-1166 466,-1205 578,-1205 578,-1166 466,-1166"/>
+</a>
+</g>
 </g>
 <!-- ndCrdtOperation&#45;&gt;ndRegisterCrdt -->
 <g id="edge57" class="edge"><title>ndCrdtOperation&#45;&gt;ndRegisterCrdt</title>
@@ -1347,10 +1476,13 @@
 </g>
 <!-- ndPublicKey -->
 <g id="node17" class="node"><title>ndPublicKey</title>
+<g id="a_node17_43"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/keys/public_key.rs#:~:text=enum%20PublicKey" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2651,-1747.5 2651,-1784.5 2744,-1784.5 2744,-1747.5 2651,-1747.5"/>
 <polygon fill="none" stroke="black" points="2651,-1747.5 2651,-1784.5 2744,-1784.5 2744,-1747.5 2651,-1747.5"/>
 <text text-anchor="start" x="2662" y="-1763.3" font-family="Arial" font-weight="bold" font-size="14.00">PublicKey</text>
 <polygon fill="none" stroke="black" points="2649.5,-1747 2649.5,-1786 2744.5,-1786 2744.5,-1747 2649.5,-1747"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndError -->
 <g id="edge59" class="edge"><title>ndPublicKey&#45;&gt;ndError</title>
@@ -1414,10 +1546,13 @@
 </g>
 <!-- ndOwnerType -->
 <g id="node18" class="node"><title>ndOwnerType</title>
+<g id="a_node18_44"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/keys/keypair.rs#:~:text=enum%20OwnerType" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="7441,-1664.5 7441,-1701.5 7544,-1701.5 7544,-1664.5 7441,-1664.5"/>
 <polygon fill="none" stroke="black" points="7441,-1664.5 7441,-1701.5 7544,-1701.5 7544,-1664.5 7441,-1664.5"/>
 <text text-anchor="start" x="7452" y="-1680.3" font-family="Arial" font-weight="bold" font-size="14.00">OwnerType</text>
 <polygon fill="none" stroke="black" points="7439.5,-1664 7439.5,-1703 7544.5,-1703 7544.5,-1664 7439.5,-1664"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndOwnerType -->
 <g id="edge67" class="edge"><title>ndPublicKey&#45;&gt;ndOwnerType</title>
@@ -1426,10 +1561,13 @@
 </g>
 <!-- ndKeypair -->
 <g id="node21" class="node"><title>ndKeypair</title>
+<g id="a_node21_45"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/keys/keypair.rs#:~:text=enum%20Keypair" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="959,-1415.5 959,-1452.5 1036,-1452.5 1036,-1415.5 959,-1415.5"/>
 <polygon fill="none" stroke="black" points="959,-1415.5 959,-1452.5 1036,-1452.5 1036,-1415.5 959,-1415.5"/>
 <text text-anchor="start" x="970" y="-1431.3" font-family="Arial" font-weight="bold" font-size="14.00">Keypair</text>
 <polygon fill="none" stroke="black" points="957.5,-1415 957.5,-1454 1036.5,-1454 1036.5,-1415 957.5,-1415"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndKeypair -->
 <g id="edge68" class="edge"><title>ndPublicKey&#45;&gt;ndKeypair</title>
@@ -1438,10 +1576,13 @@
 </g>
 <!-- ndNodeKeypairs -->
 <g id="node23" class="node"><title>ndNodeKeypairs</title>
+<g id="a_node23_46"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/keys/node_keypairs.rs#:~:text=struct%20NodeKeypairs" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="5943,-1664.5 5943,-1701.5 6064,-1701.5 6064,-1664.5 5943,-1664.5"/>
 <polygon fill="none" stroke="black" points="5943,-1664.5 5943,-1701.5 6064,-1701.5 6064,-1664.5 5943,-1664.5"/>
 <text text-anchor="start" x="5954" y="-1680.3" font-family="Arial" font-weight="bold" font-size="14.00">NodeKeypairs</text>
 <polygon fill="none" stroke="black" points="5941.5,-1664 5941.5,-1703 6064.5,-1703 6064.5,-1664 5941.5,-1664"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndNodeKeypairs -->
 <g id="edge69" class="edge"><title>ndPublicKey&#45;&gt;ndNodeKeypairs</title>
@@ -1450,10 +1591,13 @@
 </g>
 <!-- ndDkgFailureSig -->
 <g id="node35" class="node"><title>ndDkgFailureSig</title>
+<g id="a_node35_47"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/system/agreement.rs#:~:text=struct%20DkgFailureSig" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="7580,-1664.5 7580,-1701.5 7701,-1701.5 7701,-1664.5 7580,-1664.5"/>
 <polygon fill="none" stroke="black" points="7580,-1664.5 7580,-1701.5 7701,-1701.5 7701,-1664.5 7580,-1664.5"/>
 <text text-anchor="start" x="7591" y="-1680.3" font-family="Arial" font-weight="bold" font-size="14.00">DkgFailureSig</text>
 <polygon fill="none" stroke="black" points="7578.5,-1664 7578.5,-1703 7701.5,-1703 7701.5,-1664 7578.5,-1664"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndDkgFailureSig -->
 <g id="edge70" class="edge"><title>ndPublicKey&#45;&gt;ndDkgFailureSig</title>
@@ -1462,10 +1606,13 @@
 </g>
 <!-- ndSectionAuthorityProvider -->
 <g id="node57" class="node"><title>ndSectionAuthorityProvider</title>
+<g id="a_node57_48"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/network_knowledge/section_authority_provider.rs#:~:text=struct%20SectionAuthorityProvider" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="6747,-668.5 6747,-705.5 6946,-705.5 6946,-668.5 6747,-668.5"/>
 <polygon fill="none" stroke="black" points="6747,-668.5 6747,-705.5 6946,-705.5 6946,-668.5 6747,-668.5"/>
 <text text-anchor="start" x="6758" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">SectionAuthorityProvider</text>
 <polygon fill="none" stroke="black" points="6745.5,-668 6745.5,-707 6946.5,-707 6946.5,-668 6745.5,-668"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndSectionAuthorityProvider -->
 <g id="edge88" class="edge"><title>ndPublicKey&#45;&gt;ndSectionAuthorityProvider</title>
@@ -1484,10 +1631,13 @@
 </g>
 <!-- ndWireMsg -->
 <g id="node74" class="node"><title>ndWireMsg</title>
+<g id="a_node74_49"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/serialisation/wire_msg.rs#:~:text=struct%20WireMsg" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4404,-502.5 4404,-539.5 4487,-539.5 4487,-502.5 4404,-502.5"/>
 <polygon fill="none" stroke="black" points="4404,-502.5 4404,-539.5 4487,-539.5 4487,-502.5 4404,-502.5"/>
 <text text-anchor="start" x="4415" y="-518.3" font-family="Arial" font-weight="bold" font-size="14.00">WireMsg</text>
 <polygon fill="none" stroke="black" points="4402.5,-502 4402.5,-541 4487.5,-541 4487.5,-502 4402.5,-502"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndWireMsg -->
 <g id="edge74" class="edge"><title>ndPublicKey&#45;&gt;ndWireMsg</title>
@@ -1496,10 +1646,13 @@
 </g>
 <!-- ndDstLocation -->
 <g id="node78" class="node"><title>ndDstLocation</title>
+<g id="a_node78_50"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/location.rs#:~:text=enum%20DstLocation" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2771,-1498.5 2771,-1535.5 2878,-1535.5 2878,-1498.5 2771,-1498.5"/>
 <polygon fill="none" stroke="black" points="2771,-1498.5 2771,-1535.5 2878,-1535.5 2878,-1498.5 2771,-1498.5"/>
 <text text-anchor="start" x="2782" y="-1514.3" font-family="Arial" font-weight="bold" font-size="14.00">DstLocation</text>
 <polygon fill="none" stroke="black" points="2769.5,-1498 2769.5,-1537 2878.5,-1537 2878.5,-1498 2769.5,-1498"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndDstLocation -->
 <g id="edge75" class="edge"><title>ndPublicKey&#45;&gt;ndDstLocation</title>
@@ -1508,10 +1661,13 @@
 </g>
 <!-- ndServiceAuth -->
 <g id="node79" class="node"><title>ndServiceAuth</title>
+<g id="a_node79_51"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/authority.rs#:~:text=struct%20ServiceAuth" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="5228,-1249.5 5228,-1286.5 5335,-1286.5 5335,-1249.5 5228,-1249.5"/>
 <polygon fill="none" stroke="black" points="5228,-1249.5 5228,-1286.5 5335,-1286.5 5335,-1249.5 5228,-1249.5"/>
 <text text-anchor="start" x="5239" y="-1265.3" font-family="Arial" font-weight="bold" font-size="14.00">ServiceAuth</text>
 <polygon fill="none" stroke="black" points="5226.5,-1249 5226.5,-1288 5335.5,-1288 5335.5,-1249 5226.5,-1249"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndServiceAuth -->
 <g id="edge76" class="edge"><title>ndPublicKey&#45;&gt;ndServiceAuth</title>
@@ -1520,10 +1676,13 @@
 </g>
 <!-- ndNodeAuth -->
 <g id="node80" class="node"><title>ndNodeAuth</title>
+<g id="a_node80_52"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/authority.rs#:~:text=struct%20NodeAuth" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="5213,-1332.5 5213,-1369.5 5304,-1369.5 5304,-1332.5 5213,-1332.5"/>
 <polygon fill="none" stroke="black" points="5213,-1332.5 5213,-1369.5 5304,-1369.5 5304,-1332.5 5213,-1332.5"/>
 <text text-anchor="start" x="5224" y="-1348.3" font-family="Arial" font-weight="bold" font-size="14.00">NodeAuth</text>
 <polygon fill="none" stroke="black" points="5211.5,-1332 5211.5,-1371 5304.5,-1371 5304.5,-1332 5211.5,-1332"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndNodeAuth -->
 <g id="edge77" class="edge"><title>ndPublicKey&#45;&gt;ndNodeAuth</title>
@@ -1532,10 +1691,13 @@
 </g>
 <!-- ndBlsShareAuth -->
 <g id="node81" class="node"><title>ndBlsShareAuth</title>
+<g id="a_node81_53"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/authority.rs#:~:text=struct%20BlsShareAuth" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="5734,-834.5 5734,-871.5 5853,-871.5 5853,-834.5 5734,-834.5"/>
 <polygon fill="none" stroke="black" points="5734,-834.5 5734,-871.5 5853,-871.5 5853,-834.5 5734,-834.5"/>
 <text text-anchor="start" x="5745" y="-850.3" font-family="Arial" font-weight="bold" font-size="14.00">BlsShareAuth</text>
 <polygon fill="none" stroke="black" points="5732.5,-834 5732.5,-873 5853.5,-873 5853.5,-834 5732.5,-834"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndBlsShareAuth -->
 <g id="edge78" class="edge"><title>ndPublicKey&#45;&gt;ndBlsShareAuth</title>
@@ -1549,10 +1711,13 @@
 </g>
 <!-- ndSession -->
 <g id="node86" class="node"><title>ndSession</title>
+<g id="a_node86_54"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/dkg/session.rs#:~:text=struct%20Session" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="755,-336.5 755,-373.5 834,-373.5 834,-336.5 755,-336.5"/>
 <polygon fill="none" stroke="black" points="755,-336.5 755,-373.5 834,-373.5 834,-336.5 755,-336.5"/>
 <text text-anchor="start" x="766" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">Session</text>
 <polygon fill="none" stroke="black" points="753.5,-336 753.5,-375 834.5,-375 834.5,-336 753.5,-336"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndSession -->
 <g id="edge80" class="edge"><title>ndPublicKey&#45;&gt;ndSession</title>
@@ -1566,10 +1731,13 @@
 </g>
 <!-- ndDummyEncryption -->
 <g id="node87" class="node"><title>ndDummyEncryption</title>
+<g id="a_node87_55"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/client/utils/mod.rs#:~:text=struct%20DummyEncryption" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="7305,-1498.5 7305,-1535.5 7457,-1535.5 7457,-1498.5 7305,-1498.5"/>
 <polygon fill="none" stroke="black" points="7305,-1498.5 7305,-1535.5 7457,-1535.5 7457,-1498.5 7305,-1498.5"/>
 <text text-anchor="start" x="7316" y="-1514.3" font-family="Arial" font-weight="bold" font-size="14.00">DummyEncryption</text>
 <polygon fill="none" stroke="black" points="7304,-1498 7304,-1537 7458,-1537 7458,-1498 7304,-1498"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndDummyEncryption -->
 <g id="edge81" class="edge"><title>ndPublicKey&#45;&gt;ndDummyEncryption</title>
@@ -1583,10 +1751,13 @@
 </g>
 <!-- ndClientConfig -->
 <g id="node93" class="node"><title>ndClientConfig</title>
+<g id="a_node93_56"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/client/config_handler.rs#:~:text=struct%20ClientConfig" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="37,-1664.5 37,-1701.5 145,-1701.5 145,-1664.5 37,-1664.5"/>
 <polygon fill="none" stroke="black" points="37,-1664.5 37,-1701.5 145,-1701.5 145,-1664.5 37,-1664.5"/>
 <text text-anchor="start" x="48" y="-1680.3" font-family="Arial" font-weight="bold" font-size="14.00">ClientConfig</text>
 <polygon fill="none" stroke="black" points="36,-1664 36,-1703 146,-1703 146,-1664 36,-1664"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndClientConfig -->
 <g id="edge83" class="edge"><title>ndPublicKey&#45;&gt;ndClientConfig</title>
@@ -1595,10 +1766,13 @@
 </g>
 <!-- ndDispatcher -->
 <g id="node114" class="node"><title>ndDispatcher</title>
+<g id="a_node114_57"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/routing_api/dispatcher.rs#:~:text=struct%20Dispatcher" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4178,-87.5 4178,-124.5 4276,-124.5 4276,-87.5 4178,-87.5"/>
 <polygon fill="none" stroke="black" points="4178,-87.5 4178,-124.5 4276,-124.5 4276,-87.5 4178,-87.5"/>
 <text text-anchor="start" x="4189" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">Dispatcher</text>
 <polygon fill="none" stroke="black" points="4177,-87 4177,-126 4277,-126 4277,-87 4177,-87"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndDispatcher -->
 <g id="edge85" class="edge"><title>ndPublicKey&#45;&gt;ndDispatcher</title>
@@ -1607,10 +1781,13 @@
 </g>
 <!-- ndSectionKeysProvider -->
 <g id="node118" class="node"><title>ndSectionKeysProvider</title>
+<g id="a_node118_58"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/network_knowledge/section_keys.rs#:~:text=struct%20SectionKeysProvider" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="5489,-834.5 5489,-871.5 5659,-871.5 5659,-834.5 5489,-834.5"/>
 <polygon fill="none" stroke="black" points="5489,-834.5 5489,-871.5 5659,-871.5 5659,-834.5 5489,-834.5"/>
 <text text-anchor="start" x="5500" y="-850.3" font-family="Arial" font-weight="bold" font-size="14.00">SectionKeysProvider</text>
 <polygon fill="none" stroke="black" points="5488,-834 5488,-873 5660,-873 5660,-834 5488,-834"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndSectionKeysProvider -->
 <g id="edge86" class="edge"><title>ndPublicKey&#45;&gt;ndSectionKeysProvider</title>
@@ -1624,10 +1801,13 @@
 </g>
 <!-- ndDkgVoter -->
 <g id="node123" class="node"><title>ndDkgVoter</title>
+<g id="a_node123_59"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/dkg/voter.rs#:~:text=struct%20DkgVoter" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="7795,-336.5 7795,-373.5 7882,-373.5 7882,-336.5 7795,-336.5"/>
 <polygon fill="none" stroke="black" points="7795,-336.5 7795,-373.5 7882,-373.5 7882,-336.5 7795,-336.5"/>
 <text text-anchor="start" x="7806" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">DkgVoter</text>
 <polygon fill="none" stroke="black" points="7793.5,-336 7793.5,-375 7882.5,-375 7882.5,-336 7793.5,-336"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndDkgVoter -->
 <g id="edge89" class="edge"><title>ndPublicKey&#45;&gt;ndDkgVoter</title>
@@ -1646,10 +1826,13 @@
 </g>
 <!-- ndJoiningAsRelocated -->
 <g id="node141" class="node"><title>ndJoiningAsRelocated</title>
+<g id="a_node141_60"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/core/bootstrap/relocate.rs#:~:text=struct%20JoiningAsRelocated" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="6562,-336.5 6562,-373.5 6723,-373.5 6723,-336.5 6562,-336.5"/>
 <polygon fill="none" stroke="black" points="6562,-336.5 6562,-373.5 6723,-373.5 6723,-336.5 6562,-336.5"/>
 <text text-anchor="start" x="6573" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">JoiningAsRelocated</text>
 <polygon fill="none" stroke="black" points="6560.5,-336 6560.5,-375 6723.5,-375 6723.5,-336 6560.5,-336"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndJoiningAsRelocated -->
 <g id="edge93" class="edge"><title>ndPublicKey&#45;&gt;ndJoiningAsRelocated</title>
@@ -1658,10 +1841,13 @@
 </g>
 <!-- ndJoin -->
 <g id="node142" class="node"><title>ndJoin</title>
+<g id="a_node142_61"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/core/bootstrap/join.rs#:~:text=struct%20Join" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="5507,-419.5 5507,-456.5 5560,-456.5 5560,-419.5 5507,-419.5"/>
 <polygon fill="none" stroke="black" points="5507,-419.5 5507,-456.5 5560,-456.5 5560,-419.5 5507,-419.5"/>
 <text text-anchor="start" x="5518" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">Join</text>
 <polygon fill="none" stroke="black" points="5505.5,-419 5505.5,-458 5560.5,-458 5560.5,-419 5505.5,-419"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndJoin -->
 <g id="edge94" class="edge"><title>ndPublicKey&#45;&gt;ndJoin</title>
@@ -1670,10 +1856,13 @@
 </g>
 <!-- ndNetwork -->
 <g id="node171" class="node"><title>ndNetwork</title>
+<g id="a_node171_62"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/network.rs#:~:text=struct%20Network" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4229,-1415.5 4229,-1452.5 4309,-1452.5 4309,-1415.5 4229,-1415.5"/>
 <polygon fill="none" stroke="black" points="4229,-1415.5 4229,-1452.5 4309,-1452.5 4309,-1415.5 4229,-1415.5"/>
 <text text-anchor="start" x="4240" y="-1431.3" font-family="Arial" font-weight="bold" font-size="14.00">Network</text>
 <polygon fill="none" stroke="black" points="4228,-1415 4228,-1454 4310,-1454 4310,-1415 4228,-1415"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndNetwork -->
 <g id="edge97" class="edge"><title>ndPublicKey&#45;&gt;ndNetwork</title>
@@ -1682,10 +1871,13 @@
 </g>
 <!-- ndNodeInfo -->
 <g id="node176" class="node"><title>ndNodeInfo</title>
+<g id="a_node176_63"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/node_api/mod.rs#:~:text=struct%20NodeInfo" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4486,-1415.5 4486,-1452.5 4571,-1452.5 4571,-1415.5 4486,-1415.5"/>
 <polygon fill="none" stroke="black" points="4486,-1415.5 4486,-1452.5 4571,-1452.5 4571,-1415.5 4486,-1415.5"/>
 <text text-anchor="start" x="4497" y="-1431.3" font-family="Arial" font-weight="bold" font-size="14.00">NodeInfo</text>
 <polygon fill="none" stroke="black" points="4484.5,-1415 4484.5,-1454 4571.5,-1454 4571.5,-1415 4484.5,-1415"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndNodeInfo -->
 <g id="edge98" class="edge"><title>ndPublicKey&#45;&gt;ndNodeInfo</title>
@@ -1694,10 +1886,13 @@
 </g>
 <!-- ndMetadata -->
 <g id="node177" class="node"><title>ndMetadata</title>
+<g id="a_node177_64"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/metadata/mod.rs#:~:text=struct%20Metadata" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4229,-751.5 4229,-788.5 4315,-788.5 4315,-751.5 4229,-751.5"/>
 <polygon fill="none" stroke="black" points="4229,-751.5 4229,-788.5 4315,-788.5 4315,-751.5 4229,-751.5"/>
 <text text-anchor="start" x="4240" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">Metadata</text>
 <polygon fill="none" stroke="black" points="4228,-751 4228,-790 4316,-790 4316,-751 4228,-751"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndMetadata -->
 <g id="edge99" class="edge"><title>ndPublicKey&#45;&gt;ndMetadata</title>
@@ -1706,10 +1901,13 @@
 </g>
 <!-- ndEncryption -->
 <g id="node20" class="node"><title>ndEncryption</title>
+<g id="a_node20_65"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/keys/keypair.rs#:~:text=trait%20Encryption" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="7386,-1581.5 7386,-1618.5 7485,-1618.5 7485,-1581.5 7386,-1581.5"/>
 <polygon fill="none" stroke="black" points="7386,-1581.5 7386,-1618.5 7485,-1618.5 7485,-1581.5 7386,-1581.5"/>
 <text text-anchor="start" x="7397" y="-1597.3" font-family="Arial" font-weight="bold" font-size="14.00">Encryption</text>
 <polygon fill="none" stroke="black" points="7384.5,-1581 7384.5,-1620 7485.5,-1620 7485.5,-1581 7384.5,-1581"/>
+</a>
+</g>
 </g>
 <!-- ndOwnerType&#45;&gt;ndEncryption -->
 <g id="edge100" class="edge"><title>ndOwnerType&#45;&gt;ndEncryption</title>
@@ -1718,10 +1916,13 @@
 </g>
 <!-- ndSigning -->
 <g id="node19" class="node"><title>ndSigning</title>
+<g id="a_node19_66"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/keys/keypair.rs#:~:text=trait%20Signing" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="7328,-1664.5 7328,-1701.5 7404,-1701.5 7404,-1664.5 7328,-1664.5"/>
 <polygon fill="none" stroke="black" points="7328,-1664.5 7328,-1701.5 7404,-1701.5 7404,-1664.5 7328,-1664.5"/>
 <text text-anchor="start" x="7339" y="-1680.3" font-family="Arial" font-weight="bold" font-size="14.00">Signing</text>
 <polygon fill="none" stroke="black" points="7327,-1664 7327,-1703 7405,-1703 7405,-1664 7327,-1664"/>
+</a>
+</g>
 </g>
 <!-- ndSigning&#45;&gt;ndEncryption -->
 <g id="edge101" class="edge"><title>ndSigning&#45;&gt;ndEncryption</title>
@@ -1750,10 +1951,13 @@
 </g>
 <!-- ndNode -->
 <g id="node99" class="node"><title>ndNode</title>
+<g id="a_node99_67"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/node_api/mod.rs#:~:text=struct%20Node" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4512,-1332.5 4512,-1369.5 4571,-1369.5 4571,-1332.5 4512,-1332.5"/>
 <polygon fill="none" stroke="black" points="4512,-1332.5 4512,-1369.5 4571,-1369.5 4571,-1332.5 4512,-1332.5"/>
 <text text-anchor="start" x="4523" y="-1348.3" font-family="Arial" font-weight="bold" font-size="14.00">Node</text>
 <polygon fill="none" stroke="black" points="4510.5,-1332 4510.5,-1371 4571.5,-1371 4571.5,-1332 4510.5,-1332"/>
+</a>
+</g>
 </g>
 <!-- ndKeypair&#45;&gt;ndNode -->
 <g id="edge106" class="edge"><title>ndKeypair&#45;&gt;ndNode</title>
@@ -1767,10 +1971,13 @@
 </g>
 <!-- ndDkgFailureSigUtils -->
 <g id="node125" class="node"><title>ndDkgFailureSigUtils</title>
+<g id="a_node125_68"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/dkg/dkg_msgs_utils.rs#:~:text=trait%20DkgFailureSigUtils" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="469,-336.5 469,-373.5 620,-373.5 620,-336.5 469,-336.5"/>
 <polygon fill="none" stroke="black" points="469,-336.5 469,-373.5 620,-373.5 620,-336.5 469,-336.5"/>
 <text text-anchor="start" x="480" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">DkgFailureSigUtils</text>
 <polygon fill="none" stroke="black" points="467.5,-336 467.5,-375 620.5,-375 620.5,-336 467.5,-336"/>
+</a>
+</g>
 </g>
 <!-- ndKeypair&#45;&gt;ndDkgFailureSigUtils -->
 <g id="edge108" class="edge"><title>ndKeypair&#45;&gt;ndDkgFailureSigUtils</title>
@@ -1779,10 +1986,13 @@
 </g>
 <!-- ndBlsKeypairShare -->
 <g id="node22" class="node"><title>ndBlsKeypairShare</title>
+<g id="a_node22_69"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/keys/keypair.rs#:~:text=struct%20BlsKeypairShare" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="3718,-1747.5 3718,-1784.5 3858,-1784.5 3858,-1747.5 3718,-1747.5"/>
 <polygon fill="none" stroke="black" points="3718,-1747.5 3718,-1784.5 3858,-1784.5 3858,-1747.5 3718,-1747.5"/>
 <text text-anchor="start" x="3729" y="-1763.3" font-family="Arial" font-weight="bold" font-size="14.00">BlsKeypairShare</text>
 <polygon fill="none" stroke="black" points="3717,-1747 3717,-1786 3859,-1786 3859,-1747 3717,-1747"/>
+</a>
+</g>
 </g>
 <!-- ndBlsKeypairShare&#45;&gt;ndKeypair -->
 <g id="edge109" class="edge"><title>ndBlsKeypairShare&#45;&gt;ndKeypair</title>
@@ -1796,10 +2006,13 @@
 </g>
 <!-- ndSecretKey -->
 <g id="node24" class="node"><title>ndSecretKey</title>
+<g id="a_node24_70"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/keys/secret_key.rs#:~:text=enum%20SecretKey" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="968,-1498.5 968,-1535.5 1063,-1535.5 1063,-1498.5 968,-1498.5"/>
 <polygon fill="none" stroke="black" points="968,-1498.5 968,-1535.5 1063,-1535.5 1063,-1498.5 968,-1498.5"/>
 <text text-anchor="start" x="979" y="-1514.3" font-family="Arial" font-weight="bold" font-size="14.00">SecretKey</text>
 <polygon fill="none" stroke="black" points="966.5,-1498 966.5,-1537 1063.5,-1537 1063.5,-1498 966.5,-1498"/>
+</a>
+</g>
 </g>
 <!-- ndSecretKey&#45;&gt;ndKeypair -->
 <g id="edge111" class="edge"><title>ndSecretKey&#45;&gt;ndKeypair</title>
@@ -1808,17 +2021,23 @@
 </g>
 <!-- ndSignatureShare -->
 <g id="node25" class="node"><title>ndSignatureShare</title>
+<g id="a_node25_71"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/keys/signature.rs#:~:text=struct%20SignatureShare" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="6328,-1913.5 6328,-1950.5 6459,-1950.5 6459,-1913.5 6328,-1913.5"/>
 <polygon fill="none" stroke="black" points="6328,-1913.5 6328,-1950.5 6459,-1950.5 6459,-1913.5 6328,-1913.5"/>
 <text text-anchor="start" x="6339" y="-1929.3" font-family="Arial" font-weight="bold" font-size="14.00">SignatureShare</text>
 <polygon fill="none" stroke="black" points="6326.5,-1913 6326.5,-1952 6459.5,-1952 6459.5,-1913 6326.5,-1913"/>
+</a>
+</g>
 </g>
 <!-- ndSignature -->
 <g id="node26" class="node"><title>ndSignature</title>
+<g id="a_node26_72"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/keys/signature.rs#:~:text=enum%20Signature" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="6348,-1830.5 6348,-1867.5 6438,-1867.5 6438,-1830.5 6348,-1830.5"/>
 <polygon fill="none" stroke="black" points="6348,-1830.5 6348,-1867.5 6438,-1867.5 6438,-1830.5 6348,-1830.5"/>
 <text text-anchor="start" x="6359" y="-1846.3" font-family="Arial" font-weight="bold" font-size="14.00">Signature</text>
 <polygon fill="none" stroke="black" points="6347,-1830 6347,-1869 6439,-1869 6439,-1830 6347,-1830"/>
+</a>
+</g>
 </g>
 <!-- ndSignatureShare&#45;&gt;ndSignature -->
 <g id="edge112" class="edge"><title>ndSignatureShare&#45;&gt;ndSignature</title>
@@ -1857,10 +2076,13 @@
 </g>
 <!-- ndRelocatePayload -->
 <g id="node32" class="node"><title>ndRelocatePayload</title>
+<g id="a_node32_73"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/system/relocation.rs#:~:text=struct%20RelocatePayload" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="6495,-668.5 6495,-705.5 6634,-705.5 6634,-668.5 6495,-668.5"/>
 <polygon fill="none" stroke="black" points="6495,-668.5 6495,-705.5 6634,-705.5 6634,-668.5 6495,-668.5"/>
 <text text-anchor="start" x="6506" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">RelocatePayload</text>
 <polygon fill="none" stroke="black" points="6493.5,-668 6493.5,-707 6634.5,-707 6634.5,-668 6493.5,-668"/>
+</a>
+</g>
 </g>
 <!-- ndSignature&#45;&gt;ndRelocatePayload -->
 <g id="edge119" class="edge"><title>ndSignature&#45;&gt;ndRelocatePayload</title>
@@ -1874,10 +2096,13 @@
 </g>
 <!-- ndResourceProofResponse -->
 <g id="node46" class="node"><title>ndResourceProofResponse</title>
+<g id="a_node46_74"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/system/join.rs#:~:text=struct%20ResourceProofResponse" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="6369,-1747.5 6369,-1784.5 6566,-1784.5 6566,-1747.5 6369,-1747.5"/>
 <polygon fill="none" stroke="black" points="6369,-1747.5 6369,-1784.5 6566,-1784.5 6566,-1747.5 6369,-1747.5"/>
 <text text-anchor="start" x="6380" y="-1763.3" font-family="Arial" font-weight="bold" font-size="14.00">ResourceProofResponse</text>
 <polygon fill="none" stroke="black" points="6367.5,-1747 6367.5,-1786 6566.5,-1786 6566.5,-1747 6367.5,-1747"/>
+</a>
+</g>
 </g>
 <!-- ndSignature&#45;&gt;ndResourceProofResponse -->
 <g id="edge121" class="edge"><title>ndSignature&#45;&gt;ndResourceProofResponse</title>
@@ -1891,10 +2116,13 @@
 </g>
 <!-- ndRegisterAddress -->
 <g id="node27" class="node"><title>ndRegisterAddress</title>
+<g id="a_node27_75"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/address/register.rs#:~:text=enum%20RegisterAddress" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2390,-1083.5 2390,-1120.5 2529,-1120.5 2529,-1083.5 2390,-1083.5"/>
 <polygon fill="none" stroke="black" points="2390,-1083.5 2390,-1120.5 2529,-1120.5 2529,-1083.5 2390,-1083.5"/>
 <text text-anchor="start" x="2401" y="-1099.3" font-family="Arial" font-weight="bold" font-size="14.00">RegisterAddress</text>
 <polygon fill="none" stroke="black" points="2388.5,-1083 2388.5,-1122 2529.5,-1122 2529.5,-1083 2388.5,-1083"/>
+</a>
+</g>
 </g>
 <!-- ndRegisterAddress&#45;&gt;ndError -->
 <g id="edge123" class="edge"><title>ndRegisterAddress&#45;&gt;ndError</title>
@@ -1903,10 +2131,13 @@
 </g>
 <!-- ndDataAddress -->
 <g id="node28" class="node"><title>ndDataAddress</title>
+<g id="a_node28_76"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/address/mod.rs#:~:text=enum%20DataAddress" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2416,-1000.5 2416,-1037.5 2529,-1037.5 2529,-1000.5 2416,-1000.5"/>
 <polygon fill="none" stroke="black" points="2416,-1000.5 2416,-1037.5 2529,-1037.5 2529,-1000.5 2416,-1000.5"/>
 <text text-anchor="start" x="2427" y="-1016.3" font-family="Arial" font-weight="bold" font-size="14.00">DataAddress</text>
 <polygon fill="none" stroke="black" points="2414.5,-1000 2414.5,-1039 2529.5,-1039 2529.5,-1000 2414.5,-1000"/>
+</a>
+</g>
 </g>
 <!-- ndRegisterAddress&#45;&gt;ndDataAddress -->
 <g id="edge124" class="edge"><title>ndRegisterAddress&#45;&gt;ndDataAddress</title>
@@ -1935,10 +2166,13 @@
 </g>
 <!-- ndUrl -->
 <g id="node164" class="node"><title>ndUrl</title>
+<g id="a_node164_77"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/url/mod.rs#:~:text=struct%20Url" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1487,-917.5 1487,-954.5 1529,-954.5 1529,-917.5 1487,-917.5"/>
 <polygon fill="none" stroke="black" points="1487,-917.5 1487,-954.5 1529,-954.5 1529,-917.5 1487,-917.5"/>
 <text text-anchor="start" x="1498" y="-933.3" font-family="Arial" font-weight="bold" font-size="14.00">Url</text>
 <polygon fill="none" stroke="black" points="1486,-917 1486,-956 1530,-956 1530,-917 1486,-917"/>
+</a>
+</g>
 </g>
 <!-- ndDataAddress&#45;&gt;ndUrl -->
 <g id="edge128" class="edge"><title>ndDataAddress&#45;&gt;ndUrl</title>
@@ -1947,10 +2181,13 @@
 </g>
 <!-- ndSafeKeyAddress -->
 <g id="node29" class="node"><title>ndSafeKeyAddress</title>
+<g id="a_node29_78"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/address/safe_key.rs#:~:text=enum%20SafeKeyAddress" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1920,-1083.5 1920,-1120.5 2059,-1120.5 2059,-1083.5 1920,-1083.5"/>
 <polygon fill="none" stroke="black" points="1920,-1083.5 1920,-1120.5 2059,-1120.5 2059,-1083.5 1920,-1083.5"/>
 <text text-anchor="start" x="1931" y="-1099.3" font-family="Arial" font-weight="bold" font-size="14.00">SafeKeyAddress</text>
 <polygon fill="none" stroke="black" points="1918.5,-1083 1918.5,-1122 2059.5,-1122 2059.5,-1083 1918.5,-1083"/>
+</a>
+</g>
 </g>
 <!-- ndSafeKeyAddress&#45;&gt;ndDataAddress -->
 <g id="edge130" class="edge"><title>ndSafeKeyAddress&#45;&gt;ndDataAddress</title>
@@ -1959,10 +2196,13 @@
 </g>
 <!-- ndBytesAddress -->
 <g id="node30" class="node"><title>ndBytesAddress</title>
+<g id="a_node30_79"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/types/address/bytes.rs#:~:text=enum%20BytesAddress" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1724,-1083.5 1724,-1120.5 1845,-1120.5 1845,-1083.5 1724,-1083.5"/>
 <polygon fill="none" stroke="black" points="1724,-1083.5 1724,-1120.5 1845,-1120.5 1845,-1083.5 1724,-1083.5"/>
 <text text-anchor="start" x="1735" y="-1099.3" font-family="Arial" font-weight="bold" font-size="14.00">BytesAddress</text>
 <polygon fill="none" stroke="black" points="1722.5,-1083 1722.5,-1122 1845.5,-1122 1845.5,-1083 1722.5,-1083"/>
+</a>
+</g>
 </g>
 <!-- ndBytesAddress&#45;&gt;ndDataAddress -->
 <g id="edge131" class="edge"><title>ndBytesAddress&#45;&gt;ndDataAddress</title>
@@ -1981,17 +2221,23 @@
 </g>
 <!-- ndRelocateDetails -->
 <g id="node31" class="node"><title>ndRelocateDetails</title>
+<g id="a_node31_80"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/system/relocation.rs#:~:text=struct%20RelocateDetails" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="7919,-1581.5 7919,-1618.5 8049,-1618.5 8049,-1581.5 7919,-1581.5"/>
 <polygon fill="none" stroke="black" points="7919,-1581.5 7919,-1618.5 8049,-1618.5 8049,-1581.5 7919,-1581.5"/>
 <text text-anchor="start" x="7930" y="-1597.3" font-family="Arial" font-weight="bold" font-size="14.00">RelocateDetails</text>
 <polygon fill="none" stroke="black" points="7918,-1581 7918,-1620 8050,-1620 8050,-1581 7918,-1581"/>
+</a>
+</g>
 </g>
 <!-- ndSystemMsg -->
 <g id="node39" class="node"><title>ndSystemMsg</title>
+<g id="a_node39_81"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/system/mod.rs#:~:text=enum%20SystemMsg" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="6094,-1498.5 6094,-1535.5 6198,-1535.5 6198,-1498.5 6094,-1498.5"/>
 <polygon fill="none" stroke="black" points="6094,-1498.5 6094,-1535.5 6198,-1535.5 6198,-1498.5 6094,-1498.5"/>
 <text text-anchor="start" x="6105" y="-1514.3" font-family="Arial" font-weight="bold" font-size="14.00">SystemMsg</text>
 <polygon fill="none" stroke="black" points="6093,-1498 6093,-1537 6199,-1537 6199,-1498 6093,-1498"/>
+</a>
+</g>
 </g>
 <!-- ndRelocateDetails&#45;&gt;ndSystemMsg -->
 <g id="edge134" class="edge"><title>ndRelocateDetails&#45;&gt;ndSystemMsg</title>
@@ -2000,10 +2246,13 @@
 </g>
 <!-- ndRelocateDetailsUtils -->
 <g id="node95" class="node"><title>ndRelocateDetailsUtils</title>
+<g id="a_node95_82"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/relocation.rs#:~:text=trait%20RelocateDetailsUtils" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="7884,-419.5 7884,-456.5 8044,-456.5 8044,-419.5 7884,-419.5"/>
 <polygon fill="none" stroke="black" points="7884,-419.5 7884,-456.5 8044,-456.5 8044,-419.5 7884,-419.5"/>
 <text text-anchor="start" x="7895" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">RelocateDetailsUtils</text>
 <polygon fill="none" stroke="black" points="7883,-419 7883,-458 8045,-458 8045,-419 7883,-419"/>
+</a>
+</g>
 </g>
 <!-- ndRelocateDetails&#45;&gt;ndRelocateDetailsUtils -->
 <g id="edge135" class="edge"><title>ndRelocateDetails&#45;&gt;ndRelocateDetailsUtils</title>
@@ -2012,10 +2261,13 @@
 </g>
 <!-- ndRelocateAction -->
 <g id="node98" class="node"><title>ndRelocateAction</title>
+<g id="a_node98_83"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/relocation.rs#:~:text=enum%20RelocateAction" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="8249,-419.5 8249,-456.5 8376,-456.5 8376,-419.5 8249,-419.5"/>
 <polygon fill="none" stroke="black" points="8249,-419.5 8249,-456.5 8376,-456.5 8376,-419.5 8249,-419.5"/>
 <text text-anchor="start" x="8260" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">RelocateAction</text>
 <polygon fill="none" stroke="black" points="8247.5,-419 8247.5,-458 8376.5,-458 8376.5,-419 8247.5,-419"/>
+</a>
+</g>
 </g>
 <!-- ndRelocateDetails&#45;&gt;ndRelocateAction -->
 <g id="edge136" class="edge"><title>ndRelocateDetails&#45;&gt;ndRelocateAction</title>
@@ -2024,10 +2276,13 @@
 </g>
 <!-- ndHandleOnlineStatus -->
 <g id="node103" class="node"><title>ndHandleOnlineStatus</title>
+<g id="a_node103_84"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/routing_api/tests/mod.rs#:~:text=struct%20HandleOnlineStatus" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="7851,-1498.5 7851,-1535.5 8011,-1535.5 8011,-1498.5 7851,-1498.5"/>
 <polygon fill="none" stroke="black" points="7851,-1498.5 7851,-1535.5 8011,-1535.5 8011,-1498.5 7851,-1498.5"/>
 <text text-anchor="start" x="7862" y="-1514.3" font-family="Arial" font-weight="bold" font-size="14.00">HandleOnlineStatus</text>
 <polygon fill="none" stroke="black" points="7850,-1498 7850,-1537 8012,-1537 8012,-1498 7850,-1498"/>
+</a>
+</g>
 </g>
 <!-- ndRelocateDetails&#45;&gt;ndHandleOnlineStatus -->
 <g id="edge137" class="edge"><title>ndRelocateDetails&#45;&gt;ndHandleOnlineStatus</title>
@@ -2041,10 +2296,13 @@
 </g>
 <!-- ndJoinAsRelocatedRequest -->
 <g id="node53" class="node"><title>ndJoinAsRelocatedRequest</title>
+<g id="a_node53_85"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/system/join_as_relocated.rs#:~:text=struct%20JoinAsRelocatedRequest" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="6389,-585.5 6389,-622.5 6586,-622.5 6586,-585.5 6389,-585.5"/>
 <polygon fill="none" stroke="black" points="6389,-585.5 6389,-622.5 6586,-622.5 6586,-585.5 6389,-585.5"/>
 <text text-anchor="start" x="6400" y="-601.3" font-family="Arial" font-weight="bold" font-size="14.00">JoinAsRelocatedRequest</text>
 <polygon fill="none" stroke="black" points="6387.5,-585 6387.5,-624 6586.5,-624 6586.5,-585 6387.5,-585"/>
+</a>
+</g>
 </g>
 <!-- ndRelocatePayload&#45;&gt;ndJoinAsRelocatedRequest -->
 <g id="edge139" class="edge"><title>ndRelocatePayload&#45;&gt;ndJoinAsRelocatedRequest</title>
@@ -2058,10 +2316,13 @@
 </g>
 <!-- ndRelocatePromise -->
 <g id="node33" class="node"><title>ndRelocatePromise</title>
+<g id="a_node33_86"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/system/relocation.rs#:~:text=struct%20RelocatePromise" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="6728,-1581.5 6728,-1618.5 6868,-1618.5 6868,-1581.5 6728,-1581.5"/>
 <polygon fill="none" stroke="black" points="6728,-1581.5 6728,-1618.5 6868,-1618.5 6868,-1581.5 6728,-1581.5"/>
 <text text-anchor="start" x="6739" y="-1597.3" font-family="Arial" font-weight="bold" font-size="14.00">RelocatePromise</text>
 <polygon fill="none" stroke="black" points="6727,-1581 6727,-1620 6869,-1620 6869,-1581 6727,-1581"/>
+</a>
+</g>
 </g>
 <!-- ndRelocatePromise&#45;&gt;ndSystemMsg -->
 <g id="edge141" class="edge"><title>ndRelocatePromise&#45;&gt;ndSystemMsg</title>
@@ -2075,10 +2336,13 @@
 </g>
 <!-- ndDkgSessionId -->
 <g id="node34" class="node"><title>ndDkgSessionId</title>
+<g id="a_node34_87"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/system/agreement.rs#:~:text=struct%20DkgSessionId" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1230,-419.5 1230,-456.5 1349,-456.5 1349,-419.5 1230,-419.5"/>
 <polygon fill="none" stroke="black" points="1230,-419.5 1230,-456.5 1349,-456.5 1349,-419.5 1230,-419.5"/>
 <text text-anchor="start" x="1241" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">DkgSessionId</text>
 <polygon fill="none" stroke="black" points="1228.5,-419 1228.5,-458 1349.5,-458 1349.5,-419 1228.5,-419"/>
+</a>
+</g>
 </g>
 <!-- ndDkgSessionId&#45;&gt;ndSession -->
 <g id="edge144" class="edge"><title>ndDkgSessionId&#45;&gt;ndSession</title>
@@ -2097,10 +2361,13 @@
 </g>
 <!-- ndDkgFailureSigSet -->
 <g id="node36" class="node"><title>ndDkgFailureSigSet</title>
+<g id="a_node36_88"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/system/agreement.rs#:~:text=struct%20DkgFailureSigSet" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="6213,-1581.5 6213,-1618.5 6356,-1618.5 6356,-1581.5 6213,-1581.5"/>
 <polygon fill="none" stroke="black" points="6213,-1581.5 6213,-1618.5 6356,-1618.5 6356,-1581.5 6213,-1581.5"/>
 <text text-anchor="start" x="6224" y="-1597.3" font-family="Arial" font-weight="bold" font-size="14.00">DkgFailureSigSet</text>
 <polygon fill="none" stroke="black" points="6211.5,-1581 6211.5,-1620 6356.5,-1620 6356.5,-1581 6211.5,-1581"/>
+</a>
+</g>
 </g>
 <!-- ndDkgFailureSig&#45;&gt;ndDkgFailureSigSet -->
 <g id="edge146" class="edge"><title>ndDkgFailureSig&#45;&gt;ndDkgFailureSigSet</title>
@@ -2119,10 +2386,13 @@
 </g>
 <!-- ndDkgFailureSigSetUtils -->
 <g id="node126" class="node"><title>ndDkgFailureSigSetUtils</title>
+<g id="a_node126_89"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/dkg/dkg_msgs_utils.rs#:~:text=trait%20DkgFailureSigSetUtils" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="7877,-668.5 7877,-705.5 8050,-705.5 8050,-668.5 7877,-668.5"/>
 <polygon fill="none" stroke="black" points="7877,-668.5 7877,-705.5 8050,-705.5 8050,-668.5 7877,-668.5"/>
 <text text-anchor="start" x="7888" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">DkgFailureSigSetUtils</text>
 <polygon fill="none" stroke="black" points="7875.5,-668 7875.5,-707 8050.5,-707 8050.5,-668 7875.5,-668"/>
+</a>
+</g>
 </g>
 <!-- ndDkgFailureSig&#45;&gt;ndDkgFailureSigSetUtils -->
 <g id="edge149" class="edge"><title>ndDkgFailureSig&#45;&gt;ndDkgFailureSigSetUtils</title>
@@ -2141,10 +2411,13 @@
 </g>
 <!-- ndCommand -->
 <g id="node100" class="node"><title>ndCommand</title>
+<g id="a_node100_90"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/routing_api/command.rs#:~:text=enum%20Command" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="8080,-419.5 8080,-456.5 8174,-456.5 8174,-419.5 8080,-419.5"/>
 <polygon fill="none" stroke="black" points="8080,-419.5 8080,-456.5 8174,-456.5 8174,-419.5 8080,-419.5"/>
 <text text-anchor="start" x="8091" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">Command</text>
 <polygon fill="none" stroke="black" points="8079,-419 8079,-458 8175,-458 8175,-419 8079,-419"/>
+</a>
+</g>
 </g>
 <!-- ndDkgFailureSigSet&#45;&gt;ndCommand -->
 <g id="edge151" class="edge"><title>ndDkgFailureSigSet&#45;&gt;ndCommand</title>
@@ -2153,10 +2426,13 @@
 </g>
 <!-- ndSectionAuth -->
 <g id="node37" class="node"><title>ndSectionAuth</title>
+<g id="a_node37_91"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/authority.rs#:~:text=struct%20SectionAuth" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="6401,-751.5 6401,-788.5 6508,-788.5 6508,-751.5 6401,-751.5"/>
 <polygon fill="none" stroke="black" points="6401,-751.5 6401,-788.5 6508,-788.5 6508,-751.5 6401,-751.5"/>
 <text text-anchor="start" x="6412" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">SectionAuth</text>
 <polygon fill="none" stroke="black" points="6399.5,-751 6399.5,-790 6508.5,-790 6508.5,-751 6399.5,-751"/>
+</a>
+</g>
 </g>
 <!-- ndSectionAuth&#45;&gt;ndRelocatePayload -->
 <g id="edge153" class="edge"><title>ndSectionAuth&#45;&gt;ndRelocatePayload</title>
@@ -2170,10 +2446,13 @@
 </g>
 <!-- ndProposal -->
 <g id="node38" class="node"><title>ndProposal</title>
+<g id="a_node38_92"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/system/agreement.rs#:~:text=enum%20Proposal" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="5613,-585.5 5613,-622.5 5699,-622.5 5699,-585.5 5613,-585.5"/>
 <polygon fill="none" stroke="black" points="5613,-585.5 5613,-622.5 5699,-622.5 5699,-585.5 5613,-585.5"/>
 <text text-anchor="start" x="5624" y="-601.3" font-family="Arial" font-weight="bold" font-size="14.00">Proposal</text>
 <polygon fill="none" stroke="black" points="5612,-585 5612,-624 5700,-624 5700,-585 5612,-585"/>
+</a>
+</g>
 </g>
 <!-- ndSectionAuth&#45;&gt;ndProposal -->
 <g id="edge154" class="edge"><title>ndSectionAuth&#45;&gt;ndProposal</title>
@@ -2207,10 +2486,13 @@
 </g>
 <!-- ndNodeMsgAuthority -->
 <g id="node76" class="node"><title>ndNodeMsgAuthority</title>
+<g id="a_node76_93"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/serialisation/mod.rs#:~:text=enum%20NodeMsgAuthority" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="5344,-668.5 5344,-705.5 5496,-705.5 5496,-668.5 5344,-668.5"/>
 <polygon fill="none" stroke="black" points="5344,-668.5 5344,-705.5 5496,-705.5 5496,-668.5 5344,-668.5"/>
 <text text-anchor="start" x="5355" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">NodeMsgAuthority</text>
 <polygon fill="none" stroke="black" points="5343,-668 5343,-707 5497,-707 5497,-668 5343,-668"/>
+</a>
+</g>
 </g>
 <!-- ndSectionAuth&#45;&gt;ndNodeMsgAuthority -->
 <g id="edge155" class="edge"><title>ndSectionAuth&#45;&gt;ndNodeMsgAuthority</title>
@@ -2274,10 +2556,13 @@
 </g>
 <!-- ndRelocateState -->
 <g id="node97" class="node"><title>ndRelocateState</title>
+<g id="a_node97_94"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/relocation.rs#:~:text=enum%20RelocateState" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="5664,-253.5 5664,-290.5 5782,-290.5 5782,-253.5 5664,-253.5"/>
 <polygon fill="none" stroke="black" points="5664,-253.5 5664,-290.5 5782,-290.5 5782,-253.5 5664,-253.5"/>
 <text text-anchor="start" x="5675" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">RelocateState</text>
 <polygon fill="none" stroke="black" points="5663,-253 5663,-292 5783,-292 5783,-253 5663,-253"/>
+</a>
+</g>
 </g>
 <!-- ndSystemMsg&#45;&gt;ndRelocateState -->
 <g id="edge164" class="edge"><title>ndSystemMsg&#45;&gt;ndRelocateState</title>
@@ -2301,10 +2586,13 @@
 </g>
 <!-- ndMsgType -->
 <g id="node183" class="node"><title>ndMsgType</title>
+<g id="a_node183_95"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/node_ops.rs#:~:text=enum%20MsgType" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1732,-502.5 1732,-539.5 1819,-539.5 1819,-502.5 1732,-502.5"/>
 <polygon fill="none" stroke="black" points="1732,-502.5 1732,-539.5 1819,-539.5 1819,-502.5 1732,-502.5"/>
 <text text-anchor="start" x="1743" y="-518.3" font-family="Arial" font-weight="bold" font-size="14.00">MsgType</text>
 <polygon fill="none" stroke="black" points="1730.5,-502 1730.5,-541 1819.5,-541 1819.5,-502 1730.5,-502"/>
+</a>
+</g>
 </g>
 <!-- ndSystemMsg&#45;&gt;ndMsgType -->
 <g id="edge168" class="edge"><title>ndSystemMsg&#45;&gt;ndMsgType</title>
@@ -2313,10 +2601,13 @@
 </g>
 <!-- ndLoadReport -->
 <g id="node40" class="node"><title>ndLoadReport</title>
+<g id="a_node40_96"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/system/mod.rs#:~:text=struct%20LoadReport" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="5503,-1581.5 5503,-1618.5 5607,-1618.5 5607,-1581.5 5503,-1581.5"/>
 <polygon fill="none" stroke="black" points="5503,-1581.5 5503,-1618.5 5607,-1618.5 5607,-1581.5 5503,-1581.5"/>
 <text text-anchor="start" x="5514" y="-1597.3" font-family="Arial" font-weight="bold" font-size="14.00">LoadReport</text>
 <polygon fill="none" stroke="black" points="5502,-1581 5502,-1620 5608,-1620 5608,-1581 5502,-1581"/>
+</a>
+</g>
 </g>
 <!-- ndLoadReport&#45;&gt;ndSystemMsg -->
 <g id="edge169" class="edge"><title>ndLoadReport&#45;&gt;ndSystemMsg</title>
@@ -2330,10 +2621,13 @@
 </g>
 <!-- ndBackPressure -->
 <g id="node134" class="node"><title>ndBackPressure</title>
+<g id="a_node134_97"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/core/back_pressure.rs#:~:text=struct%20BackPressure" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="5447,-1249.5 5447,-1286.5 5569,-1286.5 5569,-1249.5 5447,-1249.5"/>
 <polygon fill="none" stroke="black" points="5447,-1249.5 5447,-1286.5 5569,-1286.5 5569,-1249.5 5447,-1249.5"/>
 <text text-anchor="start" x="5458" y="-1265.3" font-family="Arial" font-weight="bold" font-size="14.00">BackPressure</text>
 <polygon fill="none" stroke="black" points="5446,-1249 5446,-1288 5570,-1288 5570,-1249 5446,-1249"/>
+</a>
+</g>
 </g>
 <!-- ndLoadReport&#45;&gt;ndBackPressure -->
 <g id="edge171" class="edge"><title>ndLoadReport&#45;&gt;ndBackPressure</title>
@@ -2342,10 +2636,13 @@
 </g>
 <!-- ndCpuLoad -->
 <g id="node41" class="node"><title>ndCpuLoad</title>
+<g id="a_node41_98"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/system/mod.rs#:~:text=struct%20CpuLoad" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="5512,-1664.5 5512,-1701.5 5598,-1701.5 5598,-1664.5 5512,-1664.5"/>
 <polygon fill="none" stroke="black" points="5512,-1664.5 5512,-1701.5 5598,-1701.5 5598,-1664.5 5512,-1664.5"/>
 <text text-anchor="start" x="5523" y="-1680.3" font-family="Arial" font-weight="bold" font-size="14.00">CpuLoad</text>
 <polygon fill="none" stroke="black" points="5511,-1664 5511,-1703 5599,-1703 5599,-1664 5511,-1664"/>
+</a>
+</g>
 </g>
 <!-- ndCpuLoad&#45;&gt;ndLoadReport -->
 <g id="edge172" class="edge"><title>ndCpuLoad&#45;&gt;ndLoadReport</title>
@@ -2359,10 +2656,13 @@
 </g>
 <!-- ndMessageReceived -->
 <g id="node112" class="node"><title>ndMessageReceived</title>
+<g id="a_node112_99"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/routing_api/event.rs#:~:text=enum%20MessageReceived" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="5909,-1498.5 5909,-1535.5 6058,-1535.5 6058,-1498.5 5909,-1498.5"/>
 <polygon fill="none" stroke="black" points="5909,-1498.5 5909,-1535.5 6058,-1535.5 6058,-1498.5 5909,-1498.5"/>
 <text text-anchor="start" x="5920" y="-1514.3" font-family="Arial" font-weight="bold" font-size="14.00">MessageReceived</text>
 <polygon fill="none" stroke="black" points="5907.5,-1498 5907.5,-1537 6058.5,-1537 6058.5,-1498 5907.5,-1498"/>
+</a>
+</g>
 </g>
 <!-- ndNodeCmd&#45;&gt;ndMessageReceived -->
 <g id="edge174" class="edge"><title>ndNodeCmd&#45;&gt;ndMessageReceived</title>
@@ -2371,10 +2671,13 @@
 </g>
 <!-- ndNodeQuery -->
 <g id="node43" class="node"><title>ndNodeQuery</title>
+<g id="a_node43_100"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/system/node_msgs.rs#:~:text=enum%20NodeQuery" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="5910,-1581.5 5910,-1618.5 6011,-1618.5 6011,-1581.5 5910,-1581.5"/>
 <polygon fill="none" stroke="black" points="5910,-1581.5 5910,-1618.5 6011,-1618.5 6011,-1581.5 5910,-1581.5"/>
 <text text-anchor="start" x="5921" y="-1597.3" font-family="Arial" font-weight="bold" font-size="14.00">NodeQuery</text>
 <polygon fill="none" stroke="black" points="5908.5,-1581 5908.5,-1620 6011.5,-1620 6011.5,-1581 5908.5,-1581"/>
+</a>
+</g>
 </g>
 <!-- ndNodeQuery&#45;&gt;ndSystemMsg -->
 <g id="edge175" class="edge"><title>ndNodeQuery&#45;&gt;ndSystemMsg</title>
@@ -2393,10 +2696,13 @@
 </g>
 <!-- ndJoinRequest -->
 <g id="node45" class="node"><title>ndJoinRequest</title>
+<g id="a_node45_101"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/system/join.rs#:~:text=struct%20JoinRequest" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="6430,-1581.5 6430,-1618.5 6540,-1618.5 6540,-1581.5 6430,-1581.5"/>
 <polygon fill="none" stroke="black" points="6430,-1581.5 6430,-1618.5 6540,-1618.5 6540,-1581.5 6430,-1581.5"/>
 <text text-anchor="start" x="6441" y="-1597.3" font-family="Arial" font-weight="bold" font-size="14.00">JoinRequest</text>
 <polygon fill="none" stroke="black" points="6429,-1581 6429,-1620 6541,-1620 6541,-1581 6429,-1581"/>
+</a>
+</g>
 </g>
 <!-- ndJoinRequest&#45;&gt;ndSystemMsg -->
 <g id="edge178" class="edge"><title>ndJoinRequest&#45;&gt;ndSystemMsg</title>
@@ -2415,10 +2721,13 @@
 </g>
 <!-- ndJoinResponse -->
 <g id="node47" class="node"><title>ndJoinResponse</title>
+<g id="a_node47_102"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/system/join.rs#:~:text=enum%20JoinResponse" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="5810,-585.5 5810,-622.5 5932,-622.5 5932,-585.5 5810,-585.5"/>
 <polygon fill="none" stroke="black" points="5810,-585.5 5810,-622.5 5932,-622.5 5932,-585.5 5810,-585.5"/>
 <text text-anchor="start" x="5821" y="-601.3" font-family="Arial" font-weight="bold" font-size="14.00">JoinResponse</text>
 <polygon fill="none" stroke="black" points="5809,-585 5809,-624 5933,-624 5933,-585 5809,-585"/>
+</a>
+</g>
 </g>
 <!-- ndJoinResponse&#45;&gt;ndSystemMsg -->
 <g id="edge181" class="edge"><title>ndJoinResponse&#45;&gt;ndSystemMsg</title>
@@ -2432,10 +2741,13 @@
 </g>
 <!-- ndJoinRejectionReason -->
 <g id="node48" class="node"><title>ndJoinRejectionReason</title>
+<g id="a_node48_103"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/system/join.rs#:~:text=enum%20JoinRejectionReason" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="5702,-668.5 5702,-705.5 5872,-705.5 5872,-668.5 5702,-668.5"/>
 <polygon fill="none" stroke="black" points="5702,-668.5 5702,-705.5 5872,-705.5 5872,-668.5 5702,-668.5"/>
 <text text-anchor="start" x="5713" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">JoinRejectionReason</text>
 <polygon fill="none" stroke="black" points="5701,-668 5701,-707 5873,-707 5873,-668 5701,-668"/>
+</a>
+</g>
 </g>
 <!-- ndJoinRejectionReason&#45;&gt;ndJoinResponse -->
 <g id="edge183" class="edge"><title>ndJoinRejectionReason&#45;&gt;ndJoinResponse</title>
@@ -2444,10 +2756,13 @@
 </g>
 <!-- ndKeyedSig -->
 <g id="node49" class="node"><title>ndKeyedSig</title>
+<g id="a_node49_104"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/system/signed.rs#:~:text=struct%20KeyedSig" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="6530,-917.5 6530,-954.5 6619,-954.5 6619,-917.5 6530,-917.5"/>
 <polygon fill="none" stroke="black" points="6530,-917.5 6530,-954.5 6619,-954.5 6619,-917.5 6530,-917.5"/>
 <text text-anchor="start" x="6541" y="-933.3" font-family="Arial" font-weight="bold" font-size="14.00">KeyedSig</text>
 <polygon fill="none" stroke="black" points="6528.5,-917 6528.5,-956 6619.5,-956 6619.5,-917 6528.5,-917"/>
+</a>
+</g>
 </g>
 <!-- ndKeyedSig&#45;&gt;ndSectionAuth -->
 <g id="edge184" class="edge"><title>ndKeyedSig&#45;&gt;ndSectionAuth</title>
@@ -2466,10 +2781,13 @@
 </g>
 <!-- ndSectionAuthUtils -->
 <g id="node127" class="node"><title>ndSectionAuthUtils</title>
+<g id="a_node127_105"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/dkg/section_signed.rs#:~:text=trait%20SectionAuthUtils" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="6443,-834.5 6443,-871.5 6580,-871.5 6580,-834.5 6443,-834.5"/>
 <polygon fill="none" stroke="black" points="6443,-834.5 6443,-871.5 6580,-871.5 6580,-834.5 6443,-834.5"/>
 <text text-anchor="start" x="6454" y="-850.3" font-family="Arial" font-weight="bold" font-size="14.00">SectionAuthUtils</text>
 <polygon fill="none" stroke="black" points="6441.5,-834 6441.5,-873 6580.5,-873 6580.5,-834 6441.5,-834"/>
+</a>
+</g>
 </g>
 <!-- ndKeyedSig&#45;&gt;ndSectionAuthUtils -->
 <g id="edge187" class="edge"><title>ndKeyedSig&#45;&gt;ndSectionAuthUtils</title>
@@ -2478,10 +2796,13 @@
 </g>
 <!-- ndSigShare -->
 <g id="node50" class="node"><title>ndSigShare</title>
+<g id="a_node50_106"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/system/signed.rs#:~:text=struct%20SigShare" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4009,-917.5 4009,-954.5 4095,-954.5 4095,-917.5 4009,-917.5"/>
 <polygon fill="none" stroke="black" points="4009,-917.5 4009,-954.5 4095,-954.5 4095,-917.5 4009,-917.5"/>
 <text text-anchor="start" x="4020" y="-933.3" font-family="Arial" font-weight="bold" font-size="14.00">SigShare</text>
 <polygon fill="none" stroke="black" points="4008,-917 4008,-956 4096,-956 4096,-917 4008,-917"/>
+</a>
+</g>
 </g>
 <!-- ndSigShare&#45;&gt;ndSignatureAggregator -->
 <g id="edge188" class="edge"><title>ndSigShare&#45;&gt;ndSignatureAggregator</title>
@@ -2500,10 +2821,13 @@
 </g>
 <!-- ndProposalUtils -->
 <g id="node139" class="node"><title>ndProposalUtils</title>
+<g id="a_node139_107"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/core/proposal.rs#:~:text=trait%20ProposalUtils" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="3979,-834.5 3979,-871.5 4095,-871.5 4095,-834.5 3979,-834.5"/>
 <polygon fill="none" stroke="black" points="3979,-834.5 3979,-871.5 4095,-871.5 4095,-834.5 3979,-834.5"/>
 <text text-anchor="start" x="3990" y="-850.3" font-family="Arial" font-weight="bold" font-size="14.00">ProposalUtils</text>
 <polygon fill="none" stroke="black" points="3978,-834 3978,-873 4096,-873 4096,-834 3978,-834"/>
+</a>
+</g>
 </g>
 <!-- ndSigShare&#45;&gt;ndProposalUtils -->
 <g id="edge191" class="edge"><title>ndSigShare&#45;&gt;ndProposalUtils</title>
@@ -2537,10 +2861,13 @@
 </g>
 <!-- ndMembershipState -->
 <g id="node52" class="node"><title>ndMembershipState</title>
+<g id="a_node52_108"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/system/section/node_state.rs#:~:text=enum%20MembershipState" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="4504,-751.5 4504,-788.5 4649,-788.5 4649,-751.5 4504,-751.5"/>
 <polygon fill="none" stroke="black" points="4504,-751.5 4504,-788.5 4649,-788.5 4649,-751.5 4504,-751.5"/>
 <text text-anchor="start" x="4515" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">MembershipState</text>
 <polygon fill="none" stroke="black" points="4502.5,-751 4502.5,-790 4649.5,-790 4649.5,-751 4502.5,-751"/>
+</a>
+</g>
 </g>
 <!-- ndMembershipState&#45;&gt;ndNodeState -->
 <g id="edge195" class="edge"><title>ndMembershipState&#45;&gt;ndNodeState</title>
@@ -2559,10 +2886,13 @@
 </g>
 <!-- ndJoinAsRelocatedResponse -->
 <g id="node54" class="node"><title>ndJoinAsRelocatedResponse</title>
+<g id="a_node54_109"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/system/join_as_relocated.rs#:~:text=enum%20JoinAsRelocatedResponse" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="6755,-585.5 6755,-622.5 6964,-622.5 6964,-585.5 6755,-585.5"/>
 <polygon fill="none" stroke="black" points="6755,-585.5 6755,-622.5 6964,-622.5 6964,-585.5 6755,-585.5"/>
 <text text-anchor="start" x="6766" y="-601.3" font-family="Arial" font-weight="bold" font-size="14.00">JoinAsRelocatedResponse</text>
 <polygon fill="none" stroke="black" points="6753.5,-585 6753.5,-624 6964.5,-624 6964.5,-585 6753.5,-585"/>
+</a>
+</g>
 </g>
 <!-- ndJoinAsRelocatedResponse&#45;&gt;ndSystemMsg -->
 <g id="edge198" class="edge"><title>ndJoinAsRelocatedResponse&#45;&gt;ndSystemMsg</title>
@@ -2586,10 +2916,13 @@
 </g>
 <!-- ndCore -->
 <g id="node135" class="node"><title>ndCore</title>
+<g id="a_node135_110"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/core/mod.rs#:~:text=struct%20Core" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="5259,-170.5 5259,-207.5 5315,-207.5 5315,-170.5 5259,-170.5"/>
 <polygon fill="none" stroke="black" points="5259,-170.5 5259,-207.5 5315,-207.5 5315,-170.5 5259,-170.5"/>
 <text text-anchor="start" x="5270" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">Core</text>
 <polygon fill="none" stroke="black" points="5258,-170 5258,-209 5316,-209 5316,-170 5258,-170"/>
+</a>
+</g>
 </g>
 <!-- ndSignatureAggregator&#45;&gt;ndCore -->
 <g id="edge202" class="edge"><title>ndSignatureAggregator&#45;&gt;ndCore</title>
@@ -2673,10 +3006,13 @@
 </g>
 <!-- ndServiceMsg -->
 <g id="node65" class="node"><title>ndServiceMsg</title>
+<g id="a_node65_111"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/data/mod.rs#:~:text=enum%20ServiceMsg" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2926,-585.5 2926,-622.5 3031,-622.5 3031,-585.5 2926,-585.5"/>
 <polygon fill="none" stroke="black" points="2926,-585.5 2926,-622.5 3031,-622.5 3031,-585.5 2926,-585.5"/>
 <text text-anchor="start" x="2937" y="-601.3" font-family="Arial" font-weight="bold" font-size="14.00">ServiceMsg</text>
 <polygon fill="none" stroke="black" points="2924.5,-585 2924.5,-624 3031.5,-624 3031.5,-585 2924.5,-585"/>
+</a>
+</g>
 </g>
 <!-- ndDataCmd&#45;&gt;ndServiceMsg -->
 <g id="edge230" class="edge"><title>ndDataCmd&#45;&gt;ndServiceMsg</title>
@@ -2685,10 +3021,13 @@
 </g>
 <!-- ndRegisterRead -->
 <g id="node59" class="node"><title>ndRegisterRead</title>
+<g id="a_node59_112"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/data/register.rs#:~:text=enum%20RegisterRead" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="3819,-917.5 3819,-954.5 3935,-954.5 3935,-917.5 3819,-917.5"/>
 <polygon fill="none" stroke="black" points="3819,-917.5 3819,-954.5 3935,-954.5 3935,-917.5 3819,-917.5"/>
 <text text-anchor="start" x="3830" y="-933.3" font-family="Arial" font-weight="bold" font-size="14.00">RegisterRead</text>
 <polygon fill="none" stroke="black" points="3818,-917 3818,-956 3936,-956 3936,-917 3818,-917"/>
+</a>
+</g>
 </g>
 <!-- ndRegisterRead&#45;&gt;ndDataQuery -->
 <g id="edge231" class="edge"><title>ndRegisterRead&#45;&gt;ndDataQuery</title>
@@ -2702,10 +3041,13 @@
 </g>
 <!-- ndRegisterCmd -->
 <g id="node60" class="node"><title>ndRegisterCmd</title>
+<g id="a_node60_113"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/data/register.rs#:~:text=struct%20RegisterCmd" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="2121,-668.5 2121,-705.5 2234,-705.5 2234,-668.5 2121,-668.5"/>
 <polygon fill="none" stroke="black" points="2121,-668.5 2121,-705.5 2234,-705.5 2234,-668.5 2121,-668.5"/>
 <text text-anchor="start" x="2132" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">RegisterCmd</text>
 <polygon fill="none" stroke="black" points="2119.5,-668 2119.5,-707 2234.5,-707 2234.5,-668 2119.5,-668"/>
+</a>
+</g>
 </g>
 <!-- ndRegisterCmd&#45;&gt;ndStateEntry -->
 <g id="edge233" class="edge"><title>ndRegisterCmd&#45;&gt;ndStateEntry</title>
@@ -2729,10 +3071,13 @@
 </g>
 <!-- ndDataExchange -->
 <g id="node62" class="node"><title>ndDataExchange</title>
+<g id="a_node62_114"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/data/data_exchange.rs#:~:text=struct%20DataExchange" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="3784,-1498.5 3784,-1535.5 3908,-1535.5 3908,-1498.5 3784,-1498.5"/>
 <polygon fill="none" stroke="black" points="3784,-1498.5 3784,-1535.5 3908,-1535.5 3908,-1498.5 3784,-1498.5"/>
 <text text-anchor="start" x="3795" y="-1514.3" font-family="Arial" font-weight="bold" font-size="14.00">DataExchange</text>
 <polygon fill="none" stroke="black" points="3783,-1498 3783,-1537 3909,-1537 3909,-1498 3783,-1498"/>
+</a>
+</g>
 </g>
 <!-- ndDataExchange&#45;&gt;ndStateEntry -->
 <g id="edge256" class="edge"><title>ndDataExchange&#45;&gt;ndStateEntry</title>
@@ -2756,10 +3101,13 @@
 </g>
 <!-- ndChunkDataExchange -->
 <g id="node63" class="node"><title>ndChunkDataExchange</title>
+<g id="a_node63_115"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/data/data_exchange.rs#:~:text=struct%20ChunkDataExchange" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="3729,-1581.5 3729,-1618.5 3899,-1618.5 3899,-1581.5 3729,-1581.5"/>
 <polygon fill="none" stroke="black" points="3729,-1581.5 3729,-1618.5 3899,-1618.5 3899,-1581.5 3729,-1581.5"/>
 <text text-anchor="start" x="3740" y="-1597.3" font-family="Arial" font-weight="bold" font-size="14.00">ChunkDataExchange</text>
 <polygon fill="none" stroke="black" points="3728,-1581 3728,-1620 3900,-1620 3900,-1581 3728,-1581"/>
+</a>
+</g>
 </g>
 <!-- ndChunkDataExchange&#45;&gt;ndDataExchange -->
 <g id="edge260" class="edge"><title>ndChunkDataExchange&#45;&gt;ndDataExchange</title>
@@ -2783,10 +3131,13 @@
 </g>
 <!-- ndOutgoingLazyError -->
 <g id="node184" class="node"><title>ndOutgoingLazyError</title>
+<g id="a_node184_116"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/node_ops.rs#:~:text=struct%20OutgoingLazyError" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1462,-751.5 1462,-788.5 1619,-788.5 1619,-751.5 1462,-751.5"/>
 <polygon fill="none" stroke="black" points="1462,-751.5 1462,-788.5 1619,-788.5 1619,-751.5 1462,-751.5"/>
 <text text-anchor="start" x="1473" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">OutgoingLazyError</text>
 <polygon fill="none" stroke="black" points="1460.5,-751 1460.5,-790 1619.5,-790 1619.5,-751 1460.5,-751"/>
+</a>
+</g>
 </g>
 <!-- ndServiceError&#45;&gt;ndOutgoingLazyError -->
 <g id="edge264" class="edge"><title>ndServiceError&#45;&gt;ndOutgoingLazyError</title>
@@ -2840,10 +3191,13 @@
 </g>
 <!-- ndQueryResult -->
 <g id="node85" class="node"><title>ndQueryResult</title>
+<g id="a_node85_117"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/client/connections/mod.rs#:~:text=struct%20QueryResult" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1604,-917.5 1604,-954.5 1713,-954.5 1713,-917.5 1604,-917.5"/>
 <polygon fill="none" stroke="black" points="1604,-917.5 1604,-954.5 1713,-954.5 1713,-917.5 1604,-917.5"/>
 <text text-anchor="start" x="1615" y="-933.3" font-family="Arial" font-weight="bold" font-size="14.00">QueryResult</text>
 <polygon fill="none" stroke="black" points="1602.5,-917 1602.5,-956 1713.5,-956 1713.5,-917 1602.5,-917"/>
+</a>
+</g>
 </g>
 <!-- ndQueryResponse&#45;&gt;ndQueryResult -->
 <g id="edge273" class="edge"><title>ndQueryResponse&#45;&gt;ndQueryResult</title>
@@ -2862,17 +3216,23 @@
 </g>
 <!-- ndMsgKind -->
 <g id="node70" class="node"><title>ndMsgKind</title>
+<g id="a_node70_118"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/msg_kind.rs#:~:text=enum%20MsgKind" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="4990,-751.5 4990,-788.5 5075,-788.5 5075,-751.5 4990,-751.5"/>
 <polygon fill="none" stroke="black" points="4990,-751.5 4990,-788.5 5075,-788.5 5075,-751.5 4990,-751.5"/>
 <text text-anchor="start" x="5001" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">MsgKind</text>
 <polygon fill="none" stroke="black" points="4988.5,-751 4988.5,-790 5075.5,-790 5075.5,-751 4988.5,-751"/>
+</a>
+</g>
 </g>
 <!-- ndMsgEnvelope -->
 <g id="node72" class="node"><title>ndMsgEnvelope</title>
+<g id="a_node72_119"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/serialisation/wire_msg_header.rs#:~:text=struct%20MsgEnvelope" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4698,-668.5 4698,-705.5 4816,-705.5 4816,-668.5 4698,-668.5"/>
 <polygon fill="none" stroke="black" points="4698,-668.5 4698,-705.5 4816,-705.5 4816,-668.5 4698,-668.5"/>
 <text text-anchor="start" x="4709" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">MsgEnvelope</text>
 <polygon fill="none" stroke="black" points="4697,-668 4697,-707 4817,-707 4817,-668 4697,-668"/>
+</a>
+</g>
 </g>
 <!-- ndMsgKind&#45;&gt;ndMsgEnvelope -->
 <g id="edge296" class="edge"><title>ndMsgKind&#45;&gt;ndMsgEnvelope</title>
@@ -2886,10 +3246,13 @@
 </g>
 <!-- ndWireMsgHeader -->
 <g id="node71" class="node"><title>ndWireMsgHeader</title>
+<g id="a_node71_120"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/serialisation/wire_msg_header.rs#:~:text=struct%20WireMsgHeader" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4379,-585.5 4379,-622.5 4512,-622.5 4512,-585.5 4379,-585.5"/>
 <polygon fill="none" stroke="black" points="4379,-585.5 4379,-622.5 4512,-622.5 4512,-585.5 4379,-585.5"/>
 <text text-anchor="start" x="4390" y="-601.3" font-family="Arial" font-weight="bold" font-size="14.00">WireMsgHeader</text>
 <polygon fill="none" stroke="black" points="4377.5,-585 4377.5,-624 4512.5,-624 4512.5,-585 4377.5,-585"/>
+</a>
+</g>
 </g>
 <!-- ndWireMsgHeader&#45;&gt;ndWireMsg -->
 <g id="edge298" class="edge"><title>ndWireMsgHeader&#45;&gt;ndWireMsg</title>
@@ -2903,10 +3266,13 @@
 </g>
 <!-- ndHeaderMeta -->
 <g id="node73" class="node"><title>ndHeaderMeta</title>
+<g id="a_node73_121"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/serialisation/wire_msg_header.rs#:~:text=struct%20HeaderMeta" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="6598,-1913.5 6598,-1950.5 6704,-1950.5 6704,-1913.5 6598,-1913.5"/>
 <polygon fill="none" stroke="black" points="6598,-1913.5 6598,-1950.5 6704,-1950.5 6704,-1913.5 6598,-1913.5"/>
 <text text-anchor="start" x="6609" y="-1929.3" font-family="Arial" font-weight="bold" font-size="14.00">HeaderMeta</text>
 <polygon fill="none" stroke="black" points="6597,-1913 6597,-1952 6705,-1952 6705,-1913 6597,-1913"/>
+</a>
+</g>
 </g>
 <!-- ndWireMsg&#45;&gt;ndCommand -->
 <g id="edge300" class="edge"><title>ndWireMsg&#45;&gt;ndCommand</title>
@@ -2940,10 +3306,13 @@
 </g>
 <!-- ndMessageType -->
 <g id="node75" class="node"><title>ndMessageType</title>
+<g id="a_node75_122"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/serialisation/mod.rs#:~:text=enum%20MessageType" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="4624,-585.5 4624,-622.5 4744,-622.5 4744,-585.5 4624,-585.5"/>
 <polygon fill="none" stroke="black" points="4624,-585.5 4624,-622.5 4744,-622.5 4744,-585.5 4624,-585.5"/>
 <text text-anchor="start" x="4635" y="-601.3" font-family="Arial" font-weight="bold" font-size="14.00">MessageType</text>
 <polygon fill="none" stroke="black" points="4623,-585 4623,-624 4745,-624 4745,-585 4623,-585"/>
+</a>
+</g>
 </g>
 <!-- ndMessageType&#45;&gt;ndWireMsg -->
 <g id="edge306" class="edge"><title>ndMessageType&#45;&gt;ndWireMsg</title>
@@ -2952,10 +3321,13 @@
 </g>
 <!-- ndSrcLocation -->
 <g id="node77" class="node"><title>ndSrcLocation</title>
+<g id="a_node77_123"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/location.rs#:~:text=enum%20SrcLocation" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="3879,-1415.5 3879,-1452.5 3986,-1452.5 3986,-1415.5 3879,-1415.5"/>
 <polygon fill="none" stroke="black" points="3879,-1415.5 3879,-1452.5 3986,-1452.5 3986,-1415.5 3879,-1415.5"/>
 <text text-anchor="start" x="3890" y="-1431.3" font-family="Arial" font-weight="bold" font-size="14.00">SrcLocation</text>
 <polygon fill="none" stroke="black" points="3877.5,-1415 3877.5,-1454 3986.5,-1454 3986.5,-1415 3877.5,-1415"/>
+</a>
+</g>
 </g>
 <!-- ndSrcLocation&#45;&gt;ndMsgKind -->
 <g id="edge307" class="edge"><title>ndSrcLocation&#45;&gt;ndMsgKind</title>
@@ -2964,10 +3336,13 @@
 </g>
 <!-- ndNodeMsgAuthorityUtils -->
 <g id="node129" class="node"><title>ndNodeMsgAuthorityUtils</title>
+<g id="a_node129_124"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/messages/msg_authority.rs#:~:text=trait%20NodeMsgAuthorityUtils" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="3841,-1332.5 3841,-1369.5 4023,-1369.5 4023,-1332.5 3841,-1332.5"/>
 <polygon fill="none" stroke="black" points="3841,-1332.5 3841,-1369.5 4023,-1369.5 4023,-1332.5 3841,-1332.5"/>
 <text text-anchor="start" x="3852" y="-1348.3" font-family="Arial" font-weight="bold" font-size="14.00">NodeMsgAuthorityUtils</text>
 <polygon fill="none" stroke="black" points="3840,-1332 3840,-1371 4024,-1371 4024,-1332 3840,-1332"/>
+</a>
+</g>
 </g>
 <!-- ndSrcLocation&#45;&gt;ndNodeMsgAuthorityUtils -->
 <g id="edge308" class="edge"><title>ndSrcLocation&#45;&gt;ndNodeMsgAuthorityUtils</title>
@@ -3001,10 +3376,13 @@
 </g>
 <!-- ndOutgoingMsg -->
 <g id="node182" class="node"><title>ndOutgoingMsg</title>
+<g id="a_node182_125"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/node_ops.rs#:~:text=struct%20OutgoingMsg" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1710,-419.5 1710,-456.5 1827,-456.5 1827,-419.5 1710,-419.5"/>
 <polygon fill="none" stroke="black" points="1710,-419.5 1710,-456.5 1827,-456.5 1827,-419.5 1710,-419.5"/>
 <text text-anchor="start" x="1721" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">OutgoingMsg</text>
 <polygon fill="none" stroke="black" points="1708.5,-419 1708.5,-458 1827.5,-458 1827.5,-419 1708.5,-419"/>
+</a>
+</g>
 </g>
 <!-- ndDstLocation&#45;&gt;ndOutgoingMsg -->
 <g id="edge314" class="edge"><title>ndDstLocation&#45;&gt;ndOutgoingMsg</title>
@@ -3053,10 +3431,13 @@
 </g>
 <!-- ndVerifyAuthority -->
 <g id="node82" class="node"><title>ndVerifyAuthority</title>
+<g id="a_node82_126"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/authority.rs#:~:text=trait%20VerifyAuthority" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="6740,-1913.5 6740,-1950.5 6866,-1950.5 6866,-1913.5 6740,-1913.5"/>
 <polygon fill="none" stroke="black" points="6740,-1913.5 6740,-1950.5 6866,-1950.5 6866,-1913.5 6740,-1913.5"/>
 <text text-anchor="start" x="6751" y="-1929.3" font-family="Arial" font-weight="bold" font-size="14.00">VerifyAuthority</text>
 <polygon fill="none" stroke="black" points="6739,-1913 6739,-1952 6867,-1952 6867,-1913 6739,-1913"/>
+</a>
+</g>
 </g>
 <!-- ndNetworkPrefixMap&#45;&gt;ndSession -->
 <g id="edge332" class="edge"><title>ndNetworkPrefixMap&#45;&gt;ndSession</title>
@@ -3075,10 +3456,13 @@
 </g>
 <!-- ndNetworkStats -->
 <g id="node84" class="node"><title>ndNetworkStats</title>
+<g id="a_node84_127"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/prefix_map/stats.rs#:~:text=struct%20NetworkStats" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="6041,-668.5 6041,-705.5 6156,-705.5 6156,-668.5 6041,-668.5"/>
 <polygon fill="none" stroke="black" points="6041,-668.5 6041,-705.5 6156,-705.5 6156,-668.5 6041,-668.5"/>
 <text text-anchor="start" x="6052" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">NetworkStats</text>
 <polygon fill="none" stroke="black" points="6039.5,-668 6039.5,-707 6156.5,-707 6156.5,-668 6039.5,-668"/>
+</a>
+</g>
 </g>
 <!-- ndNetworkStats&#45;&gt;ndNetworkPrefixMap -->
 <g id="edge335" class="edge"><title>ndNetworkStats&#45;&gt;ndNetworkPrefixMap</title>
@@ -3097,10 +3481,13 @@
 </g>
 <!-- ndSpot -->
 <g id="node89" class="node"><title>ndSpot</title>
+<g id="a_node89_128"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/client/client_api/data/mod.rs#:~:text=struct%20Spot" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1039,-253.5 1039,-290.5 1094,-290.5 1094,-253.5 1039,-253.5"/>
 <polygon fill="none" stroke="black" points="1039,-253.5 1039,-290.5 1094,-290.5 1094,-253.5 1039,-253.5"/>
 <text text-anchor="start" x="1050" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Spot</text>
 <polygon fill="none" stroke="black" points="1037.5,-253 1037.5,-292 1094.5,-292 1094.5,-253 1037.5,-253"/>
+</a>
+</g>
 </g>
 <!-- ndSpot&#45;&gt;ndHeadChunk -->
 <g id="edge355" class="edge"><title>ndSpot&#45;&gt;ndHeadChunk</title>
@@ -3109,10 +3496,13 @@
 </g>
 <!-- ndBlob -->
 <g id="node90" class="node"><title>ndBlob</title>
+<g id="a_node90_129"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/client/client_api/data/mod.rs#:~:text=struct%20Blob" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1424,-253.5 1424,-290.5 1479,-290.5 1479,-253.5 1424,-253.5"/>
 <polygon fill="none" stroke="black" points="1424,-253.5 1424,-290.5 1479,-290.5 1479,-253.5 1424,-253.5"/>
 <text text-anchor="start" x="1435" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Blob</text>
 <polygon fill="none" stroke="black" points="1422.5,-253 1422.5,-292 1479.5,-292 1479.5,-253 1422.5,-253"/>
+</a>
+</g>
 </g>
 <!-- ndBlob&#45;&gt;ndHeadChunk -->
 <g id="edge356" class="edge"><title>ndBlob&#45;&gt;ndHeadChunk</title>
@@ -3121,10 +3511,13 @@
 </g>
 <!-- ndDataMapLevel -->
 <g id="node91" class="node"><title>ndDataMapLevel</title>
+<g id="a_node91_130"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/client/client_api/data/pac_man.rs#:~:text=enum%20DataMapLevel" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="6902,-1913.5 6902,-1950.5 7024,-1950.5 7024,-1913.5 6902,-1913.5"/>
 <polygon fill="none" stroke="black" points="6902,-1913.5 6902,-1950.5 7024,-1950.5 7024,-1913.5 6902,-1913.5"/>
 <text text-anchor="start" x="6913" y="-1929.3" font-family="Arial" font-weight="bold" font-size="14.00">DataMapLevel</text>
 <polygon fill="none" stroke="black" points="6901,-1913 6901,-1952 7025,-1952 7025,-1913 6901,-1913"/>
+</a>
+</g>
 </g>
 <!-- ndClient&#45;&gt;ndHeadChunk -->
 <g id="edge357" class="edge"><title>ndClient&#45;&gt;ndHeadChunk</title>
@@ -3138,10 +3531,13 @@
 </g>
 <!-- ndNetworkLogState -->
 <g id="node94" class="node"><title>ndNetworkLogState</title>
+<g id="a_node94_131"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/testnet_grep/mod.rs#:~:text=struct%20NetworkLogState" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="6958,-1830.5 6958,-1867.5 7100,-1867.5 7100,-1830.5 6958,-1830.5"/>
 <polygon fill="none" stroke="black" points="6958,-1830.5 6958,-1867.5 7100,-1867.5 7100,-1830.5 6958,-1830.5"/>
 <text text-anchor="start" x="6969" y="-1846.3" font-family="Arial" font-weight="bold" font-size="14.00">NetworkLogState</text>
 <polygon fill="none" stroke="black" points="6957,-1830 6957,-1869 7101,-1869 7101,-1830 6957,-1830"/>
+</a>
+</g>
 </g>
 <!-- ndRelocateState&#45;&gt;ndCore -->
 <g id="edge359" class="edge"><title>ndRelocateState&#45;&gt;ndCore</title>
@@ -3255,17 +3651,23 @@
 </g>
 <!-- ndRouting -->
 <g id="node101" class="node"><title>ndRouting</title>
+<g id="a_node101_132"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/routing_api/mod.rs#:~:text=struct%20Routing" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4189,-4.5 4189,-41.5 4266,-41.5 4266,-4.5 4189,-4.5"/>
 <polygon fill="none" stroke="black" points="4189,-4.5 4189,-41.5 4266,-41.5 4266,-4.5 4189,-4.5"/>
 <text text-anchor="start" x="4200" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">Routing</text>
 <polygon fill="none" stroke="black" points="4187.5,-4 4187.5,-43 4266.5,-43 4266.5,-4 4187.5,-4"/>
+</a>
+</g>
 </g>
 <!-- ndEventStream -->
 <g id="node102" class="node"><title>ndEventStream</title>
+<g id="a_node102_133"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/routing_api/event_stream.rs#:~:text=struct%20EventStream" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4395,-1498.5 4395,-1535.5 4507,-1535.5 4507,-1498.5 4395,-1498.5"/>
 <polygon fill="none" stroke="black" points="4395,-1498.5 4395,-1535.5 4507,-1535.5 4507,-1498.5 4395,-1498.5"/>
 <text text-anchor="start" x="4406" y="-1514.3" font-family="Arial" font-weight="bold" font-size="14.00">EventStream</text>
 <polygon fill="none" stroke="black" points="4394,-1498 4394,-1537 4508,-1537 4508,-1498 4394,-1498"/>
+</a>
+</g>
 </g>
 <!-- ndEventStream&#45;&gt;ndNode -->
 <g id="edge391" class="edge"><title>ndEventStream&#45;&gt;ndNode</title>
@@ -3279,38 +3681,53 @@
 </g>
 <!-- ndNetworkPhase -->
 <g id="node104" class="node"><title>ndNetworkPhase</title>
+<g id="a_node104_134"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/routing_api/tests/mod.rs#:~:text=enum%20NetworkPhase" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="7196,-1913.5 7196,-1950.5 7319,-1950.5 7319,-1913.5 7196,-1913.5"/>
 <polygon fill="none" stroke="black" points="7196,-1913.5 7196,-1950.5 7319,-1950.5 7319,-1913.5 7196,-1913.5"/>
 <text text-anchor="start" x="7207" y="-1929.3" font-family="Arial" font-weight="bold" font-size="14.00">NetworkPhase</text>
 <polygon fill="none" stroke="black" points="7194.5,-1913 7194.5,-1952 7319.5,-1952 7319.5,-1913 7194.5,-1913"/>
+</a>
+</g>
 </g>
 <!-- ndUntrustedMessageSource -->
 <g id="node105" class="node"><title>ndUntrustedMessageSource</title>
+<g id="a_node105_135"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/routing_api/tests/mod.rs#:~:text=enum%20UntrustedMessageSource" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="7355,-1913.5 7355,-1950.5 7559,-1950.5 7559,-1913.5 7355,-1913.5"/>
 <polygon fill="none" stroke="black" points="7355,-1913.5 7355,-1950.5 7559,-1950.5 7559,-1913.5 7355,-1913.5"/>
 <text text-anchor="start" x="7366" y="-1929.3" font-family="Arial" font-weight="bold" font-size="14.00">UntrustedMessageSource</text>
 <polygon fill="none" stroke="black" points="7354,-1913 7354,-1952 7560,-1952 7560,-1913 7354,-1913"/>
+</a>
+</g>
 </g>
 <!-- ndRelocatedPeerRole -->
 <g id="node106" class="node"><title>ndRelocatedPeerRole</title>
+<g id="a_node106_136"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/routing_api/tests/mod.rs#:~:text=enum%20RelocatedPeerRole" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="7596,-1913.5 7596,-1950.5 7751,-1950.5 7751,-1913.5 7596,-1913.5"/>
 <polygon fill="none" stroke="black" points="7596,-1913.5 7596,-1950.5 7751,-1950.5 7751,-1913.5 7596,-1913.5"/>
 <text text-anchor="start" x="7607" y="-1929.3" font-family="Arial" font-weight="bold" font-size="14.00">RelocatedPeerRole</text>
 <polygon fill="none" stroke="black" points="7594.5,-1913 7594.5,-1952 7751.5,-1952 7751.5,-1913 7594.5,-1913"/>
+</a>
+</g>
 </g>
 <!-- ndMessageDst -->
 <g id="node107" class="node"><title>ndMessageDst</title>
+<g id="a_node107_137"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/routing_api/tests/mod.rs#:~:text=enum%20MessageDst" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="7787,-1913.5 7787,-1950.5 7896,-1950.5 7896,-1913.5 7787,-1913.5"/>
 <polygon fill="none" stroke="black" points="7787,-1913.5 7787,-1950.5 7896,-1950.5 7896,-1913.5 7787,-1913.5"/>
 <text text-anchor="start" x="7798" y="-1929.3" font-family="Arial" font-weight="bold" font-size="14.00">MessageDst</text>
 <polygon fill="none" stroke="black" points="7785.5,-1913 7785.5,-1952 7896.5,-1952 7896.5,-1913 7785.5,-1913"/>
+</a>
+</g>
 </g>
 <!-- ndSecretKeySet -->
 <g id="node108" class="node"><title>ndSecretKeySet</title>
+<g id="a_node108_138"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/routing_api/tests/mod.rs#:~:text=struct%20SecretKeySet" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="7315,-585.5 7315,-622.5 7432,-622.5 7432,-585.5 7315,-585.5"/>
 <polygon fill="none" stroke="black" points="7315,-585.5 7315,-622.5 7432,-622.5 7432,-585.5 7315,-585.5"/>
 <text text-anchor="start" x="7326" y="-601.3" font-family="Arial" font-weight="bold" font-size="14.00">SecretKeySet</text>
 <polygon fill="none" stroke="black" points="7313.5,-585 7313.5,-624 7432.5,-624 7432.5,-585 7313.5,-585"/>
+</a>
+</g>
 </g>
 <!-- ndSecretKeySet&#45;&gt;ndNetworkKnowledge -->
 <g id="edge392" class="edge"><title>ndSecretKeySet&#45;&gt;ndNetworkKnowledge</title>
@@ -3319,24 +3736,33 @@
 </g>
 <!-- ndNodeElderChange -->
 <g id="node109" class="node"><title>ndNodeElderChange</title>
+<g id="a_node109_139"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/routing_api/event.rs#:~:text=enum%20NodeElderChange" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="7932,-1913.5 7932,-1950.5 8081,-1950.5 8081,-1913.5 7932,-1913.5"/>
 <polygon fill="none" stroke="black" points="7932,-1913.5 7932,-1950.5 8081,-1950.5 8081,-1913.5 7932,-1913.5"/>
 <text text-anchor="start" x="7943" y="-1929.3" font-family="Arial" font-weight="bold" font-size="14.00">NodeElderChange</text>
 <polygon fill="none" stroke="black" points="7930.5,-1913 7930.5,-1952 8081.5,-1952 8081.5,-1913 7930.5,-1913"/>
+</a>
+</g>
 </g>
 <!-- ndElders -->
 <g id="node110" class="node"><title>ndElders</title>
+<g id="a_node110_140"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/routing_api/event.rs#:~:text=struct%20Elders" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="8117,-1913.5 8117,-1950.5 8185,-1950.5 8185,-1913.5 8117,-1913.5"/>
 <polygon fill="none" stroke="black" points="8117,-1913.5 8117,-1950.5 8185,-1950.5 8185,-1913.5 8117,-1913.5"/>
 <text text-anchor="start" x="8128" y="-1929.3" font-family="Arial" font-weight="bold" font-size="14.00">Elders</text>
 <polygon fill="none" stroke="black" points="8116,-1913 8116,-1952 8186,-1952 8186,-1913 8116,-1913"/>
+</a>
+</g>
 </g>
 <!-- ndEvent -->
 <g id="node111" class="node"><title>ndEvent</title>
+<g id="a_node111_141"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/routing_api/event.rs#:~:text=enum%20Event" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="4714,-1581.5 4714,-1618.5 4776,-1618.5 4776,-1581.5 4714,-1581.5"/>
 <polygon fill="none" stroke="black" points="4714,-1581.5 4714,-1618.5 4776,-1618.5 4776,-1581.5 4714,-1581.5"/>
 <text text-anchor="start" x="4725" y="-1597.3" font-family="Arial" font-weight="bold" font-size="14.00">Event</text>
 <polygon fill="none" stroke="black" points="4713,-1581 4713,-1620 4777,-1620 4777,-1581 4713,-1581"/>
+</a>
+</g>
 </g>
 <!-- ndEvent&#45;&gt;ndEventStream -->
 <g id="edge393" class="edge"><title>ndEvent&#45;&gt;ndEventStream</title>
@@ -3350,10 +3776,13 @@
 </g>
 <!-- ndEventStore -->
 <g id="node156" class="node"><title>ndEventStore</title>
+<g id="a_node156_142"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/dbs/event_store.rs#:~:text=struct%20EventStore" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4695,-1498.5 4695,-1535.5 4795,-1535.5 4795,-1498.5 4695,-1498.5"/>
 <polygon fill="none" stroke="black" points="4695,-1498.5 4695,-1535.5 4795,-1535.5 4795,-1498.5 4695,-1498.5"/>
 <text text-anchor="start" x="4706" y="-1514.3" font-family="Arial" font-weight="bold" font-size="14.00">EventStore</text>
 <polygon fill="none" stroke="black" points="4694,-1498 4694,-1537 4796,-1537 4796,-1498 4694,-1498"/>
+</a>
+</g>
 </g>
 <!-- ndEvent&#45;&gt;ndEventStore -->
 <g id="edge395" class="edge"><title>ndEvent&#45;&gt;ndEventStore</title>
@@ -3412,10 +3841,13 @@
 </g>
 <!-- ndLogMarker -->
 <g id="node115" class="node"><title>ndLogMarker</title>
+<g id="a_node115_143"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/log_markers.rs#:~:text=enum%20LogMarker" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="7061,-1913.5 7061,-1950.5 7160,-1950.5 7160,-1913.5 7061,-1913.5"/>
 <polygon fill="none" stroke="black" points="7061,-1913.5 7061,-1950.5 7160,-1950.5 7160,-1913.5 7061,-1913.5"/>
 <text text-anchor="start" x="7072" y="-1929.3" font-family="Arial" font-weight="bold" font-size="14.00">LogMarker</text>
 <polygon fill="none" stroke="black" points="7059.5,-1913 7059.5,-1952 7160.5,-1952 7160.5,-1913 7059.5,-1913"/>
+</a>
+</g>
 </g>
 <!-- ndLogMarker&#45;&gt;ndNetworkLogState -->
 <g id="edge402" class="edge"><title>ndLogMarker&#45;&gt;ndNetworkLogState</title>
@@ -3424,10 +3856,13 @@
 </g>
 <!-- ndScannedInfo -->
 <g id="node169" class="node"><title>ndScannedInfo</title>
+<g id="a_node169_144"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/bin/log_cmds_inspector.rs#:~:text=struct%20ScannedInfo" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="7136,-1830.5 7136,-1867.5 7246,-1867.5 7246,-1830.5 7136,-1830.5"/>
 <polygon fill="none" stroke="black" points="7136,-1830.5 7136,-1867.5 7246,-1867.5 7246,-1830.5 7136,-1830.5"/>
 <text text-anchor="start" x="7147" y="-1846.3" font-family="Arial" font-weight="bold" font-size="14.00">ScannedInfo</text>
 <polygon fill="none" stroke="black" points="7135,-1830 7135,-1869 7247,-1869 7247,-1830 7135,-1830"/>
+</a>
+</g>
 </g>
 <!-- ndLogMarker&#45;&gt;ndScannedInfo -->
 <g id="edge403" class="edge"><title>ndLogMarker&#45;&gt;ndScannedInfo</title>
@@ -3436,10 +3871,13 @@
 </g>
 <!-- ndSectionKeyShare -->
 <g id="node117" class="node"><title>ndSectionKeyShare</title>
+<g id="a_node117_145"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/network_knowledge/section_keys.rs#:~:text=struct%20SectionKeyShare" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="5620,-917.5 5620,-954.5 5763,-954.5 5763,-917.5 5620,-917.5"/>
 <polygon fill="none" stroke="black" points="5620,-917.5 5620,-954.5 5763,-954.5 5763,-917.5 5620,-917.5"/>
 <text text-anchor="start" x="5631" y="-933.3" font-family="Arial" font-weight="bold" font-size="14.00">SectionKeyShare</text>
 <polygon fill="none" stroke="black" points="5618.5,-917 5618.5,-956 5763.5,-956 5763.5,-917 5618.5,-917"/>
+</a>
+</g>
 </g>
 <!-- ndSectionKeyShare&#45;&gt;ndBlsShareAuth -->
 <g id="edge404" class="edge"><title>ndSectionKeyShare&#45;&gt;ndBlsShareAuth</title>
@@ -3513,10 +3951,13 @@
 </g>
 <!-- ndDkgSessionIdUtils -->
 <g id="node124" class="node"><title>ndDkgSessionIdUtils</title>
+<g id="a_node124_146"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/dkg/dkg_msgs_utils.rs#:~:text=trait%20DkgSessionIdUtils" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="7560,-668.5 7560,-705.5 7709,-705.5 7709,-668.5 7560,-668.5"/>
 <polygon fill="none" stroke="black" points="7560,-668.5 7560,-705.5 7709,-705.5 7709,-668.5 7560,-668.5"/>
 <text text-anchor="start" x="7571" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">DkgSessionIdUtils</text>
 <polygon fill="none" stroke="black" points="7558.5,-668 7558.5,-707 7709.5,-707 7709.5,-668 7558.5,-668"/>
+</a>
+</g>
 </g>
 <!-- ndElderCandidates&#45;&gt;ndDkgSessionIdUtils -->
 <g id="edge418" class="edge"><title>ndElderCandidates&#45;&gt;ndDkgSessionIdUtils</title>
@@ -3530,10 +3971,13 @@
 </g>
 <!-- ndPeer -->
 <g id="node121" class="node"><title>ndPeer</title>
+<g id="a_node121_147"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/network_knowledge/peer.rs#:~:text=struct%20Peer" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="6757,-1415.5 6757,-1452.5 6812,-1452.5 6812,-1415.5 6757,-1415.5"/>
 <polygon fill="none" stroke="black" points="6757,-1415.5 6757,-1452.5 6812,-1452.5 6812,-1415.5 6757,-1415.5"/>
 <text text-anchor="start" x="6768" y="-1431.3" font-family="Arial" font-weight="bold" font-size="14.00">Peer</text>
 <polygon fill="none" stroke="black" points="6755.5,-1415 6755.5,-1454 6812.5,-1454 6812.5,-1415 6755.5,-1415"/>
+</a>
+</g>
 </g>
 <!-- ndPeer&#45;&gt;ndNodeState -->
 <g id="edge428" class="edge"><title>ndPeer&#45;&gt;ndNodeState</title>
@@ -3587,10 +4031,13 @@
 </g>
 <!-- ndSendStatus -->
 <g id="node132" class="node"><title>ndSendStatus</title>
+<g id="a_node132_148"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/core/comm.rs#:~:text=enum%20SendStatus" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="6215,-1166.5 6215,-1203.5 6318,-1203.5 6318,-1166.5 6215,-1166.5"/>
 <polygon fill="none" stroke="black" points="6215,-1166.5 6215,-1203.5 6318,-1203.5 6318,-1166.5 6215,-1166.5"/>
 <text text-anchor="start" x="6226" y="-1182.3" font-family="Arial" font-weight="bold" font-size="14.00">SendStatus</text>
 <polygon fill="none" stroke="black" points="6213.5,-1166 6213.5,-1205 6318.5,-1205 6318.5,-1166 6213.5,-1166"/>
+</a>
+</g>
 </g>
 <!-- ndPeer&#45;&gt;ndSendStatus -->
 <g id="edge432" class="edge"><title>ndPeer&#45;&gt;ndSendStatus</title>
@@ -3619,10 +4066,13 @@
 </g>
 <!-- ndConnectionEvent -->
 <g id="node131" class="node"><title>ndConnectionEvent</title>
+<g id="a_node131_149"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/core/comm.rs#:~:text=enum%20ConnectionEvent" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="5051,-502.5 5051,-539.5 5194,-539.5 5194,-502.5 5051,-502.5"/>
 <polygon fill="none" stroke="black" points="5051,-502.5 5051,-539.5 5194,-539.5 5194,-502.5 5051,-502.5"/>
 <text text-anchor="start" x="5062" y="-518.3" font-family="Arial" font-weight="bold" font-size="14.00">ConnectionEvent</text>
 <polygon fill="none" stroke="black" points="5049.5,-502 5049.5,-541 5194.5,-541 5194.5,-502 5049.5,-502"/>
+</a>
+</g>
 </g>
 <!-- ndConnectionEvent&#45;&gt;ndComm -->
 <g id="edge445" class="edge"><title>ndConnectionEvent&#45;&gt;ndComm</title>
@@ -3641,10 +4091,13 @@
 </g>
 <!-- ndLiveness -->
 <g id="node133" class="node"><title>ndLiveness</title>
+<g id="a_node133_150"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/core/liveness_tracking.rs#:~:text=struct%20Liveness" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="5362,-253.5 5362,-290.5 5448,-290.5 5448,-253.5 5362,-253.5"/>
 <polygon fill="none" stroke="black" points="5362,-253.5 5362,-290.5 5448,-290.5 5448,-253.5 5362,-253.5"/>
 <text text-anchor="start" x="5373" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Liveness</text>
 <polygon fill="none" stroke="black" points="5361,-253 5361,-292 5449,-292 5449,-253 5361,-253"/>
+</a>
+</g>
 </g>
 <!-- ndLiveness&#45;&gt;ndCore -->
 <g id="edge448" class="edge"><title>ndLiveness&#45;&gt;ndCore</title>
@@ -3663,10 +4116,13 @@
 </g>
 <!-- ndStateSnapshot -->
 <g id="node136" class="node"><title>ndStateSnapshot</title>
+<g id="a_node136_151"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/core/mod.rs#:~:text=struct%20StateSnapshot" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="7336,-253.5 7336,-290.5 7461,-290.5 7461,-253.5 7336,-253.5"/>
 <polygon fill="none" stroke="black" points="7336,-253.5 7336,-290.5 7461,-290.5 7461,-253.5 7336,-253.5"/>
 <text text-anchor="start" x="7347" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">StateSnapshot</text>
 <polygon fill="none" stroke="black" points="7334.5,-253 7334.5,-292 7461.5,-292 7461.5,-253 7334.5,-253"/>
+</a>
+</g>
 </g>
 <!-- ndStateSnapshot&#45;&gt;ndCore -->
 <g id="edge451" class="edge"><title>ndStateSnapshot&#45;&gt;ndCore</title>
@@ -3675,10 +4131,13 @@
 </g>
 <!-- ndRegisterStorage -->
 <g id="node137" class="node"><title>ndRegisterStorage</title>
+<g id="a_node137_152"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/core/register_storage.rs#:~:text=struct%20RegisterStorage" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="3367,-502.5 3367,-539.5 3502,-539.5 3502,-502.5 3367,-502.5"/>
 <polygon fill="none" stroke="black" points="3367,-502.5 3367,-539.5 3502,-539.5 3502,-502.5 3367,-502.5"/>
 <text text-anchor="start" x="3378" y="-518.3" font-family="Arial" font-weight="bold" font-size="14.00">RegisterStorage</text>
 <polygon fill="none" stroke="black" points="3365.5,-502 3365.5,-541 3502.5,-541 3502.5,-502 3365.5,-502"/>
+</a>
+</g>
 </g>
 <!-- ndRegisterStorage&#45;&gt;ndDispatcher -->
 <g id="edge452" class="edge"><title>ndRegisterStorage&#45;&gt;ndDispatcher</title>
@@ -3702,10 +4161,13 @@
 </g>
 <!-- ndCapacity -->
 <g id="node140" class="node"><title>ndCapacity</title>
+<g id="a_node140_153"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/core/capacity/mod.rs#:~:text=struct%20Capacity" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4303,-253.5 4303,-290.5 4386,-290.5 4386,-253.5 4303,-253.5"/>
 <polygon fill="none" stroke="black" points="4303,-253.5 4303,-290.5 4386,-290.5 4386,-253.5 4303,-253.5"/>
 <text text-anchor="start" x="4314" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Capacity</text>
 <polygon fill="none" stroke="black" points="4301.5,-253 4301.5,-292 4386.5,-292 4386.5,-253 4301.5,-253"/>
+</a>
+</g>
 </g>
 <!-- ndCapacity&#45;&gt;ndCore -->
 <g id="edge456" class="edge"><title>ndCapacity&#45;&gt;ndCore</title>
@@ -3719,10 +4181,13 @@
 </g>
 <!-- ndConnectedPeers -->
 <g id="node143" class="node"><title>ndConnectedPeers</title>
+<g id="a_node143_154"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/core/connected_peers.rs#:~:text=struct%20ConnectedPeers" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4523,-502.5 4523,-539.5 4662,-539.5 4662,-502.5 4523,-502.5"/>
 <polygon fill="none" stroke="black" points="4523,-502.5 4523,-539.5 4662,-539.5 4662,-502.5 4523,-502.5"/>
 <text text-anchor="start" x="4534" y="-518.3" font-family="Arial" font-weight="bold" font-size="14.00">ConnectedPeers</text>
 <polygon fill="none" stroke="black" points="4521.5,-502 4521.5,-541 4662.5,-541 4662.5,-502 4521.5,-502"/>
+</a>
+</g>
 </g>
 <!-- ndConnectedPeers&#45;&gt;ndComm -->
 <g id="edge458" class="edge"><title>ndConnectedPeers&#45;&gt;ndComm</title>
@@ -3731,10 +4196,13 @@
 </g>
 <!-- ndConnectedPeer -->
 <g id="node144" class="node"><title>ndConnectedPeer</title>
+<g id="a_node144_155"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/core/connected_peers.rs#:~:text=struct%20ConnectedPeer" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4856,-585.5 4856,-622.5 4987,-622.5 4987,-585.5 4856,-585.5"/>
 <polygon fill="none" stroke="black" points="4856,-585.5 4856,-622.5 4987,-622.5 4987,-585.5 4856,-585.5"/>
 <text text-anchor="start" x="4867" y="-601.3" font-family="Arial" font-weight="bold" font-size="14.00">ConnectedPeer</text>
 <polygon fill="none" stroke="black" points="4854.5,-585 4854.5,-624 4987.5,-624 4987.5,-585 4854.5,-585"/>
+</a>
+</g>
 </g>
 <!-- ndConnectedPeer&#45;&gt;ndConnectedPeers -->
 <g id="edge459" class="edge"><title>ndConnectedPeer&#45;&gt;ndConnectedPeers</title>
@@ -3758,10 +4226,13 @@
 </g>
 <!-- ndMsgCount -->
 <g id="node146" class="node"><title>ndMsgCount</title>
+<g id="a_node146_156"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/core/msg_count.rs#:~:text=struct%20MsgCount" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4698,-502.5 4698,-539.5 4793,-539.5 4793,-502.5 4698,-502.5"/>
 <polygon fill="none" stroke="black" points="4698,-502.5 4698,-539.5 4793,-539.5 4793,-502.5 4698,-502.5"/>
 <text text-anchor="start" x="4709" y="-518.3" font-family="Arial" font-weight="bold" font-size="14.00">MsgCount</text>
 <polygon fill="none" stroke="black" points="4696.5,-502 4696.5,-541 4793.5,-541 4793.5,-502 4696.5,-502"/>
+</a>
+</g>
 </g>
 <!-- ndMsgCount&#45;&gt;ndComm -->
 <g id="edge463" class="edge"><title>ndMsgCount&#45;&gt;ndComm</title>
@@ -3770,38 +4241,53 @@
 </g>
 <!-- ndMsgNumbers -->
 <g id="node147" class="node"><title>ndMsgNumbers</title>
+<g id="a_node147_157"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/core/msg_count.rs#:~:text=struct%20MsgNumbers" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="8221,-1913.5 8221,-1950.5 8337,-1950.5 8337,-1913.5 8221,-1913.5"/>
 <polygon fill="none" stroke="black" points="8221,-1913.5 8221,-1950.5 8337,-1950.5 8337,-1913.5 8221,-1913.5"/>
 <text text-anchor="start" x="8232" y="-1929.3" font-family="Arial" font-weight="bold" font-size="14.00">MsgNumbers</text>
 <polygon fill="none" stroke="black" points="8220,-1913 8220,-1952 8338,-1952 8338,-1913 8220,-1913"/>
+</a>
+</g>
 </g>
 <!-- ndTestData -->
 <g id="node148" class="node"><title>ndTestData</title>
+<g id="a_node148_158"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/dbs/kv_store/tests.rs#:~:text=struct%20TestData" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="8362,-1830.5 8362,-1867.5 8446,-1867.5 8446,-1830.5 8362,-1830.5"/>
 <polygon fill="none" stroke="black" points="8362,-1830.5 8362,-1867.5 8446,-1867.5 8446,-1830.5 8362,-1830.5"/>
 <text text-anchor="start" x="8373" y="-1846.3" font-family="Arial" font-weight="bold" font-size="14.00">TestData</text>
 <polygon fill="none" stroke="black" points="8361,-1830 8361,-1869 8447,-1869 8447,-1830 8361,-1830"/>
+</a>
+</g>
 </g>
 <!-- ndChunks -->
 <g id="node149" class="node"><title>ndChunks</title>
+<g id="a_node149_159"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/dbs/kv_store/tests.rs#:~:text=struct%20Chunks" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="8471,-1913.5 8471,-1950.5 8548,-1950.5 8548,-1913.5 8471,-1913.5"/>
 <polygon fill="none" stroke="black" points="8471,-1913.5 8471,-1950.5 8548,-1950.5 8548,-1913.5 8471,-1913.5"/>
 <text text-anchor="start" x="8482" y="-1929.3" font-family="Arial" font-weight="bold" font-size="14.00">Chunks</text>
 <polygon fill="none" stroke="black" points="8469.5,-1913 8469.5,-1952 8548.5,-1952 8548.5,-1913 8469.5,-1913"/>
+</a>
+</g>
 </g>
 <!-- ndToDbKey -->
 <g id="node150" class="node"><title>ndToDbKey</title>
+<g id="a_node150_160"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/dbs/kv_store/to_db_key.rs#:~:text=trait%20ToDbKey" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="8584,-1913.5 8584,-1950.5 8671,-1950.5 8671,-1913.5 8584,-1913.5"/>
 <polygon fill="none" stroke="black" points="8584,-1913.5 8584,-1950.5 8671,-1950.5 8671,-1913.5 8584,-1913.5"/>
 <text text-anchor="start" x="8595" y="-1929.3" font-family="Arial" font-weight="bold" font-size="14.00">ToDbKey</text>
 <polygon fill="none" stroke="black" points="8582.5,-1913 8582.5,-1952 8671.5,-1952 8671.5,-1913 8582.5,-1913"/>
+</a>
+</g>
 </g>
 <!-- ndUsedSpace -->
 <g id="node151" class="node"><title>ndUsedSpace</title>
+<g id="a_node151_161"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/dbs/kv_store/used_space.rs#:~:text=struct%20UsedSpace" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4219,-1581.5 4219,-1618.5 4320,-1618.5 4320,-1581.5 4219,-1581.5"/>
 <polygon fill="none" stroke="black" points="4219,-1581.5 4219,-1618.5 4320,-1618.5 4320,-1581.5 4219,-1581.5"/>
 <text text-anchor="start" x="4230" y="-1597.3" font-family="Arial" font-weight="bold" font-size="14.00">UsedSpace</text>
 <polygon fill="none" stroke="black" points="4217.5,-1581 4217.5,-1620 4320.5,-1620 4320.5,-1581 4217.5,-1581"/>
+</a>
+</g>
 </g>
 <!-- ndUsedSpace&#45;&gt;ndNode -->
 <g id="edge489" class="edge"><title>ndUsedSpace&#45;&gt;ndNode</title>
@@ -3830,10 +4316,13 @@
 </g>
 <!-- ndKvStore -->
 <g id="node154" class="node"><title>ndKvStore</title>
+<g id="a_node154_162"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/dbs/kv_store/mod.rs#:~:text=struct%20KvStore" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1290,-1498.5 1290,-1535.5 1369,-1535.5 1369,-1498.5 1290,-1498.5"/>
 <polygon fill="none" stroke="black" points="1290,-1498.5 1290,-1535.5 1369,-1535.5 1369,-1498.5 1290,-1498.5"/>
 <text text-anchor="start" x="1301" y="-1514.3" font-family="Arial" font-weight="bold" font-size="14.00">KvStore</text>
 <polygon fill="none" stroke="black" points="1288.5,-1498 1288.5,-1537 1369.5,-1537 1369.5,-1498 1288.5,-1498"/>
+</a>
+</g>
 </g>
 <!-- ndUsedSpace&#45;&gt;ndKvStore -->
 <g id="edge487" class="edge"><title>ndUsedSpace&#45;&gt;ndKvStore</title>
@@ -3847,10 +4336,13 @@
 </g>
 <!-- ndKey -->
 <g id="node152" class="node"><title>ndKey</title>
+<g id="a_node152_163"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/dbs/kv_store/kv.rs#:~:text=trait%20Key" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="2540,-1830.5 2540,-1867.5 2590,-1867.5 2590,-1830.5 2540,-1830.5"/>
 <polygon fill="none" stroke="black" points="2540,-1830.5 2540,-1867.5 2590,-1867.5 2590,-1830.5 2540,-1830.5"/>
 <text text-anchor="start" x="2551" y="-1846.3" font-family="Arial" font-weight="bold" font-size="14.00">Key</text>
 <polygon fill="none" stroke="black" points="2539,-1830 2539,-1869 2591,-1869 2591,-1830 2539,-1830"/>
+</a>
+</g>
 </g>
 <!-- ndKey&#45;&gt;ndPolicy -->
 <g id="edge490" class="edge"><title>ndKey&#45;&gt;ndPolicy</title>
@@ -3984,10 +4476,13 @@
 </g>
 <!-- ndValue -->
 <g id="node153" class="node"><title>ndValue</title>
+<g id="a_node153_164"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/dbs/kv_store/kv.rs#:~:text=trait%20Value" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="8374,-1913.5 8374,-1950.5 8435,-1950.5 8435,-1913.5 8374,-1913.5"/>
 <polygon fill="none" stroke="black" points="8374,-1913.5 8374,-1950.5 8435,-1950.5 8435,-1913.5 8374,-1913.5"/>
 <text text-anchor="start" x="8385" y="-1929.3" font-family="Arial" font-weight="bold" font-size="14.00">Value</text>
 <polygon fill="none" stroke="black" points="8372.5,-1913 8372.5,-1952 8435.5,-1952 8435.5,-1913 8372.5,-1913"/>
+</a>
+</g>
 </g>
 <!-- ndValue&#45;&gt;ndTestData -->
 <g id="edge516" class="edge"><title>ndValue&#45;&gt;ndTestData</title>
@@ -3996,24 +4491,33 @@
 </g>
 <!-- ndSubdir -->
 <g id="node155" class="node"><title>ndSubdir</title>
+<g id="a_node155_165"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/dbs/mod.rs#:~:text=trait%20Subdir" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="8707,-1913.5 8707,-1950.5 8776,-1950.5 8776,-1913.5 8707,-1913.5"/>
 <polygon fill="none" stroke="black" points="8707,-1913.5 8707,-1950.5 8776,-1950.5 8776,-1913.5 8707,-1913.5"/>
 <text text-anchor="start" x="8718" y="-1929.3" font-family="Arial" font-weight="bold" font-size="14.00">Subdir</text>
 <polygon fill="none" stroke="black" points="8705.5,-1913 8705.5,-1952 8776.5,-1952 8776.5,-1913 8705.5,-1913"/>
+</a>
+</g>
 </g>
 <!-- ndVersionHashError -->
 <g id="node157" class="node"><title>ndVersionHashError</title>
+<g id="a_node157_166"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/url/version_hash.rs#:~:text=enum%20VersionHashError" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="8812,-1913.5 8812,-1950.5 8960,-1950.5 8960,-1913.5 8812,-1913.5"/>
 <polygon fill="none" stroke="black" points="8812,-1913.5 8812,-1950.5 8960,-1950.5 8960,-1913.5 8812,-1913.5"/>
 <text text-anchor="start" x="8823" y="-1929.3" font-family="Arial" font-weight="bold" font-size="14.00">VersionHashError</text>
 <polygon fill="none" stroke="black" points="8811,-1913 8811,-1952 8961,-1952 8961,-1913 8811,-1913"/>
+</a>
+</g>
 </g>
 <!-- ndVersionHash -->
 <g id="node158" class="node"><title>ndVersionHash</title>
+<g id="a_node158_167"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/url/version_hash.rs#:~:text=struct%20VersionHash" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="2020,-1000.5 2020,-1037.5 2131,-1037.5 2131,-1000.5 2020,-1000.5"/>
 <polygon fill="none" stroke="black" points="2020,-1000.5 2020,-1037.5 2131,-1037.5 2131,-1000.5 2020,-1000.5"/>
 <text text-anchor="start" x="2031" y="-1016.3" font-family="Arial" font-weight="bold" font-size="14.00">VersionHash</text>
 <polygon fill="none" stroke="black" points="2018.5,-1000 2018.5,-1039 2131.5,-1039 2131.5,-1000 2018.5,-1000"/>
+</a>
+</g>
 </g>
 <!-- ndVersionHash&#45;&gt;ndUrl -->
 <g id="edge517" class="edge"><title>ndVersionHash&#45;&gt;ndUrl</title>
@@ -4022,10 +4526,13 @@
 </g>
 <!-- ndXorUrlBase -->
 <g id="node159" class="node"><title>ndXorUrlBase</title>
+<g id="a_node159_168"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/url/mod.rs#:~:text=enum%20XorUrlBase" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1457,-1000.5 1457,-1037.5 1559,-1037.5 1559,-1000.5 1457,-1000.5"/>
 <polygon fill="none" stroke="black" points="1457,-1000.5 1457,-1037.5 1559,-1037.5 1559,-1000.5 1457,-1000.5"/>
 <text text-anchor="start" x="1468" y="-1016.3" font-family="Arial" font-weight="bold" font-size="14.00">XorUrlBase</text>
 <polygon fill="none" stroke="black" points="1456,-1000 1456,-1039 1560,-1039 1560,-1000 1456,-1000"/>
+</a>
+</g>
 </g>
 <!-- ndXorUrlBase&#45;&gt;ndUrl -->
 <g id="edge537" class="edge"><title>ndXorUrlBase&#45;&gt;ndUrl</title>
@@ -4034,10 +4541,13 @@
 </g>
 <!-- ndContentType -->
 <g id="node160" class="node"><title>ndContentType</title>
+<g id="a_node160_169"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/url/mod.rs#:~:text=enum%20ContentType" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1595,-1000.5 1595,-1037.5 1707,-1037.5 1707,-1000.5 1595,-1000.5"/>
 <polygon fill="none" stroke="black" points="1595,-1000.5 1595,-1037.5 1707,-1037.5 1707,-1000.5 1595,-1000.5"/>
 <text text-anchor="start" x="1606" y="-1016.3" font-family="Arial" font-weight="bold" font-size="14.00">ContentType</text>
 <polygon fill="none" stroke="black" points="1594,-1000 1594,-1039 1708,-1039 1708,-1000 1594,-1000"/>
+</a>
+</g>
 </g>
 <!-- ndContentType&#45;&gt;ndUrl -->
 <g id="edge538" class="edge"><title>ndContentType&#45;&gt;ndUrl</title>
@@ -4046,10 +4556,13 @@
 </g>
 <!-- ndDataType -->
 <g id="node161" class="node"><title>ndDataType</title>
+<g id="a_node161_170"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/url/mod.rs#:~:text=enum%20DataType" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1782,-1000.5 1782,-1037.5 1871,-1037.5 1871,-1000.5 1782,-1000.5"/>
 <polygon fill="none" stroke="black" points="1782,-1000.5 1782,-1037.5 1871,-1037.5 1871,-1000.5 1782,-1000.5"/>
 <text text-anchor="start" x="1793" y="-1016.3" font-family="Arial" font-weight="bold" font-size="14.00">DataType</text>
 <polygon fill="none" stroke="black" points="1780.5,-1000 1780.5,-1039 1871.5,-1039 1871.5,-1000 1780.5,-1000"/>
+</a>
+</g>
 </g>
 <!-- ndDataType&#45;&gt;ndUrl -->
 <g id="edge539" class="edge"><title>ndDataType&#45;&gt;ndUrl</title>
@@ -4058,10 +4571,13 @@
 </g>
 <!-- ndScope -->
 <g id="node162" class="node"><title>ndScope</title>
+<g id="a_node162_171"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/url/mod.rs#:~:text=enum%20Scope" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2003,-1166.5 2003,-1203.5 2070,-1203.5 2070,-1166.5 2003,-1166.5"/>
 <polygon fill="none" stroke="black" points="2003,-1166.5 2003,-1203.5 2070,-1203.5 2070,-1166.5 2003,-1166.5"/>
 <text text-anchor="start" x="2014" y="-1182.3" font-family="Arial" font-weight="bold" font-size="14.00">Scope</text>
 <polygon fill="none" stroke="black" points="2001.5,-1166 2001.5,-1205 2070.5,-1205 2070.5,-1166 2001.5,-1166"/>
+</a>
+</g>
 </g>
 <!-- ndScope&#45;&gt;ndRegister -->
 <g id="edge540" class="edge"><title>ndScope&#45;&gt;ndRegister</title>
@@ -4100,10 +4616,13 @@
 </g>
 <!-- ndUrlType -->
 <g id="node163" class="node"><title>ndUrlType</title>
+<g id="a_node163_172"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/url/mod.rs#:~:text=enum%20UrlType" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1907,-1000.5 1907,-1037.5 1984,-1037.5 1984,-1000.5 1907,-1000.5"/>
 <polygon fill="none" stroke="black" points="1907,-1000.5 1907,-1037.5 1984,-1037.5 1984,-1000.5 1907,-1000.5"/>
 <text text-anchor="start" x="1918" y="-1016.3" font-family="Arial" font-weight="bold" font-size="14.00">UrlType</text>
 <polygon fill="none" stroke="black" points="1905.5,-1000 1905.5,-1039 1984.5,-1039 1984.5,-1000 1905.5,-1000"/>
+</a>
+</g>
 </g>
 <!-- ndUrlType&#45;&gt;ndUrl -->
 <g id="edge547" class="edge"><title>ndUrlType&#45;&gt;ndUrl</title>
@@ -4112,24 +4631,33 @@
 </g>
 <!-- ndUrlParts -->
 <g id="node165" class="node"><title>ndUrlParts</title>
+<g id="a_node165_173"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/url/url_parts.rs#:~:text=struct%20UrlParts" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="8997,-1913.5 8997,-1950.5 9076,-1950.5 9076,-1913.5 8997,-1913.5"/>
 <polygon fill="none" stroke="black" points="8997,-1913.5 8997,-1950.5 9076,-1950.5 9076,-1913.5 8997,-1913.5"/>
 <text text-anchor="start" x="9008" y="-1929.3" font-family="Arial" font-weight="bold" font-size="14.00">UrlParts</text>
 <polygon fill="none" stroke="black" points="8995.5,-1913 8995.5,-1952 9076.5,-1952 9076.5,-1913 8995.5,-1913"/>
+</a>
+</g>
 </g>
 <!-- ndCmdArgs -->
 <g id="node166" class="node"><title>ndCmdArgs</title>
+<g id="a_node166_174"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/bin/log_cmds_inspector.rs#:~:text=struct%20CmdArgs" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9133,-1830.5 9133,-1867.5 9221,-1867.5 9221,-1830.5 9133,-1830.5"/>
 <polygon fill="none" stroke="black" points="9133,-1830.5 9133,-1867.5 9221,-1867.5 9221,-1830.5 9133,-1830.5"/>
 <text text-anchor="start" x="9144" y="-1846.3" font-family="Arial" font-weight="bold" font-size="14.00">CmdArgs</text>
 <polygon fill="none" stroke="black" points="9132,-1830 9132,-1869 9222,-1869 9222,-1830 9132,-1830"/>
+</a>
+</g>
 </g>
 <!-- ndSubCommands -->
 <g id="node167" class="node"><title>ndSubCommands</title>
+<g id="a_node167_175"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/bin/log_cmds_inspector.rs#:~:text=enum%20SubCommands" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="9112,-1913.5 9112,-1950.5 9242,-1950.5 9242,-1913.5 9112,-1913.5"/>
 <polygon fill="none" stroke="black" points="9112,-1913.5 9112,-1950.5 9242,-1950.5 9242,-1913.5 9112,-1913.5"/>
 <text text-anchor="start" x="9123" y="-1929.3" font-family="Arial" font-weight="bold" font-size="14.00">SubCommands</text>
 <polygon fill="none" stroke="black" points="9111,-1913 9111,-1952 9243,-1952 9243,-1913 9111,-1913"/>
+</a>
+</g>
 </g>
 <!-- ndSubCommands&#45;&gt;ndCmdArgs -->
 <g id="edge548" class="edge"><title>ndSubCommands&#45;&gt;ndCmdArgs</title>
@@ -4138,17 +4666,23 @@
 </g>
 <!-- ndSubCommandsInfo -->
 <g id="node168" class="node"><title>ndSubCommandsInfo</title>
+<g id="a_node168_176"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/bin/log_cmds_inspector.rs#:~:text=struct%20SubCommandsInfo" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9278,-1913.5 9278,-1950.5 9434,-1950.5 9434,-1913.5 9278,-1913.5"/>
 <polygon fill="none" stroke="black" points="9278,-1913.5 9278,-1950.5 9434,-1950.5 9434,-1913.5 9278,-1913.5"/>
 <text text-anchor="start" x="9289" y="-1929.3" font-family="Arial" font-weight="bold" font-size="14.00">SubCommandsInfo</text>
 <polygon fill="none" stroke="black" points="9277,-1913 9277,-1952 9435,-1952 9435,-1913 9277,-1913"/>
+</a>
+</g>
 </g>
 <!-- ndCmd -->
 <g id="node170" class="node"><title>ndCmd</title>
+<g id="a_node170_177"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/bin/testnet.rs#:~:text=struct%20Cmd" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="2270,-668.5 2270,-705.5 2325,-705.5 2325,-668.5 2270,-668.5"/>
 <polygon fill="none" stroke="black" points="2270,-668.5 2270,-705.5 2325,-705.5 2325,-668.5 2270,-668.5"/>
 <text text-anchor="start" x="2281" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">Cmd</text>
 <polygon fill="none" stroke="black" points="2268.5,-668 2268.5,-707 2325.5,-707 2325.5,-668 2268.5,-668"/>
+</a>
+</g>
 </g>
 <!-- ndCmd&#45;&gt;ndStateEntry -->
 <g id="edge549" class="edge"><title>ndCmd&#45;&gt;ndStateEntry</title>
@@ -4172,10 +4706,13 @@
 </g>
 <!-- ndLogCtx -->
 <g id="node180" class="node"><title>ndLogCtx</title>
+<g id="a_node180_178"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/logging/log_ctx.rs#:~:text=struct%20LogCtx" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="4212,-1332.5 4212,-1369.5 4285,-1369.5 4285,-1332.5 4212,-1332.5"/>
 <polygon fill="none" stroke="black" points="4212,-1332.5 4212,-1369.5 4285,-1369.5 4285,-1332.5 4212,-1332.5"/>
 <text text-anchor="start" x="4223" y="-1348.3" font-family="Arial" font-weight="bold" font-size="14.00">LogCtx</text>
 <polygon fill="none" stroke="black" points="4210.5,-1332 4210.5,-1371 4285.5,-1371 4285.5,-1332 4210.5,-1332"/>
+</a>
+</g>
 </g>
 <!-- ndNetwork&#45;&gt;ndLogCtx -->
 <g id="edge572" class="edge"><title>ndNetwork&#45;&gt;ndLogCtx</title>
@@ -4184,17 +4721,23 @@
 </g>
 <!-- ndElderRole -->
 <g id="node172" class="node"><title>ndElderRole</title>
+<g id="a_node172_179"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/node_api/role/elder_role.rs#:~:text=struct%20ElderRole" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="2715,-668.5 2715,-705.5 2805,-705.5 2805,-668.5 2715,-668.5"/>
 <polygon fill="none" stroke="black" points="2715,-668.5 2715,-705.5 2805,-705.5 2805,-668.5 2715,-668.5"/>
 <text text-anchor="start" x="2726" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">ElderRole</text>
 <polygon fill="none" stroke="black" points="2714,-668 2714,-707 2806,-707 2806,-668 2714,-668"/>
+</a>
+</g>
 </g>
 <!-- ndRole -->
 <g id="node173" class="node"><title>ndRole</title>
+<g id="a_node173_180"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/node_api/role/mod.rs#:~:text=enum%20Role" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2671,-585.5 2671,-622.5 2724,-622.5 2724,-585.5 2671,-585.5"/>
 <polygon fill="none" stroke="black" points="2671,-585.5 2671,-622.5 2724,-622.5 2724,-585.5 2671,-585.5"/>
 <text text-anchor="start" x="2682" y="-601.3" font-family="Arial" font-weight="bold" font-size="14.00">Role</text>
 <polygon fill="none" stroke="black" points="2669.5,-585 2669.5,-624 2724.5,-624 2724.5,-585 2669.5,-585"/>
+</a>
+</g>
 </g>
 <!-- ndElderRole&#45;&gt;ndRole -->
 <g id="edge573" class="edge"><title>ndElderRole&#45;&gt;ndRole</title>
@@ -4203,10 +4746,13 @@
 </g>
 <!-- ndNodeTask -->
 <g id="node175" class="node"><title>ndNodeTask</title>
+<g id="a_node175_181"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/node_api/handle.rs#:~:text=enum%20NodeTask" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2587,-253.5 2587,-290.5 2679,-290.5 2679,-253.5 2587,-253.5"/>
 <polygon fill="none" stroke="black" points="2587,-253.5 2587,-290.5 2679,-290.5 2679,-253.5 2587,-253.5"/>
 <text text-anchor="start" x="2598" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">NodeTask</text>
 <polygon fill="none" stroke="black" points="2586,-253 2586,-292 2680,-292 2680,-253 2586,-253"/>
+</a>
+</g>
 </g>
 <!-- ndElderRole&#45;&gt;ndNodeTask -->
 <g id="edge574" class="edge"><title>ndElderRole&#45;&gt;ndNodeTask</title>
@@ -4250,17 +4796,23 @@
 </g>
 <!-- ndProcess -->
 <g id="node179" class="node"><title>ndProcess</title>
+<g id="a_node179_182"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/logging/system.rs#:~:text=struct%20Process" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9470,-1913.5 9470,-1950.5 9550,-1950.5 9550,-1913.5 9470,-1913.5"/>
 <polygon fill="none" stroke="black" points="9470,-1913.5 9470,-1950.5 9550,-1950.5 9550,-1913.5 9470,-1913.5"/>
 <text text-anchor="start" x="9481" y="-1929.3" font-family="Arial" font-weight="bold" font-size="14.00">Process</text>
 <polygon fill="none" stroke="black" points="9469,-1913 9469,-1952 9551,-1952 9551,-1913 9469,-1913"/>
+</a>
+</g>
 </g>
 <!-- ndNodeDuty -->
 <g id="node181" class="node"><title>ndNodeDuty</title>
+<g id="a_node181_183"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/node_ops.rs#:~:text=enum%20NodeDuty" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1819,-336.5 1819,-373.5 1910,-373.5 1910,-336.5 1819,-336.5"/>
 <polygon fill="none" stroke="black" points="1819,-336.5 1819,-373.5 1910,-373.5 1910,-336.5 1819,-336.5"/>
 <text text-anchor="start" x="1830" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">NodeDuty</text>
 <polygon fill="none" stroke="black" points="1817.5,-336 1817.5,-375 1910.5,-375 1910.5,-336 1817.5,-336"/>
+</a>
+</g>
 </g>
 <!-- ndNodeDuty&#45;&gt;ndNode -->
 <g id="edge595" class="edge"><title>ndNodeDuty&#45;&gt;ndNode</title>
@@ -4274,10 +4826,13 @@
 </g>
 <!-- ndMapping -->
 <g id="node185" class="node"><title>ndMapping</title>
+<g id="a_node185_184"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/event_mapping/mod.rs#:~:text=struct%20Mapping" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1987,-253.5 1987,-290.5 2070,-290.5 2070,-253.5 1987,-253.5"/>
 <polygon fill="none" stroke="black" points="1987,-253.5 1987,-290.5 2070,-290.5 2070,-253.5 1987,-253.5"/>
 <text text-anchor="start" x="1998" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Mapping</text>
 <polygon fill="none" stroke="black" points="1985.5,-253 1985.5,-292 2070.5,-292 2070.5,-253 1985.5,-253"/>
+</a>
+</g>
 </g>
 <!-- ndNodeDuty&#45;&gt;ndMapping -->
 <g id="edge596" class="edge"><title>ndNodeDuty&#45;&gt;ndMapping</title>
@@ -4301,10 +4856,13 @@
 </g>
 <!-- ndMsgContext -->
 <g id="node186" class="node"><title>ndMsgContext</title>
+<g id="a_node186_185"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/event_mapping/mod.rs#:~:text=enum%20MsgContext" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2296,-336.5 2296,-373.5 2403,-373.5 2403,-336.5 2296,-336.5"/>
 <polygon fill="none" stroke="black" points="2296,-336.5 2296,-373.5 2403,-373.5 2403,-336.5 2296,-336.5"/>
 <text text-anchor="start" x="2307" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">MsgContext</text>
 <polygon fill="none" stroke="black" points="2294.5,-336 2294.5,-375 2403.5,-375 2403.5,-336 2294.5,-336"/>
+</a>
+</g>
 </g>
 <!-- ndMsgContext&#45;&gt;ndNodeTask -->
 <g id="edge600" class="edge"><title>ndMsgContext&#45;&gt;ndNodeTask</title>

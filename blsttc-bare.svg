@@ -11,17 +11,23 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-217 838,-217 838,4 -4,4"/>
 <!-- ndPublicKeySet -->
 <g id="node1" class="node"><title>ndPublicKeySet</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/blsttc/blob/master/src/lib.rs#:~:text=struct%20PublicKeySet" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9,-87.5 9,-124.5 125,-124.5 125,-87.5 9,-87.5"/>
 <polygon fill="none" stroke="black" points="9,-87.5 9,-124.5 125,-124.5 125,-87.5 9,-87.5"/>
 <text text-anchor="start" x="20" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">PublicKeySet</text>
 <polygon fill="none" stroke="black" points="8,-87 8,-126 126,-126 126,-87 8,-87"/>
+</a>
+</g>
 </g>
 <!-- ndSecretKeySet -->
 <g id="node2" class="node"><title>ndSecretKeySet</title>
+<g id="a_node2_1"><a xlink:href="https://github.com/maidsafe/blsttc/blob/master/src/lib.rs#:~:text=struct%20SecretKeySet" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="67,-4.5 67,-41.5 184,-41.5 184,-4.5 67,-4.5"/>
 <polygon fill="none" stroke="black" points="67,-4.5 67,-41.5 184,-41.5 184,-4.5 67,-4.5"/>
 <text text-anchor="start" x="78" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">SecretKeySet</text>
 <polygon fill="none" stroke="black" points="65.5,-4 65.5,-43 184.5,-43 184.5,-4 65.5,-4"/>
+</a>
+</g>
 </g>
 <!-- ndPublicKeySet&#45;&gt;ndSecretKeySet -->
 <g id="edge1" class="edge"><title>ndPublicKeySet&#45;&gt;ndSecretKeySet</title>
@@ -30,31 +36,43 @@
 </g>
 <!-- ndError -->
 <g id="node3" class="node"><title>ndError</title>
+<g id="a_node3_2"><a xlink:href="https://github.com/maidsafe/blsttc/blob/master/src/error.rs#:~:text=enum%20Error" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="280,-170.5 280,-207.5 339,-207.5 339,-170.5 280,-170.5"/>
 <polygon fill="none" stroke="black" points="280,-170.5 280,-207.5 339,-207.5 339,-170.5 280,-170.5"/>
 <text text-anchor="start" x="291" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">Error</text>
 <polygon fill="none" stroke="black" points="278.5,-170 278.5,-209 339.5,-209 339.5,-170 278.5,-170"/>
+</a>
+</g>
 </g>
 <!-- ndFromBytesError -->
 <g id="node4" class="node"><title>ndFromBytesError</title>
+<g id="a_node4_3"><a xlink:href="https://github.com/maidsafe/blsttc/blob/master/src/error.rs#:~:text=enum%20FromBytesError" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="375,-170.5 375,-207.5 511,-207.5 511,-170.5 375,-170.5"/>
 <polygon fill="none" stroke="black" points="375,-170.5 375,-207.5 511,-207.5 511,-170.5 375,-170.5"/>
 <text text-anchor="start" x="386" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">FromBytesError</text>
 <polygon fill="none" stroke="black" points="374,-170 374,-209 512,-209 512,-170 374,-170"/>
+</a>
+</g>
 </g>
 <!-- ndIntoFr -->
 <g id="node5" class="node"><title>ndIntoFr</title>
+<g id="a_node5_4"><a xlink:href="https://github.com/maidsafe/blsttc/blob/master/src/into_fr.rs#:~:text=trait%20IntoFr" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="none" points="547,-170.5 547,-207.5 611,-207.5 611,-170.5 547,-170.5"/>
 <polygon fill="none" stroke="black" points="547,-170.5 547,-207.5 611,-207.5 611,-170.5 547,-170.5"/>
 <text text-anchor="start" x="558" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">IntoFr</text>
 <polygon fill="none" stroke="black" points="546,-170 546,-209 612,-209 612,-170 546,-170"/>
+</a>
+</g>
 </g>
 <!-- ndPoly -->
 <g id="node6" class="node"><title>ndPoly</title>
+<g id="a_node6_5"><a xlink:href="https://github.com/maidsafe/blsttc/blob/master/src/poly.rs#:~:text=struct%20Poly" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="162,-87.5 162,-124.5 215,-124.5 215,-87.5 162,-87.5"/>
 <polygon fill="none" stroke="black" points="162,-87.5 162,-124.5 215,-124.5 215,-87.5 162,-87.5"/>
 <text text-anchor="start" x="173" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">Poly</text>
 <polygon fill="none" stroke="black" points="160.5,-87 160.5,-126 215.5,-126 215.5,-87 160.5,-87"/>
+</a>
+</g>
 </g>
 <!-- ndPoly&#45;&gt;ndSecretKeySet -->
 <g id="edge2" class="edge"><title>ndPoly&#45;&gt;ndSecretKeySet</title>
@@ -63,10 +81,13 @@
 </g>
 <!-- ndBivarPoly -->
 <g id="node8" class="node"><title>ndBivarPoly</title>
+<g id="a_node8_6"><a xlink:href="https://github.com/maidsafe/blsttc/blob/master/src/poly.rs#:~:text=struct%20BivarPoly" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="249,-4.5 249,-41.5 339,-41.5 339,-4.5 249,-4.5"/>
 <polygon fill="none" stroke="black" points="249,-4.5 249,-41.5 339,-41.5 339,-4.5 249,-4.5"/>
 <text text-anchor="start" x="260" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">BivarPoly</text>
 <polygon fill="none" stroke="black" points="248,-4 248,-43 340,-43 340,-4 248,-4"/>
+</a>
+</g>
 </g>
 <!-- ndPoly&#45;&gt;ndBivarPoly -->
 <g id="edge3" class="edge"><title>ndPoly&#45;&gt;ndBivarPoly</title>
@@ -75,10 +96,13 @@
 </g>
 <!-- ndCommitment -->
 <g id="node7" class="node"><title>ndCommitment</title>
+<g id="a_node7_7"><a xlink:href="https://github.com/maidsafe/blsttc/blob/master/src/poly.rs#:~:text=struct%20Commitment" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="133,-170.5 133,-207.5 243,-207.5 243,-170.5 133,-170.5"/>
 <polygon fill="none" stroke="black" points="133,-170.5 133,-207.5 243,-207.5 243,-170.5 133,-170.5"/>
 <text text-anchor="start" x="144" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">Commitment</text>
 <polygon fill="none" stroke="black" points="132,-170 132,-209 244,-209 244,-170 132,-170"/>
+</a>
+</g>
 </g>
 <!-- ndCommitment&#45;&gt;ndPublicKeySet -->
 <g id="edge4" class="edge"><title>ndCommitment&#45;&gt;ndPublicKeySet</title>
@@ -92,10 +116,13 @@
 </g>
 <!-- ndBivarCommitment -->
 <g id="node9" class="node"><title>ndBivarCommitment</title>
+<g id="a_node9_8"><a xlink:href="https://github.com/maidsafe/blsttc/blob/master/src/poly.rs#:~:text=struct%20BivarCommitment" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="251,-87.5 251,-124.5 398,-124.5 398,-87.5 251,-87.5"/>
 <polygon fill="none" stroke="black" points="251,-87.5 251,-124.5 398,-124.5 398,-87.5 251,-87.5"/>
 <text text-anchor="start" x="262" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">BivarCommitment</text>
 <polygon fill="none" stroke="black" points="249.5,-87 249.5,-126 398.5,-126 398.5,-87 249.5,-87"/>
+</a>
+</g>
 </g>
 <!-- ndCommitment&#45;&gt;ndBivarCommitment -->
 <g id="edge6" class="edge"><title>ndCommitment&#45;&gt;ndBivarCommitment</title>
@@ -109,10 +136,13 @@
 </g>
 <!-- ndWireBivarCommitment -->
 <g id="node10" class="node"><title>ndWireBivarCommitment</title>
+<g id="a_node10_9"><a xlink:href="https://github.com/maidsafe/blsttc/blob/master/src/serde_impl.rs#:~:text=struct%20WireBivarCommitment" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="647,-170.5 647,-207.5 825,-207.5 825,-170.5 647,-170.5"/>
 <polygon fill="none" stroke="black" points="647,-170.5 647,-207.5 825,-207.5 825,-170.5 647,-170.5"/>
 <text text-anchor="start" x="658" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">WireBivarCommitment</text>
 <polygon fill="none" stroke="black" points="646,-170 646,-209 826,-209 826,-170 646,-170"/>
+</a>
+</g>
 </g>
 </g>
 </svg>

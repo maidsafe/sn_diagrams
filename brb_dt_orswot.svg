@@ -11,6 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-215 880,-215 880,4 -4,4"/>
 <!-- ndBRBOrswot -->
 <g id="node1" class="node"><title>ndBRBOrswot</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/brb_dt_orswot/blob/master/src/brb_orswot.rs#:~:text=struct%20BRBOrswot" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9,-168.5 9,-205.5 319,-205.5 319,-168.5 9,-168.5"/>
 <polygon fill="none" stroke="black" points="9,-168.5 9,-205.5 319,-205.5 319,-168.5 9,-168.5"/>
 <text text-anchor="start" x="123" y="-184.3" font-family="Arial" font-weight="bold" font-size="14.00">BRBOrswot</text>
@@ -27,9 +28,12 @@
 <text text-anchor="start" x="20" y="-34.3" font-family="Arial" font-size="14.00">&#45; orswot(&amp;self) &#45;&gt; &amp;orswot::Orswot&lt;M, A&gt;</text>
 <text text-anchor="start" x="20" y="-19.3" font-family="Arial" font-size="14.00">&#45; read(&amp;self) &#45;&gt; HashSet&lt;M&gt;</text>
 <polygon fill="none" stroke="black" points="8,-4 8,-207 320,-207 320,-4 8,-4"/>
+</a>
+</g>
 </g>
 <!-- ndValidationError -->
 <g id="node2" class="node"><title>ndValidationError</title>
+<g id="a_node2_1"><a xlink:href="https://github.com/maidsafe/brb_dt_orswot/blob/master/src/brb_orswot.rs#:~:text=enum%20ValidationError" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="355,-161.5 355,-198.5 867,-198.5 867,-161.5 355,-161.5"/>
 <polygon fill="none" stroke="black" points="355,-161.5 355,-198.5 867,-198.5 867,-161.5 355,-161.5"/>
 <text text-anchor="start" x="558" y="-177.3" font-family="Arial" font-weight="bold" font-size="14.00">ValidationError</text>
@@ -45,6 +49,8 @@
 <text text-anchor="start" x="366" y="-42.3" font-family="Arial" font-size="14.00">&#45; validate(&amp;self, source: &amp;A, op: &amp;Self::Op) &#45;&gt; Result&lt;(), Self::ValidationError&gt;</text>
 <text text-anchor="start" x="366" y="-27.3" font-family="Arial" font-size="14.00">&#45; apply(&amp;mut self, op: Self::Op)</text>
 <polygon fill="none" stroke="black" points="354,-11.5 354,-199.5 868,-199.5 868,-11.5 354,-11.5"/>
+</a>
+</g>
 </g>
 </g>
 </svg>

@@ -11,24 +11,33 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-217 594,-217 594,4 -4,4"/>
 <!-- ndBlindSignatureError -->
 <g id="node1" class="node"><title>ndBlindSignatureError</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/dan-da/blsbs/blob/master/src/error.rs#:~:text=enum%20BlindSignatureError" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="73,-170.5 73,-207.5 236,-207.5 236,-170.5 73,-170.5"/>
 <polygon fill="none" stroke="black" points="73,-170.5 73,-207.5 236,-207.5 236,-170.5 73,-170.5"/>
 <text text-anchor="start" x="84" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">BlindSignatureError</text>
 <polygon fill="none" stroke="black" points="71.5,-170 71.5,-209 236.5,-209 236.5,-170 71.5,-170"/>
+</a>
+</g>
 </g>
 <!-- ndSignedEnvelopeShare -->
 <g id="node2" class="node"><title>ndSignedEnvelopeShare</title>
+<g id="a_node2_1"><a xlink:href="https://github.com/dan-da/blsbs/blob/master/src/shares.rs#:~:text=struct%20SignedEnvelopeShare" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9,-87.5 9,-124.5 187,-124.5 187,-87.5 9,-87.5"/>
 <polygon fill="none" stroke="black" points="9,-87.5 9,-124.5 187,-124.5 187,-87.5 9,-87.5"/>
 <text text-anchor="start" x="20" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">SignedEnvelopeShare</text>
 <polygon fill="none" stroke="black" points="8,-87 8,-126 188,-126 188,-87 8,-87"/>
+</a>
+</g>
 </g>
 <!-- ndBlindSignerShare -->
 <g id="node3" class="node"><title>ndBlindSignerShare</title>
+<g id="a_node3_2"><a xlink:href="https://github.com/dan-da/blsbs/blob/master/src/shares.rs#:~:text=struct%20BlindSignerShare" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="88,-4.5 88,-41.5 234,-41.5 234,-4.5 88,-4.5"/>
 <polygon fill="none" stroke="black" points="88,-4.5 88,-41.5 234,-41.5 234,-4.5 88,-4.5"/>
 <text text-anchor="start" x="99" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">BlindSignerShare</text>
 <polygon fill="none" stroke="black" points="87,-4 87,-43 235,-43 235,-4 87,-4"/>
+</a>
+</g>
 </g>
 <!-- ndSignedEnvelopeShare&#45;&gt;ndBlindSignerShare -->
 <g id="edge1" class="edge"><title>ndSignedEnvelopeShare&#45;&gt;ndBlindSignerShare</title>
@@ -37,17 +46,23 @@
 </g>
 <!-- ndSlipPreparer -->
 <g id="node4" class="node"><title>ndSlipPreparer</title>
+<g id="a_node4_3"><a xlink:href="https://github.com/dan-da/blsbs/blob/master/src/blind_sigs.rs#:~:text=struct%20SlipPreparer" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="261,-87.5 261,-124.5 371,-124.5 371,-87.5 261,-87.5"/>
 <polygon fill="none" stroke="black" points="261,-87.5 261,-124.5 371,-124.5 371,-87.5 261,-87.5"/>
 <text text-anchor="start" x="272" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">SlipPreparer</text>
 <polygon fill="none" stroke="black" points="260,-87 260,-126 372,-126 372,-87 260,-87"/>
+</a>
+</g>
 </g>
 <!-- ndEnvelope -->
 <g id="node5" class="node"><title>ndEnvelope</title>
+<g id="a_node5_4"><a xlink:href="https://github.com/dan-da/blsbs/blob/master/src/blind_sigs.rs#:~:text=struct%20Envelope" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="272,-170.5 272,-207.5 360,-207.5 360,-170.5 272,-170.5"/>
 <polygon fill="none" stroke="black" points="272,-170.5 272,-207.5 360,-207.5 360,-170.5 272,-170.5"/>
 <text text-anchor="start" x="283" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">Envelope</text>
 <polygon fill="none" stroke="black" points="271,-170 271,-209 361,-209 361,-170 271,-170"/>
+</a>
+</g>
 </g>
 <!-- ndEnvelope&#45;&gt;ndSignedEnvelopeShare -->
 <g id="edge2" class="edge"><title>ndEnvelope&#45;&gt;ndSignedEnvelopeShare</title>
@@ -66,10 +81,13 @@
 </g>
 <!-- ndSignedEnvelope -->
 <g id="node6" class="node"><title>ndSignedEnvelope</title>
+<g id="a_node6_5"><a xlink:href="https://github.com/dan-da/blsbs/blob/master/src/blind_sigs.rs#:~:text=struct%20SignedEnvelope" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="408,-87.5 408,-124.5 545,-124.5 545,-87.5 408,-87.5"/>
 <polygon fill="none" stroke="black" points="408,-87.5 408,-124.5 545,-124.5 545,-87.5 408,-87.5"/>
 <text text-anchor="start" x="419" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">SignedEnvelope</text>
 <polygon fill="none" stroke="black" points="406.5,-87 406.5,-126 545.5,-126 545.5,-87 406.5,-87"/>
+</a>
+</g>
 </g>
 <!-- ndEnvelope&#45;&gt;ndSignedEnvelope -->
 <g id="edge5" class="edge"><title>ndEnvelope&#45;&gt;ndSignedEnvelope</title>
@@ -78,10 +96,13 @@
 </g>
 <!-- ndBlindSigner -->
 <g id="node7" class="node"><title>ndBlindSigner</title>
+<g id="a_node7_6"><a xlink:href="https://github.com/dan-da/blsbs/blob/master/src/blind_sigs.rs#:~:text=struct%20BlindSigner" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="477,-4.5 477,-41.5 581,-41.5 581,-4.5 477,-4.5"/>
 <polygon fill="none" stroke="black" points="477,-4.5 477,-41.5 581,-41.5 581,-4.5 477,-4.5"/>
 <text text-anchor="start" x="488" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">BlindSigner</text>
 <polygon fill="none" stroke="black" points="476,-4 476,-43 582,-43 582,-4 476,-4"/>
+</a>
+</g>
 </g>
 <!-- ndEnvelope&#45;&gt;ndBlindSigner -->
 <g id="edge6" class="edge"><title>ndEnvelope&#45;&gt;ndBlindSigner</title>

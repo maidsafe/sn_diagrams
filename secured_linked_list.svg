@@ -11,6 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-702 1209.5,-702 1209.5,4 -4,4"/>
 <!-- ndSecuredLinkedList -->
 <g id="node1" class="node"><title>ndSecuredLinkedList</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/secured_linked_list/blob/master/src/lib.rs#:~:text=struct%20SecuredLinkedList" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9,-438.5 9,-475.5 737,-475.5 737,-438.5 9,-438.5"/>
 <polygon fill="none" stroke="black" points="9,-438.5 9,-475.5 737,-475.5 737,-438.5 9,-438.5"/>
 <text text-anchor="start" x="307" y="-454.3" font-family="Arial" font-weight="bold" font-size="14.00">SecuredLinkedList</text>
@@ -45,9 +46,12 @@
 <text text-anchor="start" x="20" y="-34.3" font-family="Arial" font-size="14.00">&#45; branch(&amp;self, index: usize) &#45;&gt; Branch</text>
 <text text-anchor="start" x="20" y="-19.3" font-family="Arial" font-size="14.00">&#45; fmt(&amp;self, f: &amp;mut Formatter) &#45;&gt; fmt::Result</text>
 <polygon fill="none" stroke="black" points="8,-4 8,-477 738,-477 738,-4 8,-4"/>
+</a>
+</g>
 </g>
 <!-- ndDeserialized -->
 <g id="node2" class="node"><title>ndDeserialized</title>
+<g id="a_node2_1"><a xlink:href="https://github.com/maidsafe/secured_linked_list/blob/master/src/deserialized.rs#:~:text=struct%20Deserialized" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="774,-266.5 774,-303.5 1147,-303.5 1147,-266.5 774,-266.5"/>
 <polygon fill="none" stroke="black" points="774,-266.5 774,-303.5 1147,-303.5 1147,-266.5 774,-266.5"/>
 <text text-anchor="start" x="917.5" y="-282.3" font-family="Arial" font-weight="bold" font-size="14.00">Deserialized</text>
@@ -59,9 +63,12 @@
 <polygon fill="none" stroke="black" points="774,-177.5 774,-214.5 1147,-214.5 1147,-177.5 774,-177.5"/>
 <text text-anchor="start" x="785" y="-192.3" font-family="Arial" font-size="14.00">&#45; try_from(src: Deserialized) &#45;&gt; Result&lt;Self, Self::Error&gt;</text>
 <polygon fill="none" stroke="black" points="772.5,-176.5 772.5,-304.5 1147.5,-304.5 1147.5,-176.5 772.5,-176.5"/>
+</a>
+</g>
 </g>
 <!-- ndError -->
 <g id="node3" class="node"><title>ndError</title>
+<g id="a_node3_2"><a xlink:href="https://github.com/maidsafe/secured_linked_list/blob/master/src/error.rs#:~:text=enum%20Error" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="117,-637.5 117,-674.5 263,-674.5 263,-637.5 117,-637.5"/>
 <polygon fill="none" stroke="black" points="117,-637.5 117,-674.5 263,-674.5 263,-637.5 117,-637.5"/>
 <text text-anchor="start" x="171.5" y="-653.3" font-family="Arial" font-weight="bold" font-size="14.00">Error</text>
@@ -73,6 +80,8 @@
 <text text-anchor="start" x="128" y="-570.3" font-family="Arial" font-size="14.00">Untrusted</text>
 <text text-anchor="start" x="128" y="-555.3" font-family="Arial" font-size="14.00">InvalidOperation</text>
 <polygon fill="none" stroke="black" points="116,-539.5 116,-675.5 264,-675.5 264,-539.5 116,-539.5"/>
+</a>
+</g>
 </g>
 <!-- ndError&#45;&gt;ndSecuredLinkedList -->
 <g id="edge1" class="edge"><title>ndError&#45;&gt;ndSecuredLinkedList</title>
@@ -81,6 +90,7 @@
 </g>
 <!-- ndIntegrityError -->
 <g id="node4" class="node"><title>ndIntegrityError</title>
+<g id="a_node4_3"><a xlink:href="https://github.com/maidsafe/secured_linked_list/blob/master/src/error.rs#:~:text=enum%20IntegrityError" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1060,-622.5 1060,-659.5 1197,-659.5 1197,-622.5 1060,-622.5"/>
 <polygon fill="none" stroke="black" points="1060,-622.5 1060,-659.5 1197,-659.5 1197,-622.5 1060,-622.5"/>
 <text text-anchor="start" x="1081.5" y="-638.3" font-family="Arial" font-weight="bold" font-size="14.00">IntegrityError</text>
@@ -90,9 +100,12 @@
 <text text-anchor="start" x="1071" y="-585.3" font-family="Arial" font-size="14.00">ParentNotFound</text>
 <text text-anchor="start" x="1071" y="-570.3" font-family="Arial" font-size="14.00">WrongBlockOrder</text>
 <polygon fill="none" stroke="black" points="1058.5,-554.5 1058.5,-660.5 1197.5,-660.5 1197.5,-554.5 1058.5,-554.5"/>
+</a>
+</g>
 </g>
 <!-- ndBranch -->
 <g id="node5" class="node"><title>ndBranch</title>
+<g id="a_node5_4"><a xlink:href="https://github.com/maidsafe/secured_linked_list/blob/master/src/branch.rs#:~:text=struct%20Branch" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="299,-633.5 299,-670.5 565,-670.5 565,-633.5 299,-633.5"/>
 <polygon fill="none" stroke="black" points="299,-633.5 299,-670.5 565,-670.5 565,-633.5 299,-633.5"/>
 <text text-anchor="start" x="406" y="-649.3" font-family="Arial" font-weight="bold" font-size="14.00">Branch</text>
@@ -104,6 +117,8 @@
 <polygon fill="none" stroke="black" points="299,-544.5 299,-581.5 565,-581.5 565,-544.5 299,-544.5"/>
 <text text-anchor="start" x="310" y="-559.3" font-family="Arial" font-size="14.00">&#45; next(&amp;mut self) &#45;&gt; Option&lt;Self::Item&gt;</text>
 <polygon fill="none" stroke="black" points="298,-543.5 298,-671.5 566,-671.5 566,-543.5 298,-543.5"/>
+</a>
+</g>
 </g>
 <!-- ndBranch&#45;&gt;ndSecuredLinkedList -->
 <g id="edge2" class="edge"><title>ndBranch&#45;&gt;ndSecuredLinkedList</title>
@@ -112,6 +127,7 @@
 </g>
 <!-- ndBlock -->
 <g id="node6" class="node"><title>ndBlock</title>
+<g id="a_node6_5"><a xlink:href="https://github.com/maidsafe/secured_linked_list/blob/master/src/block.rs#:~:text=struct%20Block" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="661,-655.5 661,-692.5 1024,-692.5 1024,-655.5 661,-655.5"/>
 <polygon fill="none" stroke="black" points="661,-655.5 661,-692.5 1024,-692.5 1024,-655.5 661,-655.5"/>
 <text text-anchor="start" x="822.5" y="-671.3" font-family="Arial" font-weight="bold" font-size="14.00">Block</text>
@@ -126,6 +142,8 @@
 <text text-anchor="start" x="672" y="-551.3" font-family="Arial" font-size="14.00">&#45; cmp(&amp;self, other: &amp;Self) &#45;&gt; Ordering</text>
 <text text-anchor="start" x="672" y="-536.3" font-family="Arial" font-size="14.00">&#45; partial_cmp(&amp;self, other: &amp;Self) &#45;&gt; Option&lt;Ordering&gt;</text>
 <polygon fill="none" stroke="black" points="659.5,-521 659.5,-694 1024.5,-694 1024.5,-521 659.5,-521"/>
+</a>
+</g>
 </g>
 <!-- ndBlock&#45;&gt;ndSecuredLinkedList -->
 <g id="edge3" class="edge"><title>ndBlock&#45;&gt;ndSecuredLinkedList</title>

@@ -11,6 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-185 1022,-185 1022,4 -4,4"/>
 <!-- ndBRBTree -->
 <g id="node1" class="node"><title>ndBRBTree</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/brb_dt_tree/blob/master/src/brb_tree.rs#:~:text=struct%20BRBTree" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9,-138.5 9,-175.5 461,-175.5 461,-138.5 9,-138.5"/>
 <polygon fill="none" stroke="black" points="9,-138.5 9,-175.5 461,-175.5 461,-138.5 9,-138.5"/>
 <text text-anchor="start" x="203.5" y="-154.3" font-family="Arial" font-weight="bold" font-size="14.00">BRBTree</text>
@@ -25,9 +26,12 @@
 <text text-anchor="start" x="20" y="-34.3" font-family="Arial" font-size="14.00">&#45; treestate(&amp;self) &#45;&gt; &amp;State&lt;ID, M, A&gt;</text>
 <text text-anchor="start" x="20" y="-19.3" font-family="Arial" font-size="14.00">&#45; treereplica(&amp;self) &#45;&gt; &amp;TreeReplica&lt;ID, M, A&gt;</text>
 <polygon fill="none" stroke="black" points="8,-4 8,-177 462,-177 462,-4 8,-4"/>
+</a>
+</g>
 </g>
 <!-- ndValidationError -->
 <g id="node2" class="node"><title>ndValidationError</title>
+<g id="a_node2_1"><a xlink:href="https://github.com/maidsafe/brb_dt_tree/blob/master/src/brb_tree.rs#:~:text=enum%20ValidationError" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="497,-123.5 497,-160.5 1009,-160.5 1009,-123.5 497,-123.5"/>
 <polygon fill="none" stroke="black" points="497,-123.5 497,-160.5 1009,-160.5 1009,-123.5 497,-123.5"/>
 <text text-anchor="start" x="700" y="-139.3" font-family="Arial" font-weight="bold" font-size="14.00">ValidationError</text>
@@ -40,6 +44,8 @@
 <text text-anchor="start" x="508" y="-49.3" font-family="Arial" font-size="14.00">&#45; validate(&amp;self, source: &amp;A, op: &amp;Self::Op) &#45;&gt; Result&lt;(), Self::ValidationError&gt;</text>
 <text text-anchor="start" x="508" y="-34.3" font-family="Arial" font-size="14.00">&#45; apply(&amp;mut self, op: Self::Op)</text>
 <polygon fill="none" stroke="black" points="496,-19 496,-162 1010,-162 1010,-19 496,-19"/>
+</a>
+</g>
 </g>
 </g>
 </svg>

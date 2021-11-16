@@ -11,6 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-523 636,-523 636,4 -4,4"/>
 <!-- ndLaunch -->
 <g id="node1" class="node"><title>ndLaunch</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/sn_launch_tool/blob/master/src/lib.rs#:~:text=struct%20Launch" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9.5,-146.5 9.5,-183.5 294.5,-183.5 294.5,-146.5 9.5,-146.5"/>
 <polygon fill="none" stroke="black" points="9.5,-146.5 9.5,-183.5 294.5,-183.5 294.5,-146.5 9.5,-146.5"/>
 <text text-anchor="start" x="125.5" y="-162.3" font-family="Arial" font-weight="bold" font-size="14.00">Launch</text>
@@ -25,9 +26,12 @@
 <text text-anchor="start" x="20.5" y="-34.3" font-family="Arial" font-size="14.00">&#45; ip: Option&lt;String&gt;</text>
 <text text-anchor="start" x="20.5" y="-19.3" font-family="Arial" font-size="14.00">&#45; add_nodes_to_existing_network: bool</text>
 <polygon fill="none" stroke="black" points="8,-4 8,-185 295,-185 295,-4 8,-4"/>
+</a>
+</g>
 </g>
 <!-- ndJoin -->
 <g id="node2" class="node"><title>ndJoin</title>
+<g id="a_node2_1"><a xlink:href="https://github.com/maidsafe/sn_launch_tool/blob/master/src/lib.rs#:~:text=struct%20Join" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="330.5,-146.5 330.5,-183.5 623.5,-183.5 623.5,-146.5 330.5,-146.5"/>
 <polygon fill="none" stroke="black" points="330.5,-146.5 330.5,-183.5 623.5,-183.5 623.5,-146.5 330.5,-146.5"/>
 <text text-anchor="start" x="461.5" y="-162.3" font-family="Arial" font-weight="bold" font-size="14.00">Join</text>
@@ -42,9 +46,12 @@
 <text text-anchor="start" x="341.5" y="-34.3" font-family="Arial" font-size="14.00">&#45; public_addr: Option&lt;SocketAddr&gt;</text>
 <text text-anchor="start" x="341.5" y="-19.3" font-family="Arial" font-size="14.00">&#45; clear_data: bool</text>
 <polygon fill="none" stroke="black" points="329,-4 329,-185 624,-185 624,-4 329,-4"/>
+</a>
+</g>
 </g>
 <!-- ndCommonArgs -->
 <g id="node3" class="node"><title>ndCommonArgs</title>
+<g id="a_node3_2"><a xlink:href="https://github.com/maidsafe/sn_launch_tool/blob/master/src/lib.rs#:~:text=struct%20CommonArgs" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="189.5,-327 189.5,-364 404.5,-364 404.5,-327 189.5,-327"/>
 <polygon fill="none" stroke="black" points="189.5,-327 189.5,-364 404.5,-364 404.5,-327 189.5,-327"/>
 <text text-anchor="start" x="248.5" y="-342.8" font-family="Arial" font-weight="bold" font-size="14.00">CommonArgs</text>
@@ -56,6 +63,8 @@
 <text text-anchor="start" x="200.5" y="-259.8" font-family="Arial" font-size="14.00">&#45; json_logs: bool</text>
 <text text-anchor="start" x="200.5" y="-244.8" font-family="Arial" font-size="14.00">&#45; is_local: bool</text>
 <polygon fill="none" stroke="black" points="188,-229 188,-365 405,-365 405,-229 188,-229"/>
+</a>
+</g>
 </g>
 <!-- ndCommonArgs&#45;&gt;ndLaunch -->
 <g id="edge1" class="edge"><title>ndCommonArgs&#45;&gt;ndLaunch</title>
@@ -69,6 +78,7 @@
 </g>
 <!-- ndNodeCmd -->
 <g id="node4" class="node"><title>ndNodeCmd</title>
+<g id="a_node4_3"><a xlink:href="https://github.com/maidsafe/sn_launch_tool/blob/master/src/cmd.rs#:~:text=struct%20NodeCmd" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="60.5,-477 60.5,-514 386.5,-514 386.5,-477 60.5,-477"/>
 <polygon fill="none" stroke="black" points="60.5,-477 60.5,-514 386.5,-514 386.5,-477 60.5,-477"/>
 <text text-anchor="start" x="189" y="-492.8" font-family="Arial" font-weight="bold" font-size="14.00">NodeCmd</text>
@@ -78,6 +88,8 @@
 <text text-anchor="start" x="71.5" y="-439.8" font-family="Arial" font-size="14.00">&#45; envs: Vec&lt;(Cow&lt;&#39;a, OsStr&gt;, Cow&lt;&#39;a, OsStr&gt;)&gt;</text>
 <text text-anchor="start" x="71.5" y="-424.8" font-family="Arial" font-size="14.00">&#45; args: NodeArgs&lt;&#39;a&gt;</text>
 <polygon fill="none" stroke="black" points="59.5,-409 59.5,-515 387.5,-515 387.5,-409 59.5,-409"/>
+</a>
+</g>
 </g>
 <!-- ndNodeCmd&#45;&gt;ndLaunch -->
 <g id="edge3" class="edge"><title>ndNodeCmd&#45;&gt;ndLaunch</title>

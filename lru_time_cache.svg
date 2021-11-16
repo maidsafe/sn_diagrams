@@ -11,6 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-972 3030,-972 3030,4 -4,4"/>
 <!-- ndEntry -->
 <g id="node1" class="node"><title>ndEntry</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/lru_time_cache/blob/master/src/lib.rs#:~:text=enum%20Entry" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2472.5,-742 2472.5,-779 2729.5,-779 2729.5,-742 2472.5,-742"/>
 <polygon fill="none" stroke="black" points="2472.5,-742 2472.5,-779 2729.5,-779 2729.5,-742 2472.5,-742"/>
 <text text-anchor="start" x="2582" y="-757.8" font-family="Arial" font-weight="bold" font-size="14.00">Entry</text>
@@ -19,9 +20,12 @@
 <text text-anchor="start" x="2483.5" y="-719.8" font-family="Arial" font-size="14.00">Vacant(VacantEntry&lt;&#39;a, Key, Value&gt;)</text>
 <text text-anchor="start" x="2483.5" y="-704.8" font-family="Arial" font-size="14.00">Occupied(OccupiedEntry&lt;&#39;a, Value&gt;)</text>
 <polygon fill="none" stroke="black" points="2471,-689.5 2471,-780.5 2730,-780.5 2730,-689.5 2471,-689.5"/>
+</a>
+</g>
 </g>
 <!-- ndLruCache -->
 <g id="node4" class="node"><title>ndLruCache</title>
+<g id="a_node4_1"><a xlink:href="https://github.com/maidsafe/lru_time_cache/blob/master/src/lib.rs#:~:text=struct%20LruCache" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1318.5,-558.5 1318.5,-595.5 1993.5,-595.5 1993.5,-558.5 1318.5,-558.5"/>
 <polygon fill="none" stroke="black" points="1318.5,-558.5 1318.5,-595.5 1993.5,-595.5 1993.5,-558.5 1318.5,-558.5"/>
 <text text-anchor="start" x="1621.5" y="-574.3" font-family="Arial" font-weight="bold" font-size="14.00">LruCache</text>
@@ -64,6 +68,8 @@
 <text text-anchor="start" x="1329.5" y="-34.3" font-family="Arial" font-size="14.00">&#45; or_insert(self, default: Value) &#45;&gt; &amp;&#39;a mut Value</text>
 <text text-anchor="start" x="1329.5" y="-19.3" font-family="Arial" font-size="14.00">&#45; or_insert_with(self, default: F) &#45;&gt; &amp;&#39;a mut Value</text>
 <polygon fill="none" stroke="black" points="1317,-4 1317,-597 1994,-597 1994,-4 1317,-4"/>
+</a>
+</g>
 </g>
 <!-- ndEntry&#45;&gt;ndLruCache -->
 <g id="edge1" class="edge"><title>ndEntry&#45;&gt;ndLruCache</title>
@@ -72,6 +78,7 @@
 </g>
 <!-- ndVacantEntry -->
 <g id="node2" class="node"><title>ndVacantEntry</title>
+<g id="a_node2_2"><a xlink:href="https://github.com/maidsafe/lru_time_cache/blob/master/src/lib.rs#:~:text=struct%20VacantEntry" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="2338.5,-925.5 2338.5,-962.5 2610.5,-962.5 2610.5,-925.5 2338.5,-925.5"/>
 <polygon fill="none" stroke="black" points="2338.5,-925.5 2338.5,-962.5 2610.5,-962.5 2610.5,-925.5 2338.5,-925.5"/>
 <text text-anchor="start" x="2432" y="-941.3" font-family="Arial" font-weight="bold" font-size="14.00">VacantEntry</text>
@@ -80,6 +87,8 @@
 <text text-anchor="start" x="2349.5" y="-903.3" font-family="Arial" font-size="14.00">&#45; key: Key</text>
 <text text-anchor="start" x="2349.5" y="-888.3" font-family="Arial" font-size="14.00">&#45; cache: &amp;&#39;a mut LruCache&lt;Key, Value&gt;</text>
 <polygon fill="none" stroke="black" points="2337.5,-873 2337.5,-964 2611.5,-964 2611.5,-873 2337.5,-873"/>
+</a>
+</g>
 </g>
 <!-- ndVacantEntry&#45;&gt;ndEntry -->
 <g id="edge2" class="edge"><title>ndVacantEntry&#45;&gt;ndEntry</title>
@@ -88,6 +97,7 @@
 </g>
 <!-- ndOccupiedEntry -->
 <g id="node3" class="node"><title>ndOccupiedEntry</title>
+<g id="a_node3_3"><a xlink:href="https://github.com/maidsafe/lru_time_cache/blob/master/src/lib.rs#:~:text=struct%20OccupiedEntry" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="2646.5,-918.5 2646.5,-955.5 2804.5,-955.5 2804.5,-918.5 2646.5,-918.5"/>
 <polygon fill="none" stroke="black" points="2646.5,-918.5 2646.5,-955.5 2804.5,-955.5 2804.5,-918.5 2646.5,-918.5"/>
 <text text-anchor="start" x="2673" y="-934.3" font-family="Arial" font-weight="bold" font-size="14.00">OccupiedEntry</text>
@@ -95,6 +105,8 @@
 <polygon fill="none" stroke="black" points="2646.5,-881.5 2646.5,-918.5 2804.5,-918.5 2804.5,-881.5 2646.5,-881.5"/>
 <text text-anchor="start" x="2657.5" y="-896.3" font-family="Arial" font-size="14.00">&#45; value: &amp;&#39;a mut Value</text>
 <polygon fill="none" stroke="black" points="2645.5,-880.5 2645.5,-956.5 2805.5,-956.5 2805.5,-880.5 2645.5,-880.5"/>
+</a>
+</g>
 </g>
 <!-- ndOccupiedEntry&#45;&gt;ndEntry -->
 <g id="edge3" class="edge"><title>ndOccupiedEntry&#45;&gt;ndEntry</title>
@@ -103,6 +115,7 @@
 </g>
 <!-- ndIter -->
 <g id="node5" class="node"><title>ndIter</title>
+<g id="a_node5_4"><a xlink:href="https://github.com/maidsafe/lru_time_cache/blob/master/src/iter.rs#:~:text=struct%20Iter" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9.5,-791 9.5,-828 812.5,-828 812.5,-791 9.5,-791"/>
 <polygon fill="none" stroke="black" points="9.5,-791 9.5,-828 812.5,-828 812.5,-791 9.5,-791"/>
 <text text-anchor="start" x="399.5" y="-806.8" font-family="Arial" font-weight="bold" font-size="14.00">Iter</text>
@@ -118,6 +131,8 @@
 <text text-anchor="start" x="20.5" y="-671.8" font-family="Arial" font-size="14.00">&#45; next_unexpired(&amp;mut self, now: Instant) &#45;&gt; Option&lt;Key&gt;</text>
 <text text-anchor="start" x="20.5" y="-656.8" font-family="Arial" font-size="14.00">&#45; next(&amp;mut self) &#45;&gt; Option&lt;(&amp;&#39;a Key, &amp;&#39;a Value)&gt;</text>
 <polygon fill="none" stroke="black" points="8,-641 8,-829 813,-829 813,-641 8,-641"/>
+</a>
+</g>
 </g>
 <!-- ndIter&#45;&gt;ndLruCache -->
 <g id="edge4" class="edge"><title>ndIter&#45;&gt;ndLruCache</title>
@@ -126,6 +141,7 @@
 </g>
 <!-- ndTimedEntry -->
 <g id="node6" class="node"><title>ndTimedEntry</title>
+<g id="a_node6_5"><a xlink:href="https://github.com/maidsafe/lru_time_cache/blob/master/src/iter.rs#:~:text=enum%20TimedEntry" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="2840.5,-925.5 2840.5,-962.5 3017.5,-962.5 3017.5,-925.5 2840.5,-925.5"/>
 <polygon fill="none" stroke="black" points="2840.5,-925.5 2840.5,-962.5 3017.5,-962.5 3017.5,-925.5 2840.5,-925.5"/>
 <text text-anchor="start" x="2888" y="-941.3" font-family="Arial" font-weight="bold" font-size="14.00">TimedEntry</text>
@@ -134,9 +150,12 @@
 <text text-anchor="start" x="2851.5" y="-903.3" font-family="Arial" font-size="14.00">Valid(&amp;&#39;a Key, &amp;&#39;a Value)</text>
 <text text-anchor="start" x="2851.5" y="-888.3" font-family="Arial" font-size="14.00">Expired(Key, Value)</text>
 <polygon fill="none" stroke="black" points="2839,-873 2839,-964 3018,-964 3018,-873 2839,-873"/>
+</a>
+</g>
 </g>
 <!-- ndNotifyIter -->
 <g id="node7" class="node"><title>ndNotifyIter</title>
+<g id="a_node7_6"><a xlink:href="https://github.com/maidsafe/lru_time_cache/blob/master/src/iter.rs#:~:text=struct%20NotifyIter" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="848.5,-783 848.5,-820 1651.5,-820 1651.5,-783 848.5,-783"/>
 <polygon fill="none" stroke="black" points="848.5,-783 848.5,-820 1651.5,-820 1651.5,-783 848.5,-783"/>
 <text text-anchor="start" x="1218.5" y="-798.8" font-family="Arial" font-weight="bold" font-size="14.00">NotifyIter</text>
@@ -151,6 +170,8 @@
 <text text-anchor="start" x="859.5" y="-678.8" font-family="Arial" font-size="14.00">&#45; new(map: &amp;&#39;a mut BTreeMap&lt;Key, (Value, Instant)&gt;, list: &amp;&#39;a mut VecDeque&lt;Key&gt;, lru_cache_ttl: Option&lt;Duration&gt;) &#45;&gt; Self</text>
 <text text-anchor="start" x="859.5" y="-663.8" font-family="Arial" font-size="14.00">&#45; next(&amp;mut self) &#45;&gt; Option&lt;Self::Item&gt;</text>
 <polygon fill="none" stroke="black" points="847,-648.5 847,-821.5 1652,-821.5 1652,-648.5 847,-648.5"/>
+</a>
+</g>
 </g>
 <!-- ndNotifyIter&#45;&gt;ndLruCache -->
 <g id="edge5" class="edge"><title>ndNotifyIter&#45;&gt;ndLruCache</title>
@@ -159,6 +180,7 @@
 </g>
 <!-- ndPeekIter -->
 <g id="node8" class="node"><title>ndPeekIter</title>
+<g id="a_node8_7"><a xlink:href="https://github.com/maidsafe/lru_time_cache/blob/master/src/iter.rs#:~:text=struct%20PeekIter" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1687.5,-791 1687.5,-828 2436.5,-828 2436.5,-791 1687.5,-791"/>
 <polygon fill="none" stroke="black" points="1687.5,-791 1687.5,-828 2436.5,-828 2436.5,-791 1687.5,-791"/>
 <text text-anchor="start" x="2033" y="-806.8" font-family="Arial" font-weight="bold" font-size="14.00">PeekIter</text>
@@ -174,6 +196,8 @@
 <text text-anchor="start" x="1698.5" y="-671.8" font-family="Arial" font-size="14.00">&#45; next_unexpired(&amp;mut self, now: Instant) &#45;&gt; Option&lt;()&gt;</text>
 <text text-anchor="start" x="1698.5" y="-656.8" font-family="Arial" font-size="14.00">&#45; next(&amp;mut self) &#45;&gt; Option&lt;(&amp;&#39;a Key, &amp;&#39;a Value)&gt;</text>
 <polygon fill="none" stroke="black" points="1686,-641 1686,-829 2437,-829 2437,-641 1686,-641"/>
+</a>
+</g>
 </g>
 <!-- ndPeekIter&#45;&gt;ndLruCache -->
 <g id="edge6" class="edge"><title>ndPeekIter&#45;&gt;ndLruCache</title>

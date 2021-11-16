@@ -11,17 +11,23 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-134 253,-134 253,4 -4,4"/>
 <!-- ndPrefix -->
 <g id="node1" class="node"><title>ndPrefix</title>
+<g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/xor_name/blob/master/src/prefix.rs#:~:text=struct%20Prefix" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="25,-87.5 25,-124.5 88,-124.5 88,-87.5 25,-87.5"/>
 <polygon fill="none" stroke="black" points="25,-87.5 25,-124.5 88,-124.5 88,-87.5 25,-87.5"/>
 <text text-anchor="start" x="36" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">Prefix</text>
 <polygon fill="none" stroke="black" points="23.5,-87 23.5,-126 88.5,-126 88.5,-87 23.5,-87"/>
+</a>
+</g>
 </g>
 <!-- ndAncestors -->
 <g id="node3" class="node"><title>ndAncestors</title>
+<g id="a_node3_1"><a xlink:href="https://github.com/maidsafe/xor_name/blob/master/src/prefix.rs#:~:text=struct%20Ancestors" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9,-4.5 9,-41.5 103,-41.5 103,-4.5 9,-4.5"/>
 <polygon fill="none" stroke="black" points="9,-4.5 9,-41.5 103,-41.5 103,-4.5 9,-4.5"/>
 <text text-anchor="start" x="20" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">Ancestors</text>
 <polygon fill="none" stroke="black" points="8,-4 8,-43 104,-43 104,-4 8,-4"/>
+</a>
+</g>
 </g>
 <!-- ndPrefix&#45;&gt;ndAncestors -->
 <g id="edge1" class="edge"><title>ndPrefix&#45;&gt;ndAncestors</title>
@@ -30,10 +36,13 @@
 </g>
 <!-- ndFromStrError -->
 <g id="node2" class="node"><title>ndFromStrError</title>
+<g id="a_node2_2"><a xlink:href="https://github.com/maidsafe/xor_name/blob/master/src/prefix.rs#:~:text=struct%20FromStrError" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="124,-87.5 124,-124.5 240,-124.5 240,-87.5 124,-87.5"/>
 <polygon fill="none" stroke="black" points="124,-87.5 124,-124.5 240,-124.5 240,-87.5 124,-87.5"/>
 <text text-anchor="start" x="135" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">FromStrError</text>
 <polygon fill="none" stroke="black" points="123,-87 123,-126 241,-126 241,-87 123,-87"/>
+</a>
+</g>
 </g>
 </g>
 </svg>
