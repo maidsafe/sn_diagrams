@@ -2490,7 +2490,7 @@
 <polygon fill="none" stroke="black" points="10004,-1810.5 10004,-1907.5 11044,-1907.5 11044,-1810.5 10004,-1810.5"/>
 <text text-anchor="start" x="10015" y="-1885.3" font-family="Arial" font-size="14.00">&#45; new(node: Node, send_tx: mpsc::Sender&lt;(WireMsg, Vec&lt;Peer&gt;)&gt;, recv_rx: &amp;&#39;a mut mpsc::Receiver&lt;ConnectionEvent&gt;, prefix_map: NetworkPrefixMap) &#45;&gt; Self</text>
 <text text-anchor="start" x="10015" y="-1870.3" font-family="Arial" font-size="14.00">&#45; run(self, bootstrap_addr: SocketAddr) &#45;&gt; Result&lt;(Node, NetworkKnowledge)&gt;</text>
-<text text-anchor="start" x="10015" y="-1855.3" font-family="Arial" font-size="14.00">&#45; join(mut self, network_genesis_key: BlsPublicKey, recipients: Vec&lt;Peer&gt;) &#45;&gt; Result&lt;(Node, NetworkKnowledge)&gt;</text>
+<text text-anchor="start" x="10015" y="-1855.3" font-family="Arial" font-size="14.00">&#45; join(mut self, network_genesis_key: BlsPublicKey, target_section_key: BlsPublicKey, recipients: Vec&lt;Peer&gt;) &#45;&gt; Result&lt;(Node, NetworkKnowledge)&gt;</text>
 <text text-anchor="start" x="10015" y="-1840.3" font-family="Arial" font-size="14.00">&#45; send_join_requests(&amp;mut self, join_request: JoinRequest, recipients: &amp;[Peer], section_key: BlsPublicKey, should_backoff: bool) &#45;&gt; Result&lt;()&gt;</text>
 <text text-anchor="start" x="10015" y="-1825.3" font-family="Arial" font-size="14.00">&#45; receive_join_response(&amp;mut self) &#45;&gt; Result&lt;(JoinResponse, Peer)&gt;</text>
 <polygon fill="none" stroke="black" points="10003,-1809.5 10003,-2057.5 11045,-2057.5 11045,-1809.5 10003,-1809.5"/>
