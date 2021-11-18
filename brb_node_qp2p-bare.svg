@@ -46,7 +46,7 @@
 </g>
 <!-- ndSharedBRB&#45;&gt;ndRouter -->
 <g id="edge2" class="edge"><title>ndSharedBRB&#45;&gt;ndRouter</title>
-<path fill="none" stroke="black" d="M198.5,-82.937C198.5,-75.6257 198.5,-67.3371 198.5,-59.3477"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M198.5,-82.937C198.5,-75.6257 198.5,-67.3371 198.5,-59.3477"/>
 <polygon fill="black" stroke="black" points="198.5,-59.2229 194.5,-53.223 198.5,-47.2229 202.5,-53.2229 198.5,-59.2229"/>
 </g>
 <!-- ndRouterCmd -->
@@ -64,6 +64,11 @@
 <path fill="none" stroke="black" d="M65.3497,-82.937C67.2678,-75.5386 69.4453,-67.1396 71.5393,-59.0625"/>
 <polygon fill="black" stroke="black" points="71.5972,-58.8389 69.2311,-52.0271 74.6089,-47.2229 76.975,-54.0348 71.5972,-58.8389"/>
 </g>
+<!-- ndRouterCmd&#45;&gt;ndRouter -->
+<g id="edge4" class="edge"><title>ndRouterCmd&#45;&gt;ndRouter</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M98.2192,-82.937C114.5,-73.4497 133.605,-62.3168 150.746,-52.3276"/>
+<polygon fill="black" stroke="black" points="159.506,-47.2229 153.132,-56.1459 155.186,-49.7404 150.866,-52.2578 150.866,-52.2578 150.866,-52.2578 155.186,-49.7404 148.601,-48.3698 159.506,-47.2229 159.506,-47.2229"/>
+</g>
 <!-- ndNetworkMsg -->
 <g id="node5" class="node"><title>ndNetworkMsg</title>
 <g id="a_node5_4"><a xlink:href="https://github.com/maidsafe/brb_node_qp2p/blob/master/src/brb_node.rs#:~:text=enum%20NetworkMsg" xlink:title="&lt;TABLE&gt;">
@@ -73,6 +78,11 @@
 <polygon fill="none" stroke="black" points="285.5,-87 285.5,-126 397.5,-126 397.5,-87 285.5,-87"/>
 </a>
 </g>
+</g>
+<!-- ndNetworkMsg&#45;&gt;ndRouter -->
+<g id="edge5" class="edge"><title>ndNetworkMsg&#45;&gt;ndRouter</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M301.667,-82.937C284.917,-73.4497 265.263,-62.3168 247.628,-52.3276"/>
+<polygon fill="black" stroke="black" points="238.616,-47.2229 249.535,-48.2361 242.966,-49.6873 247.317,-52.1516 247.317,-52.1516 247.317,-52.1516 242.966,-49.6873 245.099,-56.0671 238.616,-47.2229 238.616,-47.2229"/>
 </g>
 </g>
 </svg>
