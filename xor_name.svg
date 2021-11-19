@@ -74,8 +74,8 @@
 </g>
 <!-- ndPrefix&#45;&gt;ndAncestors -->
 <g id="edge1" class="edge"><title>ndPrefix&#45;&gt;ndAncestors</title>
-<path fill="none" stroke="black" d="M241,-171.826C241,-163.59 241,-155.637 241,-148.052"/>
-<polygon fill="black" stroke="black" points="241,-148.05 237,-142.05 241,-136.05 245,-142.05 241,-148.05"/>
+<path fill="none" stroke="black" d="M234.96,-171.826C235.098,-163.59 235.257,-155.637 235.436,-148.052"/>
+<polygon fill="black" stroke="black" points="235.436,-148.046 231.592,-141.945 235.746,-136.05 239.59,-142.151 235.436,-148.046"/>
 </g>
 <!-- ndFromStrError -->
 <g id="node2" class="node"><title>ndFromStrError</title>
@@ -92,6 +92,11 @@
 <polygon fill="none" stroke="black" points="508.5,-401 508.5,-514 859.5,-514 859.5,-401 508.5,-401"/>
 </a>
 </g>
+</g>
+<!-- ndAncestors&#45;&gt;ndPrefix -->
+<g id="edge2" class="edge"><title>ndAncestors&#45;&gt;ndPrefix</title>
+<path fill="none" stroke="black" d="M246.254,-136.05C246.48,-144.077 246.68,-152.621 246.854,-161.564"/>
+<polygon fill="black" stroke="black" points="247.04,-171.826 242.36,-161.909 246.95,-166.826 246.859,-161.827 246.859,-161.827 246.859,-161.827 246.95,-166.826 251.358,-161.746 247.04,-171.826 247.04,-171.826"/>
 </g>
 </g>
 </svg>
