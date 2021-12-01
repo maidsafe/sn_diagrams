@@ -980,7 +980,7 @@
 <text text-anchor="start" x="8405.95" y="-8121.8" font-family="Arial" font-size="14.00">+ first: bool</text>
 <text text-anchor="start" x="8405.95" y="-8106.8" font-family="Arial" font-size="14.00">+ local_addr: Option&lt;SocketAddr&gt;</text>
 <text text-anchor="start" x="8405.95" y="-8091.8" font-family="Arial" font-size="14.00">+ public_addr: Option&lt;SocketAddr&gt;</text>
-<text text-anchor="start" x="8405.95" y="-8076.8" font-family="Arial" font-size="14.00">+ skip_igd: bool</text>
+<text text-anchor="start" x="8405.95" y="-8076.8" font-family="Arial" font-size="14.00">+ skip_auto_port_forwarding: bool</text>
 <text text-anchor="start" x="8405.95" y="-8061.8" font-family="Arial" font-size="14.00">+ hard_coded_contacts: BTreeSet&lt;SocketAddr&gt;</text>
 <text text-anchor="start" x="8405.95" y="-8046.8" font-family="Arial" font-size="14.00">+ genesis_key: Option&lt;String&gt;</text>
 <text text-anchor="start" x="8405.95" y="-8031.8" font-family="Arial" font-size="14.00">+ max_msg_size_allowed: Option&lt;u32&gt;</text>
