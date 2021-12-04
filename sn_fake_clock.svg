@@ -14,7 +14,7 @@
 <g id="a_node1_0"><a xlink:href="https://github.com/maidsafe/sn_fake_clock/blob/master/src/lib.rs#:~:text=struct%20FakeClock" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="9,-274 9,-311 489,-311 489,-274 9,-274"/>
 <polygon fill="none" stroke="black" points="9,-274 9,-311 489,-311 489,-274 9,-274"/>
-<text text-anchor="start" x="95.5" y="-289.8" font-family="Arial" font-weight="bold" font-size="14.00">pub struct FakeClock { &#160;&#160;&#160;time_created: u64,}</text>
+<text text-anchor="start" x="212" y="-289.8" font-family="Arial" font-weight="bold" font-size="14.00">FakeClock</text>
 <polygon fill="white" stroke="none" points="9,-237 9,-274 489,-274 489,-237 9,-237"/>
 <polygon fill="none" stroke="black" points="9,-237 9,-274 489,-274 489,-237 9,-237"/>
 <text text-anchor="start" x="20" y="-251.8" font-family="Arial" font-size="14.00">&#45; time_created: u64</text>
