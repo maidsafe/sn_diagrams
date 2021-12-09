@@ -94,10 +94,10 @@
 <text text-anchor="start" x="1818" y="-349.8" font-family="Arial" font-size="14.00">&#45; handle_proposal(&amp;mut self, sender_index: u64, part: Part) &#45;&gt; Result&lt;Vec&lt;Message&gt;, Error&gt;</text>
 <text text-anchor="start" x="1818" y="-334.8" font-family="Arial" font-size="14.00">&#45; handle_ack(&amp;mut self, sender_index: u64, ack: Acknowledgment) &#45;&gt; Result&lt;Vec&lt;Message&gt;, Error&gt;</text>
 <text text-anchor="start" x="1818" y="-319.8" font-family="Arial" font-size="14.00">&#45; all_contribution_received(&amp;self) &#45;&gt; bool</text>
-<text text-anchor="start" x="1818" y="-304.8" font-family="Arial" font-size="14.00">&#45; finalize_contributing_phase(&amp;mut self) &#45;&gt; Result&lt;Vec&lt;Message&gt;, Error&gt;</text>
+<text text-anchor="start" x="1818" y="-304.8" font-family="Arial" font-size="14.00">&#45; finalize_contributing_phase(&amp;mut self) &#45;&gt; Vec&lt;Message&gt;</text>
 <text text-anchor="start" x="1818" y="-289.8" font-family="Arial" font-size="14.00">&#45; non_contributors(&amp;self) &#45;&gt; (BTreeSet&lt;u64&gt;, BTreeSet&lt;XorName&gt;)</text>
 <text text-anchor="start" x="1818" y="-274.8" font-family="Arial" font-size="14.00">&#45; timed_phase_transition(&amp;mut self, rng: &amp;mut R) &#45;&gt; Result&lt;Vec&lt;MessageAndTarget&gt;, Error&gt;</text>
-<text text-anchor="start" x="1818" y="-259.8" font-family="Arial" font-size="14.00">&#45; multicasting_messages(&amp;mut self, result: Result&lt;Vec&lt;Message&gt;, Error&gt;) &#45;&gt; Result&lt;Vec&lt;MessageAndTarget&gt;, Error&gt;</text>
+<text text-anchor="start" x="1818" y="-259.8" font-family="Arial" font-size="14.00">&#45; multicasting_messages(&amp;mut self, messages: Vec&lt;Message&gt;) &#45;&gt; Result&lt;Vec&lt;MessageAndTarget&gt;, Error&gt;</text>
 <text text-anchor="start" x="1818" y="-244.8" font-family="Arial" font-size="14.00">&#45; handle_complaint(&amp;mut self, sender_index: u64, target_index: u64, invalid_msg: Vec&lt;u8&gt;) &#45;&gt; Result&lt;Vec&lt;Message&gt;, Error&gt;</text>
 <text text-anchor="start" x="1818" y="-229.8" font-family="Arial" font-size="14.00">&#45; finalize_complaining_phase(&amp;mut self, rng: &amp;mut R) &#45;&gt; Result&lt;Vec&lt;Message&gt;, Error&gt;</text>
 <text text-anchor="start" x="1818" y="-214.8" font-family="Arial" font-size="14.00">&#45; handle_justification(&amp;mut self, _sender_index: u64, _keys_map: BTreeMap&lt;XorName, (Key, Iv)&gt;) &#45;&gt; Result&lt;Vec&lt;Message&gt;, Error&gt;</text>

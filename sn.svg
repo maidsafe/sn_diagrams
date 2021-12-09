@@ -2043,34 +2043,35 @@
 <!-- ndJoin -->
 <g id="node154" class="node"><title>ndJoin</title>
 <g id="a_node154_62"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/routing/core/bootstrap/join.rs#:~:text=struct%20Join" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="7879.82,-3856.5 7879.82,-3893.5 8919.82,-3893.5 8919.82,-3856.5 7879.82,-3856.5"/>
-<polygon fill="none" stroke="black" points="7879.82,-3856.5 7879.82,-3893.5 8919.82,-3893.5 8919.82,-3856.5 7879.82,-3856.5"/>
-<text text-anchor="start" x="8384.32" y="-3872.3" font-family="Arial" font-weight="bold" font-size="14.00">Join</text>
-<polygon fill="white" stroke="none" points="7879.82,-3714.5 7879.82,-3856.5 8919.82,-3856.5 8919.82,-3714.5 7879.82,-3714.5"/>
-<polygon fill="none" stroke="black" points="7879.82,-3714.5 7879.82,-3856.5 8919.82,-3856.5 8919.82,-3714.5 7879.82,-3714.5"/>
-<text text-anchor="start" x="7890.82" y="-3834.3" font-family="Arial" font-size="14.00">&#45; send_tx: mpsc::Sender&lt;(WireMsg, Vec&lt;Peer&gt;)&gt;</text>
-<text text-anchor="start" x="7890.82" y="-3819.3" font-family="Arial" font-size="14.00">&#45; recv_rx: &amp;&#39;a mut mpsc::Receiver&lt;ConnectionEvent&gt;</text>
-<text text-anchor="start" x="7890.82" y="-3804.3" font-family="Arial" font-size="14.00">&#45; node: Node</text>
-<text text-anchor="start" x="7890.82" y="-3789.3" font-family="Arial" font-size="14.00">&#45; prefix: Prefix</text>
-<text text-anchor="start" x="7890.82" y="-3774.3" font-family="Arial" font-size="14.00">&#45; prefix_map: NetworkPrefixMap</text>
-<text text-anchor="start" x="7890.82" y="-3759.3" font-family="Arial" font-size="14.00">&#45; signature_aggregators: BTreeMap&lt;BlsPublicKey, SignatureAggregator&gt;</text>
-<text text-anchor="start" x="7890.82" y="-3744.3" font-family="Arial" font-size="14.00">&#45; node_state_serialized: Option&lt;Vec&lt;u8&gt;&gt;</text>
-<text text-anchor="start" x="7890.82" y="-3729.3" font-family="Arial" font-size="14.00">&#45; backoff: ExponentialBackoff</text>
-<polygon fill="white" stroke="none" points="7879.82,-3617.5 7879.82,-3714.5 8919.82,-3714.5 8919.82,-3617.5 7879.82,-3617.5"/>
-<polygon fill="none" stroke="black" points="7879.82,-3617.5 7879.82,-3714.5 8919.82,-3714.5 8919.82,-3617.5 7879.82,-3617.5"/>
-<text text-anchor="start" x="7890.82" y="-3692.3" font-family="Arial" font-size="14.00">&#45; new(node: Node, send_tx: mpsc::Sender&lt;(WireMsg, Vec&lt;Peer&gt;)&gt;, recv_rx: &amp;&#39;a mut mpsc::Receiver&lt;ConnectionEvent&gt;, prefix_map: NetworkPrefixMap) &#45;&gt; Self</text>
-<text text-anchor="start" x="7890.82" y="-3677.3" font-family="Arial" font-size="14.00">&#45; run(self, bootstrap_peer: UnnamedPeer) &#45;&gt; Result&lt;(Node, NetworkKnowledge)&gt;</text>
-<text text-anchor="start" x="7890.82" y="-3662.3" font-family="Arial" font-size="14.00">&#45; join(mut self, network_genesis_key: BlsPublicKey, target_section_key: BlsPublicKey, recipients: Vec&lt;Peer&gt;) &#45;&gt; Result&lt;(Node, NetworkKnowledge)&gt;</text>
-<text text-anchor="start" x="7890.82" y="-3647.3" font-family="Arial" font-size="14.00">&#45; send_join_requests(&amp;mut self, join_request: JoinRequest, recipients: &amp;[Peer], section_key: BlsPublicKey, should_backoff: bool) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="7890.82" y="-3632.3" font-family="Arial" font-size="14.00">&#45; receive_join_response(&amp;mut self) &#45;&gt; Result&lt;(JoinResponse, Peer)&gt;</text>
-<polygon fill="none" stroke="black" points="7878.82,-3616.5 7878.82,-3894.5 8920.82,-3894.5 8920.82,-3616.5 7878.82,-3616.5"/>
+<polygon fill="lightblue" stroke="none" points="7879.82,-3863.5 7879.82,-3900.5 8919.82,-3900.5 8919.82,-3863.5 7879.82,-3863.5"/>
+<polygon fill="none" stroke="black" points="7879.82,-3863.5 7879.82,-3900.5 8919.82,-3900.5 8919.82,-3863.5 7879.82,-3863.5"/>
+<text text-anchor="start" x="8384.32" y="-3879.3" font-family="Arial" font-weight="bold" font-size="14.00">Join</text>
+<polygon fill="white" stroke="none" points="7879.82,-3706.5 7879.82,-3863.5 8919.82,-3863.5 8919.82,-3706.5 7879.82,-3706.5"/>
+<polygon fill="none" stroke="black" points="7879.82,-3706.5 7879.82,-3863.5 8919.82,-3863.5 8919.82,-3706.5 7879.82,-3706.5"/>
+<text text-anchor="start" x="7890.82" y="-3841.3" font-family="Arial" font-size="14.00">&#45; send_tx: mpsc::Sender&lt;(WireMsg, Vec&lt;Peer&gt;)&gt;</text>
+<text text-anchor="start" x="7890.82" y="-3826.3" font-family="Arial" font-size="14.00">&#45; recv_rx: &amp;&#39;a mut mpsc::Receiver&lt;ConnectionEvent&gt;</text>
+<text text-anchor="start" x="7890.82" y="-3811.3" font-family="Arial" font-size="14.00">&#45; node: Node</text>
+<text text-anchor="start" x="7890.82" y="-3796.3" font-family="Arial" font-size="14.00">&#45; prefix: Prefix</text>
+<text text-anchor="start" x="7890.82" y="-3781.3" font-family="Arial" font-size="14.00">&#45; prefix_map: NetworkPrefixMap</text>
+<text text-anchor="start" x="7890.82" y="-3766.3" font-family="Arial" font-size="14.00">&#45; signature_aggregators: BTreeMap&lt;BlsPublicKey, SignatureAggregator&gt;</text>
+<text text-anchor="start" x="7890.82" y="-3751.3" font-family="Arial" font-size="14.00">&#45; node_state_serialized: Option&lt;Vec&lt;u8&gt;&gt;</text>
+<text text-anchor="start" x="7890.82" y="-3736.3" font-family="Arial" font-size="14.00">&#45; backoff: ExponentialBackoff</text>
+<text text-anchor="start" x="7890.82" y="-3721.3" font-family="Arial" font-size="14.00">&#45; aggregated: bool</text>
+<polygon fill="white" stroke="none" points="7879.82,-3609.5 7879.82,-3706.5 8919.82,-3706.5 8919.82,-3609.5 7879.82,-3609.5"/>
+<polygon fill="none" stroke="black" points="7879.82,-3609.5 7879.82,-3706.5 8919.82,-3706.5 8919.82,-3609.5 7879.82,-3609.5"/>
+<text text-anchor="start" x="7890.82" y="-3684.3" font-family="Arial" font-size="14.00">&#45; new(node: Node, send_tx: mpsc::Sender&lt;(WireMsg, Vec&lt;Peer&gt;)&gt;, recv_rx: &amp;&#39;a mut mpsc::Receiver&lt;ConnectionEvent&gt;, prefix_map: NetworkPrefixMap) &#45;&gt; Self</text>
+<text text-anchor="start" x="7890.82" y="-3669.3" font-family="Arial" font-size="14.00">&#45; run(self, bootstrap_peer: UnnamedPeer) &#45;&gt; Result&lt;(Node, NetworkKnowledge)&gt;</text>
+<text text-anchor="start" x="7890.82" y="-3654.3" font-family="Arial" font-size="14.00">&#45; join(mut self, network_genesis_key: BlsPublicKey, target_section_key: BlsPublicKey, recipients: Vec&lt;Peer&gt;) &#45;&gt; Result&lt;(Node, NetworkKnowledge)&gt;</text>
+<text text-anchor="start" x="7890.82" y="-3639.3" font-family="Arial" font-size="14.00">&#45; send_join_requests(&amp;mut self, join_request: JoinRequest, recipients: &amp;[Peer], section_key: BlsPublicKey, should_backoff: bool) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="7890.82" y="-3624.3" font-family="Arial" font-size="14.00">&#45; receive_join_response(&amp;mut self) &#45;&gt; Result&lt;(JoinResponse, Peer)&gt;</text>
+<polygon fill="none" stroke="black" points="7878.82,-3609 7878.82,-3902 8920.82,-3902 8920.82,-3609 7878.82,-3609"/>
 </a>
 </g>
 </g>
 <!-- ndPublicKey&#45;&gt;ndJoin -->
 <g id="edge95" class="edge"><title>ndPublicKey&#45;&gt;ndJoin</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8160.26,-9980.74C8167.06,-9718.22 8179.44,-9300.42 8192.82,-9144 8217.54,-8855.09 8364.17,-6785.61 8543.82,-6558 8571.28,-6523.21 8596.07,-6539.43 8636.82,-6522 8932.96,-6395.34 9120.12,-6485.88 9292.82,-6214 9393.15,-6056.06 9301.26,-5979.92 9292.82,-5793 9279.7,-5502.33 9304.45,-5423.26 9233.82,-5141 9204.19,-5022.56 9155.5,-5006.67 9126.82,-4888 9103.58,-4791.83 9138.98,-4532.03 9093.82,-4444 9082.44,-4421.82 9068.69,-4425.38 9050.82,-4408 8871.6,-4233.73 8857.46,-4160.85 8677.82,-3987 8649.47,-3959.57 8618.27,-3931.7 8587.32,-3905.26"/>
-<polygon fill="black" stroke="black" points="8579.46,-3898.57 8589.99,-3901.62 8583.27,-3901.81 8587.08,-3905.05 8587.08,-3905.05 8587.08,-3905.05 8583.27,-3901.81 8584.16,-3908.48 8579.46,-3898.57 8579.46,-3898.57"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8160.26,-9980.74C8167.06,-9718.22 8179.44,-9300.42 8192.82,-9144 8217.54,-8855.09 8364.17,-6785.61 8543.82,-6558 8571.28,-6523.21 8596.07,-6539.43 8636.82,-6522 8932.96,-6395.34 9120.12,-6485.88 9292.82,-6214 9393.15,-6056.06 9301.26,-5979.92 9292.82,-5793 9279.7,-5502.33 9304.45,-5423.26 9233.82,-5141 9204.19,-5022.56 9155.5,-5006.67 9126.82,-4888 9103.58,-4791.83 9138.98,-4532.03 9093.82,-4444 9082.44,-4421.82 9068.69,-4425.38 9050.82,-4408 8871.6,-4233.73 8857.46,-4160.85 8677.82,-3987 8652.19,-3962.19 8624.21,-3937.02 8596.21,-3912.88"/>
+<polygon fill="black" stroke="black" points="8588.31,-3906.1 8598.83,-3909.2 8592.1,-3909.36 8595.9,-3912.61 8595.9,-3912.61 8595.9,-3912.61 8592.1,-3909.36 8592.96,-3916.03 8588.31,-3906.1 8588.31,-3906.1"/>
 </g>
 <!-- ndSigning -->
 <g id="node21" class="node"><title>ndSigning</title>
@@ -3179,8 +3180,8 @@
 </g>
 <!-- ndJoinRequest&#45;&gt;ndJoin -->
 <g id="edge186" class="edge"><title>ndJoinRequest&#45;&gt;ndJoin</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8587.28,-4957.49C8599.18,-4936.6 8610.8,-4912.08 8616.82,-4888 8714.02,-4499.53 8764.47,-4359.23 8616.82,-3987 8605.53,-3958.53 8588.87,-3931.54 8569.72,-3906.72"/>
-<polygon fill="black" stroke="black" points="8563.42,-3898.75 8573.15,-3903.8 8566.52,-3902.67 8569.62,-3906.59 8569.62,-3906.59 8569.62,-3906.59 8566.52,-3902.67 8566.09,-3909.38 8563.42,-3898.75 8563.42,-3898.75"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8587.28,-4957.49C8599.18,-4936.6 8610.8,-4912.08 8616.82,-4888 8714.02,-4499.53 8764.47,-4359.23 8616.82,-3987 8606.62,-3961.29 8592.05,-3936.79 8575.22,-3914"/>
+<polygon fill="black" stroke="black" points="8569.18,-3906.02 8578.8,-3911.27 8572.19,-3910 8575.21,-3913.99 8575.21,-3913.99 8575.21,-3913.99 8572.19,-3910 8571.62,-3916.71 8569.18,-3906.02 8569.18,-3906.02"/>
 </g>
 <!-- ndResourceProofResponse&#45;&gt;ndJoinRequest -->
 <g id="edge187" class="edge"><title>ndResourceProofResponse&#45;&gt;ndJoinRequest</title>
@@ -3217,8 +3218,8 @@
 </g>
 <!-- ndJoinResponse&#45;&gt;ndJoin -->
 <g id="edge190" class="edge"><title>ndJoinResponse&#45;&gt;ndJoin</title>
-<path fill="none" stroke="black" d="M7965.17,-4976.5C8031.42,-4958.71 8113.46,-4938.21 8187.82,-4924 8248.79,-4912.35 8423.85,-4934.64 8464.82,-4888 8530.89,-4812.79 8478.54,-4086.17 8464.82,-3987 8461.27,-3961.34 8455.6,-3934.53 8449.05,-3908.63"/>
-<polygon fill="black" stroke="black" points="8446.5,-3898.76 8453.36,-3907.31 8447.75,-3903.6 8449,-3908.44 8449,-3908.44 8449,-3908.44 8447.75,-3903.6 8444.65,-3909.56 8446.5,-3898.76 8446.5,-3898.76"/>
+<path fill="none" stroke="black" d="M7965.17,-4976.5C8031.42,-4958.71 8113.46,-4938.21 8187.82,-4924 8248.79,-4912.35 8423.85,-4934.64 8464.82,-4888 8530.89,-4812.79 8478.54,-4086.17 8464.82,-3987 8461.6,-3963.74 8456.64,-3939.53 8450.87,-3915.91"/>
+<polygon fill="black" stroke="black" points="8448.43,-3906.19 8455.23,-3914.8 8449.65,-3911.04 8450.86,-3915.89 8450.86,-3915.89 8450.86,-3915.89 8449.65,-3911.04 8446.5,-3916.99 8448.43,-3906.19 8448.43,-3906.19"/>
 </g>
 <!-- ndJoinRejectionReason -->
 <g id="node52" class="node"><title>ndJoinRejectionReason</title>
@@ -3965,8 +3966,8 @@
 </g>
 <!-- ndWireMsg&#45;&gt;ndJoin -->
 <g id="edge274" class="edge"><title>ndWireMsg&#45;&gt;ndJoin</title>
-<path fill="none" stroke="black" d="M3819.85,-4174.2C4965.87,-4128.94 7440.05,-4024.34 7822.82,-3951 7885.99,-3938.9 7951.72,-3921.56 8015.22,-3902.16"/>
-<polygon fill="black" stroke="black" points="8015.59,-3902.05 8020.14,-3896.46 8027.06,-3898.52 8022.5,-3904.11 8015.59,-3902.05"/>
+<path fill="none" stroke="black" d="M3819.85,-4174.2C4965.87,-4128.94 7440.05,-4024.34 7822.82,-3951 7877.94,-3940.44 7935.02,-3925.89 7990.87,-3909.47"/>
+<polygon fill="black" stroke="black" points="7990.89,-3909.46 7995.5,-3903.92 8002.39,-3906.05 7997.78,-3911.59 7990.89,-3909.46"/>
 </g>
 <!-- ndMessageType -->
 <g id="node82" class="node"><title>ndMessageType</title>
@@ -4291,8 +4292,8 @@
 </g>
 <!-- ndNetworkPrefixMap&#45;&gt;ndJoin -->
 <g id="edge320" class="edge"><title>ndNetworkPrefixMap&#45;&gt;ndJoin</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8554.93,-5807.77C8472.95,-5629.75 8361.25,-5356.64 8315.82,-5105 8301.53,-5025.84 8262.94,-4984.62 8315.82,-4924 8393.38,-4835.1 8501.26,-4976.9 8578.82,-4888 8644.64,-4812.56 8611.28,-4081.7 8578.82,-3987 8569.51,-3959.83 8555.54,-3933.39 8539.44,-3908.69"/>
-<polygon fill="black" stroke="black" points="8539.35,-3908.55 8532.69,-3905.79 8532.67,-3898.58 8539.34,-3901.34 8539.35,-3908.55"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8554.93,-5807.77C8472.95,-5629.75 8361.25,-5356.64 8315.82,-5105 8301.53,-5025.84 8262.94,-4984.62 8315.82,-4924 8393.38,-4835.1 8501.26,-4976.9 8578.82,-4888 8644.64,-4812.56 8611.28,-4081.7 8578.82,-3987 8570.45,-3962.58 8558.33,-3938.75 8544.27,-3916.25"/>
+<polygon fill="black" stroke="black" points="8544.17,-3916.09 8537.56,-3913.21 8537.68,-3906 8544.29,-3908.88 8544.17,-3916.09"/>
 </g>
 <!-- ndNetworkStats -->
 <g id="node94" class="node"><title>ndNetworkStats</title>
@@ -4479,8 +4480,8 @@
 </g>
 <!-- ndNode&#45;&gt;ndJoin -->
 <g id="edge334" class="edge"><title>ndNode&#45;&gt;ndJoin</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M9486.39,-6957.81C9489.54,-6956.86 9492.69,-6955.92 9495.82,-6955 9567,-6934.06 9612.36,-6976.84 9658.82,-6919 9751.92,-6803.09 9676.28,-6397.64 9658.82,-6250 9599.3,-5746.64 9577.73,-5612.94 9392.82,-5141 9345.78,-5020.94 9300.07,-5007.17 9250.82,-4888 9172.57,-4698.65 9219.01,-4626.97 9126.82,-4444 9117.7,-4425.9 9106.48,-4426.77 9098.82,-4408 9063.26,-4320.81 9109.44,-4060.69 9050.82,-3987 9041.99,-3975.9 8950.75,-3941.52 8839.22,-3902.57"/>
-<polygon fill="black" stroke="black" points="8838.99,-3902.49 8832.01,-3904.3 8827.66,-3898.55 8834.64,-3896.74 8838.99,-3902.49"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M9486.39,-6957.81C9489.54,-6956.86 9492.69,-6955.92 9495.82,-6955 9567,-6934.06 9612.36,-6976.84 9658.82,-6919 9751.92,-6803.09 9676.28,-6397.64 9658.82,-6250 9599.3,-5746.64 9577.73,-5612.94 9392.82,-5141 9345.78,-5020.94 9300.07,-5007.17 9250.82,-4888 9172.57,-4698.65 9219.01,-4626.97 9126.82,-4444 9117.7,-4425.9 9106.48,-4426.77 9098.82,-4408 9063.26,-4320.81 9109.44,-4060.69 9050.82,-3987 9042.57,-3976.63 8962.33,-3945.92 8860.83,-3910.15"/>
+<polygon fill="black" stroke="black" points="8860.65,-3910.09 8853.66,-3911.87 8849.33,-3906.11 8856.31,-3904.33 8860.65,-3910.09"/>
 </g>
 <!-- ndCommand&#45;&gt;ndSession -->
 <g id="edge335" class="edge"><title>ndCommand&#45;&gt;ndSession</title>
@@ -4954,8 +4955,8 @@
 </g>
 <!-- ndNetworkKnowledge&#45;&gt;ndJoin -->
 <g id="edge368" class="edge"><title>ndNetworkKnowledge&#45;&gt;ndJoin</title>
-<path fill="none" stroke="black" d="M5870.35,-5194.3C5962.93,-5172.98 6056.43,-5154.46 6146.82,-5141 6227.73,-5128.95 7551.15,-5150.95 7618.82,-5105 7691.14,-5055.89 7624.18,-4974.1 7695.82,-4924 7759.01,-4879.81 8335.46,-4943.66 8388.82,-4888 8454.95,-4819.02 8426.91,-4201.29 8409.65,-3908.78"/>
-<polygon fill="black" stroke="black" points="8409.04,-3898.52 8414.12,-3908.23 8409.34,-3903.51 8409.63,-3908.5 8409.63,-3908.5 8409.63,-3908.5 8409.34,-3903.51 8405.14,-3908.77 8409.04,-3898.52 8409.04,-3898.52"/>
+<path fill="none" stroke="black" d="M5870.35,-5194.3C5962.93,-5172.98 6056.43,-5154.46 6146.82,-5141 6227.73,-5128.95 7551.15,-5150.95 7618.82,-5105 7691.14,-5055.89 7624.18,-4974.1 7695.82,-4924 7759.01,-4879.81 8335.46,-4943.66 8388.82,-4888 8454.38,-4819.61 8427.39,-4211.84 8410.1,-3916.38"/>
+<polygon fill="black" stroke="black" points="8409.48,-3906 8414.56,-3915.72 8409.78,-3910.99 8410.07,-3915.98 8410.07,-3915.98 8410.07,-3915.98 8409.78,-3910.99 8405.58,-3916.25 8409.48,-3906 8409.48,-3906"/>
 </g>
 <!-- ndElderCandidates&#45;&gt;ndDkgSessionId -->
 <g id="edge369" class="edge"><title>ndElderCandidates&#45;&gt;ndDkgSessionId</title>
@@ -5135,8 +5136,8 @@
 </g>
 <!-- ndPeer&#45;&gt;ndJoin -->
 <g id="edge391" class="edge"><title>ndPeer&#45;&gt;ndJoin</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M4502.63,-7294.85C4756.59,-7259.15 5061.17,-7221.66 5336.82,-7202 5408.26,-7196.91 7860.63,-7212.82 7914.82,-7166 7986.7,-7103.9 7901.89,-7037.58 7948.82,-6955 7961.14,-6933.33 7980.97,-6941.44 7991.82,-6919 8046.33,-6806.34 8005.5,-5916.95 8022.82,-5793 8077.98,-5398.21 7948.19,-5190.3 8244.82,-4924 8328.68,-4848.71 8422.01,-4973.16 8495.82,-4888 8500.45,-4882.66 8495.06,-3993.24 8493.82,-3987 8488.77,-3961.54 8480.92,-3935.35 8471.86,-3910.16"/>
-<polygon fill="black" stroke="black" points="8471.77,-3909.92 8465.94,-3905.67 8467.61,-3898.66 8473.44,-3902.9 8471.77,-3909.92"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M4502.63,-7294.85C4756.59,-7259.15 5061.17,-7221.66 5336.82,-7202 5408.26,-7196.91 7860.63,-7212.82 7914.82,-7166 7986.7,-7103.9 7901.89,-7037.58 7948.82,-6955 7961.14,-6933.33 7980.97,-6941.44 7991.82,-6919 8046.33,-6806.34 8005.5,-5916.95 8022.82,-5793 8077.98,-5398.21 7948.19,-5190.3 8244.82,-4924 8328.68,-4848.71 8422.01,-4973.16 8495.82,-4888 8500.45,-4882.66 8495.06,-3993.24 8493.82,-3987 8489.27,-3964.06 8482.45,-3940.52 8474.51,-3917.66"/>
+<polygon fill="black" stroke="black" points="8474.43,-3917.44 8468.65,-3913.14 8470.4,-3906.14 8476.18,-3910.45 8474.43,-3917.44"/>
 </g>
 <!-- ndUnnamedPeer&#45;&gt;ndComm -->
 <g id="edge392" class="edge"><title>ndUnnamedPeer&#45;&gt;ndComm</title>
@@ -5168,8 +5169,8 @@
 </g>
 <!-- ndUnnamedPeer&#45;&gt;ndJoin -->
 <g id="edge395" class="edge"><title>ndUnnamedPeer&#45;&gt;ndJoin</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1760.16,-4575.39C1809.61,-4527.74 1876.61,-4473.12 1947.82,-4444 2111.81,-4376.94 2190.89,-4495.71 2344.82,-4408 2545.35,-4293.74 2443.7,-4092.79 2648.82,-3987 2776.56,-3921.12 7681.07,-3974.75 7822.82,-3951 7889.77,-3939.78 7959.44,-3921.95 8026.25,-3901.53"/>
-<polygon fill="black" stroke="black" points="8036.09,-3898.5 8027.86,-3905.75 8031.31,-3899.97 8026.53,-3901.45 8026.53,-3901.45 8026.53,-3901.45 8031.31,-3899.97 8025.21,-3897.15 8036.09,-3898.5 8036.09,-3898.5"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1760.16,-4575.39C1809.61,-4527.74 1876.61,-4473.12 1947.82,-4444 2111.81,-4376.94 2190.89,-4495.71 2344.82,-4408 2545.35,-4293.74 2443.7,-4092.79 2648.82,-3987 2776.56,-3921.12 7681.07,-3974.75 7822.82,-3951 7881.46,-3941.17 7942.18,-3926.28 8001.25,-3909.01"/>
+<polygon fill="black" stroke="black" points="8011.09,-3906.11 8002.78,-3913.25 8006.3,-3907.52 8001.5,-3908.93 8001.5,-3908.93 8001.5,-3908.93 8006.3,-3907.52 8000.23,-3904.62 8011.09,-3906.11 8011.09,-3906.11"/>
 </g>
 <!-- ndDkgVoter&#45;&gt;ndCore -->
 <g id="edge396" class="edge"><title>ndDkgVoter&#45;&gt;ndCore</title>
@@ -5326,8 +5327,8 @@
 </g>
 <!-- ndConnectionEvent&#45;&gt;ndJoin -->
 <g id="edge407" class="edge"><title>ndConnectionEvent&#45;&gt;ndJoin</title>
-<path fill="none" stroke="black" d="M2222.94,-4155.15C2242.57,-4104.97 2283.37,-4022.65 2349.82,-3987 2416.8,-3951.06 7747.85,-3963.55 7822.82,-3951 7889.23,-3939.88 7958.3,-3922.26 8024.61,-3902.06"/>
-<polygon fill="black" stroke="black" points="8024.62,-3902.05 8029.18,-3896.47 8036.09,-3898.52 8031.53,-3904.11 8024.62,-3902.05"/>
+<path fill="none" stroke="black" d="M2222.94,-4155.15C2242.57,-4104.97 2283.37,-4022.65 2349.82,-3987 2416.8,-3951.06 7747.85,-3963.55 7822.82,-3951 7880.98,-3941.26 7941.19,-3926.54 7999.79,-3909.46"/>
+<polygon fill="black" stroke="black" points="7999.98,-3909.4 8004.6,-3903.87 8011.49,-3906.01 8006.87,-3911.54 7999.98,-3909.4"/>
 </g>
 <!-- ndSendStatus&#45;&gt;ndComm -->
 <g id="edge408" class="edge"><title>ndSendStatus&#45;&gt;ndComm</title>
@@ -5841,8 +5842,8 @@
 </g>
 <!-- ndKey&#45;&gt;ndJoin -->
 <g id="edge467" class="edge"><title>ndKey&#45;&gt;ndJoin</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7191.48,-10546.8C7186.94,-10520 7176.36,-10486.8 7151.82,-10469 7044.95,-10391.4 6056.45,-10527.1 5963.82,-10433 5847.38,-10314.7 5938.67,-9851.01 5956.82,-9686 5967.78,-9586.43 5934.45,-9536.3 6005.82,-9466 6062.08,-9410.58 6107.86,-9462.53 6179.82,-9430 6372.43,-9342.92 6372.03,-9241.03 6559.82,-9144 7005.75,-8913.61 7291.92,-9166.61 7635.82,-8801 7667.92,-8766.88 8042.94,-7212.47 8048.82,-7166 8087.13,-6863.3 7997.91,-6092.76 8054.82,-5793 8058.02,-5776.13 8063.55,-5773.34 8068.82,-5757 8127.58,-5575.02 8143.28,-5052.6 8284.82,-4924 8360.1,-4855.6 8444.8,-4965.37 8510.82,-4888 8514.22,-4884.01 8511.56,-3994.63 8509.82,-3987 8503.82,-3960.62 8494.43,-3933.73 8483.61,-3908.06"/>
-<polygon fill="black" stroke="black" points="8479.56,-3898.66 8487.65,-3906.06 8481.54,-3903.25 8483.52,-3907.84 8483.52,-3907.84 8483.52,-3907.84 8481.54,-3903.25 8479.39,-3909.62 8479.56,-3898.66 8479.56,-3898.66"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7191.48,-10546.8C7186.94,-10520 7176.36,-10486.8 7151.82,-10469 7044.95,-10391.4 6056.45,-10527.1 5963.82,-10433 5847.38,-10314.7 5938.67,-9851.01 5956.82,-9686 5967.78,-9586.43 5934.45,-9536.3 6005.82,-9466 6062.08,-9410.58 6107.86,-9462.53 6179.82,-9430 6372.43,-9342.92 6372.03,-9241.03 6559.82,-9144 7005.75,-8913.61 7291.92,-9166.61 7635.82,-8801 7667.92,-8766.88 8042.94,-7212.47 8048.82,-7166 8087.13,-6863.3 7997.91,-6092.76 8054.82,-5793 8058.02,-5776.13 8063.55,-5773.34 8068.82,-5757 8127.58,-5575.02 8143.28,-5052.6 8284.82,-4924 8360.1,-4855.6 8444.8,-4965.37 8510.82,-4888 8514.22,-4884.01 8511.56,-3994.63 8509.82,-3987 8504.39,-3963.14 8496.2,-3938.86 8486.67,-3915.45"/>
+<polygon fill="black" stroke="black" points="8482.81,-3906.18 8490.81,-3913.68 8484.74,-3910.79 8486.66,-3915.41 8486.66,-3915.41 8486.66,-3915.41 8484.74,-3910.79 8482.5,-3917.14 8482.81,-3906.18 8482.81,-3906.18"/>
 </g>
 <!-- ndKey&#45;&gt;ndId -->
 <g id="edge468" class="edge"><title>ndKey&#45;&gt;ndId</title>
