@@ -49,7 +49,7 @@
 <polygon fill="white" stroke="none" points="650.5,-245 650.5,-312 804.5,-312 804.5,-245 650.5,-245"/>
 <polygon fill="none" stroke="black" points="650.5,-245 650.5,-312 804.5,-312 804.5,-245 650.5,-245"/>
 <text text-anchor="start" x="661.5" y="-289.8" font-family="Arial" font-size="14.00">Add</text>
-<text text-anchor="start" x="661.5" y="-274.8" font-family="Arial" font-size="14.00">Create</text>
+<text text-anchor="start" x="661.5" y="-274.8" font-family="Arial" font-size="14.00">Register</text>
 <text text-anchor="start" x="661.5" y="-259.8" font-family="Arial" font-size="14.00">Remove</text>
 <polygon fill="none" stroke="black" points="649.5,-244 649.5,-350 805.5,-350 805.5,-244 649.5,-244"/>
 </a>

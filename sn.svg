@@ -234,7 +234,7 @@
 <text text-anchor="start" x="6840.82" y="-1548.3" font-family="Arial" font-size="14.00">&#45; handle_online_agreement(&amp;self, new_info: NodeState, sig: KeyedSig) &#45;&gt; Result&lt;Vec&lt;Command&gt;&gt;</text>
 <text text-anchor="start" x="6840.82" y="-1533.3" font-family="Arial" font-size="14.00">&#45; handle_offline_agreement(&amp;self, node_state: NodeState, sig: KeyedSig) &#45;&gt; Result&lt;Vec&lt;Command&gt;&gt;</text>
 <text text-anchor="start" x="6840.82" y="-1518.3" font-family="Arial" font-size="14.00">&#45; handle_section_info_agreement(&amp;self, section_auth: SectionAuthorityProvider, sig: KeyedSig) &#45;&gt; Result&lt;Vec&lt;Command&gt;&gt;</text>
-<text text-anchor="start" x="6840.82" y="-1503.3" font-family="Arial" font-size="14.00">&#45; handle_our_elders_agreement(&amp;self, signed_section_auth: SectionAuth&lt;SectionAuthorityProvider&gt;, key_sig: KeyedSig) &#45;&gt; Result&lt;Vec&lt;Command&gt;&gt;</text>
+<text text-anchor="start" x="6840.82" y="-1503.3" font-family="Arial" font-size="14.00">&#45; handle_new_elders_agreement(&amp;self, signed_section_auth: SectionAuth&lt;SectionAuthorityProvider&gt;, key_sig: KeyedSig) &#45;&gt; Result&lt;Vec&lt;Command&gt;&gt;</text>
 <text text-anchor="start" x="6840.82" y="-1488.3" font-family="Arial" font-size="14.00">&#45; handle_message(&amp;self, sender: UnnamedPeer, wire_msg: WireMsg, original_bytes: Option&lt;Bytes&gt;) &#45;&gt; Result&lt;Vec&lt;Command&gt;&gt;</text>
 <text text-anchor="start" x="6840.82" y="-1473.3" font-family="Arial" font-size="14.00">&#45; handle_system_message(&amp;self, sender: Peer, msg_id: MessageId, mut msg_authority: NodeMsgAuthority, dst_location: DstLocation, msg: SystemMsg, payload: Bytes, known_keys: Vec&lt;BlsPublicKey&gt;) &#45;&gt; Result&lt;Vec&lt;Command&gt;&gt;</text>
 <text text-anchor="start" x="6840.82" y="-1458.3" font-family="Arial" font-size="14.00">&#45; handle_valid_msg(&amp;self, msg_id: MessageId, msg_authority: NodeMsgAuthority, dst_location: DstLocation, node_msg: SystemMsg, sender: Peer, known_keys: Vec&lt;BlsPublicKey&gt;) &#45;&gt; Result&lt;Vec&lt;Command&gt;&gt;</text>
@@ -1039,7 +1039,7 @@
 <text text-anchor="start" x="4235.82" y="-5580.8" font-family="Arial" font-size="14.00">&#45; new(genesis_key: bls::PublicKey, chain: SecuredLinkedList, signed_sap: SectionAuth&lt;SectionAuthorityProvider&gt;, passed_prefix_map: Option&lt;NetworkPrefixMap&gt;) &#45;&gt; Result&lt;Self, Error&gt;</text>
 <text text-anchor="start" x="4235.82" y="-5565.8" font-family="Arial" font-size="14.00">&#45; relocated_to(&amp;self, new_network_nowledge: Self) &#45;&gt; Result&lt;()&gt;</text>
 <text text-anchor="start" x="4235.82" y="-5550.8" font-family="Arial" font-size="14.00">&#45; first_node(peer: Peer, genesis_sk_set: bls::SecretKeySet) &#45;&gt; Result&lt;(NetworkKnowledge, SectionKeyShare)&gt;</text>
-<text text-anchor="start" x="4235.82" y="-5535.8" font-family="Arial" font-size="14.00">&#45; set_current_sap(&amp;self, section_key: BlsPublicKey, prefix: &amp;Prefix) &#45;&gt; bool</text>
+<text text-anchor="start" x="4235.82" y="-5535.8" font-family="Arial" font-size="14.00">&#45; try_update_current_sap(&amp;self, section_key: BlsPublicKey, prefix: &amp;Prefix) &#45;&gt; bool</text>
 <text text-anchor="start" x="4235.82" y="-5520.8" font-family="Arial" font-size="14.00">&#45; update_knowledge_if_valid(&amp;self, signed_sap: SectionAuth&lt;SectionAuthorityProvider&gt;, proof_chain: &amp;SecuredLinkedList, updated_members: Option&lt;SectionPeers&gt;, our_name: &amp;XorName, section_keys_provider: &amp;SectionKeysProvider) &#45;&gt; Result&lt;bool&gt;</text>
 <text text-anchor="start" x="4235.82" y="-5505.8" font-family="Arial" font-size="14.00">&#45; prefix_map(&amp;self) &#45;&gt; &amp;NetworkPrefixMap</text>
 <text text-anchor="start" x="4235.82" y="-5490.8" font-family="Arial" font-size="14.00">&#45; section_by_name(&amp;self, name: &amp;XorName) &#45;&gt; Result&lt;SectionAuthorityProvider&gt;</text>
@@ -2795,7 +2795,7 @@
 <text text-anchor="start" x="6212.82" y="-3841.3" font-family="Arial" font-size="14.00">HandlePeerLost(Peer)</text>
 <text text-anchor="start" x="6212.82" y="-3826.3" font-family="Arial" font-size="14.00">HandleAgreement</text>
 <text text-anchor="start" x="6212.82" y="-3811.3" font-family="Arial" font-size="14.00">HandleNewNodeOnline(SectionAuth&lt;NodeState&gt;)</text>
-<text text-anchor="start" x="6212.82" y="-3796.3" font-family="Arial" font-size="14.00">HandleElderAgreement</text>
+<text text-anchor="start" x="6212.82" y="-3796.3" font-family="Arial" font-size="14.00">HandleNewEldersAgreement</text>
 <text text-anchor="start" x="6212.82" y="-3781.3" font-family="Arial" font-size="14.00">HandleDkgOutcome</text>
 <text text-anchor="start" x="6212.82" y="-3766.3" font-family="Arial" font-size="14.00">HandleDkgFailure(DkgFailureSigSet)</text>
 <text text-anchor="start" x="6212.82" y="-3751.3" font-family="Arial" font-size="14.00">SendMessage</text>
@@ -2869,7 +2869,7 @@
 <polygon fill="none" stroke="black" points="6630.82,-5977.5 6630.82,-6059.5 7543.82,-6059.5 7543.82,-5977.5 6630.82,-5977.5"/>
 <text text-anchor="start" x="6641.82" y="-6037.3" font-family="Arial" font-size="14.00">Offline(NodeState)</text>
 <text text-anchor="start" x="6641.82" y="-6022.3" font-family="Arial" font-size="14.00">SectionInfo(SectionAuthorityProvider)</text>
-<text text-anchor="start" x="6641.82" y="-6007.3" font-family="Arial" font-size="14.00">OurElders(SectionAuth&lt;SectionAuthorityProvider&gt;)</text>
+<text text-anchor="start" x="6641.82" y="-6007.3" font-family="Arial" font-size="14.00">NewElders(SectionAuth&lt;SectionAuthorityProvider&gt;)</text>
 <text text-anchor="start" x="6641.82" y="-5992.3" font-family="Arial" font-size="14.00">JoinsAllowed(bool)</text>
 <polygon fill="white" stroke="none" points="6630.82,-5910.5 6630.82,-5977.5 7543.82,-5977.5 7543.82,-5910.5 6630.82,-5910.5"/>
 <polygon fill="none" stroke="black" points="6630.82,-5910.5 6630.82,-5977.5 7543.82,-5977.5 7543.82,-5910.5 6630.82,-5910.5"/>
@@ -4812,7 +4812,7 @@
 <text text-anchor="start" x="14137.8" y="-11230.3" font-family="Arial" font-size="14.00">DkgSessionComplete</text>
 <text text-anchor="start" x="14137.8" y="-11215.3" font-family="Arial" font-size="14.00">DkgSessionAlreadyCompleted</text>
 <text text-anchor="start" x="14137.8" y="-11200.3" font-family="Arial" font-size="14.00">HandlingDkgSuccessfulOutcome</text>
-<text text-anchor="start" x="14137.8" y="-11185.3" font-family="Arial" font-size="14.00">HandlingElderAgreement</text>
+<text text-anchor="start" x="14137.8" y="-11185.3" font-family="Arial" font-size="14.00">HandlingNewEldersAgreement</text>
 <text text-anchor="start" x="14137.8" y="-11170.3" font-family="Arial" font-size="14.00">NewSignedSap</text>
 <text text-anchor="start" x="14137.8" y="-11155.3" font-family="Arial" font-size="14.00">NewKeyShareStored</text>
 <text text-anchor="start" x="14137.8" y="-11140.3" font-family="Arial" font-size="14.00">TriggeringPromotionAndDemotion</text>

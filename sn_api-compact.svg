@@ -268,7 +268,7 @@
 </g>
 <!-- ndSafeData -->
 <g id="node15" class="node"><title>ndSafeData</title>
-<g id="a_node15_14"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/app/resolver/mod.rs#:~:text=enum%20SafeData" xlink:title="&lt;TABLE&gt;">
+<g id="a_node15_14"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/app/resolver/safe_data.rs#:~:text=enum%20SafeData" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1721,-282 1721,-319 1853,-319 1853,-282 1721,-282"/>
 <polygon fill="none" stroke="black" points="1721,-282 1721,-319 1853,-319 1853,-282 1721,-282"/>
 <text text-anchor="start" x="1755.5" y="-297.8" font-family="Arial" font-weight="bold" font-size="14.00">SafeData</text>
