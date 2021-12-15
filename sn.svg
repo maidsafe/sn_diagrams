@@ -3762,8 +3762,8 @@
 </g>
 <!-- ndQueryResponse&#45;&gt;ndRegisterRead -->
 <g id="edge255" class="edge"><title>ndQueryResponse&#45;&gt;ndRegisterRead</title>
-<path fill="none" stroke="black" d="M12069.2,-8859.47C12068.3,-8733.57 12066.1,-8523.09 12060.8,-8342 12058.2,-8252.99 12053.8,-8152.55 12050.1,-8076.17"/>
-<polygon fill="black" stroke="black" points="12049.6,-8066.03 12054.6,-8075.8 12049.8,-8071.02 12050.1,-8076.02 12050.1,-8076.02 12050.1,-8076.02 12049.8,-8071.02 12045.6,-8076.24 12049.6,-8066.03 12049.6,-8066.03"/>
+<path fill="none" stroke="black" d="M12070.2,-8859.46C12070.2,-8733.56 12069.3,-8523.07 12063.8,-8342 12061.1,-8252.96 12055.9,-8152.52 12051.4,-8076.15"/>
+<polygon fill="black" stroke="black" points="12050.8,-8066.01 12055.9,-8075.73 12051.1,-8071 12051.4,-8075.99 12051.4,-8075.99 12051.4,-8075.99 12051.1,-8071 12046.9,-8076.26 12050.8,-8066.01 12050.8,-8066.01"/>
 </g>
 <!-- ndQueryResponse&#45;&gt;ndDataQuery -->
 <g id="edge256" class="edge"><title>ndQueryResponse&#45;&gt;ndDataQuery</title>
@@ -3773,21 +3773,21 @@
 <!-- ndQueryResult -->
 <g id="node95" class="node"><title>ndQueryResult</title>
 <g id="a_node95_111"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/client/connections/mod.rs#:~:text=struct%20QueryResult" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="11840.8,-8578.5 11840.8,-8615.5 12043.8,-8615.5 12043.8,-8578.5 11840.8,-8578.5"/>
-<polygon fill="none" stroke="black" points="11840.8,-8578.5 11840.8,-8615.5 12043.8,-8615.5 12043.8,-8578.5 11840.8,-8578.5"/>
-<text text-anchor="start" x="11898.8" y="-8594.3" font-family="Arial" font-weight="bold" font-size="14.00">QueryResult</text>
-<polygon fill="white" stroke="none" points="11840.8,-8526.5 11840.8,-8578.5 12043.8,-8578.5 12043.8,-8526.5 11840.8,-8526.5"/>
-<polygon fill="none" stroke="black" points="11840.8,-8526.5 11840.8,-8578.5 12043.8,-8578.5 12043.8,-8526.5 11840.8,-8526.5"/>
-<text text-anchor="start" x="11851.8" y="-8556.3" font-family="Arial" font-size="14.00">&#45; response: QueryResponse</text>
-<text text-anchor="start" x="11851.8" y="-8541.3" font-family="Arial" font-size="14.00">&#45; operation_id: OperationId</text>
-<polygon fill="none" stroke="black" points="11839.3,-8526 11839.3,-8617 12044.3,-8617 12044.3,-8526 11839.3,-8526"/>
+<polygon fill="lightblue" stroke="none" points="11839.8,-8578.5 11839.8,-8615.5 12045.8,-8615.5 12045.8,-8578.5 11839.8,-8578.5"/>
+<polygon fill="none" stroke="black" points="11839.8,-8578.5 11839.8,-8615.5 12045.8,-8615.5 12045.8,-8578.5 11839.8,-8578.5"/>
+<text text-anchor="start" x="11899.3" y="-8594.3" font-family="Arial" font-weight="bold" font-size="14.00">QueryResult</text>
+<polygon fill="white" stroke="none" points="11839.8,-8526.5 11839.8,-8578.5 12045.8,-8578.5 12045.8,-8526.5 11839.8,-8526.5"/>
+<polygon fill="none" stroke="black" points="11839.8,-8526.5 11839.8,-8578.5 12045.8,-8578.5 12045.8,-8526.5 11839.8,-8526.5"/>
+<text text-anchor="start" x="11850.8" y="-8556.3" font-family="Arial" font-size="14.00">+ response: QueryResponse</text>
+<text text-anchor="start" x="11850.8" y="-8541.3" font-family="Arial" font-size="14.00">+ operation_id: OperationId</text>
+<polygon fill="none" stroke="black" points="11838.8,-8526 11838.8,-8617 12046.8,-8617 12046.8,-8526 11838.8,-8526"/>
 </a>
 </g>
 </g>
 <!-- ndQueryResponse&#45;&gt;ndQueryResult -->
 <g id="edge257" class="edge"><title>ndQueryResponse&#45;&gt;ndQueryResult</title>
-<path fill="none" stroke="black" d="M12033.8,-8859.29C12010.2,-8785.72 11980.3,-8692.4 11961.1,-8632.57"/>
-<polygon fill="black" stroke="black" points="11961.1,-8632.49 11955.4,-8627.99 11957.4,-8621.06 11963,-8625.55 11961.1,-8632.49"/>
+<path fill="none" stroke="black" d="M12034.1,-8859.29C12010.7,-8785.72 11981,-8692.4 11961.9,-8632.57"/>
+<polygon fill="black" stroke="black" points="11961.9,-8632.49 11956.3,-8627.99 11958.3,-8621.06 11963.9,-8625.56 11961.9,-8632.49"/>
 </g>
 <!-- ndQueryResponse&#45;&gt;ndCore -->
 <g id="edge259" class="edge"><title>ndQueryResponse&#45;&gt;ndCore</title>
@@ -4320,7 +4320,7 @@
 </g>
 <!-- ndQueryResult&#45;&gt;ndSession -->
 <g id="edge322" class="edge"><title>ndQueryResult&#45;&gt;ndSession</title>
-<path fill="none" stroke="black" d="M11861.2,-8521.81C11769.1,-8468.55 11612,-8385.05 11465.8,-8342 11404.4,-8323.9 11222.2,-8354.04 11179.8,-8306 11127.9,-8247.17 11127.5,-7658.42 11179.8,-7600 11228.6,-7545.55 11458,-7618.45 11506.8,-7564 11518.9,-7550.5 11559,-5222.1 11490.8,-5141 11433.6,-5072.86 11367.9,-5154.34 11293.8,-5105 10986.3,-4900.18 11006.3,-4738.32 10840.8,-4408 10660.9,-4048.95 10814.9,-3841.88 10528.8,-3560 10507.7,-3539.16 10484.5,-3520.2 10460,-3502.94"/>
+<path fill="none" stroke="black" d="M11862,-8521.82C11769.7,-8468.56 11612.3,-8385.06 11465.8,-8342 11404.4,-8323.93 11222.2,-8354.04 11179.8,-8306 11127.9,-8247.17 11127.5,-7658.42 11179.8,-7600 11228.6,-7545.55 11458,-7618.45 11506.8,-7564 11518.9,-7550.5 11559,-5222.1 11490.8,-5141 11433.6,-5072.86 11367.9,-5154.34 11293.8,-5105 10986.3,-4900.18 11006.3,-4738.32 10840.8,-4408 10660.9,-4048.95 10814.9,-3841.88 10528.8,-3560 10507.7,-3539.16 10484.5,-3520.2 10460,-3502.94"/>
 <polygon fill="black" stroke="black" points="10451.6,-3497.16 10462.4,-3499.14 10455.7,-3500 10459.8,-3502.84 10459.8,-3502.84 10459.8,-3502.84 10455.7,-3500 10457.3,-3506.54 10451.6,-3497.16 10451.6,-3497.16"/>
 </g>
 <!-- ndSession&#45;&gt;ndSession -->
@@ -4701,8 +4701,8 @@
 </g>
 <!-- ndEvent&#45;&gt;ndEventStream -->
 <g id="edge345" class="edge"><title>ndEvent&#45;&gt;ndEventStream</title>
-<path fill="none" stroke="black" d="M12487.8,-8519.06C12388,-8463.76 12218.7,-8378.84 12060.8,-8342 11870,-8297.48 11363.7,-8373.62 11179.8,-8306 11023.6,-8248.56 10878.8,-8115.17 10797.6,-8030.09"/>
-<polygon fill="black" stroke="black" points="10797.5,-8029.95 10790.5,-8028.35 10789.2,-8021.24 10796.3,-8022.85 10797.5,-8029.95"/>
+<path fill="none" stroke="black" d="M12487.5,-8518.55C12388.2,-8463.24 12220.4,-8378.71 12063.8,-8342 11872.4,-8297.13 11364.4,-8373.83 11179.8,-8306 11023.6,-8248.57 10878.8,-8115.18 10797.6,-8030.09"/>
+<polygon fill="black" stroke="black" points="10797.5,-8029.96 10790.5,-8028.35 10789.2,-8021.25 10796.3,-8022.85 10797.5,-8029.96"/>
 </g>
 <!-- ndEvent&#45;&gt;ndCore -->
 <g id="edge346" class="edge"><title>ndEvent&#45;&gt;ndCore</title>

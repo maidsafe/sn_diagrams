@@ -116,7 +116,7 @@
 </g>
 <!-- ndError -->
 <g id="node7" class="node"><title>ndError</title>
-<g id="a_node7_7"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/url/errors.rs#:~:text=enum%20Error" xlink:title="&lt;TABLE&gt;">
+<g id="a_node7_7"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/safeurl/errors.rs#:~:text=enum%20Error" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="481.5,-4.5 481.5,-41.5 540.5,-41.5 540.5,-4.5 481.5,-4.5"/>
 <polygon fill="none" stroke="black" points="481.5,-4.5 481.5,-41.5 540.5,-41.5 540.5,-4.5 481.5,-4.5"/>
 <text text-anchor="start" x="492.5" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">Error</text>
@@ -246,7 +246,7 @@
 </g>
 <!-- ndVersionHashError -->
 <g id="node18" class="node"><title>ndVersionHashError</title>
-<g id="a_node18_17"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/url/version_hash.rs#:~:text=enum%20VersionHashError" xlink:title="&lt;TABLE&gt;">
+<g id="a_node18_17"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/safeurl/version_hash.rs#:~:text=enum%20VersionHashError" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="1589.5,-253.5 1589.5,-290.5 1737.5,-290.5 1737.5,-253.5 1589.5,-253.5"/>
 <polygon fill="none" stroke="black" points="1589.5,-253.5 1589.5,-290.5 1737.5,-290.5 1737.5,-253.5 1589.5,-253.5"/>
 <text text-anchor="start" x="1600.5" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">VersionHashError</text>
@@ -256,7 +256,7 @@
 </g>
 <!-- ndVersionHash -->
 <g id="node19" class="node"><title>ndVersionHash</title>
-<g id="a_node19_18"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/url/version_hash.rs#:~:text=struct%20VersionHash" xlink:title="&lt;TABLE&gt;">
+<g id="a_node19_18"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/safeurl/version_hash.rs#:~:text=struct%20VersionHash" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="429.5,-253.5 429.5,-290.5 540.5,-290.5 540.5,-253.5 429.5,-253.5"/>
 <polygon fill="none" stroke="black" points="429.5,-253.5 429.5,-290.5 540.5,-290.5 540.5,-253.5 429.5,-253.5"/>
 <text text-anchor="start" x="440.5" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">VersionHash</text>
@@ -264,24 +264,24 @@
 </a>
 </g>
 </g>
-<!-- ndUrl -->
-<g id="node24" class="node"><title>ndUrl</title>
-<g id="a_node24_19"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/url/mod.rs#:~:text=struct%20Url" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="759.5,-170.5 759.5,-207.5 801.5,-207.5 801.5,-170.5 759.5,-170.5"/>
-<polygon fill="none" stroke="black" points="759.5,-170.5 759.5,-207.5 801.5,-207.5 801.5,-170.5 759.5,-170.5"/>
-<text text-anchor="start" x="770.5" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">Url</text>
-<polygon fill="none" stroke="black" points="758.5,-170 758.5,-209 802.5,-209 802.5,-170 758.5,-170"/>
+<!-- ndSafeUrl -->
+<g id="node24" class="node"><title>ndSafeUrl</title>
+<g id="a_node24_19"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/safeurl/mod.rs#:~:text=struct%20SafeUrl" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightblue" stroke="none" points="744.5,-170.5 744.5,-207.5 817.5,-207.5 817.5,-170.5 744.5,-170.5"/>
+<polygon fill="none" stroke="black" points="744.5,-170.5 744.5,-207.5 817.5,-207.5 817.5,-170.5 744.5,-170.5"/>
+<text text-anchor="start" x="755.5" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">SafeUrl</text>
+<polygon fill="none" stroke="black" points="743,-170 743,-209 818,-209 818,-170 743,-170"/>
 </a>
 </g>
 </g>
-<!-- ndVersionHash&#45;&gt;ndUrl -->
-<g id="edge14" class="edge"><title>ndVersionHash&#45;&gt;ndUrl</title>
-<path fill="none" stroke="black" d="M549.032,-251.723C552.23,-250.792 555.4,-249.88 558.5,-249 620.888,-231.302 693.647,-212.47 738.394,-201.094"/>
-<polygon fill="black" stroke="black" points="738.608,-201.04 743.441,-195.688 750.24,-198.091 745.407,-203.443 738.608,-201.04"/>
+<!-- ndVersionHash&#45;&gt;ndSafeUrl -->
+<g id="edge14" class="edge"><title>ndVersionHash&#45;&gt;ndSafeUrl</title>
+<path fill="none" stroke="black" d="M549.032,-251.723C552.23,-250.792 555.4,-249.88 558.5,-249 614.172,-233.207 678.102,-216.511 723.017,-205.017"/>
+<polygon fill="black" stroke="black" points="723.243,-204.959 728.067,-199.599 734.87,-201.991 730.046,-207.351 723.243,-204.959"/>
 </g>
 <!-- ndXorUrlBase -->
 <g id="node20" class="node"><title>ndXorUrlBase</title>
-<g id="a_node20_20"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/url/mod.rs#:~:text=enum%20XorUrlBase" xlink:title="&lt;TABLE&gt;">
+<g id="a_node20_20"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/safeurl/mod.rs#:~:text=enum%20XorUrlBase" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="963.5,-253.5 963.5,-290.5 1065.5,-290.5 1065.5,-253.5 963.5,-253.5"/>
 <polygon fill="none" stroke="black" points="963.5,-253.5 963.5,-290.5 1065.5,-290.5 1065.5,-253.5 963.5,-253.5"/>
 <text text-anchor="start" x="974.5" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">XorUrlBase</text>
@@ -294,14 +294,14 @@
 <path fill="none" stroke="black" d="M1011.58,-248.979C1005.42,-210.191 987.657,-130.388 941.5,-83 916.703,-57.5417 879.16,-42.6693 849.192,-34.2958"/>
 <polygon fill="black" stroke="black" points="848.902,-34.2203 842.087,-36.5779 837.29,-31.1941 844.105,-28.8365 848.902,-34.2203"/>
 </g>
-<!-- ndXorUrlBase&#45;&gt;ndUrl -->
-<g id="edge16" class="edge"><title>ndXorUrlBase&#45;&gt;ndUrl</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M954.239,-250.64C912.155,-236.073 857.147,-217.032 820.411,-204.315"/>
-<polygon fill="black" stroke="black" points="810.56,-200.905 821.482,-199.924 815.285,-202.541 820.01,-204.177 820.01,-204.177 820.01,-204.177 815.285,-202.541 818.538,-208.429 810.56,-200.905 810.56,-200.905"/>
+<!-- ndXorUrlBase&#45;&gt;ndSafeUrl -->
+<g id="edge16" class="edge"><title>ndXorUrlBase&#45;&gt;ndSafeUrl</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M954.239,-250.64C917.725,-238.001 871.482,-221.994 835.886,-209.672"/>
+<polygon fill="black" stroke="black" points="826.145,-206.3 837.067,-205.319 830.87,-207.936 835.595,-209.571 835.595,-209.571 835.595,-209.571 830.87,-207.936 834.123,-213.824 826.145,-206.3 826.145,-206.3"/>
 </g>
 <!-- ndContentType -->
 <g id="node21" class="node"><title>ndContentType</title>
-<g id="a_node21_21"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/url/mod.rs#:~:text=enum%20ContentType" xlink:title="&lt;TABLE&gt;">
+<g id="a_node21_21"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/safeurl/mod.rs#:~:text=enum%20ContentType" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="576.5,-253.5 576.5,-290.5 688.5,-290.5 688.5,-253.5 576.5,-253.5"/>
 <polygon fill="none" stroke="black" points="576.5,-253.5 576.5,-290.5 688.5,-290.5 688.5,-253.5 576.5,-253.5"/>
 <text text-anchor="start" x="587.5" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">ContentType</text>
@@ -309,14 +309,14 @@
 </a>
 </g>
 </g>
-<!-- ndContentType&#45;&gt;ndUrl -->
-<g id="edge17" class="edge"><title>ndContentType&#45;&gt;ndUrl</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M673.726,-248.937C694.317,-237.668 719.149,-224.077 739.683,-212.839"/>
-<polygon fill="black" stroke="black" points="739.761,-212.796 743.104,-206.407 750.288,-207.035 746.945,-213.424 739.761,-212.796"/>
+<!-- ndContentType&#45;&gt;ndSafeUrl -->
+<g id="edge17" class="edge"><title>ndContentType&#45;&gt;ndSafeUrl</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M673.726,-248.937C690.735,-239.628 710.638,-228.735 728.621,-218.893"/>
+<polygon fill="black" stroke="black" points="728.712,-218.844 732.055,-212.454 739.238,-213.082 735.896,-219.472 728.712,-218.844"/>
 </g>
 <!-- ndDataType -->
 <g id="node22" class="node"><title>ndDataType</title>
-<g id="a_node22_22"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/url/mod.rs#:~:text=enum%20DataType" xlink:title="&lt;TABLE&gt;">
+<g id="a_node22_22"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/safeurl/mod.rs#:~:text=enum%20DataType" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="725.5,-253.5 725.5,-290.5 814.5,-290.5 814.5,-253.5 725.5,-253.5"/>
 <polygon fill="none" stroke="black" points="725.5,-253.5 725.5,-290.5 814.5,-290.5 814.5,-253.5 725.5,-253.5"/>
 <text text-anchor="start" x="736.5" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">DataType</text>
@@ -324,14 +324,14 @@
 </a>
 </g>
 </g>
-<!-- ndDataType&#45;&gt;ndUrl -->
-<g id="edge18" class="edge"><title>ndDataType&#45;&gt;ndUrl</title>
+<!-- ndDataType&#45;&gt;ndSafeUrl -->
+<g id="edge18" class="edge"><title>ndDataType&#45;&gt;ndSafeUrl</title>
 <path fill="none" stroke="black" d="M772.564,-248.937C773.64,-241.016 774.871,-231.949 776.038,-223.357"/>
 <polygon fill="black" stroke="black" points="777.414,-213.223 780.527,-223.738 776.741,-218.177 776.068,-223.132 776.068,-223.132 776.068,-223.132 776.741,-218.177 771.609,-222.526 777.414,-213.223 777.414,-213.223"/>
 </g>
 <!-- ndUrlType -->
 <g id="node23" class="node"><title>ndUrlType</title>
-<g id="a_node23_23"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/url/mod.rs#:~:text=enum%20UrlType" xlink:title="&lt;TABLE&gt;">
+<g id="a_node23_23"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/safeurl/mod.rs#:~:text=enum%20UrlType" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="none" points="850.5,-253.5 850.5,-290.5 927.5,-290.5 927.5,-253.5 850.5,-253.5"/>
 <polygon fill="none" stroke="black" points="850.5,-253.5 850.5,-290.5 927.5,-290.5 927.5,-253.5 850.5,-253.5"/>
 <text text-anchor="start" x="861.5" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">UrlType</text>
@@ -339,29 +339,29 @@
 </a>
 </g>
 </g>
-<!-- ndUrlType&#45;&gt;ndUrl -->
-<g id="edge19" class="edge"><title>ndUrlType&#45;&gt;ndUrl</title>
+<!-- ndUrlType&#45;&gt;ndSafeUrl -->
+<g id="edge19" class="edge"><title>ndUrlType&#45;&gt;ndSafeUrl</title>
 <path fill="none" stroke="black" d="M858.416,-248.937C846.695,-240.146 833.089,-229.942 820.559,-220.544"/>
 <polygon fill="black" stroke="black" points="820.397,-220.423 813.197,-220.023 810.797,-213.223 817.997,-213.623 820.397,-220.423"/>
 </g>
-<!-- ndUrl&#45;&gt;ndSafe -->
-<g id="edge20" class="edge"><title>ndUrl&#45;&gt;ndSafe</title>
+<!-- ndSafeUrl&#45;&gt;ndSafe -->
+<g id="edge20" class="edge"><title>ndSafeUrl&#45;&gt;ndSafe</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M783.42,-165.697C787.025,-137.546 793.181,-89.4655 797.295,-57.3408"/>
 <polygon fill="black" stroke="black" points="798.605,-47.1098 801.798,-57.6004 797.97,-52.0693 797.335,-57.0288 797.335,-57.0288 797.335,-57.0288 797.97,-52.0693 792.871,-56.4572 798.605,-47.1098 798.605,-47.1098"/>
 </g>
-<!-- ndUrl&#45;&gt;ndNrsMap -->
-<g id="edge21" class="edge"><title>ndUrl&#45;&gt;ndNrsMap</title>
-<path fill="none" stroke="black" d="M750.223,-177.384C720.641,-166.47 674.113,-149.167 625.542,-130.375"/>
-<polygon fill="black" stroke="black" points="616.129,-126.724 627.08,-126.145 620.791,-128.532 625.452,-130.34 625.452,-130.34 625.452,-130.34 620.791,-128.532 623.825,-134.536 616.129,-126.724 616.129,-126.724"/>
+<!-- ndSafeUrl&#45;&gt;ndNrsMap -->
+<g id="edge21" class="edge"><title>ndSafeUrl&#45;&gt;ndNrsMap</title>
+<path fill="none" stroke="black" d="M734.999,-171.755C706.019,-161.017 667.462,-146.599 625.665,-130.424"/>
+<polygon fill="black" stroke="black" points="616.129,-126.724 627.08,-126.146 620.791,-128.533 625.452,-130.341 625.452,-130.341 625.452,-130.341 620.791,-128.533 623.824,-134.536 616.129,-126.724 616.129,-126.724"/>
 </g>
-<!-- ndUrl&#45;&gt;ndSafeData -->
-<g id="edge22" class="edge"><title>ndUrl&#45;&gt;ndSafeData</title>
+<!-- ndSafeUrl&#45;&gt;ndSafeData -->
+<g id="edge22" class="edge"><title>ndSafeUrl&#45;&gt;ndSafeData</title>
 <path fill="none" stroke="black" d="M808.634,-165.937C819.921,-156.885 833.077,-146.335 845.079,-136.709"/>
 <polygon fill="black" stroke="black" points="853.166,-130.223 848.181,-139.99 849.266,-133.351 845.365,-136.479 845.365,-136.479 845.365,-136.479 849.266,-133.351 842.55,-132.969 853.166,-130.223 853.166,-130.223"/>
 </g>
 <!-- ndUrlParts -->
 <g id="node25" class="node"><title>ndUrlParts</title>
-<g id="a_node25_24"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/url/url_parts.rs#:~:text=struct%20UrlParts" xlink:title="&lt;TABLE&gt;">
+<g id="a_node25_24"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/safeurl/url_parts.rs#:~:text=struct%20UrlParts" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="none" points="1774.5,-253.5 1774.5,-290.5 1853.5,-290.5 1853.5,-253.5 1774.5,-253.5"/>
 <polygon fill="none" stroke="black" points="1774.5,-253.5 1774.5,-290.5 1853.5,-290.5 1853.5,-253.5 1774.5,-253.5"/>
 <text text-anchor="start" x="1785.5" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">UrlParts</text>

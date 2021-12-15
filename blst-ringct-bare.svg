@@ -76,7 +76,7 @@
 </g>
 <!-- ndRevealedCommitment&#45;&gt;ndMlsagMaterial -->
 <g id="edge4" class="edge"><title>ndRevealedCommitment&#45;&gt;ndMlsagMaterial</title>
-<path fill="none" stroke="black" d="M217.572,-248.919C233.952,-240.064 250.133,-228.277 261,-213 275.994,-191.922 280.307,-162.634 281.118,-140.263"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M217.572,-248.919C233.952,-240.064 250.133,-228.277 261,-213 275.994,-191.922 280.307,-162.634 281.118,-140.263"/>
 <polygon fill="black" stroke="black" points="281.268,-130.216 285.618,-140.282 281.193,-135.215 281.118,-140.214 281.118,-140.214 281.118,-140.214 281.193,-135.215 276.619,-140.147 281.268,-130.216 281.268,-130.216"/>
 </g>
 <!-- ndError -->
@@ -126,7 +126,7 @@
 </g>
 <!-- ndTrueInput&#45;&gt;ndMlsagMaterial -->
 <g id="edge8" class="edge"><title>ndTrueInput&#45;&gt;ndMlsagMaterial</title>
-<path fill="none" stroke="black" d="M220.842,-165.937C229.389,-157.494 239.255,-147.748 248.451,-138.665"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M220.842,-165.937C229.389,-157.494 239.255,-147.748 248.451,-138.665"/>
 <polygon fill="black" stroke="black" points="248.459,-138.656 249.917,-131.594 256.997,-130.223 255.539,-137.285 248.459,-138.656"/>
 </g>
 <!-- ndDecoyInput -->
