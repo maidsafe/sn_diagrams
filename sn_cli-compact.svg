@@ -274,15 +274,14 @@
 <!-- ndProgressIndicator -->
 <g id="node16" class="node"><title>ndProgressIndicator</title>
 <g id="a_node16_15"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/subcommands/files_get.rs#:~:text=enum%20ProgressIndicator" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="none" points="2717.5,-312 2717.5,-349 2866.5,-349 2866.5,-312 2717.5,-312"/>
-<polygon fill="none" stroke="black" points="2717.5,-312 2717.5,-349 2866.5,-349 2866.5,-312 2717.5,-312"/>
-<text text-anchor="start" x="2728.5" y="-327.8" font-family="Arial" font-weight="bold" font-size="14.00">ProgressIndicator</text>
-<polygon fill="white" stroke="none" points="2717.5,-245 2717.5,-312 2866.5,-312 2866.5,-245 2717.5,-245"/>
-<polygon fill="none" stroke="black" points="2717.5,-245 2717.5,-312 2866.5,-312 2866.5,-245 2717.5,-245"/>
-<text text-anchor="start" x="2728.5" y="-289.8" font-family="Arial" font-size="14.00">Bars</text>
-<text text-anchor="start" x="2728.5" y="-274.8" font-family="Arial" font-size="14.00">Text</text>
-<text text-anchor="start" x="2728.5" y="-259.8" font-family="Arial" font-size="14.00">None</text>
-<polygon fill="none" stroke="black" points="2716,-244 2716,-350 2867,-350 2867,-244 2716,-244"/>
+<polygon fill="yellow" stroke="none" points="2717.5,-304 2717.5,-341 2866.5,-341 2866.5,-304 2717.5,-304"/>
+<polygon fill="none" stroke="black" points="2717.5,-304 2717.5,-341 2866.5,-341 2866.5,-304 2717.5,-304"/>
+<text text-anchor="start" x="2728.5" y="-319.8" font-family="Arial" font-weight="bold" font-size="14.00">ProgressIndicator</text>
+<polygon fill="white" stroke="none" points="2717.5,-252 2717.5,-304 2866.5,-304 2866.5,-252 2717.5,-252"/>
+<polygon fill="none" stroke="black" points="2717.5,-252 2717.5,-304 2866.5,-304 2866.5,-252 2717.5,-252"/>
+<text text-anchor="start" x="2728.5" y="-281.8" font-family="Arial" font-size="14.00">Text</text>
+<text text-anchor="start" x="2728.5" y="-266.8" font-family="Arial" font-size="14.00">None</text>
+<polygon fill="none" stroke="black" points="2716,-251.5 2716,-342.5 2867,-342.5 2867,-251.5 2716,-251.5"/>
 </a>
 </g>
 </g>

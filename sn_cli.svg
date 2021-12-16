@@ -286,19 +286,18 @@
 <!-- ndProgressIndicator -->
 <g id="node16" class="node"><title>ndProgressIndicator</title>
 <g id="a_node16_15"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/subcommands/files_get.rs#:~:text=enum%20ProgressIndicator" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="none" points="3049.5,-495 3049.5,-532 3338.5,-532 3338.5,-495 3049.5,-495"/>
-<polygon fill="none" stroke="black" points="3049.5,-495 3049.5,-532 3338.5,-532 3338.5,-495 3049.5,-495"/>
-<text text-anchor="start" x="3130.5" y="-510.8" font-family="Arial" font-weight="bold" font-size="14.00">ProgressIndicator</text>
-<polygon fill="white" stroke="none" points="3049.5,-428 3049.5,-495 3338.5,-495 3338.5,-428 3049.5,-428"/>
-<polygon fill="none" stroke="black" points="3049.5,-428 3049.5,-495 3338.5,-495 3338.5,-428 3049.5,-428"/>
-<text text-anchor="start" x="3060.5" y="-472.8" font-family="Arial" font-size="14.00">Bars</text>
-<text text-anchor="start" x="3060.5" y="-457.8" font-family="Arial" font-size="14.00">Text</text>
-<text text-anchor="start" x="3060.5" y="-442.8" font-family="Arial" font-size="14.00">None</text>
-<polygon fill="white" stroke="none" points="3049.5,-376 3049.5,-428 3338.5,-428 3338.5,-376 3049.5,-376"/>
-<polygon fill="none" stroke="black" points="3049.5,-376 3049.5,-428 3338.5,-428 3338.5,-376 3049.5,-376"/>
-<text text-anchor="start" x="3060.5" y="-405.8" font-family="Arial" font-size="14.00">&#45; from_str(str: &amp;str) &#45;&gt; Result&lt;Self, String&gt;</text>
-<text text-anchor="start" x="3060.5" y="-390.8" font-family="Arial" font-size="14.00">&#45; default() &#45;&gt; Self</text>
-<polygon fill="none" stroke="black" points="3048,-375 3048,-533 3339,-533 3339,-375 3048,-375"/>
+<polygon fill="yellow" stroke="none" points="3049.5,-487 3049.5,-524 3338.5,-524 3338.5,-487 3049.5,-487"/>
+<polygon fill="none" stroke="black" points="3049.5,-487 3049.5,-524 3338.5,-524 3338.5,-487 3049.5,-487"/>
+<text text-anchor="start" x="3130.5" y="-502.8" font-family="Arial" font-weight="bold" font-size="14.00">ProgressIndicator</text>
+<polygon fill="white" stroke="none" points="3049.5,-435 3049.5,-487 3338.5,-487 3338.5,-435 3049.5,-435"/>
+<polygon fill="none" stroke="black" points="3049.5,-435 3049.5,-487 3338.5,-487 3338.5,-435 3049.5,-435"/>
+<text text-anchor="start" x="3060.5" y="-464.8" font-family="Arial" font-size="14.00">Text</text>
+<text text-anchor="start" x="3060.5" y="-449.8" font-family="Arial" font-size="14.00">None</text>
+<polygon fill="white" stroke="none" points="3049.5,-383 3049.5,-435 3338.5,-435 3338.5,-383 3049.5,-383"/>
+<polygon fill="none" stroke="black" points="3049.5,-383 3049.5,-435 3338.5,-435 3338.5,-383 3049.5,-383"/>
+<text text-anchor="start" x="3060.5" y="-412.8" font-family="Arial" font-size="14.00">&#45; from_str(str: &amp;str) &#45;&gt; Result&lt;Self, String&gt;</text>
+<text text-anchor="start" x="3060.5" y="-397.8" font-family="Arial" font-size="14.00">&#45; default() &#45;&gt; Self</text>
+<polygon fill="none" stroke="black" points="3048,-382.5 3048,-525.5 3339,-525.5 3339,-382.5 3048,-382.5"/>
 </a>
 </g>
 </g>
