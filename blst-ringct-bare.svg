@@ -37,17 +37,17 @@
 <!-- ndRingCtMaterial -->
 <g id="node4" class="node"><title>ndRingCtMaterial</title>
 <g id="a_node4_2"><a xlink:href="https://github.com/maidsafe/blst-ringct/blob/master/src/ringct.rs#:~:text=struct%20RingCtMaterial" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="136,-4.5 136,-41.5 261,-41.5 261,-4.5 136,-4.5"/>
-<polygon fill="none" stroke="black" points="136,-4.5 136,-41.5 261,-41.5 261,-4.5 136,-4.5"/>
-<text text-anchor="start" x="147" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">RingCtMaterial</text>
-<polygon fill="none" stroke="black" points="134.5,-4 134.5,-43 261.5,-43 261.5,-4 134.5,-4"/>
+<polygon fill="lightblue" stroke="none" points="252,-4.5 252,-41.5 377,-41.5 377,-4.5 252,-4.5"/>
+<polygon fill="none" stroke="black" points="252,-4.5 252,-41.5 377,-41.5 377,-4.5 252,-4.5"/>
+<text text-anchor="start" x="263" y="-20.3" font-family="Arial" font-weight="bold" font-size="14.00">RingCtMaterial</text>
+<polygon fill="none" stroke="black" points="250.5,-4 250.5,-43 377.5,-43 377.5,-4 250.5,-4"/>
 </a>
 </g>
 </g>
 <!-- ndRevealedCommitment&#45;&gt;ndRingCtMaterial -->
 <g id="edge2" class="edge"><title>ndRevealedCommitment&#45;&gt;ndRingCtMaterial</title>
-<path fill="none" stroke="black" d="M146.361,-248.982C141.898,-238.329 137.232,-225.277 135,-213 131.263,-192.448 130.657,-186.432 135,-166 143.489,-126.062 164.07,-83.7228 179.413,-55.8798"/>
-<polygon fill="black" stroke="black" points="184.391,-47.0175 183.417,-57.9401 181.942,-51.3769 179.494,-55.7364 179.494,-55.7364 179.494,-55.7364 181.942,-51.3769 175.57,-53.5327 184.391,-47.0175 184.391,-47.0175"/>
+<path fill="none" stroke="black" d="M144.244,-248.706C133.71,-226.65 122.37,-192.728 135,-166 159.571,-114.005 213.838,-75.4767 256.219,-51.8626"/>
+<polygon fill="black" stroke="black" points="265.067,-47.0505 258.433,-55.7814 260.675,-49.4393 256.283,-51.8281 256.283,-51.8281 256.283,-51.8281 260.675,-49.4393 254.133,-47.8749 265.067,-47.0505 265.067,-47.0505"/>
 </g>
 <!-- ndTrueInput -->
 <g id="node7" class="node"><title>ndTrueInput</title>
@@ -67,17 +67,17 @@
 <!-- ndMlsagMaterial -->
 <g id="node9" class="node"><title>ndMlsagMaterial</title>
 <g id="a_node9_4"><a xlink:href="https://github.com/maidsafe/blst-ringct/blob/master/src/mlsag.rs#:~:text=struct%20MlsagMaterial" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="220,-87.5 220,-124.5 340,-124.5 340,-87.5 220,-87.5"/>
-<polygon fill="none" stroke="black" points="220,-87.5 220,-124.5 340,-124.5 340,-87.5 220,-87.5"/>
-<text text-anchor="start" x="231" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">MlsagMaterial</text>
-<polygon fill="none" stroke="black" points="219,-87 219,-126 341,-126 341,-87 219,-87"/>
+<polygon fill="lightblue" stroke="none" points="254,-87.5 254,-124.5 374,-124.5 374,-87.5 254,-87.5"/>
+<polygon fill="none" stroke="black" points="254,-87.5 254,-124.5 374,-124.5 374,-87.5 254,-87.5"/>
+<text text-anchor="start" x="265" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">MlsagMaterial</text>
+<polygon fill="none" stroke="black" points="253,-87 253,-126 375,-126 375,-87 253,-87"/>
 </a>
 </g>
 </g>
 <!-- ndRevealedCommitment&#45;&gt;ndMlsagMaterial -->
 <g id="edge4" class="edge"><title>ndRevealedCommitment&#45;&gt;ndMlsagMaterial</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M217.572,-248.919C233.952,-240.064 250.133,-228.277 261,-213 275.994,-191.922 280.307,-162.634 281.118,-140.263"/>
-<polygon fill="black" stroke="black" points="281.268,-130.216 285.618,-140.282 281.193,-135.215 281.118,-140.214 281.118,-140.214 281.118,-140.214 281.193,-135.215 276.619,-140.147 281.268,-130.216 281.268,-130.216"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M210.93,-248.94C228.459,-239.703 246.985,-227.688 261,-213 280.969,-192.073 295.027,-162.16 303.623,-139.527"/>
+<polygon fill="black" stroke="black" points="307.082,-130.01 307.896,-140.945 305.374,-134.709 303.666,-139.408 303.666,-139.408 303.666,-139.408 305.374,-134.709 299.437,-137.871 307.082,-130.01 307.082,-130.01"/>
 </g>
 <!-- ndError -->
 <g id="node2" class="node"><title>ndError</title>
@@ -91,8 +91,8 @@
 </g>
 <!-- ndOutput&#45;&gt;ndRingCtMaterial -->
 <g id="edge5" class="edge"><title>ndOutput&#45;&gt;ndRingCtMaterial</title>
-<path fill="none" stroke="black" d="M86.8976,-82.937C104.679,-73.5847 125.5,-62.6331 144.281,-52.7545"/>
-<polygon fill="black" stroke="black" points="144.445,-52.6685 147.893,-46.3353 155.066,-47.0824 151.617,-53.4156 144.445,-52.6685"/>
+<path fill="none" stroke="black" d="M88.1669,-87.8379C92.8144,-86.138 97.4885,-84.4933 102,-83 143.973,-69.107 191.35,-55.8132 230.655,-45.4191"/>
+<polygon fill="black" stroke="black" points="230.705,-45.406 235.492,-40.0134 242.311,-42.3586 237.524,-47.7512 230.705,-45.406"/>
 </g>
 <!-- ndOutputProof -->
 <g id="node5" class="node"><title>ndOutputProof</title>
@@ -103,6 +103,11 @@
 <polygon fill="none" stroke="black" points="622,-170 622,-209 732,-209 732,-170 622,-170"/>
 </a>
 </g>
+</g>
+<!-- ndOutputProof&#45;&gt;ndRingCtMaterial -->
+<g id="edge6" class="edge"><title>ndOutputProof&#45;&gt;ndRingCtMaterial</title>
+<path fill="none" stroke="black" d="M669.915,-165.659C661.1,-141.22 643.616,-103.245 615,-83 580.427,-58.5408 472.561,-41.8878 395.86,-32.7857"/>
+<polygon fill="black" stroke="black" points="385.727,-31.6054 396.181,-28.2927 390.694,-32.1839 395.66,-32.7625 395.66,-32.7625 395.66,-32.7625 390.694,-32.1839 395.139,-37.2323 385.727,-31.6054 385.727,-31.6054"/>
 </g>
 <!-- ndRingCtTransaction -->
 <g id="node6" class="node"><title>ndRingCtTransaction</title>
@@ -115,19 +120,19 @@
 </g>
 </g>
 <!-- ndOutputProof&#45;&gt;ndRingCtTransaction -->
-<g id="edge6" class="edge"><title>ndOutputProof&#45;&gt;ndRingCtTransaction</title>
+<g id="edge7" class="edge"><title>ndOutputProof&#45;&gt;ndRingCtTransaction</title>
 <path fill="none" stroke="black" d="M633.545,-165.937C615.449,-156.541 594.244,-145.531 575.15,-135.616"/>
 <polygon fill="black" stroke="black" points="575.142,-135.612 567.974,-136.397 564.492,-130.082 571.66,-129.297 575.142,-135.612"/>
 </g>
 <!-- ndRingCtTransaction&#45;&gt;ndRingCtMaterial -->
-<g id="edge7" class="edge"><title>ndRingCtTransaction&#45;&gt;ndRingCtMaterial</title>
-<path fill="none" stroke="black" d="M435.713,-84.1123C387.378,-71.9912 327.226,-56.9066 279.525,-44.9444"/>
-<polygon fill="black" stroke="black" points="269.544,-42.4414 280.338,-40.509 274.394,-43.6576 279.244,-44.8739 279.244,-44.8739 279.244,-44.8739 274.394,-43.6576 278.149,-49.2387 269.544,-42.4414 269.544,-42.4414"/>
+<g id="edge8" class="edge"><title>ndRingCtTransaction&#45;&gt;ndRingCtMaterial</title>
+<path fill="none" stroke="black" d="M463.339,-82.937C437.875,-72.9728 407.772,-61.1934 381.289,-50.8303"/>
+<polygon fill="black" stroke="black" points="371.71,-47.0824 382.663,-46.5358 376.367,-48.9044 381.023,-50.7264 381.023,-50.7264 381.023,-50.7264 376.367,-48.9044 379.383,-54.917 371.71,-47.0824 371.71,-47.0824"/>
 </g>
 <!-- ndTrueInput&#45;&gt;ndMlsagMaterial -->
-<g id="edge8" class="edge"><title>ndTrueInput&#45;&gt;ndMlsagMaterial</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M220.842,-165.937C229.389,-157.494 239.255,-147.748 248.451,-138.665"/>
-<polygon fill="black" stroke="black" points="248.459,-138.656 249.917,-131.594 256.997,-130.223 255.539,-137.285 248.459,-138.656"/>
+<g id="edge9" class="edge"><title>ndTrueInput&#45;&gt;ndMlsagMaterial</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M230.312,-165.937C243.027,-157.059 257.805,-146.74 271.373,-137.266"/>
+<polygon fill="black" stroke="black" points="271.62,-137.093 274.249,-130.378 281.458,-130.223 278.829,-136.938 271.62,-137.093"/>
 </g>
 <!-- ndDecoyInput -->
 <g id="node8" class="node"><title>ndDecoyInput</title>
@@ -140,14 +145,14 @@
 </g>
 </g>
 <!-- ndDecoyInput&#45;&gt;ndMlsagMaterial -->
-<g id="edge9" class="edge"><title>ndDecoyInput&#45;&gt;ndMlsagMaterial</title>
-<path fill="none" stroke="black" d="M343.487,-165.937C334.22,-157.407 323.508,-147.547 313.553,-138.384"/>
-<polygon fill="black" stroke="black" points="313.516,-138.35 306.392,-137.229 304.687,-130.223 311.81,-131.343 313.516,-138.35"/>
+<g id="edge10" class="edge"><title>ndDecoyInput&#45;&gt;ndMlsagMaterial</title>
+<path fill="none" stroke="black" d="M352.958,-165.937C347.678,-158.016 341.633,-148.949 335.905,-140.357"/>
+<polygon fill="black" stroke="black" points="335.805,-140.208 329.149,-137.434 329.149,-130.223 335.805,-132.996 335.805,-140.208"/>
 </g>
 <!-- ndMlsagMaterial&#45;&gt;ndRingCtMaterial -->
-<g id="edge10" class="edge"><title>ndMlsagMaterial&#45;&gt;ndRingCtMaterial</title>
-<path fill="none" stroke="black" d="M257.158,-82.937C248.611,-74.4942 238.745,-64.7481 229.549,-55.6646"/>
-<polygon fill="black" stroke="black" points="229.541,-55.656 222.461,-54.2852 221.003,-47.2229 228.083,-48.5938 229.541,-55.656"/>
+<g id="edge11" class="edge"><title>ndMlsagMaterial&#45;&gt;ndRingCtMaterial</title>
+<path fill="none" stroke="black" d="M314,-82.937C314,-75.6257 314,-67.3371 314,-59.3477"/>
+<polygon fill="black" stroke="black" points="314,-59.2229 310,-53.223 314,-47.2229 318,-53.2229 314,-59.2229"/>
 </g>
 <!-- ndMlsagSignature -->
 <g id="node10" class="node"><title>ndMlsagSignature</title>
@@ -160,14 +165,14 @@
 </g>
 </g>
 <!-- ndMlsagSignature&#45;&gt;ndRingCtTransaction -->
-<g id="edge11" class="edge"><title>ndMlsagSignature&#45;&gt;ndRingCtTransaction</title>
+<g id="edge12" class="edge"><title>ndMlsagSignature&#45;&gt;ndRingCtTransaction</title>
 <path fill="none" stroke="black" d="M521,-165.937C521,-158.626 521,-150.337 521,-142.348"/>
 <polygon fill="black" stroke="black" points="521,-142.223 517,-136.223 521,-130.223 525,-136.223 521,-142.223"/>
 </g>
 <!-- ndMlsagSignature&#45;&gt;ndMlsagMaterial -->
-<g id="edge12" class="edge"><title>ndMlsagSignature&#45;&gt;ndMlsagMaterial</title>
-<path fill="none" stroke="black" d="M453.868,-165.937C423.701,-155.798 387.943,-143.78 356.722,-133.286"/>
-<polygon fill="black" stroke="black" points="347.189,-130.082 358.102,-129.003 351.929,-131.675 356.668,-133.268 356.668,-133.268 356.668,-133.268 351.929,-131.675 355.235,-137.534 347.189,-130.082 347.189,-130.082"/>
+<g id="edge13" class="edge"><title>ndMlsagSignature&#45;&gt;ndMlsagMaterial</title>
+<path fill="none" stroke="black" d="M463.339,-165.937C437.875,-155.973 407.772,-144.193 381.289,-133.83"/>
+<polygon fill="black" stroke="black" points="371.71,-130.082 382.663,-129.536 376.367,-131.904 381.023,-133.726 381.023,-133.726 381.023,-133.726 376.367,-131.904 379.383,-137.917 371.71,-130.082 371.71,-130.082"/>
 </g>
 </g>
 </svg>
