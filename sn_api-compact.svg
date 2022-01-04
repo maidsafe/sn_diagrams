@@ -187,21 +187,22 @@
 <!-- ndSafe -->
 <g id="node14" class="node"><title>ndSafe</title>
 <g id="a_node14_9"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/app/mod.rs#:~:text=struct%20Safe" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="1614,-64 1614,-101 1814,-101 1814,-64 1614,-64"/>
-<polygon fill="none" stroke="black" points="1614,-64 1614,-101 1814,-101 1814,-64 1614,-64"/>
-<text text-anchor="start" x="1698.5" y="-79.8" font-family="Arial" font-weight="bold" font-size="14.00">Safe</text>
-<polygon fill="white" stroke="none" points="1614,-12 1614,-64 1814,-64 1814,-12 1614,-12"/>
-<polygon fill="none" stroke="black" points="1614,-12 1614,-64 1814,-64 1814,-12 1614,-12"/>
-<text text-anchor="start" x="1625" y="-41.8" font-family="Arial" font-size="14.00">&#45; safe_client: SafeAppClient</text>
-<text text-anchor="start" x="1625" y="-26.8" font-family="Arial" font-size="14.00">+ xorurl_base: XorUrlBase</text>
-<polygon fill="none" stroke="black" points="1613,-11.5 1613,-102.5 1815,-102.5 1815,-11.5 1613,-11.5"/>
+<polygon fill="lightblue" stroke="none" points="1614,-72 1614,-109 1814,-109 1814,-72 1614,-72"/>
+<polygon fill="none" stroke="black" points="1614,-72 1614,-109 1814,-109 1814,-72 1614,-72"/>
+<text text-anchor="start" x="1698.5" y="-87.8" font-family="Arial" font-weight="bold" font-size="14.00">Safe</text>
+<polygon fill="white" stroke="none" points="1614,-5 1614,-72 1814,-72 1814,-5 1614,-5"/>
+<polygon fill="none" stroke="black" points="1614,-5 1614,-72 1814,-72 1814,-5 1614,-5"/>
+<text text-anchor="start" x="1625" y="-49.8" font-family="Arial" font-size="14.00">&#45; safe_client: SafeAppClient</text>
+<text text-anchor="start" x="1625" y="-34.8" font-family="Arial" font-size="14.00">+ xorurl_base: XorUrlBase</text>
+<text text-anchor="start" x="1625" y="-19.8" font-family="Arial" font-size="14.00">+ dry_run_mode: bool</text>
+<polygon fill="none" stroke="black" points="1613,-4 1613,-110 1815,-110 1815,-4 1613,-4"/>
 </a>
 </g>
 </g>
 <!-- ndSafeAppClient&#45;&gt;ndSafe -->
 <g id="edge9" class="edge"><title>ndSafeAppClient&#45;&gt;ndSafe</title>
-<path fill="none" stroke="black" d="M1612.83,-179.68C1629.64,-159.456 1648.63,-136.619 1665.58,-116.236"/>
-<polygon fill="black" stroke="black" points="1665.79,-115.984 1666.55,-108.813 1673.46,-106.757 1672.7,-113.928 1665.79,-115.984"/>
+<path fill="none" stroke="black" d="M1612.83,-179.68C1627.61,-161.899 1644.08,-142.098 1659.36,-123.721"/>
+<polygon fill="black" stroke="black" points="1659.55,-123.486 1660.31,-116.315 1667.22,-114.259 1666.46,-121.43 1659.55,-123.486"/>
 </g>
 <!-- ndFilesMapChange -->
 <g id="node10" class="node"><title>ndFilesMapChange</title>
@@ -303,8 +304,8 @@
 </g>
 <!-- ndSafeData&#45;&gt;ndSafe -->
 <g id="edge12" class="edge"><title>ndSafeData&#45;&gt;ndSafe</title>
-<path fill="none" stroke="black" d="M1767.16,-149.868C1760.5,-138.359 1753.8,-126.787 1747.52,-115.921"/>
-<polygon fill="black" stroke="black" points="1742.34,-106.977 1751.24,-113.378 1744.84,-111.305 1747.35,-115.632 1747.35,-115.632 1747.35,-115.632 1744.84,-111.305 1743.45,-117.886 1742.34,-106.977 1742.34,-106.977"/>
+<path fill="none" stroke="black" d="M1767.16,-149.868C1761.98,-140.91 1756.77,-131.914 1751.75,-123.243"/>
+<polygon fill="black" stroke="black" points="1746.6,-114.339 1755.5,-120.741 1749.11,-118.667 1751.61,-122.995 1751.61,-122.995 1751.61,-122.995 1749.11,-118.667 1747.71,-125.249 1746.6,-114.339 1746.6,-114.339"/>
 </g>
 <!-- ndAuthdStatus -->
 <g id="node17" class="node"><title>ndAuthdStatus</title>
@@ -489,8 +490,8 @@
 </g>
 <!-- ndSafeUrl&#45;&gt;ndSafe -->
 <g id="edge20" class="edge"><title>ndSafeUrl&#45;&gt;ndSafe</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1707.15,-359.728C1709.01,-277.958 1711.26,-178.748 1712.66,-116.98"/>
-<polygon fill="black" stroke="black" points="1712.9,-106.646 1717.17,-116.746 1712.78,-111.645 1712.67,-116.644 1712.67,-116.644 1712.67,-116.644 1712.78,-111.645 1708.17,-116.542 1712.9,-106.646 1712.9,-106.646"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1707.15,-359.728C1708.94,-281.014 1711.09,-186.139 1712.5,-124.059"/>
+<polygon fill="black" stroke="black" points="1712.73,-114.005 1717,-124.104 1712.62,-119.004 1712.5,-124.002 1712.5,-124.002 1712.5,-124.002 1712.62,-119.004 1708,-123.9 1712.73,-114.005 1712.73,-114.005"/>
 </g>
 <!-- ndSafeUrl&#45;&gt;ndNrsMap -->
 <g id="edge21" class="edge"><title>ndSafeUrl&#45;&gt;ndNrsMap</title>
