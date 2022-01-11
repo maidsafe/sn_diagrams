@@ -76,25 +76,25 @@
 <!-- ndRingCtMaterial -->
 <g id="node5" class="node"><title>ndRingCtMaterial</title>
 <g id="a_node5_3"><a xlink:href="https://github.com/maidsafe/blst-ringct/blob/master/src/ringct.rs#:~:text=struct%20RingCtMaterial" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="605,-214 605,-251 1648,-251 1648,-214 605,-214"/>
-<polygon fill="none" stroke="black" points="605,-214 605,-251 1648,-251 1648,-214 605,-214"/>
+<polygon fill="lightblue" stroke="none" points="567,-214 567,-251 1686,-251 1686,-214 567,-214"/>
+<polygon fill="none" stroke="black" points="567,-214 567,-251 1686,-251 1686,-214 567,-214"/>
 <text text-anchor="start" x="1075" y="-229.8" font-family="Arial" font-weight="bold" font-size="14.00">RingCtMaterial</text>
-<polygon fill="white" stroke="none" points="605,-162 605,-214 1648,-214 1648,-162 605,-162"/>
-<polygon fill="none" stroke="black" points="605,-162 605,-214 1648,-214 1648,-162 605,-162"/>
-<text text-anchor="start" x="616" y="-191.8" font-family="Arial" font-size="14.00">+ inputs: Vec&lt;MlsagMaterial&gt;</text>
-<text text-anchor="start" x="616" y="-176.8" font-family="Arial" font-size="14.00">+ outputs: Vec&lt;Output&gt;</text>
-<polygon fill="white" stroke="none" points="605,-5 605,-162 1648,-162 1648,-5 605,-5"/>
-<polygon fill="none" stroke="black" points="605,-5 605,-162 1648,-162 1648,-5 605,-5"/>
-<text text-anchor="start" x="616" y="-139.8" font-family="Arial" font-size="14.00">&#45; sign(&amp;self, rng: impl RngCore + Copy) &#45;&gt; Result&lt;(RingCtTransaction, Vec&lt;RevealedCommitment&gt;)&gt;</text>
-<text text-anchor="start" x="616" y="-124.8" font-family="Arial" font-size="14.00">&#45; bp_gens() &#45;&gt; BulletproofGens</text>
-<text text-anchor="start" x="616" y="-109.8" font-family="Arial" font-size="14.00">&#45; pc_gens() &#45;&gt; PedersenGens</text>
-<text text-anchor="start" x="616" y="-94.8" font-family="Arial" font-size="14.00">&#45; public_keys(&amp;self) &#45;&gt; Vec&lt;G1Affine&gt;</text>
-<text text-anchor="start" x="616" y="-79.8" font-family="Arial" font-size="14.00">&#45; key_images(&amp;self) &#45;&gt; Vec&lt;G1Affine&gt;</text>
-<text text-anchor="start" x="616" y="-64.8" font-family="Arial" font-size="14.00">&#45; revealed_pseudo_commitments(&amp;self, mut rng: impl RngCore) &#45;&gt; Vec&lt;RevealedCommitment&gt;</text>
-<text text-anchor="start" x="616" y="-49.8" font-family="Arial" font-size="14.00">&#45; pseudo_commitments(&amp;self, revealed_pseudo_commitments: &amp;[RevealedCommitment]) &#45;&gt; Vec&lt;G1Affine&gt;</text>
-<text text-anchor="start" x="616" y="-34.8" font-family="Arial" font-size="14.00">&#45; revealed_output_commitments(&amp;self, revealed_pseudo_commitments: &amp;[RevealedCommitment], mut rng: impl RngCore) &#45;&gt; Vec&lt;RevealedOutputCommitment&gt;</text>
-<text text-anchor="start" x="616" y="-19.8" font-family="Arial" font-size="14.00">&#45; output_range_proofs(&amp;self, revealed_output_commitments: &amp;[RevealedOutputCommitment]) &#45;&gt; Result&lt;Vec&lt;OutputProof&gt;&gt;</text>
-<polygon fill="none" stroke="black" points="603.5,-4 603.5,-252 1648.5,-252 1648.5,-4 603.5,-4"/>
+<polygon fill="white" stroke="none" points="567,-162 567,-214 1686,-214 1686,-162 567,-162"/>
+<polygon fill="none" stroke="black" points="567,-162 567,-214 1686,-214 1686,-162 567,-162"/>
+<text text-anchor="start" x="578" y="-191.8" font-family="Arial" font-size="14.00">+ inputs: Vec&lt;MlsagMaterial&gt;</text>
+<text text-anchor="start" x="578" y="-176.8" font-family="Arial" font-size="14.00">+ outputs: Vec&lt;Output&gt;</text>
+<polygon fill="white" stroke="none" points="567,-5 567,-162 1686,-162 1686,-5 567,-5"/>
+<polygon fill="none" stroke="black" points="567,-5 567,-162 1686,-162 1686,-5 567,-5"/>
+<text text-anchor="start" x="578" y="-139.8" font-family="Arial" font-size="14.00">&#45; sign(&amp;self, mut rng: impl RngCore + rand_core::CryptoRng) &#45;&gt; Result&lt;(RingCtTransaction, Vec&lt;RevealedCommitment&gt;)&gt;</text>
+<text text-anchor="start" x="578" y="-124.8" font-family="Arial" font-size="14.00">&#45; bp_gens() &#45;&gt; BulletproofGens</text>
+<text text-anchor="start" x="578" y="-109.8" font-family="Arial" font-size="14.00">&#45; pc_gens() &#45;&gt; PedersenGens</text>
+<text text-anchor="start" x="578" y="-94.8" font-family="Arial" font-size="14.00">&#45; public_keys(&amp;self) &#45;&gt; Vec&lt;G1Affine&gt;</text>
+<text text-anchor="start" x="578" y="-79.8" font-family="Arial" font-size="14.00">&#45; key_images(&amp;self) &#45;&gt; Vec&lt;G1Affine&gt;</text>
+<text text-anchor="start" x="578" y="-64.8" font-family="Arial" font-size="14.00">&#45; revealed_pseudo_commitments(&amp;self, mut rng: impl RngCore) &#45;&gt; Vec&lt;RevealedCommitment&gt;</text>
+<text text-anchor="start" x="578" y="-49.8" font-family="Arial" font-size="14.00">&#45; pseudo_commitments(&amp;self, revealed_pseudo_commitments: &amp;[RevealedCommitment]) &#45;&gt; Vec&lt;G1Affine&gt;</text>
+<text text-anchor="start" x="578" y="-34.8" font-family="Arial" font-size="14.00">&#45; revealed_output_commitments(&amp;self, revealed_pseudo_commitments: &amp;[RevealedCommitment], mut rng: impl RngCore) &#45;&gt; Vec&lt;RevealedOutputCommitment&gt;</text>
+<text text-anchor="start" x="578" y="-19.8" font-family="Arial" font-size="14.00">&#45; output_range_proofs(&amp;self, revealed_output_commitments: &amp;[RevealedOutputCommitment], mut rng: impl RngCore + rand_core::CryptoRng) &#45;&gt; Result&lt;Vec&lt;OutputProof&gt;&gt;</text>
+<polygon fill="none" stroke="black" points="565.5,-4 565.5,-252 1686.5,-252 1686.5,-4 565.5,-4"/>
 </a>
 </g>
 </g>
@@ -209,8 +209,8 @@
 </g>
 <!-- ndOutputProof&#45;&gt;ndRingCtMaterial -->
 <g id="edge8" class="edge"><title>ndOutputProof&#45;&gt;ndRingCtMaterial</title>
-<path fill="none" stroke="black" d="M2384.92,-598.797C2403.71,-507.644 2413.74,-373.511 2339,-292 2291.41,-240.101 1967.88,-198.245 1666.93,-169.947"/>
-<polygon fill="black" stroke="black" points="1656.68,-168.988 1667.06,-165.44 1661.66,-169.454 1666.64,-169.92 1666.64,-169.92 1666.64,-169.92 1661.66,-169.454 1666.22,-174.401 1656.68,-168.988 1656.68,-168.988"/>
+<path fill="none" stroke="black" d="M2384.92,-598.797C2403.71,-507.644 2413.74,-373.511 2339,-292 2293.41,-242.279 1994.55,-201.776 1704.92,-173.581"/>
+<polygon fill="black" stroke="black" points="1694.62,-172.583 1705,-169.069 1699.59,-173.066 1704.57,-173.548 1704.57,-173.548 1704.57,-173.548 1699.59,-173.066 1704.14,-178.027 1694.62,-172.583 1694.62,-172.583"/>
 </g>
 <!-- ndRingCtTransaction -->
 <g id="node7" class="node"><title>ndRingCtTransaction</title>
@@ -239,8 +239,8 @@
 </g>
 <!-- ndRingCtTransaction&#45;&gt;ndRingCtMaterial -->
 <g id="edge10" class="edge"><title>ndRingCtTransaction&#45;&gt;ndRingCtMaterial</title>
-<path fill="none" stroke="black" d="M1880.91,-329.343C1849.97,-315.815 1817.87,-302.798 1787,-292 1748.06,-278.377 1707.44,-265.438 1666.34,-253.251"/>
-<polygon fill="black" stroke="black" points="1656.73,-250.417 1667.59,-248.929 1661.53,-251.831 1666.32,-253.245 1666.32,-253.245 1666.32,-253.245 1661.53,-251.831 1665.05,-257.561 1656.73,-250.417 1656.73,-250.417"/>
+<path fill="none" stroke="black" d="M1880.91,-329.343C1849.97,-315.815 1817.87,-302.798 1787,-292 1754.11,-280.495 1720.03,-269.479 1685.48,-258.99"/>
+<polygon fill="black" stroke="black" points="1675.72,-256.046 1686.59,-254.626 1680.5,-257.49 1685.29,-258.934 1685.29,-258.934 1685.29,-258.934 1680.5,-257.49 1683.99,-263.243 1675.72,-256.046 1675.72,-256.046"/>
 </g>
 <!-- ndTrueInput&#45;&gt;ndMlsagMaterial -->
 <g id="edge11" class="edge"><title>ndTrueInput&#45;&gt;ndMlsagMaterial</title>
