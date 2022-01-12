@@ -293,7 +293,7 @@
 <polygon fill="none" stroke="black" points="1751,-155 1751,-282 1883,-282 1883,-155 1751,-155"/>
 <text text-anchor="start" x="1762" y="-259.8" font-family="Arial" font-size="14.00">SafeKey</text>
 <text text-anchor="start" x="1762" y="-244.8" font-family="Arial" font-size="14.00">FilesContainer</text>
-<text text-anchor="start" x="1762" y="-229.8" font-family="Arial" font-size="14.00">PublicBlob</text>
+<text text-anchor="start" x="1762" y="-229.8" font-family="Arial" font-size="14.00">PublicFile</text>
 <text text-anchor="start" x="1762" y="-214.8" font-family="Arial" font-size="14.00">NrsMapContainer</text>
 <text text-anchor="start" x="1762" y="-199.8" font-family="Arial" font-size="14.00">Multimap</text>
 <text text-anchor="start" x="1762" y="-184.8" font-family="Arial" font-size="14.00">PublicRegister</text>
@@ -458,7 +458,7 @@
 <polygon fill="white" stroke="none" points="1655,-717.5 1655,-784.5 1744,-784.5 1744,-717.5 1655,-717.5"/>
 <polygon fill="none" stroke="black" points="1655,-717.5 1655,-784.5 1744,-784.5 1744,-717.5 1655,-717.5"/>
 <text text-anchor="start" x="1666" y="-762.3" font-family="Arial" font-size="14.00">SafeKey</text>
-<text text-anchor="start" x="1666" y="-747.3" font-family="Arial" font-size="14.00">Bytes</text>
+<text text-anchor="start" x="1666" y="-747.3" font-family="Arial" font-size="14.00">File</text>
 <text text-anchor="start" x="1666" y="-732.3" font-family="Arial" font-size="14.00">Register</text>
 <polygon fill="none" stroke="black" points="1653.5,-716.5 1653.5,-822.5 1744.5,-822.5 1744.5,-716.5 1653.5,-716.5"/>
 </a>

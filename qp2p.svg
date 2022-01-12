@@ -178,7 +178,7 @@
 <text text-anchor="start" x="542" y="-1000.8" font-family="Arial" font-size="14.00">&#45; send_with(&amp;self, msg: Bytes, priority: i32, retry_config: Option&lt;&amp;RetryConfig&gt;) &#45;&gt; Result&lt;(), SendError&gt;</text>
 <text text-anchor="start" x="542" y="-985.8" font-family="Arial" font-size="14.00">&#45; open_uni(&amp;self) &#45;&gt; Result&lt;SendStream, ConnectionError&gt;</text>
 <text text-anchor="start" x="542" y="-970.8" font-family="Arial" font-size="14.00">&#45; open_bi(&amp;self) &#45;&gt; Result&lt;(SendStream, RecvStream), ConnectionError&gt;</text>
-<text text-anchor="start" x="542" y="-955.8" font-family="Arial" font-size="14.00">&#45; close(&amp;self)</text>
+<text text-anchor="start" x="542" y="-955.8" font-family="Arial" font-size="14.00">&#45; close(&amp;self, reason: Option&lt;String&gt;)</text>
 <text text-anchor="start" x="542" y="-940.8" font-family="Arial" font-size="14.00">&#45; send_uni(&amp;self, msg: Bytes, priority: i32) &#45;&gt; Result&lt;(), SendError&gt;</text>
 <text text-anchor="start" x="542" y="-925.8" font-family="Arial" font-size="14.00">&#45; fmt(&amp;self, f: &amp;mut fmt::Formatter&lt;&#39;_&gt;) &#45;&gt; fmt::Result</text>
 <polygon fill="none" stroke="black" points="529.5,-910 529.5,-1188 1534.5,-1188 1534.5,-910 529.5,-910"/>
