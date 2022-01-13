@@ -1423,8 +1423,8 @@
 </g>
 <!-- ndUser&#45;&gt;ndCore -->
 <g id="edge49" class="edge"><title>ndUser&#45;&gt;ndCore</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M9066.52,-9462.22C9049.41,-9430.6 9028.48,-9387.99 9015.7,-9348 8725.75,-8440.79 8738.31,-8184.09 8658.7,-7235 8633.82,-6938.47 8561.82,-6836.56 8685.7,-6566 8694.99,-6545.71 8709.48,-6549.29 8720.7,-6530 9039.93,-5981.17 9029.37,-5786.6 9118.7,-5158 9146.46,-4962.63 9161.04,-4906.74 9118.7,-4714 9070.69,-4495.5 9031.25,-4443.51 8907.7,-4257 8766.09,-4043.23 8743.15,-3955.78 8519.7,-3830 8446.7,-3788.91 8398.12,-3848.72 8334.7,-3794 8175.38,-3656.53 8170.18,-3048.09 8019.7,-2901 7982.91,-2865.04 7956.32,-2886.74 7909.7,-2865 7672.03,-2754.15 7425.6,-2612.63 7204,-2474.22"/>
-<polygon fill="black" stroke="black" points="7195.46,-2468.88 7206.33,-2470.37 7199.7,-2471.53 7203.94,-2474.19 7203.94,-2474.19 7203.94,-2474.19 7199.7,-2471.53 7201.56,-2478 7195.46,-2468.88 7195.46,-2468.88"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M9066.52,-9462.22C9049.41,-9430.6 9028.48,-9387.99 9015.7,-9348 8725.75,-8440.79 8738.31,-8184.09 8658.7,-7235 8633.82,-6938.47 8561.82,-6836.56 8685.7,-6566 8694.99,-6545.71 8709.48,-6549.29 8720.7,-6530 9039.93,-5981.17 9029.37,-5786.6 9118.7,-5158 9146.46,-4962.63 9161.04,-4906.74 9118.7,-4714 9070.69,-4495.5 9031.25,-4443.51 8907.7,-4257 8766.09,-4043.23 8743.15,-3955.78 8519.7,-3830 8446.7,-3788.91 8398.12,-3848.72 8334.7,-3794 8175.38,-3656.53 8170.57,-3047.69 8019.7,-2901 7982.21,-2864.55 7955.14,-2886.99 7907.7,-2865 7670.51,-2755.05 7424.85,-2614.11 7203.92,-2475.97"/>
+<polygon fill="black" stroke="black" points="7195.41,-2470.64 7206.27,-2472.13 7199.64,-2473.29 7203.88,-2475.95 7203.88,-2475.95 7203.88,-2475.95 7199.64,-2473.29 7201.49,-2479.76 7195.41,-2470.64 7195.41,-2470.64"/>
 </g>
 <!-- ndUser&#45;&gt;ndRegisterStorage -->
 <g id="edge50" class="edge"><title>ndUser&#45;&gt;ndRegisterStorage</title>
@@ -3230,8 +3230,8 @@
 </g>
 <!-- ndSystemMsg&#45;&gt;ndRouting -->
 <g id="edge184" class="edge"><title>ndSystemMsg&#45;&gt;ndRouting</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3968.76,-4713.75C3846.67,-4412.55 3672.02,-3858.76 3806.7,-3403 4162.16,-2200.07 4319.93,-1763 5340.7,-1034 6001.25,-562.252 8494.61,-336.296 9439.6,-266.242"/>
-<polygon fill="black" stroke="black" points="9449.61,-265.502 9439.97,-270.727 9444.62,-265.87 9439.64,-266.239 9439.64,-266.239 9439.64,-266.239 9444.62,-265.87 9439.3,-261.752 9449.61,-265.502 9449.61,-265.502"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3968.76,-4713.75C3846.67,-4412.55 3672.02,-3858.76 3806.7,-3403 4162.16,-2200.07 4320.18,-1763.34 5340.7,-1034 6001.09,-562.027 8494.55,-336.209 9439.58,-266.217"/>
+<polygon fill="black" stroke="black" points="9449.59,-265.477 9439.95,-270.702 9444.6,-265.845 9439.62,-266.214 9439.62,-266.214 9439.62,-266.214 9444.6,-265.845 9439.29,-261.726 9449.59,-265.477 9449.59,-265.477"/>
 </g>
 <!-- ndLoadReport -->
 <g id="node46" class="node"><title>ndLoadReport</title>
@@ -4145,47 +4145,47 @@
 <!-- ndDispatcher -->
 <g id="node170" class="node"><title>ndDispatcher</title>
 <g id="a_node170_121"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/routing/api/dispatcher.rs#:~:text=struct%20Dispatcher" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="7433.7,-955.5 7433.7,-992.5 8327.7,-992.5 8327.7,-955.5 7433.7,-955.5"/>
-<polygon fill="none" stroke="black" points="7433.7,-955.5 7433.7,-992.5 8327.7,-992.5 8327.7,-955.5 7433.7,-955.5"/>
-<text text-anchor="start" x="7842.7" y="-971.3" font-family="Arial" font-weight="bold" font-size="14.00">Dispatcher</text>
-<polygon fill="white" stroke="none" points="7433.7,-798.5 7433.7,-955.5 8327.7,-955.5 8327.7,-798.5 7433.7,-798.5"/>
-<polygon fill="none" stroke="black" points="7433.7,-798.5 7433.7,-955.5 8327.7,-955.5 8327.7,-798.5 7433.7,-798.5"/>
-<text text-anchor="start" x="7444.7" y="-933.3" font-family="Arial" font-size="14.00">&#45; core: Core</text>
-<text text-anchor="start" x="7444.7" y="-918.3" font-family="Arial" font-size="14.00">&#45; cancel_timer_tx: watch::Sender&lt;bool&gt;</text>
-<text text-anchor="start" x="7444.7" y="-903.3" font-family="Arial" font-size="14.00">&#45; cancel_timer_rx: watch::Receiver&lt;bool&gt;</text>
-<text text-anchor="start" x="7444.7" y="-888.3" font-family="Arial" font-size="14.00">&#45; ae_permits: Arc&lt;Semaphore&gt;</text>
-<text text-anchor="start" x="7444.7" y="-873.3" font-family="Arial" font-size="14.00">&#45; infra_permits: Arc&lt;Semaphore&gt;</text>
-<text text-anchor="start" x="7444.7" y="-858.3" font-family="Arial" font-size="14.00">&#45; node_data_permits: Arc&lt;Semaphore&gt;</text>
-<text text-anchor="start" x="7444.7" y="-843.3" font-family="Arial" font-size="14.00">&#45; dkg_permits: Arc&lt;Semaphore&gt;</text>
-<text text-anchor="start" x="7444.7" y="-828.3" font-family="Arial" font-size="14.00">&#45; service_msg_permits: Arc&lt;Semaphore&gt;</text>
-<text text-anchor="start" x="7444.7" y="-813.3" font-family="Arial" font-size="14.00">&#45; cmd_permit_map: Arc&lt;RwLock&lt;BTreeMap&lt;CmdId, PermitInfo&gt;&gt;&gt;</text>
-<polygon fill="white" stroke="none" points="7433.7,-521.5 7433.7,-798.5 8327.7,-798.5 8327.7,-521.5 7433.7,-521.5"/>
-<polygon fill="none" stroke="black" points="7433.7,-521.5 7433.7,-798.5 8327.7,-798.5 8327.7,-521.5 7433.7,-521.5"/>
-<text text-anchor="start" x="7444.7" y="-776.3" font-family="Arial" font-size="14.00">&#45; drop(&amp;mut self)</text>
-<text text-anchor="start" x="7444.7" y="-761.3" font-family="Arial" font-size="14.00">&#45; new(core: Core) &#45;&gt; Self</text>
-<text text-anchor="start" x="7444.7" y="-746.3" font-family="Arial" font-size="14.00">&#45; wait_for_priority_commands_to_finish(&amp;self, semaphore: Arc&lt;Semaphore&gt;, count: usize) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="7444.7" y="-731.3" font-family="Arial" font-size="14.00">&#45; a_root_cmd_permit_exists(&amp;self, root_cmd_id: String) &#45;&gt; Option&lt;Priority&gt;</text>
-<text text-anchor="start" x="7444.7" y="-716.3" font-family="Arial" font-size="14.00">&#45; wait_until_nothing_higher_priority_to_handle(&amp;self, priority: i32, cmd_id: CmdId) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="7444.7" y="-701.3" font-family="Arial" font-size="14.00">&#45; acquire_permit_or_wait(&amp;self, prio: i32, cmd_id: CmdId) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="7444.7" y="-686.3" font-family="Arial" font-size="14.00">&#45; enqueue_and_handle_next_command_and_any_offshoots(self: Arc&lt;Self&gt;, command: Command, cmd_id: Option&lt;String&gt;) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="7444.7" y="-671.3" font-family="Arial" font-size="14.00">&#45; handle_command_and_any_offshoots(self: Arc&lt;Self&gt;, command: Command, cmd_id: String) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="7444.7" y="-656.3" font-family="Arial" font-size="14.00">&#45; spawn_handle_commands(self: Arc&lt;Self&gt;, command: Command, cmd_id: String) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="7444.7" y="-641.3" font-family="Arial" font-size="14.00">&#45; start_network_probing(self: Arc&lt;Self&gt;)</text>
-<text text-anchor="start" x="7444.7" y="-626.3" font-family="Arial" font-size="14.00">&#45; write_prefixmap_to_disk(self: Arc&lt;Self&gt;)</text>
-<text text-anchor="start" x="7444.7" y="-611.3" font-family="Arial" font-size="14.00">&#45; process_command(&amp;self, command: Command, cmd_id: &amp;str) &#45;&gt; Result&lt;Vec&lt;Command&gt;&gt;</text>
-<text text-anchor="start" x="7444.7" y="-596.3" font-family="Arial" font-size="14.00">&#45; try_processing_a_command(&amp;self, command: Command) &#45;&gt; Result&lt;Vec&lt;Command&gt;&gt;</text>
-<text text-anchor="start" x="7444.7" y="-581.3" font-family="Arial" font-size="14.00">&#45; send_message(&amp;self, recipients: &amp;[Peer], delivery_group_size: usize, wire_msg: WireMsg) &#45;&gt; Result&lt;Vec&lt;Command&gt;&gt;</text>
-<text text-anchor="start" x="7444.7" y="-566.3" font-family="Arial" font-size="14.00">&#45; deliver_messages(&amp;self, recipients: &amp;[Peer], delivery_group_size: usize, wire_msg: WireMsg) &#45;&gt; Result&lt;Vec&lt;Command&gt;&gt;</text>
-<text text-anchor="start" x="7444.7" y="-551.3" font-family="Arial" font-size="14.00">&#45; send_wire_message(&amp;self, wire_msg: WireMsg) &#45;&gt; Result&lt;Vec&lt;Command&gt;&gt;</text>
-<text text-anchor="start" x="7444.7" y="-536.3" font-family="Arial" font-size="14.00">&#45; handle_schedule_timeout(&amp;self, duration: Duration, token: u64) &#45;&gt; Option&lt;Command&gt;</text>
-<polygon fill="none" stroke="black" points="7432.7,-521 7432.7,-994 8328.7,-994 8328.7,-521 7432.7,-521"/>
+<polygon fill="lightblue" stroke="none" points="7428.7,-955.5 7428.7,-992.5 8329.7,-992.5 8329.7,-955.5 7428.7,-955.5"/>
+<polygon fill="none" stroke="black" points="7428.7,-955.5 7428.7,-992.5 8329.7,-992.5 8329.7,-955.5 7428.7,-955.5"/>
+<text text-anchor="start" x="7841.2" y="-971.3" font-family="Arial" font-weight="bold" font-size="14.00">Dispatcher</text>
+<polygon fill="white" stroke="none" points="7428.7,-798.5 7428.7,-955.5 8329.7,-955.5 8329.7,-798.5 7428.7,-798.5"/>
+<polygon fill="none" stroke="black" points="7428.7,-798.5 7428.7,-955.5 8329.7,-955.5 8329.7,-798.5 7428.7,-798.5"/>
+<text text-anchor="start" x="7439.7" y="-933.3" font-family="Arial" font-size="14.00">&#45; core: Core</text>
+<text text-anchor="start" x="7439.7" y="-918.3" font-family="Arial" font-size="14.00">&#45; cancel_timer_tx: watch::Sender&lt;bool&gt;</text>
+<text text-anchor="start" x="7439.7" y="-903.3" font-family="Arial" font-size="14.00">&#45; cancel_timer_rx: watch::Receiver&lt;bool&gt;</text>
+<text text-anchor="start" x="7439.7" y="-888.3" font-family="Arial" font-size="14.00">&#45; ae_permits: Arc&lt;Semaphore&gt;</text>
+<text text-anchor="start" x="7439.7" y="-873.3" font-family="Arial" font-size="14.00">&#45; infra_permits: Arc&lt;Semaphore&gt;</text>
+<text text-anchor="start" x="7439.7" y="-858.3" font-family="Arial" font-size="14.00">&#45; node_data_permits: Arc&lt;Semaphore&gt;</text>
+<text text-anchor="start" x="7439.7" y="-843.3" font-family="Arial" font-size="14.00">&#45; dkg_permits: Arc&lt;Semaphore&gt;</text>
+<text text-anchor="start" x="7439.7" y="-828.3" font-family="Arial" font-size="14.00">&#45; service_msg_permits: Arc&lt;Semaphore&gt;</text>
+<text text-anchor="start" x="7439.7" y="-813.3" font-family="Arial" font-size="14.00">&#45; cmd_permit_map: Arc&lt;RwLock&lt;BTreeMap&lt;CmdId, PermitInfo&gt;&gt;&gt;</text>
+<polygon fill="white" stroke="none" points="7428.7,-521.5 7428.7,-798.5 8329.7,-798.5 8329.7,-521.5 7428.7,-521.5"/>
+<polygon fill="none" stroke="black" points="7428.7,-521.5 7428.7,-798.5 8329.7,-798.5 8329.7,-521.5 7428.7,-521.5"/>
+<text text-anchor="start" x="7439.7" y="-776.3" font-family="Arial" font-size="14.00">&#45; drop(&amp;mut self)</text>
+<text text-anchor="start" x="7439.7" y="-761.3" font-family="Arial" font-size="14.00">&#45; new(core: Core) &#45;&gt; Self</text>
+<text text-anchor="start" x="7439.7" y="-746.3" font-family="Arial" font-size="14.00">&#45; wait_for_priority_commands_to_finish(&amp;self, semaphore: Arc&lt;Semaphore&gt;, count: usize) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="7439.7" y="-731.3" font-family="Arial" font-size="14.00">&#45; a_root_cmd_permit_exists(&amp;self, root_cmd_id: String) &#45;&gt; Option&lt;Priority&gt;</text>
+<text text-anchor="start" x="7439.7" y="-716.3" font-family="Arial" font-size="14.00">&#45; wait_until_nothing_higher_priority_to_handle(&amp;self, priority: i32, cmd_id: CmdId) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="7439.7" y="-701.3" font-family="Arial" font-size="14.00">&#45; acquire_permit_or_wait(&amp;self, prio: i32, cmd_id: CmdId) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="7439.7" y="-686.3" font-family="Arial" font-size="14.00">&#45; enqueue_and_handle_next_command_and_any_offshoots(self: Arc&lt;Self&gt;, command: Command, cmd_id: Option&lt;CmdId&gt;) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="7439.7" y="-671.3" font-family="Arial" font-size="14.00">&#45; handle_command_and_any_offshoots(self: Arc&lt;Self&gt;, command: Command, cmd_id: Option&lt;CmdId&gt;) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="7439.7" y="-656.3" font-family="Arial" font-size="14.00">&#45; spawn_handle_commands(self: Arc&lt;Self&gt;, command: Command, cmd_id: String) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="7439.7" y="-641.3" font-family="Arial" font-size="14.00">&#45; start_network_probing(self: Arc&lt;Self&gt;)</text>
+<text text-anchor="start" x="7439.7" y="-626.3" font-family="Arial" font-size="14.00">&#45; write_prefixmap_to_disk(self: Arc&lt;Self&gt;)</text>
+<text text-anchor="start" x="7439.7" y="-611.3" font-family="Arial" font-size="14.00">&#45; process_command(&amp;self, command: Command, cmd_id: &amp;str) &#45;&gt; Result&lt;Vec&lt;Command&gt;&gt;</text>
+<text text-anchor="start" x="7439.7" y="-596.3" font-family="Arial" font-size="14.00">&#45; try_processing_a_command(&amp;self, command: Command) &#45;&gt; Result&lt;Vec&lt;Command&gt;&gt;</text>
+<text text-anchor="start" x="7439.7" y="-581.3" font-family="Arial" font-size="14.00">&#45; send_message(&amp;self, recipients: &amp;[Peer], delivery_group_size: usize, wire_msg: WireMsg) &#45;&gt; Result&lt;Vec&lt;Command&gt;&gt;</text>
+<text text-anchor="start" x="7439.7" y="-566.3" font-family="Arial" font-size="14.00">&#45; deliver_messages(&amp;self, recipients: &amp;[Peer], delivery_group_size: usize, wire_msg: WireMsg) &#45;&gt; Result&lt;Vec&lt;Command&gt;&gt;</text>
+<text text-anchor="start" x="7439.7" y="-551.3" font-family="Arial" font-size="14.00">&#45; send_wire_message(&amp;self, wire_msg: WireMsg) &#45;&gt; Result&lt;Vec&lt;Command&gt;&gt;</text>
+<text text-anchor="start" x="7439.7" y="-536.3" font-family="Arial" font-size="14.00">&#45; handle_schedule_timeout(&amp;self, duration: Duration, token: u64) &#45;&gt; Option&lt;Command&gt;</text>
+<polygon fill="none" stroke="black" points="7427.2,-521 7427.2,-994 8330.2,-994 8330.2,-521 7427.2,-521"/>
 </a>
 </g>
 </g>
 <!-- ndWireMsg&#45;&gt;ndDispatcher -->
 <g id="edge285" class="edge"><title>ndWireMsg&#45;&gt;ndDispatcher</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8184.63,-4256.71C8182.53,-4132.54 8178.28,-3972.2 8169.7,-3830 8106.29,-2779.08 7969.87,-1531.11 7909.94,-1008.32"/>
-<polygon fill="black" stroke="black" points="7908.76,-998.012 7914.37,-1007.43 7909.33,-1002.98 7909.9,-1007.95 7909.9,-1007.95 7909.9,-1007.95 7909.33,-1002.98 7905.43,-1008.46 7908.76,-998.012 7908.76,-998.012"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8184.67,-4256.71C8182.57,-4132.54 8178.32,-3972.2 8169.7,-3830 8105.95,-2779.03 7968.53,-1531.09 7908.16,-1008.32"/>
+<polygon fill="black" stroke="black" points="7906.97,-998.006 7912.59,-1007.42 7907.54,-1002.97 7908.12,-1007.94 7908.12,-1007.94 7908.12,-1007.94 7907.54,-1002.97 7903.64,-1008.46 7906.97,-998.006 7906.97,-998.006"/>
 </g>
 <!-- ndMessageType -->
 <g id="node84" class="node"><title>ndMessageType</title>
@@ -5408,8 +5408,8 @@
 </g>
 <!-- ndCore&#45;&gt;ndDispatcher -->
 <g id="edge409" class="edge"><title>ndCore&#45;&gt;ndDispatcher</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7195.28,-1324.53C7332.2,-1211.46 7467.43,-1099.79 7581.12,-1005.9"/>
-<polygon fill="black" stroke="black" points="7581.4,-1005.66 7583.48,-998.757 7590.66,-998.021 7588.58,-1004.93 7581.4,-1005.66"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7195.28,-1323.66C7331.54,-1210.98 7466.06,-1099.74 7579.24,-1006.14"/>
+<polygon fill="black" stroke="black" points="7579.49,-1005.93 7581.57,-999.027 7588.74,-998.286 7586.66,-1005.19 7579.49,-1005.93"/>
 </g>
 <!-- ndStateSnapshot -->
 <g id="node146" class="node"><title>ndStateSnapshot</title>
@@ -5532,8 +5532,8 @@
 </g>
 <!-- ndCommand&#45;&gt;ndDispatcher -->
 <g id="edge423" class="edge"><title>ndCommand&#45;&gt;ndDispatcher</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5483.13,-3882.31C5454.89,-3863.54 5425.54,-3845.47 5396.7,-3830 5357.28,-3808.85 5328.05,-3830.86 5302.7,-3794 5204.21,-3650.82 5289.32,-3576.26 5302.7,-3403 5357.44,-2694.12 5438.76,-1262.52 5674.7,-1034 5797.31,-915.241 6803.92,-829.055 7414.21,-787.135"/>
-<polygon fill="black" stroke="black" points="7424.51,-786.429 7414.84,-791.602 7419.52,-786.771 7414.54,-787.113 7414.54,-787.113 7414.54,-787.113 7419.52,-786.771 7414.23,-782.624 7424.51,-786.429 7424.51,-786.429"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5483.13,-3882.31C5454.89,-3863.54 5425.54,-3845.47 5396.7,-3830 5357.28,-3808.85 5328.05,-3830.86 5302.7,-3794 5204.21,-3650.82 5289.32,-3576.26 5302.7,-3403 5357.44,-2694.13 5438.76,-1262.55 5674.7,-1034 5796.94,-915.591 6798.66,-829.48 7408.77,-787.429"/>
+<polygon fill="black" stroke="black" points="7419.07,-786.721 7409.4,-791.897 7414.08,-787.064 7409.09,-787.407 7409.09,-787.407 7409.09,-787.407 7414.08,-787.064 7408.79,-782.918 7419.07,-786.721 7419.07,-786.721"/>
 </g>
 <!-- ndEventStream -->
 <g id="node158" class="node"><title>ndEventStream</title>
@@ -5747,8 +5747,8 @@
 </g>
 <!-- ndDispatcher&#45;&gt;ndRouting -->
 <g id="edge437" class="edge"><title>ndDispatcher&#45;&gt;ndRouting</title>
-<path fill="none" stroke="black" d="M8336.9,-634.452C8672.93,-544.552 9124.06,-423.86 9437.31,-340.056"/>
-<polygon fill="black" stroke="black" points="9437.73,-339.943 9442.5,-334.528 9449.33,-336.841 9444.56,-342.256 9437.73,-339.943"/>
+<path fill="none" stroke="black" d="M8338.43,-633.635C8674.63,-543.784 9124.69,-423.504 9437.33,-339.949"/>
+<polygon fill="black" stroke="black" points="9437.72,-339.843 9442.49,-334.429 9449.32,-336.744 9444.55,-342.158 9437.72,-339.843"/>
 </g>
 </g>
 </svg>
