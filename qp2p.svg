@@ -351,28 +351,28 @@
 <!-- ndRecvError -->
 <g id="node13" class="node"><title>ndRecvError</title>
 <g id="a_node13_13"><a xlink:href="https://github.com/maidsafe/qp2p/blob/master/src/error.rs#:~:text=enum%20RecvError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="none" points="425,-1876 425,-1913 722,-1913 722,-1876 425,-1876"/>
-<polygon fill="none" stroke="black" points="425,-1876 425,-1913 722,-1913 722,-1876 425,-1876"/>
-<text text-anchor="start" x="537.5" y="-1891.8" font-family="Arial" font-weight="bold" font-size="14.00">RecvError</text>
-<polygon fill="white" stroke="none" points="425,-1809 425,-1876 722,-1876 722,-1809 425,-1809"/>
-<polygon fill="none" stroke="black" points="425,-1809 425,-1876 722,-1876 722,-1809 425,-1809"/>
-<text text-anchor="start" x="436" y="-1853.8" font-family="Arial" font-size="14.00">Serialization(SerializationError)</text>
-<text text-anchor="start" x="436" y="-1838.8" font-family="Arial" font-size="14.00">ConnectionLost(ConnectionError)</text>
-<text text-anchor="start" x="436" y="-1823.8" font-family="Arial" font-size="14.00">StreamLost(StreamError)</text>
-<polygon fill="white" stroke="none" points="425,-1727 425,-1809 722,-1809 722,-1727 425,-1727"/>
-<polygon fill="none" stroke="black" points="425,-1727 425,-1809 722,-1809 722,-1727 425,-1727"/>
-<text text-anchor="start" x="436" y="-1786.8" font-family="Arial" font-size="14.00">&#45; from(error: quinn::ConnectionError) &#45;&gt; Self</text>
-<text text-anchor="start" x="436" y="-1771.8" font-family="Arial" font-size="14.00">&#45; from(error: bincode::Error) &#45;&gt; Self</text>
-<text text-anchor="start" x="436" y="-1756.8" font-family="Arial" font-size="14.00">&#45; from(error: quinn::ReadError) &#45;&gt; Self</text>
-<text text-anchor="start" x="436" y="-1741.8" font-family="Arial" font-size="14.00">&#45; from(error: quinn::ReadExactError) &#45;&gt; Self</text>
-<polygon fill="none" stroke="black" points="423.5,-1726 423.5,-1914 722.5,-1914 722.5,-1726 423.5,-1726"/>
+<polygon fill="yellow" stroke="none" points="421,-1876 421,-1913 718,-1913 718,-1876 421,-1876"/>
+<polygon fill="none" stroke="black" points="421,-1876 421,-1913 718,-1913 718,-1876 421,-1876"/>
+<text text-anchor="start" x="533.5" y="-1891.8" font-family="Arial" font-weight="bold" font-size="14.00">RecvError</text>
+<polygon fill="white" stroke="none" points="421,-1809 421,-1876 718,-1876 718,-1809 421,-1809"/>
+<polygon fill="none" stroke="black" points="421,-1809 421,-1876 718,-1876 718,-1809 421,-1809"/>
+<text text-anchor="start" x="432" y="-1853.8" font-family="Arial" font-size="14.00">Serialization(SerializationError)</text>
+<text text-anchor="start" x="432" y="-1838.8" font-family="Arial" font-size="14.00">ConnectionLost(ConnectionError)</text>
+<text text-anchor="start" x="432" y="-1823.8" font-family="Arial" font-size="14.00">StreamLost(StreamError)</text>
+<polygon fill="white" stroke="none" points="421,-1727 421,-1809 718,-1809 718,-1727 421,-1727"/>
+<polygon fill="none" stroke="black" points="421,-1727 421,-1809 718,-1809 718,-1727 421,-1727"/>
+<text text-anchor="start" x="432" y="-1786.8" font-family="Arial" font-size="14.00">&#45; from(error: quinn::ConnectionError) &#45;&gt; Self</text>
+<text text-anchor="start" x="432" y="-1771.8" font-family="Arial" font-size="14.00">&#45; from(error: bincode::Error) &#45;&gt; Self</text>
+<text text-anchor="start" x="432" y="-1756.8" font-family="Arial" font-size="14.00">&#45; from(error: quinn::ReadError) &#45;&gt; Self</text>
+<text text-anchor="start" x="432" y="-1741.8" font-family="Arial" font-size="14.00">&#45; from(error: quinn::ReadExactError) &#45;&gt; Self</text>
+<polygon fill="none" stroke="black" points="419.5,-1726 419.5,-1914 718.5,-1914 718.5,-1726 419.5,-1726"/>
 </a>
 </g>
 </g>
 <!-- ndConnectionError&#45;&gt;ndRecvError -->
 <g id="edge12" class="edge"><title>ndConnectionError&#45;&gt;ndRecvError</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1425.44,-2037.52C1331.57,-2008.96 1209.53,-1974.97 1099,-1954 947.537,-1925.26 901.373,-1963.26 754,-1918 750.002,-1916.77 745.991,-1915.45 741.975,-1914.05"/>
-<polygon fill="black" stroke="black" points="741.924,-1914.04 734.914,-1915.73 730.656,-1909.91 737.666,-1908.22 741.924,-1914.04"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1425.43,-2037.03C1332.53,-2008.52 1212.14,-1974.76 1103,-1954 949.813,-1924.86 903.295,-1963.02 754,-1918 748.731,-1916.41 743.436,-1914.67 738.138,-1912.8"/>
+<polygon fill="black" stroke="black" points="737.795,-1912.67 730.78,-1914.34 726.541,-1908.51 733.556,-1906.84 737.795,-1912.67"/>
 </g>
 <!-- ndConnectionError&#45;&gt;ndConnection -->
 <g id="edge13" class="edge"><title>ndConnectionError&#45;&gt;ndConnection</title>
@@ -471,38 +471,38 @@
 </g>
 <!-- ndRecvError&#45;&gt;ndWireMsg -->
 <g id="edge22" class="edge"><title>ndRecvError&#45;&gt;ndWireMsg</title>
-<path fill="none" stroke="black" d="M564.273,-1721.82C563.3,-1710.98 562.301,-1699.86 561.31,-1688.82"/>
-<polygon fill="black" stroke="black" points="560.403,-1678.72 565.78,-1688.28 560.851,-1683.7 561.298,-1688.68 561.298,-1688.68 561.298,-1688.68 560.851,-1683.7 556.816,-1689.08 560.403,-1678.72 560.403,-1678.72"/>
+<path fill="none" stroke="black" d="M561.86,-1721.82C561.063,-1710.98 560.247,-1699.86 559.436,-1688.82"/>
+<polygon fill="black" stroke="black" points="558.694,-1678.72 563.914,-1688.36 559.06,-1683.71 559.426,-1688.69 559.426,-1688.69 559.426,-1688.69 559.06,-1683.71 554.939,-1689.02 558.694,-1678.72 558.694,-1678.72"/>
 </g>
 <!-- ndRecvError&#45;&gt;ndRpcError -->
 <g id="edge23" class="edge"><title>ndRecvError&#45;&gt;ndRpcError</title>
-<path fill="none" stroke="black" d="M730.515,-1729.61C738.339,-1726.75 746.19,-1724.19 754,-1722 1037.73,-1642.51 1136.54,-1779.4 1416,-1686 1429.19,-1681.59 1442.32,-1675.84 1455.09,-1669.28"/>
+<path fill="none" stroke="black" d="M726.649,-1730.86C735.757,-1727.5 744.909,-1724.5 754,-1722 1038.09,-1643.8 1136.54,-1779.4 1416,-1686 1429.19,-1681.59 1442.32,-1675.84 1455.09,-1669.28"/>
 <polygon fill="black" stroke="black" points="1455.15,-1669.25 1458.55,-1662.89 1465.73,-1663.58 1462.33,-1669.94 1455.15,-1669.25"/>
 </g>
 <!-- ndRecvError&#45;&gt;ndRecvStream -->
 <g id="edge24" class="edge"><title>ndRecvError&#45;&gt;ndRecvStream</title>
-<path fill="none" stroke="black" d="M415.114,-1796.11C348.883,-1777.85 278.069,-1745.02 238,-1686 184.939,-1607.84 204.933,-1496.94 230.248,-1419.14"/>
-<polygon fill="black" stroke="black" points="233.52,-1409.35 234.62,-1420.26 231.935,-1414.09 230.351,-1418.83 230.351,-1418.83 230.351,-1418.83 231.935,-1414.09 226.083,-1417.41 233.52,-1409.35 233.52,-1409.35"/>
+<path fill="none" stroke="black" d="M411.225,-1795.14C346.273,-1776.69 277.189,-1743.98 238,-1686 185.101,-1607.73 205.066,-1496.85 230.329,-1419.09"/>
+<polygon fill="black" stroke="black" points="233.595,-1409.3 234.7,-1420.21 232.013,-1414.04 230.431,-1418.78 230.431,-1418.78 230.431,-1418.78 232.013,-1414.04 226.162,-1417.36 233.595,-1409.3 233.595,-1409.3"/>
 </g>
 <!-- ndRecvError&#45;&gt;ndConnectionIncoming -->
 <g id="edge25" class="edge"><title>ndRecvError&#45;&gt;ndConnectionIncoming</title>
-<path fill="none" stroke="black" d="M415.292,-1785.91C344.698,-1765.53 263.487,-1733.85 201,-1686 55.8166,-1574.82 0,-1509.86 0,-1327 0,-1327 0,-1327 0,-733.5 0,-430.819 341.478,-247.976 591.811,-154.603"/>
+<path fill="none" stroke="black" d="M411.155,-1785.06C341.748,-1764.59 262.271,-1733.09 201,-1686 56.0081,-1574.57 0,-1509.86 0,-1327 0,-1327 0,-1327 0,-733.5 0,-430.819 341.478,-247.976 591.811,-154.603"/>
 <polygon fill="black" stroke="black" points="601.422,-151.045 593.606,-158.737 596.733,-152.781 592.044,-154.517 592.044,-154.517 592.044,-154.517 596.733,-152.781 590.482,-150.297 601.422,-151.045 601.422,-151.045"/>
 </g>
 <!-- ndSerializationError -->
 <g id="node14" class="node"><title>ndSerializationError</title>
 <g id="a_node14_17"><a xlink:href="https://github.com/maidsafe/qp2p/blob/master/src/error.rs#:~:text=struct%20SerializationError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="761,-2115.5 761,-2152.5 1081,-2152.5 1081,-2115.5 761,-2115.5"/>
-<polygon fill="none" stroke="black" points="761,-2115.5 761,-2152.5 1081,-2152.5 1081,-2115.5 761,-2115.5"/>
-<text text-anchor="start" x="859.5" y="-2131.3" font-family="Arial" font-weight="bold" font-size="14.00">SerializationError</text>
-<polygon fill="white" stroke="none" points="761,-2078.5 761,-2115.5 1081,-2115.5 1081,-2078.5 761,-2078.5"/>
-<polygon fill="none" stroke="black" points="761,-2078.5 761,-2115.5 1081,-2115.5 1081,-2078.5 761,-2078.5"/>
-<text text-anchor="start" x="772" y="-2093.3" font-family="Arial" font-size="14.00">&#45; bincode::Error</text>
-<polygon fill="white" stroke="none" points="761,-2026.5 761,-2078.5 1081,-2078.5 1081,-2026.5 761,-2026.5"/>
-<polygon fill="none" stroke="black" points="761,-2026.5 761,-2078.5 1081,-2078.5 1081,-2026.5 761,-2026.5"/>
-<text text-anchor="start" x="772" y="-2056.3" font-family="Arial" font-size="14.00">&#45; new(message: impl ToString) &#45;&gt; Self</text>
-<text text-anchor="start" x="772" y="-2041.3" font-family="Arial" font-size="14.00">&#45; unexpected(actual: Option&lt;WireMsg&gt;) &#45;&gt; Self</text>
-<polygon fill="none" stroke="black" points="760,-2025.5 760,-2153.5 1082,-2153.5 1082,-2025.5 760,-2025.5"/>
+<polygon fill="lightblue" stroke="none" points="757,-2115.5 757,-2152.5 1086,-2152.5 1086,-2115.5 757,-2115.5"/>
+<polygon fill="none" stroke="black" points="757,-2115.5 757,-2152.5 1086,-2152.5 1086,-2115.5 757,-2115.5"/>
+<text text-anchor="start" x="860" y="-2131.3" font-family="Arial" font-weight="bold" font-size="14.00">SerializationError</text>
+<polygon fill="white" stroke="none" points="757,-2078.5 757,-2115.5 1086,-2115.5 1086,-2078.5 757,-2078.5"/>
+<polygon fill="none" stroke="black" points="757,-2078.5 757,-2115.5 1086,-2115.5 1086,-2078.5 757,-2078.5"/>
+<text text-anchor="start" x="768" y="-2093.3" font-family="Arial" font-size="14.00">&#45; bincode::Error</text>
+<polygon fill="white" stroke="none" points="757,-2026.5 757,-2078.5 1086,-2078.5 1086,-2026.5 757,-2026.5"/>
+<polygon fill="none" stroke="black" points="757,-2026.5 757,-2078.5 1086,-2078.5 1086,-2026.5 757,-2026.5"/>
+<text text-anchor="start" x="768" y="-2056.3" font-family="Arial" font-size="14.00">&#45; new(message: impl ToString) &#45;&gt; Self</text>
+<text text-anchor="start" x="768" y="-2041.3" font-family="Arial" font-size="14.00">&#45; unexpected(actual: &amp;Option&lt;WireMsg&gt;) &#45;&gt; Self</text>
+<polygon fill="none" stroke="black" points="755.5,-2025.5 755.5,-2153.5 1086.5,-2153.5 1086.5,-2025.5 755.5,-2025.5"/>
 </a>
 </g>
 </g>
@@ -513,51 +513,51 @@
 </g>
 <!-- ndSerializationError&#45;&gt;ndRecvError -->
 <g id="edge27" class="edge"><title>ndSerializationError&#45;&gt;ndRecvError</title>
-<path fill="none" stroke="black" d="M833.634,-2021.34C795.903,-1992.34 750.875,-1957.73 708.947,-1925.5"/>
-<polygon fill="black" stroke="black" points="708.725,-1925.33 701.53,-1924.84 699.211,-1918.02 706.405,-1918.5 708.725,-1925.33"/>
+<path fill="none" stroke="black" d="M832.63,-2021.34C794.385,-1992.28 748.728,-1957.58 706.242,-1925.3"/>
+<polygon fill="black" stroke="black" points="706.216,-1925.28 699.018,-1924.83 696.661,-1918.02 703.859,-1918.46 706.216,-1925.28"/>
 </g>
 <!-- ndStreamError -->
 <g id="node15" class="node"><title>ndStreamError</title>
 <g id="a_node15_18"><a xlink:href="https://github.com/maidsafe/qp2p/blob/master/src/error.rs#:~:text=enum%20StreamError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="none" points="422,-2104.5 422,-2141.5 725,-2141.5 725,-2104.5 422,-2104.5"/>
-<polygon fill="none" stroke="black" points="422,-2104.5 422,-2141.5 725,-2141.5 725,-2104.5 422,-2104.5"/>
-<text text-anchor="start" x="530" y="-2120.3" font-family="Arial" font-weight="bold" font-size="14.00">StreamError</text>
-<polygon fill="white" stroke="none" points="422,-2037.5 422,-2104.5 725,-2104.5 725,-2037.5 422,-2037.5"/>
-<polygon fill="none" stroke="black" points="422,-2037.5 422,-2104.5 725,-2104.5 725,-2037.5 422,-2037.5"/>
-<text text-anchor="start" x="433" y="-2082.3" font-family="Arial" font-size="14.00">Stopped(u64)</text>
-<text text-anchor="start" x="433" y="-2067.3" font-family="Arial" font-size="14.00">Gone</text>
-<text text-anchor="start" x="433" y="-2052.3" font-family="Arial" font-size="14.00">Unsupported(UnsupportedStreamOperation)</text>
-<polygon fill="none" stroke="black" points="420.5,-2036.5 420.5,-2142.5 725.5,-2142.5 725.5,-2036.5 420.5,-2036.5"/>
+<polygon fill="yellow" stroke="none" points="418,-2104.5 418,-2141.5 721,-2141.5 721,-2104.5 418,-2104.5"/>
+<polygon fill="none" stroke="black" points="418,-2104.5 418,-2141.5 721,-2141.5 721,-2104.5 418,-2104.5"/>
+<text text-anchor="start" x="526" y="-2120.3" font-family="Arial" font-weight="bold" font-size="14.00">StreamError</text>
+<polygon fill="white" stroke="none" points="418,-2037.5 418,-2104.5 721,-2104.5 721,-2037.5 418,-2037.5"/>
+<polygon fill="none" stroke="black" points="418,-2037.5 418,-2104.5 721,-2104.5 721,-2037.5 418,-2037.5"/>
+<text text-anchor="start" x="429" y="-2082.3" font-family="Arial" font-size="14.00">Stopped(u64)</text>
+<text text-anchor="start" x="429" y="-2067.3" font-family="Arial" font-size="14.00">Gone</text>
+<text text-anchor="start" x="429" y="-2052.3" font-family="Arial" font-size="14.00">Unsupported(UnsupportedStreamOperation)</text>
+<polygon fill="none" stroke="black" points="416.5,-2036.5 416.5,-2142.5 721.5,-2142.5 721.5,-2036.5 416.5,-2036.5"/>
 </a>
 </g>
 </g>
 <!-- ndStreamError&#45;&gt;ndSendError -->
 <g id="edge28" class="edge"><title>ndStreamError&#45;&gt;ndSendError</title>
-<path fill="none" stroke="black" d="M642.962,-2032.44C673.526,-2008.13 709.885,-1979.46 743,-1954 758.195,-1942.32 774.197,-1930.16 790.12,-1918.15"/>
-<polygon fill="black" stroke="black" points="790.431,-1917.91 792.817,-1911.11 800.017,-1910.7 797.63,-1917.5 790.431,-1917.91"/>
+<path fill="none" stroke="black" d="M638.352,-2032.19C668.701,-2007.83 704.873,-1979.2 738,-1954 753.402,-1942.28 769.655,-1930.15 785.86,-1918.19"/>
+<polygon fill="black" stroke="black" points="786.271,-1917.89 788.732,-1911.11 795.935,-1910.78 793.474,-1917.56 786.271,-1917.89"/>
 </g>
 <!-- ndStreamError&#45;&gt;ndRecvError -->
 <g id="edge29" class="edge"><title>ndStreamError&#45;&gt;ndRecvError</title>
-<path fill="none" stroke="black" d="M573,-2032.42C573,-2002.82 573,-1965.45 573,-1930.39"/>
-<polygon fill="black" stroke="black" points="573,-1930.11 569,-1924.11 573,-1918.11 577,-1924.11 573,-1930.11"/>
+<path fill="none" stroke="black" d="M569,-2032.42C569,-2002.82 569,-1965.45 569,-1930.39"/>
+<polygon fill="black" stroke="black" points="569,-1930.11 565,-1924.11 569,-1918.11 573,-1924.11 569,-1930.11"/>
 </g>
 <!-- ndUnsupportedStreamOperation -->
 <g id="node16" class="node"><title>ndUnsupportedStreamOperation</title>
 <g id="a_node16_19"><a xlink:href="https://github.com/maidsafe/qp2p/blob/master/src/error.rs#:~:text=struct%20UnsupportedStreamOperation" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="428,-2351.5 428,-2388.5 719,-2388.5 719,-2351.5 428,-2351.5"/>
-<polygon fill="none" stroke="black" points="428,-2351.5 428,-2388.5 719,-2388.5 719,-2351.5 428,-2351.5"/>
-<text text-anchor="start" x="468.5" y="-2367.3" font-family="Arial" font-weight="bold" font-size="14.00">UnsupportedStreamOperation</text>
-<polygon fill="white" stroke="none" points="428,-2314.5 428,-2351.5 719,-2351.5 719,-2314.5 428,-2314.5"/>
-<polygon fill="none" stroke="black" points="428,-2314.5 428,-2351.5 719,-2351.5 719,-2314.5 428,-2314.5"/>
-<text text-anchor="start" x="439" y="-2329.3" font-family="Arial" font-size="14.00">&#45; Box&lt;dyn std::error::Error + Send + Sync&gt;</text>
-<polygon fill="none" stroke="black" points="426.5,-2313.5 426.5,-2389.5 719.5,-2389.5 719.5,-2313.5 426.5,-2313.5"/>
+<polygon fill="lightblue" stroke="none" points="424,-2351.5 424,-2388.5 715,-2388.5 715,-2351.5 424,-2351.5"/>
+<polygon fill="none" stroke="black" points="424,-2351.5 424,-2388.5 715,-2388.5 715,-2351.5 424,-2351.5"/>
+<text text-anchor="start" x="464.5" y="-2367.3" font-family="Arial" font-weight="bold" font-size="14.00">UnsupportedStreamOperation</text>
+<polygon fill="white" stroke="none" points="424,-2314.5 424,-2351.5 715,-2351.5 715,-2314.5 424,-2314.5"/>
+<polygon fill="none" stroke="black" points="424,-2314.5 424,-2351.5 715,-2351.5 715,-2314.5 424,-2314.5"/>
+<text text-anchor="start" x="435" y="-2329.3" font-family="Arial" font-size="14.00">&#45; Box&lt;dyn std::error::Error + Send + Sync&gt;</text>
+<polygon fill="none" stroke="black" points="422.5,-2313.5 422.5,-2389.5 715.5,-2389.5 715.5,-2313.5 422.5,-2313.5"/>
 </a>
 </g>
 </g>
 <!-- ndUnsupportedStreamOperation&#45;&gt;ndStreamError -->
 <g id="edge30" class="edge"><title>ndUnsupportedStreamOperation&#45;&gt;ndStreamError</title>
-<path fill="none" stroke="black" d="M573,-2309.3C573,-2268.99 573,-2206.87 573,-2159.1"/>
-<polygon fill="black" stroke="black" points="573,-2158.98 569,-2152.98 573,-2146.98 577,-2152.98 573,-2158.98"/>
+<path fill="none" stroke="black" d="M569,-2309.3C569,-2268.99 569,-2206.87 569,-2159.1"/>
+<polygon fill="black" stroke="black" points="569,-2158.98 565,-2152.98 569,-2146.98 573,-2152.98 569,-2158.98"/>
 </g>
 <!-- ndUpnpError -->
 <g id="node17" class="node"><title>ndUpnpError</title>
