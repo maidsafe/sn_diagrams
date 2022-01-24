@@ -3092,24 +3092,25 @@
 <!-- ndServiceMsg -->
 <g id="node82" class="node"><title>ndServiceMsg</title>
 <g id="a_node82_114"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/data/mod.rs#:~:text=enum%20ServiceMsg" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="none" points="6805.64,-2674.5 6805.64,-2711.5 6996.64,-2711.5 6996.64,-2674.5 6805.64,-2674.5"/>
-<polygon fill="none" stroke="black" points="6805.64,-2674.5 6805.64,-2711.5 6996.64,-2711.5 6996.64,-2674.5 6805.64,-2674.5"/>
-<text text-anchor="start" x="6859.64" y="-2690.3" font-family="Arial" font-weight="bold" font-size="14.00">ServiceMsg</text>
-<polygon fill="white" stroke="none" points="6805.64,-2577.5 6805.64,-2674.5 6996.64,-2674.5 6996.64,-2577.5 6805.64,-2577.5"/>
-<polygon fill="none" stroke="black" points="6805.64,-2577.5 6805.64,-2674.5 6996.64,-2674.5 6996.64,-2577.5 6805.64,-2577.5"/>
-<text text-anchor="start" x="6816.64" y="-2652.3" font-family="Arial" font-size="14.00">Cmd(DataCmd)</text>
-<text text-anchor="start" x="6816.64" y="-2637.3" font-family="Arial" font-size="14.00">Query(DataQuery)</text>
-<text text-anchor="start" x="6816.64" y="-2622.3" font-family="Arial" font-size="14.00">QueryResponse</text>
-<text text-anchor="start" x="6816.64" y="-2607.3" font-family="Arial" font-size="14.00">CmdError</text>
-<text text-anchor="start" x="6816.64" y="-2592.3" font-family="Arial" font-size="14.00">ServiceError(ServiceError)</text>
-<polygon fill="none" stroke="black" points="6804.14,-2576.5 6804.14,-2712.5 6997.14,-2712.5 6997.14,-2576.5 6804.14,-2576.5"/>
+<polygon fill="yellow" stroke="none" points="6805.64,-2681.5 6805.64,-2718.5 6996.64,-2718.5 6996.64,-2681.5 6805.64,-2681.5"/>
+<polygon fill="none" stroke="black" points="6805.64,-2681.5 6805.64,-2718.5 6996.64,-2718.5 6996.64,-2681.5 6805.64,-2681.5"/>
+<text text-anchor="start" x="6859.64" y="-2697.3" font-family="Arial" font-weight="bold" font-size="14.00">ServiceMsg</text>
+<polygon fill="white" stroke="none" points="6805.64,-2569.5 6805.64,-2681.5 6996.64,-2681.5 6996.64,-2569.5 6805.64,-2569.5"/>
+<polygon fill="none" stroke="black" points="6805.64,-2569.5 6805.64,-2681.5 6996.64,-2681.5 6996.64,-2569.5 6805.64,-2569.5"/>
+<text text-anchor="start" x="6816.64" y="-2659.3" font-family="Arial" font-size="14.00">Cmd(DataCmd)</text>
+<text text-anchor="start" x="6816.64" y="-2644.3" font-family="Arial" font-size="14.00">Query(DataQuery)</text>
+<text text-anchor="start" x="6816.64" y="-2629.3" font-family="Arial" font-size="14.00">QueryResponse</text>
+<text text-anchor="start" x="6816.64" y="-2614.3" font-family="Arial" font-size="14.00">CmdError</text>
+<text text-anchor="start" x="6816.64" y="-2599.3" font-family="Arial" font-size="14.00">ServiceError(ServiceError)</text>
+<text text-anchor="start" x="6816.64" y="-2584.3" font-family="Arial" font-size="14.00">CmdAck</text>
+<polygon fill="none" stroke="black" points="6804.14,-2569 6804.14,-2720 6997.14,-2720 6997.14,-2569 6804.14,-2569"/>
 </a>
 </g>
 </g>
 <!-- ndDataCmd&#45;&gt;ndServiceMsg -->
 <g id="edge253" class="edge"><title>ndDataCmd&#45;&gt;ndServiceMsg</title>
-<path fill="none" stroke="black" d="M7009.3,-2969.74C6988.76,-2908.44 6953.19,-2802.3 6928.36,-2728.22"/>
-<polygon fill="black" stroke="black" points="6928.28,-2727.99 6922.58,-2723.57 6924.47,-2716.61 6930.17,-2721.03 6928.28,-2727.99"/>
+<path fill="none" stroke="black" d="M7009.3,-2969.74C6989.45,-2910.5 6955.56,-2809.39 6930.9,-2735.8"/>
+<polygon fill="black" stroke="black" points="6930.84,-2735.61 6925.14,-2731.19 6927.02,-2724.23 6932.72,-2728.65 6930.84,-2735.61"/>
 </g>
 <!-- ndRegisterQuery&#45;&gt;ndDataQuery -->
 <g id="edge254" class="edge"><title>ndRegisterQuery&#45;&gt;ndDataQuery</title>
@@ -3352,8 +3353,8 @@
 </g>
 <!-- ndServiceError&#45;&gt;ndServiceMsg -->
 <g id="edge272" class="edge"><title>ndServiceError&#45;&gt;ndServiceMsg</title>
-<path fill="none" stroke="black" d="M6743.21,-3134.92C6757.65,-3119.93 6771.85,-3102.46 6781.64,-3084 6850.65,-2953.84 6806.9,-2900.36 6851.64,-2760 6854.97,-2749.56 6858.9,-2738.77 6863.06,-2728.17"/>
-<polygon fill="black" stroke="black" points="6863.17,-2727.91 6861.7,-2720.85 6867.65,-2716.78 6869.12,-2723.84 6863.17,-2727.91"/>
+<path fill="none" stroke="black" d="M6743.21,-3134.92C6757.65,-3119.93 6771.85,-3102.46 6781.64,-3084 6850.65,-2953.84 6806.9,-2900.36 6851.64,-2760 6854.21,-2751.93 6857.15,-2743.64 6860.27,-2735.4"/>
+<polygon fill="black" stroke="black" points="6860.27,-2735.39 6858.72,-2728.35 6864.63,-2724.21 6866.18,-2731.25 6860.27,-2735.39"/>
 </g>
 <!-- ndServiceMsg&#45;&gt;ndWireMsg -->
 <g id="edge273" class="edge"><title>ndServiceMsg&#45;&gt;ndWireMsg</title>
@@ -3362,12 +3363,12 @@
 </g>
 <!-- ndServiceMsg&#45;&gt;ndSession -->
 <g id="edge274" class="edge"><title>ndServiceMsg&#45;&gt;ndSession</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M6891.15,-2572.42C6868.2,-2402.34 6806.91,-1958.61 6743.64,-1590 6740.88,-1573.94 6739.34,-1570.07 6736.64,-1554 6711.44,-1403.93 6752.84,-1352.96 6688.64,-1215 6681.73,-1200.16 6672.54,-1185.79 6662.35,-1172.36"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M6890.1,-2564.68C6866.38,-2389.19 6805.97,-1953.14 6743.64,-1590 6740.88,-1573.94 6739.34,-1570.07 6736.64,-1554 6711.44,-1403.93 6752.84,-1352.96 6688.64,-1215 6681.73,-1200.16 6672.54,-1185.79 6662.35,-1172.36"/>
 <polygon fill="black" stroke="black" points="6655.89,-1164.13 6665.6,-1169.22 6658.97,-1168.06 6662.06,-1171.99 6662.06,-1171.99 6662.06,-1171.99 6658.97,-1168.06 6658.52,-1174.77 6655.89,-1164.13 6655.89,-1164.13"/>
 </g>
 <!-- ndServiceMsg&#45;&gt;ndCore -->
 <g id="edge275" class="edge"><title>ndServiceMsg&#45;&gt;ndCore</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M6917.37,-2572.45C6969.78,-2350.81 7129.75,-1681.49 7171.64,-1590 7179.75,-1572.29 7190.82,-1572.59 7196.64,-1554 7241.67,-1410.22 7202.78,-1365.54 7196.64,-1215 7192.41,-1111.41 7231.81,-823.452 7158.64,-750 7005.61,-596.378 5566.46,-553.303 4954.69,-541.882"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M6919.16,-2564.87C6973.33,-2335.97 7130.22,-1680.47 7171.64,-1590 7179.75,-1572.29 7190.82,-1572.59 7196.64,-1554 7241.67,-1410.22 7202.78,-1365.54 7196.64,-1215 7192.41,-1111.41 7231.81,-823.452 7158.64,-750 7005.61,-596.378 5566.46,-553.303 4954.69,-541.882"/>
 <polygon fill="black" stroke="black" points="4944.41,-541.691 4954.49,-537.377 4949.41,-541.784 4954.4,-541.877 4954.4,-541.877 4954.4,-541.877 4949.41,-541.784 4954.32,-546.376 4944.41,-541.691 4944.41,-541.691"/>
 </g>
 <!-- ndCmdError&#45;&gt;ndDataCmd -->
@@ -3446,8 +3447,8 @@
 </g>
 <!-- ndDataQuery&#45;&gt;ndServiceMsg -->
 <g id="edge288" class="edge"><title>ndDataQuery&#45;&gt;ndServiceMsg</title>
-<path fill="none" stroke="black" d="M7027.57,-3158.68C6988.12,-3143.75 6946.82,-3120.32 6922.64,-3084 6852.02,-2977.93 6864.25,-2823.4 6881.24,-2728.93"/>
-<polygon fill="black" stroke="black" points="6881.29,-2728.66 6878.46,-2722.03 6883.5,-2716.87 6886.33,-2723.5 6881.29,-2728.66"/>
+<path fill="none" stroke="black" d="M7027.57,-3158.68C6988.12,-3143.75 6946.82,-3120.32 6922.64,-3084 6853.77,-2980.56 6863.7,-2831.03 6879.99,-2736.07"/>
+<polygon fill="black" stroke="black" points="6880,-2736.01 6877.12,-2729.4 6882.11,-2724.19 6884.99,-2730.8 6880,-2736.01"/>
 </g>
 <!-- ndDataQuery&#45;&gt;ndSession -->
 <g id="edge289" class="edge"><title>ndDataQuery&#45;&gt;ndSession</title>
