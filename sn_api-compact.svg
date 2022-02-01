@@ -233,7 +233,7 @@
 <text text-anchor="start" x="1515" y="-87.8" font-family="Arial" font-weight="bold" font-size="14.00">Safe</text>
 <polygon fill="white" stroke="none" points="1436,-5 1436,-72 1625,-72 1625,-5 1436,-5"/>
 <polygon fill="none" stroke="black" points="1436,-5 1436,-72 1625,-72 1625,-5 1436,-5"/>
-<text text-anchor="start" x="1447" y="-49.8" font-family="Arial" font-size="14.00">&#45; client: Client</text>
+<text text-anchor="start" x="1447" y="-49.8" font-family="Arial" font-size="14.00">&#45; client: Option&lt;Client&gt;</text>
 <text text-anchor="start" x="1447" y="-34.8" font-family="Arial" font-size="14.00">+ xorurl_base: XorUrlBase</text>
 <text text-anchor="start" x="1447" y="-19.8" font-family="Arial" font-size="14.00">+ dry_run_mode: bool</text>
 <polygon fill="none" stroke="black" points="1434.5,-4 1434.5,-110 1625.5,-110 1625.5,-4 1434.5,-4"/>

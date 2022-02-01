@@ -4082,31 +4082,32 @@
 <!-- ndCapacity -->
 <g id="node159" class="node"><title>ndCapacity</title>
 <g id="a_node159_121"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/core/capacity/mod.rs#:~:text=struct%20Capacity" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="532.306,-3586.5 532.306,-3623.5 1090.31,-3623.5 1090.31,-3586.5 532.306,-3586.5"/>
-<polygon fill="none" stroke="black" points="532.306,-3586.5 532.306,-3623.5 1090.31,-3623.5 1090.31,-3586.5 532.306,-3586.5"/>
-<text text-anchor="start" x="780.806" y="-3602.3" font-family="Arial" font-weight="bold" font-size="14.00">Capacity</text>
-<polygon fill="white" stroke="none" points="532.306,-3549.5 532.306,-3586.5 1090.31,-3586.5 1090.31,-3549.5 532.306,-3549.5"/>
-<polygon fill="none" stroke="black" points="532.306,-3549.5 532.306,-3586.5 1090.31,-3586.5 1090.31,-3549.5 532.306,-3549.5"/>
-<text text-anchor="start" x="543.306" y="-3564.3" font-family="Arial" font-size="14.00">&#45; adult_levels: Arc&lt;RwLock&lt;BTreeMap&lt;XorName, Arc&lt;RwLock&lt;StorageLevel&gt;&gt;&gt;&gt;&gt;</text>
-<polygon fill="white" stroke="none" points="532.306,-3392.5 532.306,-3549.5 1090.31,-3549.5 1090.31,-3392.5 532.306,-3392.5"/>
-<polygon fill="none" stroke="black" points="532.306,-3392.5 532.306,-3549.5 1090.31,-3549.5 1090.31,-3392.5 532.306,-3392.5"/>
-<text text-anchor="start" x="543.306" y="-3527.3" font-family="Arial" font-size="14.00">&#45; new(adult_levels: BTreeMap&lt;XorName, StorageLevel&gt;) &#45;&gt; Self</text>
-<text text-anchor="start" x="543.306" y="-3512.3" font-family="Arial" font-size="14.00">&#45; is_full(&amp;self, adult: &amp;XorName) &#45;&gt; Option&lt;bool&gt;</text>
-<text text-anchor="start" x="543.306" y="-3497.3" font-family="Arial" font-size="14.00">&#45; avg_usage(&amp;self) &#45;&gt; u8</text>
-<text text-anchor="start" x="543.306" y="-3482.3" font-family="Arial" font-size="14.00">&#45; levels(&amp;self) &#45;&gt; BTreeMap&lt;XorName, StorageLevel&gt;</text>
-<text text-anchor="start" x="543.306" y="-3467.3" font-family="Arial" font-size="14.00">&#45; levels_matching(&amp;self, prefix: Prefix) &#45;&gt; BTreeMap&lt;XorName, StorageLevel&gt;</text>
-<text text-anchor="start" x="543.306" y="-3452.3" font-family="Arial" font-size="14.00">&#45; full_adults(&amp;self) &#45;&gt; BTreeSet&lt;XorName&gt;</text>
-<text text-anchor="start" x="543.306" y="-3437.3" font-family="Arial" font-size="14.00">&#45; set_adult_levels(&amp;self, levels: BTreeMap&lt;XorName, StorageLevel&gt;)</text>
-<text text-anchor="start" x="543.306" y="-3422.3" font-family="Arial" font-size="14.00">&#45; set_adult_level(&amp;self, adult: XorName, new_level: StorageLevel) &#45;&gt; bool</text>
-<text text-anchor="start" x="543.306" y="-3407.3" font-family="Arial" font-size="14.00">&#45; retain_members_only(&amp;self, members: &amp;BTreeSet&lt;XorName&gt;)</text>
-<polygon fill="none" stroke="black" points="531.306,-3392 531.306,-3625 1091.31,-3625 1091.31,-3392 531.306,-3392"/>
+<polygon fill="lightblue" stroke="none" points="532.306,-3594.5 532.306,-3631.5 1090.31,-3631.5 1090.31,-3594.5 532.306,-3594.5"/>
+<polygon fill="none" stroke="black" points="532.306,-3594.5 532.306,-3631.5 1090.31,-3631.5 1090.31,-3594.5 532.306,-3594.5"/>
+<text text-anchor="start" x="780.806" y="-3610.3" font-family="Arial" font-weight="bold" font-size="14.00">Capacity</text>
+<polygon fill="white" stroke="none" points="532.306,-3557.5 532.306,-3594.5 1090.31,-3594.5 1090.31,-3557.5 532.306,-3557.5"/>
+<polygon fill="none" stroke="black" points="532.306,-3557.5 532.306,-3594.5 1090.31,-3594.5 1090.31,-3557.5 532.306,-3557.5"/>
+<text text-anchor="start" x="543.306" y="-3572.3" font-family="Arial" font-size="14.00">&#45; adult_levels: Arc&lt;RwLock&lt;BTreeMap&lt;XorName, Arc&lt;RwLock&lt;StorageLevel&gt;&gt;&gt;&gt;&gt;</text>
+<polygon fill="white" stroke="none" points="532.306,-3385.5 532.306,-3557.5 1090.31,-3557.5 1090.31,-3385.5 532.306,-3385.5"/>
+<polygon fill="none" stroke="black" points="532.306,-3385.5 532.306,-3557.5 1090.31,-3557.5 1090.31,-3385.5 532.306,-3385.5"/>
+<text text-anchor="start" x="543.306" y="-3535.3" font-family="Arial" font-size="14.00">&#45; new(adult_levels: BTreeMap&lt;XorName, StorageLevel&gt;) &#45;&gt; Self</text>
+<text text-anchor="start" x="543.306" y="-3520.3" font-family="Arial" font-size="14.00">&#45; add_new_adult(&amp;self, adult: XorName)</text>
+<text text-anchor="start" x="543.306" y="-3505.3" font-family="Arial" font-size="14.00">&#45; is_full(&amp;self, adult: &amp;XorName) &#45;&gt; Option&lt;bool&gt;</text>
+<text text-anchor="start" x="543.306" y="-3490.3" font-family="Arial" font-size="14.00">&#45; avg_usage(&amp;self) &#45;&gt; u8</text>
+<text text-anchor="start" x="543.306" y="-3475.3" font-family="Arial" font-size="14.00">&#45; levels(&amp;self) &#45;&gt; BTreeMap&lt;XorName, StorageLevel&gt;</text>
+<text text-anchor="start" x="543.306" y="-3460.3" font-family="Arial" font-size="14.00">&#45; levels_matching(&amp;self, prefix: Prefix) &#45;&gt; BTreeMap&lt;XorName, StorageLevel&gt;</text>
+<text text-anchor="start" x="543.306" y="-3445.3" font-family="Arial" font-size="14.00">&#45; full_adults(&amp;self) &#45;&gt; BTreeSet&lt;XorName&gt;</text>
+<text text-anchor="start" x="543.306" y="-3430.3" font-family="Arial" font-size="14.00">&#45; set_adult_levels(&amp;self, levels: BTreeMap&lt;XorName, StorageLevel&gt;)</text>
+<text text-anchor="start" x="543.306" y="-3415.3" font-family="Arial" font-size="14.00">&#45; set_adult_level(&amp;self, adult: XorName, new_level: StorageLevel) &#45;&gt; bool</text>
+<text text-anchor="start" x="543.306" y="-3400.3" font-family="Arial" font-size="14.00">&#45; retain_members_only(&amp;self, members: &amp;BTreeSet&lt;XorName&gt;)</text>
+<polygon fill="none" stroke="black" points="531.306,-3384.5 531.306,-3632.5 1091.31,-3632.5 1091.31,-3384.5 531.306,-3384.5"/>
 </a>
 </g>
 </g>
 <!-- ndStorageLevel&#45;&gt;ndCapacity -->
 <g id="edge265" class="edge"><title>ndStorageLevel&#45;&gt;ndCapacity</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M683.07,-5209.34C705.157,-4916.57 775.24,-3987.57 801.363,-3641.29"/>
-<polygon fill="black" stroke="black" points="801.371,-3641.19 797.834,-3634.9 802.274,-3629.22 805.811,-3635.51 801.371,-3641.19"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M683.07,-5209.34C705.004,-4918.59 774.272,-4000.41 800.814,-3648.57"/>
+<polygon fill="black" stroke="black" points="800.819,-3648.51 797.281,-3642.23 801.721,-3636.55 805.259,-3642.83 800.819,-3648.51"/>
 </g>
 <!-- ndServiceError&#45;&gt;ndServiceMsg -->
 <g id="edge266" class="edge"><title>ndServiceError&#45;&gt;ndServiceMsg</title>
@@ -5566,29 +5567,31 @@
 <!-- ndLiveness -->
 <g id="node146" class="node"><title>ndLiveness</title>
 <g id="a_node146_162"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/core/liveness_tracking.rs#:~:text=struct%20Liveness" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="8945.31,-3152.5 8945.31,-3189.5 9569.31,-3189.5 9569.31,-3152.5 8945.31,-3152.5"/>
-<polygon fill="none" stroke="black" points="8945.31,-3152.5 8945.31,-3189.5 9569.31,-3189.5 9569.31,-3152.5 8945.31,-3152.5"/>
-<text text-anchor="start" x="9225.31" y="-3168.3" font-family="Arial" font-weight="bold" font-size="14.00">Liveness</text>
-<polygon fill="white" stroke="none" points="8945.31,-3100.5 8945.31,-3152.5 9569.31,-3152.5 9569.31,-3100.5 8945.31,-3100.5"/>
-<polygon fill="none" stroke="black" points="8945.31,-3100.5 8945.31,-3152.5 9569.31,-3152.5 9569.31,-3100.5 8945.31,-3100.5"/>
-<text text-anchor="start" x="8956.31" y="-3130.3" font-family="Arial" font-size="14.00">&#45; unfulfilled_requests: Arc&lt;DashMap&lt;NodeIdentifier, Arc&lt;RwLock&lt;Vec&lt;OperationId&gt;&gt;&gt;&gt;&gt;</text>
-<text text-anchor="start" x="8956.31" y="-3115.3" font-family="Arial" font-size="14.00">&#45; closest_nodes_to: Arc&lt;DashMap&lt;XorName, Vec&lt;XorName&gt;&gt;&gt;</text>
-<polygon fill="white" stroke="none" points="8945.31,-2973.5 8945.31,-3100.5 9569.31,-3100.5 9569.31,-2973.5 8945.31,-2973.5"/>
-<polygon fill="none" stroke="black" points="8945.31,-2973.5 8945.31,-3100.5 9569.31,-3100.5 9569.31,-2973.5 8945.31,-2973.5"/>
-<text text-anchor="start" x="8956.31" y="-3078.3" font-family="Arial" font-size="14.00">&#45; new() &#45;&gt; Self</text>
-<text text-anchor="start" x="8956.31" y="-3063.3" font-family="Arial" font-size="14.00">&#45; add_a_pending_request_operation(&amp;self, node_id: NodeIdentifier, operation_id: OperationId)</text>
-<text text-anchor="start" x="8956.31" y="-3048.3" font-family="Arial" font-size="14.00">&#45; retain_members_only(&amp;self, current_members: BTreeSet&lt;XorName&gt;)</text>
-<text text-anchor="start" x="8956.31" y="-3033.3" font-family="Arial" font-size="14.00">&#45; penalise_member(&amp;self, member: XorName)</text>
-<text text-anchor="start" x="8956.31" y="-3018.3" font-family="Arial" font-size="14.00">&#45; request_operation_fulfilled(&amp;self, node_id: &amp;NodeIdentifier, operation_id: OperationId) &#45;&gt; bool</text>
-<text text-anchor="start" x="8956.31" y="-3003.3" font-family="Arial" font-size="14.00">&#45; recompute_closest_nodes(&amp;self)</text>
-<text text-anchor="start" x="8956.31" y="-2988.3" font-family="Arial" font-size="14.00">&#45; find_unresponsive_nodes(&amp;self) &#45;&gt; Vec&lt;(XorName, usize)&gt;</text>
-<polygon fill="none" stroke="black" points="8944.31,-2972.5 8944.31,-3190.5 9570.31,-3190.5 9570.31,-2972.5 8944.31,-2972.5"/>
+<polygon fill="lightblue" stroke="none" points="8945.31,-3167.5 8945.31,-3204.5 9569.31,-3204.5 9569.31,-3167.5 8945.31,-3167.5"/>
+<polygon fill="none" stroke="black" points="8945.31,-3167.5 8945.31,-3204.5 9569.31,-3204.5 9569.31,-3167.5 8945.31,-3167.5"/>
+<text text-anchor="start" x="9225.31" y="-3183.3" font-family="Arial" font-weight="bold" font-size="14.00">Liveness</text>
+<polygon fill="white" stroke="none" points="8945.31,-3115.5 8945.31,-3167.5 9569.31,-3167.5 9569.31,-3115.5 8945.31,-3115.5"/>
+<polygon fill="none" stroke="black" points="8945.31,-3115.5 8945.31,-3167.5 9569.31,-3167.5 9569.31,-3115.5 8945.31,-3115.5"/>
+<text text-anchor="start" x="8956.31" y="-3145.3" font-family="Arial" font-size="14.00">&#45; unfulfilled_requests: Arc&lt;DashMap&lt;NodeIdentifier, Arc&lt;RwLock&lt;Vec&lt;OperationId&gt;&gt;&gt;&gt;&gt;</text>
+<text text-anchor="start" x="8956.31" y="-3130.3" font-family="Arial" font-size="14.00">&#45; closest_nodes_to: Arc&lt;DashMap&lt;XorName, Vec&lt;XorName&gt;&gt;&gt;</text>
+<polygon fill="white" stroke="none" points="8945.31,-2958.5 8945.31,-3115.5 9569.31,-3115.5 9569.31,-2958.5 8945.31,-2958.5"/>
+<polygon fill="none" stroke="black" points="8945.31,-2958.5 8945.31,-3115.5 9569.31,-3115.5 9569.31,-2958.5 8945.31,-2958.5"/>
+<text text-anchor="start" x="8956.31" y="-3093.3" font-family="Arial" font-size="14.00">&#45; new(our_adults: Vec&lt;NodeIdentifier&gt;) &#45;&gt; Self</text>
+<text text-anchor="start" x="8956.31" y="-3078.3" font-family="Arial" font-size="14.00">&#45; current_nodes(&amp;self) &#45;&gt; Vec&lt;XorName&gt;</text>
+<text text-anchor="start" x="8956.31" y="-3063.3" font-family="Arial" font-size="14.00">&#45; add_new_adult(&amp;self, adult: XorName)</text>
+<text text-anchor="start" x="8956.31" y="-3048.3" font-family="Arial" font-size="14.00">&#45; add_a_pending_request_operation(&amp;self, node_id: NodeIdentifier, operation_id: OperationId)</text>
+<text text-anchor="start" x="8956.31" y="-3033.3" font-family="Arial" font-size="14.00">&#45; retain_members_only(&amp;self, current_members: BTreeSet&lt;XorName&gt;)</text>
+<text text-anchor="start" x="8956.31" y="-3018.3" font-family="Arial" font-size="14.00">&#45; penalise_member(&amp;self, member: XorName)</text>
+<text text-anchor="start" x="8956.31" y="-3003.3" font-family="Arial" font-size="14.00">&#45; request_operation_fulfilled(&amp;self, node_id: &amp;NodeIdentifier, operation_id: OperationId) &#45;&gt; bool</text>
+<text text-anchor="start" x="8956.31" y="-2988.3" font-family="Arial" font-size="14.00">&#45; recompute_closest_nodes(&amp;self)</text>
+<text text-anchor="start" x="8956.31" y="-2973.3" font-family="Arial" font-size="14.00">&#45; find_unresponsive_nodes(&amp;self) &#45;&gt; Vec&lt;(XorName, usize)&gt;</text>
+<polygon fill="none" stroke="black" points="8944.31,-2957.5 8944.31,-3205.5 9570.31,-3205.5 9570.31,-2957.5 8944.31,-2957.5"/>
 </a>
 </g>
 </g>
 <!-- ndLiveness&#45;&gt;ndCore -->
 <g id="edge418" class="edge"><title>ndLiveness&#45;&gt;ndCore</title>
-<path fill="none" stroke="black" d="M9103.58,-2968.29C9050.11,-2935.38 8988.02,-2903.53 8926.31,-2886 8754.51,-2837.19 7484.91,-2916.87 7319.31,-2850 7254.71,-2823.92 7191.76,-2791.44 7130.98,-2754.44"/>
+<path fill="none" stroke="black" d="M9078.42,-2953.28C9031.09,-2925.95 8978.56,-2900.85 8926.31,-2886 8754.51,-2837.19 7484.91,-2916.87 7319.31,-2850 7254.71,-2823.92 7191.76,-2791.44 7130.98,-2754.44"/>
 <polygon fill="black" stroke="black" points="7130.68,-2754.25 7123.47,-2754.52 7120.45,-2747.97 7127.66,-2747.7 7130.68,-2754.25"/>
 </g>
 <!-- ndSplitBarrier&#45;&gt;ndCore -->
@@ -5694,7 +5697,7 @@
 </g>
 <!-- ndCapacity&#45;&gt;ndCore -->
 <g id="edge430" class="edge"><title>ndCapacity&#45;&gt;ndCore</title>
-<path fill="none" stroke="black" d="M835.127,-3387.76C870.159,-3244.81 949.956,-3009.59 1113.31,-2886 1800.62,-2365.97 4271.14,-2106.7 5555.78,-2004.57"/>
+<path fill="none" stroke="black" d="M836.935,-3380.46C872.87,-3236.92 952.706,-3007.51 1113.31,-2886 1800.62,-2365.97 4271.14,-2106.7 5555.78,-2004.57"/>
 <polygon fill="black" stroke="black" points="5556.06,-2004.55 5561.72,-2000.09 5568.02,-2003.6 5562.35,-2008.07 5556.06,-2004.55"/>
 </g>
 <!-- ndJoiningAsRelocated&#45;&gt;ndCore -->
