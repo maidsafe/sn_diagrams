@@ -248,7 +248,7 @@
 <text text-anchor="start" x="1268" y="-259.8" font-family="Arial" font-weight="bold" font-size="14.00">NrsMap</text>
 <polygon fill="white" stroke="none" points="1149,-192 1149,-244 1442,-244 1442,-192 1149,-192"/>
 <polygon fill="none" stroke="black" points="1149,-192 1149,-244 1442,-244 1442,-192 1149,-192"/>
-<text text-anchor="start" x="1160" y="-221.8" font-family="Arial" font-size="14.00">+ map: BTreeMap&lt;SubName, SafeUrl&gt;</text>
+<text text-anchor="start" x="1160" y="-221.8" font-family="Arial" font-size="14.00">+ map: BTreeMap&lt;PublicName, SafeUrl&gt;</text>
 <text text-anchor="start" x="1160" y="-206.8" font-family="Arial" font-size="14.00">+ subname_version: Option&lt;VersionHash&gt;</text>
 <polygon fill="none" stroke="black" points="1147.5,-191.5 1147.5,-282.5 1442.5,-282.5 1442.5,-191.5 1147.5,-191.5"/>
 </a>
