@@ -496,39 +496,40 @@
 <!-- ndSectionAuthorityProvider -->
 <g id="node68" class="node"><title>ndSectionAuthorityProvider</title>
 <g id="a_node68_15"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/network_knowledge/section_authority_provider.rs#:~:text=struct%20SectionAuthorityProvider" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="13007,-7869 13007,-7906 13736,-7906 13736,-7869 13007,-7869"/>
-<polygon fill="none" stroke="black" points="13007,-7869 13007,-7906 13736,-7906 13736,-7869 13007,-7869"/>
-<text text-anchor="start" x="13283" y="-7884.8" font-family="Arial" font-weight="bold" font-size="14.00">SectionAuthorityProvider</text>
-<polygon fill="white" stroke="none" points="13007,-7802 13007,-7869 13736,-7869 13736,-7802 13007,-7802"/>
-<polygon fill="none" stroke="black" points="13007,-7802 13007,-7869 13736,-7869 13736,-7802 13007,-7802"/>
-<text text-anchor="start" x="13018" y="-7846.8" font-family="Arial" font-size="14.00">&#45; prefix: Prefix</text>
-<text text-anchor="start" x="13018" y="-7831.8" font-family="Arial" font-size="14.00">&#45; public_key_set: PublicKeySet</text>
-<text text-anchor="start" x="13018" y="-7816.8" font-family="Arial" font-size="14.00">&#45; elders: BTreeSet&lt;Peer&gt;</text>
-<polygon fill="white" stroke="none" points="13007,-7555 13007,-7802 13736,-7802 13736,-7555 13007,-7555"/>
-<polygon fill="none" stroke="black" points="13007,-7555 13007,-7802 13736,-7802 13736,-7555 13007,-7555"/>
-<text text-anchor="start" x="13018" y="-7779.8" font-family="Arial" font-size="14.00">&#45; serialize(&amp;self, serializer: S) &#45;&gt; Result&lt;S::Ok, S::Error&gt;</text>
-<text text-anchor="start" x="13018" y="-7764.8" font-family="Arial" font-size="14.00">&#45; new(elders: I, prefix: Prefix, pk_set: PublicKeySet) &#45;&gt; Self</text>
-<text text-anchor="start" x="13018" y="-7749.8" font-family="Arial" font-size="14.00">&#45; from_elder_candidates(elder_candidates: ElderCandidates, pk_set: PublicKeySet) &#45;&gt; SectionAuthorityProvider</text>
-<text text-anchor="start" x="13018" y="-7734.8" font-family="Arial" font-size="14.00">&#45; prefix(&amp;self) &#45;&gt; Prefix</text>
-<text text-anchor="start" x="13018" y="-7719.8" font-family="Arial" font-size="14.00">&#45; elders(&amp;self) &#45;&gt; impl Iterator&lt;Item = &amp;Peer&gt; + &#39;_</text>
-<text text-anchor="start" x="13018" y="-7704.8" font-family="Arial" font-size="14.00">&#45; elders_vec(&amp;self) &#45;&gt; Vec&lt;Peer&gt;</text>
-<text text-anchor="start" x="13018" y="-7689.8" font-family="Arial" font-size="14.00">&#45; elder_candidates(&amp;self) &#45;&gt; ElderCandidates</text>
-<text text-anchor="start" x="13018" y="-7674.8" font-family="Arial" font-size="14.00">&#45; elder_count(&amp;self) &#45;&gt; usize</text>
-<text text-anchor="start" x="13018" y="-7659.8" font-family="Arial" font-size="14.00">&#45; contains_elder(&amp;self, name: &amp;XorName) &#45;&gt; bool</text>
-<text text-anchor="start" x="13018" y="-7644.8" font-family="Arial" font-size="14.00">&#45; get_elder(&amp;self, name: &amp;XorName) &#45;&gt; Option&lt;&amp;Peer&gt;</text>
-<text text-anchor="start" x="13018" y="-7629.8" font-family="Arial" font-size="14.00">&#45; names(&amp;self) &#45;&gt; BTreeSet&lt;XorName&gt;</text>
-<text text-anchor="start" x="13018" y="-7614.8" font-family="Arial" font-size="14.00">&#45; addresses(&amp;self) &#45;&gt; Vec&lt;SocketAddr&gt;</text>
-<text text-anchor="start" x="13018" y="-7599.8" font-family="Arial" font-size="14.00">&#45; merge_connections(&amp;&#39;a self, sources: I) &#45;&gt; impl std::future::Future&lt;Output = ()&gt; + Send + &#39;_</text>
-<text text-anchor="start" x="13018" y="-7584.8" font-family="Arial" font-size="14.00">&#45; section_key(&amp;self) &#45;&gt; PublicKey</text>
-<text text-anchor="start" x="13018" y="-7569.8" font-family="Arial" font-size="14.00">&#45; to_msg(&amp;self) &#45;&gt; SectionAuthorityProviderMsg</text>
-<polygon fill="none" stroke="black" points="13005.5,-7554.5 13005.5,-7907.5 13736.5,-7907.5 13736.5,-7554.5 13005.5,-7554.5"/>
+<polygon fill="lightblue" stroke="none" points="13007,-7877 13007,-7914 13736,-7914 13736,-7877 13007,-7877"/>
+<polygon fill="none" stroke="black" points="13007,-7877 13007,-7914 13736,-7914 13736,-7877 13007,-7877"/>
+<text text-anchor="start" x="13283" y="-7892.8" font-family="Arial" font-weight="bold" font-size="14.00">SectionAuthorityProvider</text>
+<polygon fill="white" stroke="none" points="13007,-7810 13007,-7877 13736,-7877 13736,-7810 13007,-7810"/>
+<polygon fill="none" stroke="black" points="13007,-7810 13007,-7877 13736,-7877 13736,-7810 13007,-7810"/>
+<text text-anchor="start" x="13018" y="-7854.8" font-family="Arial" font-size="14.00">&#45; prefix: Prefix</text>
+<text text-anchor="start" x="13018" y="-7839.8" font-family="Arial" font-size="14.00">&#45; public_key_set: PublicKeySet</text>
+<text text-anchor="start" x="13018" y="-7824.8" font-family="Arial" font-size="14.00">&#45; elders: BTreeSet&lt;Peer&gt;</text>
+<polygon fill="white" stroke="none" points="13007,-7548 13007,-7810 13736,-7810 13736,-7548 13007,-7548"/>
+<polygon fill="none" stroke="black" points="13007,-7548 13007,-7810 13736,-7810 13736,-7548 13007,-7548"/>
+<text text-anchor="start" x="13018" y="-7787.8" font-family="Arial" font-size="14.00">&#45; fmt(&amp;self, f: &amp;mut Formatter) &#45;&gt; fmt::Result</text>
+<text text-anchor="start" x="13018" y="-7772.8" font-family="Arial" font-size="14.00">&#45; serialize(&amp;self, serializer: S) &#45;&gt; Result&lt;S::Ok, S::Error&gt;</text>
+<text text-anchor="start" x="13018" y="-7757.8" font-family="Arial" font-size="14.00">&#45; new(elders: I, prefix: Prefix, pk_set: PublicKeySet) &#45;&gt; Self</text>
+<text text-anchor="start" x="13018" y="-7742.8" font-family="Arial" font-size="14.00">&#45; from_elder_candidates(elder_candidates: ElderCandidates, pk_set: PublicKeySet) &#45;&gt; SectionAuthorityProvider</text>
+<text text-anchor="start" x="13018" y="-7727.8" font-family="Arial" font-size="14.00">&#45; prefix(&amp;self) &#45;&gt; Prefix</text>
+<text text-anchor="start" x="13018" y="-7712.8" font-family="Arial" font-size="14.00">&#45; elders(&amp;self) &#45;&gt; impl Iterator&lt;Item = &amp;Peer&gt; + &#39;_</text>
+<text text-anchor="start" x="13018" y="-7697.8" font-family="Arial" font-size="14.00">&#45; elders_vec(&amp;self) &#45;&gt; Vec&lt;Peer&gt;</text>
+<text text-anchor="start" x="13018" y="-7682.8" font-family="Arial" font-size="14.00">&#45; elder_candidates(&amp;self) &#45;&gt; ElderCandidates</text>
+<text text-anchor="start" x="13018" y="-7667.8" font-family="Arial" font-size="14.00">&#45; elder_count(&amp;self) &#45;&gt; usize</text>
+<text text-anchor="start" x="13018" y="-7652.8" font-family="Arial" font-size="14.00">&#45; contains_elder(&amp;self, name: &amp;XorName) &#45;&gt; bool</text>
+<text text-anchor="start" x="13018" y="-7637.8" font-family="Arial" font-size="14.00">&#45; get_elder(&amp;self, name: &amp;XorName) &#45;&gt; Option&lt;&amp;Peer&gt;</text>
+<text text-anchor="start" x="13018" y="-7622.8" font-family="Arial" font-size="14.00">&#45; names(&amp;self) &#45;&gt; BTreeSet&lt;XorName&gt;</text>
+<text text-anchor="start" x="13018" y="-7607.8" font-family="Arial" font-size="14.00">&#45; addresses(&amp;self) &#45;&gt; Vec&lt;SocketAddr&gt;</text>
+<text text-anchor="start" x="13018" y="-7592.8" font-family="Arial" font-size="14.00">&#45; merge_connections(&amp;&#39;a self, sources: I) &#45;&gt; impl std::future::Future&lt;Output = ()&gt; + Send + &#39;_</text>
+<text text-anchor="start" x="13018" y="-7577.8" font-family="Arial" font-size="14.00">&#45; section_key(&amp;self) &#45;&gt; PublicKey</text>
+<text text-anchor="start" x="13018" y="-7562.8" font-family="Arial" font-size="14.00">&#45; to_msg(&amp;self) &#45;&gt; SectionAuthorityProviderMsg</text>
+<polygon fill="none" stroke="black" points="13005.5,-7547 13005.5,-7915 13736.5,-7915 13736.5,-7547 13005.5,-7547"/>
 </a>
 </g>
 </g>
 <!-- ndItem&#45;&gt;ndSectionAuthorityProvider -->
 <g id="edge12" class="edge"><title>ndItem&#45;&gt;ndSectionAuthorityProvider</title>
-<path fill="none" stroke="black" d="M13892.8,-9098.97C13845.2,-9052.05 13788,-8990.27 13746,-8928 13675.9,-8823.94 13718.1,-8758.26 13627,-8672 13595.7,-8642.38 13564.3,-8669.34 13537,-8636 13449.6,-8529.24 13404.6,-8154.21 13384.5,-7922.06"/>
-<polygon fill="black" stroke="black" points="13383.6,-7911.81 13389,-7921.39 13384.1,-7916.79 13384.5,-7921.77 13384.5,-7921.77 13384.5,-7921.77 13384.1,-7916.79 13380,-7922.15 13383.6,-7911.81 13383.6,-7911.81"/>
+<path fill="none" stroke="black" d="M13892.8,-9098.97C13845.2,-9052.05 13788,-8990.27 13746,-8928 13675.9,-8823.94 13718.1,-8758.26 13627,-8672 13595.7,-8642.38 13564.3,-8669.34 13537,-8636 13450.5,-8530.34 13405.5,-8161.93 13385.1,-7929.3"/>
+<polygon fill="black" stroke="black" points="13384.2,-7919.02 13389.6,-7928.59 13384.7,-7924 13385.1,-7928.98 13385.1,-7928.98 13385.1,-7928.98 13384.7,-7924 13380.6,-7929.37 13384.2,-7919.02 13384.2,-7919.02"/>
 </g>
 <!-- ndElderCandidates -->
 <g id="node134" class="node"><title>ndElderCandidates</title>
@@ -1983,8 +1984,8 @@
 </g>
 <!-- ndPublicKey&#45;&gt;ndSectionAuthorityProvider -->
 <g id="edge91" class="edge"><title>ndPublicKey&#45;&gt;ndSectionAuthorityProvider</title>
-<path fill="none" stroke="black" d="M8455.72,-9175.14C9131.09,-9158.21 10822.2,-9099.03 11007,-8928 11091.7,-8849.63 10963.4,-8748.22 11050,-8672 11088.6,-8638.03 11924.7,-8646.55 11975,-8636 12448.4,-8536.76 12602.5,-8530.21 12988,-8238 13100.7,-8152.54 13196.7,-8025.52 13264.4,-7920.13"/>
-<polygon fill="black" stroke="black" points="13269.9,-7911.61 13268.3,-7922.46 13267.2,-7915.83 13264.5,-7920.04 13264.5,-7920.04 13264.5,-7920.04 13267.2,-7915.83 13260.7,-7917.62 13269.9,-7911.61 13269.9,-7911.61"/>
+<path fill="none" stroke="black" d="M8455.72,-9175.14C9131.09,-9158.21 10822.2,-9099.03 11007,-8928 11091.7,-8849.63 10963.4,-8748.22 11050,-8672 11088.6,-8638.03 11924.7,-8646.55 11975,-8636 12448.4,-8536.76 12602.5,-8530.21 12988,-8238 13098,-8154.65 13192,-8031.77 13259.4,-7927.97"/>
+<polygon fill="black" stroke="black" points="13265,-7919.26 13263.3,-7930.1 13262.3,-7923.46 13259.6,-7927.66 13259.6,-7927.66 13259.6,-7927.66 13262.3,-7923.46 13255.8,-7925.22 13265,-7919.26 13265,-7919.26"/>
 </g>
 <!-- ndPublicKey&#45;&gt;ndWireMsg -->
 <g id="edge93" class="edge"><title>ndPublicKey&#45;&gt;ndWireMsg</title>
@@ -2619,8 +2620,8 @@
 </g>
 <!-- ndPeer&#45;&gt;ndSectionAuthorityProvider -->
 <g id="edge134" class="edge"><title>ndPeer&#45;&gt;ndSectionAuthorityProvider</title>
-<path fill="none" stroke="black" d="M11241.6,-8318.28C11333.1,-8300.43 11427.4,-8284.66 11517,-8274 11598.2,-8264.34 12915.3,-8275.29 12988,-8238 13119.8,-8170.47 13218.7,-8034.42 13283,-7920.39"/>
-<polygon fill="black" stroke="black" points="13288,-7911.52 13287,-7922.45 13285.5,-7915.89 13283.1,-7920.25 13283.1,-7920.25 13283.1,-7920.25 13285.5,-7915.89 13279.2,-7918.05 13288,-7911.52 13288,-7911.52"/>
+<path fill="none" stroke="black" d="M11241.6,-8318.28C11333.1,-8300.43 11427.4,-8284.66 11517,-8274 11598.2,-8264.34 12915.3,-8275.29 12988,-8238 13116.9,-8171.94 13214.4,-8040.31 13278.8,-7927.86"/>
+<polygon fill="black" stroke="black" points="13283.7,-7919.11 13282.7,-7930.03 13281.3,-7923.46 13278.8,-7927.81 13278.8,-7927.81 13278.8,-7927.81 13281.3,-7923.46 13274.9,-7925.59 13283.7,-7919.11 13283.7,-7919.11"/>
 </g>
 <!-- ndPeer&#45;&gt;ndSession -->
 <g id="edge135" class="edge"><title>ndPeer&#45;&gt;ndSession</title>
@@ -3822,27 +3823,27 @@
 </g>
 <!-- ndSectionAuthorityProvider&#45;&gt;ndNetworkPrefixMap -->
 <g id="edge241" class="edge"><title>ndSectionAuthorityProvider&#45;&gt;ndNetworkPrefixMap</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M13321,-7550.08C13271.2,-7354.72 13202,-7032.71 13202,-6750 13202,-6750 13202,-6750 13202,-3088 13202,-2813.16 13203.1,-2497.76 13203.9,-2285.47"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M13319.2,-7542.87C13269.5,-7346.86 13202,-7029.26 13202,-6750 13202,-6750 13202,-6750 13202,-3088 13202,-2813.16 13203.1,-2497.76 13203.9,-2285.47"/>
 <polygon fill="black" stroke="black" points="13203.9,-2285.22 13199.9,-2279.21 13204,-2273.22 13207.9,-2279.24 13203.9,-2285.22"/>
 </g>
 <!-- ndSectionAuthorityProvider&#45;&gt;ndSectionAuth -->
 <g id="edge242" class="edge"><title>ndSectionAuthorityProvider&#45;&gt;ndSectionAuth</title>
-<path fill="none" stroke="black" d="M13266.5,-7550.3C13209.7,-7446.95 13141.7,-7313.14 13095,-7188 13066,-7110.34 13113.1,-7060.75 13050,-7007 12977.4,-6945.11 12698.2,-7028.49 12622,-6971 11964.6,-6474.94 12303.8,-5989.11 11966,-5238 11899.7,-5090.59 11877.4,-5056.19 11797,-4916 11590,-4555.09 11570.5,-4438.99 11301,-4122 11046,-3822.08 10982.8,-3722.42 10635,-3538 10579,-3508.31 10542.4,-3546.2 10497,-3502 10223,-3235.43 10549,-2922.76 10257,-2676 10203.9,-2631.09 10014,-2654.75 9946.01,-2640 9910.65,-2632.33 9874.25,-2623.19 9837.96,-2613.21"/>
+<path fill="none" stroke="black" d="M13262.4,-7542.9C13206.5,-7440.61 13140.6,-7310.17 13095,-7188 13066,-7110.34 13113.1,-7060.75 13050,-7007 12977.4,-6945.11 12698.2,-7028.49 12622,-6971 11964.6,-6474.94 12303.8,-5989.11 11966,-5238 11899.7,-5090.59 11877.4,-5056.19 11797,-4916 11590,-4555.09 11570.5,-4438.99 11301,-4122 11046,-3822.08 10982.8,-3722.42 10635,-3538 10579,-3508.31 10542.4,-3546.2 10497,-3502 10223,-3235.43 10549,-2922.76 10257,-2676 10203.9,-2631.09 10014,-2654.75 9946.01,-2640 9910.65,-2632.33 9874.25,-2623.19 9837.96,-2613.21"/>
 <polygon fill="black" stroke="black" points="9828.24,-2610.51 9839.07,-2608.85 9833.05,-2611.85 9837.87,-2613.18 9837.87,-2613.18 9837.87,-2613.18 9833.05,-2611.85 9836.67,-2617.52 9828.24,-2610.51 9828.24,-2610.51"/>
 </g>
 <!-- ndSectionAuthorityProvider&#45;&gt;ndProposal -->
 <g id="edge243" class="edge"><title>ndSectionAuthorityProvider&#45;&gt;ndProposal</title>
-<path fill="none" stroke="black" d="M13276.1,-7550.47C13224.6,-7446.88 13163.4,-7312.8 13123,-7188 13097.8,-7109.96 13142.7,-7067.21 13087,-7007 13046.9,-6963.62 13004.1,-7009.24 12959,-6971 12663,-6719.69 12049.1,-5256.16 11483,-3502 11367.1,-3142.73 11530,-2963.2 11285,-2676 11008.9,-2352.36 10813.5,-2412.9 10401,-2309 10245.5,-2269.84 10198.2,-2309.17 10042,-2273 9907.38,-2241.83 9762.39,-2189.38 9645.78,-2142.17"/>
+<path fill="none" stroke="black" d="M13272.2,-7542.75C13221.6,-7440.28 13162.4,-7309.72 13123,-7188 13097.8,-7109.96 13142.7,-7067.21 13087,-7007 13046.9,-6963.62 13004.1,-7009.24 12959,-6971 12663,-6719.69 12049.1,-5256.16 11483,-3502 11367.1,-3142.73 11530,-2963.2 11285,-2676 11008.9,-2352.36 10813.5,-2412.9 10401,-2309 10245.5,-2269.84 10198.2,-2309.17 10042,-2273 9907.38,-2241.83 9762.39,-2189.38 9645.78,-2142.17"/>
 <polygon fill="black" stroke="black" points="9645.7,-2142.14 9638.64,-2143.59 9634.59,-2137.62 9641.65,-2136.18 9645.7,-2142.14"/>
 </g>
 <!-- ndSectionAuthorityProvider&#45;&gt;ndJoinResponse -->
 <g id="edge244" class="edge"><title>ndSectionAuthorityProvider&#45;&gt;ndJoinResponse</title>
-<path fill="none" stroke="black" d="M13240.8,-7550.33C13168.4,-7452.32 13075.4,-7329.75 12988,-7224 12977.8,-7211.63 12966.8,-7198.82 12955.8,-7186.31"/>
+<path fill="none" stroke="black" d="M13235.3,-7542.91C13163.7,-7446.17 13073.2,-7327.09 12988,-7224 12977.8,-7211.63 12966.8,-7198.82 12955.8,-7186.31"/>
 <polygon fill="black" stroke="black" points="12955.7,-7186.26 12948.8,-7184.42 12947.8,-7177.27 12954.8,-7179.12 12955.7,-7186.26"/>
 </g>
 <!-- ndSectionAuthorityProvider&#45;&gt;ndJoinAsRelocatedResponse -->
 <g id="edge245" class="edge"><title>ndSectionAuthorityProvider&#45;&gt;ndJoinAsRelocatedResponse</title>
-<path fill="none" stroke="black" d="M13282.2,-7550.2C13216.8,-7437.6 13116.9,-7299.92 12988,-7224 12890.5,-7166.57 12843.9,-7221.98 12736,-7188 12712.9,-7180.71 12689.1,-7170.66 12666.7,-7159.91"/>
+<path fill="none" stroke="black" d="M13277.8,-7542.7C13212.3,-7431.55 13114,-7298.24 12988,-7224 12890.5,-7166.57 12843.9,-7221.98 12736,-7188 12712.9,-7180.71 12689.1,-7170.66 12666.7,-7159.91"/>
 <polygon fill="black" stroke="black" points="12666.6,-7159.87 12659.5,-7160.82 12655.8,-7154.58 12663,-7153.63 12666.6,-7159.87"/>
 </g>
 <!-- ndSectionAuthorityProvider&#45;&gt;ndSectionAuthorityProvider -->
@@ -3851,32 +3852,32 @@
 </g>
 <!-- ndSectionAuthorityProvider&#45;&gt;ndSession -->
 <g id="edge246" class="edge"><title>ndSectionAuthorityProvider&#45;&gt;ndSession</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M13572.1,-7550.35C13667.6,-7452.99 13773.6,-7324.78 13833,-7188 14120.9,-6525.77 14123,-4673.6 14123,-3951.5 14123,-3951.5 14123,-3951.5 14123,-2473.5 14123,-2399.29 14150.1,-1859.87 14099,-1806 14037.6,-1741.22 13761.8,-1833.48 13699,-1770 13590.7,-1660.45 13757.8,-1183.91 13645,-1079 13613.3,-1049.48 7448,-1048.48 7405.01,-1043 7296.1,-1029.12 7181.54,-1006.66 7071.69,-981.06"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M13579.5,-7542.72C13673,-7446.35 13775.1,-7321.23 13833,-7188 14120.9,-6525.77 14123,-4673.6 14123,-3951.5 14123,-3951.5 14123,-3951.5 14123,-2473.5 14123,-2399.29 14150.1,-1859.87 14099,-1806 14037.6,-1741.22 13761.8,-1833.48 13699,-1770 13590.7,-1660.45 13757.8,-1183.91 13645,-1079 13613.3,-1049.48 7448,-1048.48 7405.01,-1043 7296.1,-1029.12 7181.54,-1006.66 7071.69,-981.06"/>
 <polygon fill="black" stroke="black" points="7061.76,-978.733 7072.53,-976.632 7066.63,-979.873 7071.5,-981.014 7071.5,-981.014 7071.5,-981.014 7066.63,-979.873 7070.47,-985.395 7061.76,-978.733 7061.76,-978.733"/>
 </g>
 <!-- ndSectionAuthorityProvider&#45;&gt;ndNetworkKnowledge -->
 <g id="edge247" class="edge"><title>ndSectionAuthorityProvider&#45;&gt;ndNetworkKnowledge</title>
-<path fill="none" stroke="black" d="M13383.7,-7550.08C13417.3,-7074.56 13512.3,-5745.03 13600,-4639 13683.4,-3587 13755.5,-3327.37 13800,-2273 13804.4,-2169.31 13873,-1879.79 13800,-1806 13738,-1743.3 10783.2,-1785.64 10551.3,-1769.5"/>
+<path fill="none" stroke="black" d="M13384.2,-7542.66C13418.3,-7060.86 13512.8,-5739.33 13600,-4639 13683.4,-3587 13755.5,-3327.37 13800,-2273 13804.4,-2169.31 13873,-1879.79 13800,-1806 13738,-1743.3 10783.2,-1785.64 10551.3,-1769.5"/>
 <polygon fill="black" stroke="black" points="10551.2,-1769.49 10544.8,-1772.83 10539.2,-1768.21 10545.6,-1764.87 10551.2,-1769.49"/>
 </g>
 <!-- ndSectionAuthorityProvider&#45;&gt;ndSectionPeers -->
 <g id="edge249" class="edge"><title>ndSectionAuthorityProvider&#45;&gt;ndSectionPeers</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M13309.5,-7550.18C13259.5,-7403.86 13186.9,-7192.03 13123,-7007 12759.6,-5953.89 12698.6,-5679.69 12301,-4639 12212.1,-4406.37 12182.4,-4351.18 12085,-4122 11999.2,-3920.02 11467.5,-2452.03 11301,-2309 11253.3,-2267.97 11223.7,-2293.1 11164,-2273 11088.7,-2247.62 11009.1,-2217.02 10934.2,-2186.48"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M13307,-7542.68C13257,-7396.68 13185.8,-7188.89 13123,-7007 12759.6,-5953.89 12698.6,-5679.69 12301,-4639 12212.1,-4406.37 12182.4,-4351.18 12085,-4122 11999.2,-3920.02 11467.5,-2452.03 11301,-2309 11253.3,-2267.97 11223.7,-2293.1 11164,-2273 11088.7,-2247.62 11009.1,-2217.02 10934.2,-2186.48"/>
 <polygon fill="black" stroke="black" points="10924.6,-2182.57 10935.6,-2182.19 10929.3,-2184.46 10933.9,-2186.35 10933.9,-2186.35 10933.9,-2186.35 10929.3,-2184.46 10932.2,-2190.52 10924.6,-2182.57 10924.6,-2182.57"/>
 </g>
 <!-- ndSectionAuthorityProvider&#45;&gt;ndNode -->
 <g id="edge250" class="edge"><title>ndSectionAuthorityProvider&#45;&gt;ndNode</title>
-<path fill="none" stroke="black" d="M13249,-7550.21C13184.1,-7447.78 13107.6,-7314.91 13057,-7188 13026.4,-7111.19 13077.5,-7059.99 13014,-7007 12899.6,-6911.45 12466.6,-7055.84 12344,-6971 12166.8,-6848.36 12328,-6647.02 12149,-6527 12011.7,-6434.97 10794.3,-6590.01 10662,-6491 10504.7,-6373.28 10670.8,-6203.97 10527,-6070 10378.1,-5931.23 9931.74,-5822.57 9524.53,-5748.81"/>
+<path fill="none" stroke="black" d="M13244.3,-7542.82C13180.5,-7441.44 13106.4,-7311.88 13057,-7188 13026.4,-7111.19 13077.5,-7059.99 13014,-7007 12899.6,-6911.45 12466.6,-7055.84 12344,-6971 12166.8,-6848.36 12328,-6647.02 12149,-6527 12011.7,-6434.97 10794.3,-6590.01 10662,-6491 10504.7,-6373.28 10670.8,-6203.97 10527,-6070 10378.1,-5931.23 9931.74,-5822.57 9524.53,-5748.81"/>
 <polygon fill="black" stroke="black" points="9514.62,-5747.02 9525.26,-5744.37 9519.54,-5747.91 9524.46,-5748.8 9524.46,-5748.8 9524.46,-5748.8 9519.54,-5747.91 9523.66,-5753.22 9514.62,-5747.02 9514.62,-5747.02"/>
 </g>
 <!-- ndSectionAuthorityProvider&#45;&gt;ndJoiningAsRelocated -->
 <g id="edge251" class="edge"><title>ndSectionAuthorityProvider&#45;&gt;ndJoiningAsRelocated</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M13443.1,-7550.4C13514.5,-7356.32 13613,-7036.31 13613,-6750 13613,-6750 13613,-6750 13613,-5058 13613,-4964.79 13580.8,-4716.88 13632,-4639 13652.1,-4608.44 13685.5,-4633.3 13706,-4603 13851.3,-4387.97 13861.8,-2532.38 13871,-2273 13878.4,-2065.57 14010.3,-1959.85 13871,-1806 13816.8,-1746.07 13587.2,-1790.51 13509,-1770 13333.6,-1723.99 13147.5,-1643.65 13000.5,-1572.11"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M13445.9,-7542.77C13517,-7348 13613,-7032.59 13613,-6750 13613,-6750 13613,-6750 13613,-5058 13613,-4964.79 13580.8,-4716.88 13632,-4639 13652.1,-4608.44 13685.5,-4633.3 13706,-4603 13851.3,-4387.97 13861.8,-2532.38 13871,-2273 13878.4,-2065.57 14010.3,-1959.85 13871,-1806 13816.8,-1746.07 13587.2,-1790.51 13509,-1770 13333.6,-1723.99 13147.5,-1643.65 13000.5,-1572.11"/>
 <polygon fill="black" stroke="black" points="12991.4,-1567.63 13002.3,-1567.98 12995.9,-1569.83 13000.4,-1572.02 13000.4,-1572.02 13000.4,-1572.02 12995.9,-1569.83 12998.4,-1576.06 12991.4,-1567.63 12991.4,-1567.63"/>
 </g>
 <!-- ndSectionAuthorityProvider&#45;&gt;ndNodeApi -->
 <g id="edge252" class="edge"><title>ndSectionAuthorityProvider&#45;&gt;ndNodeApi</title>
-<path fill="none" stroke="black" d="M13510,-7550.16C13641.5,-7361.63 13819,-7051.42 13819,-6750 13819,-6750 13819,-6750 13819,-6279.5 13819,-6000.74 14006.8,-4057.29 14023,-3779 14040.8,-3473.11 14047,-3396.41 14047,-3090 14047,-3090 14047,-3090 14047,-2473.5 14047,-2325.07 14124.9,-1913.96 14023,-1806 13964.5,-1743.98 13704.4,-1827.01 13641,-1770 13408,-1560.47 13743.1,-1277.93 13501,-1079 13419.5,-1012.02 6006.59,-1071.5 5905.01,-1043 5859.5,-1030.23 5813.97,-1010.51 5770.97,-987.852"/>
+<path fill="none" stroke="black" d="M13515.2,-7542.64C13646.2,-7353.45 13819,-7047.45 13819,-6750 13819,-6750 13819,-6750 13819,-6279.5 13819,-6000.74 14006.8,-4057.29 14023,-3779 14040.8,-3473.11 14047,-3396.41 14047,-3090 14047,-3090 14047,-3090 14047,-2473.5 14047,-2325.07 14124.9,-1913.96 14023,-1806 13964.5,-1743.98 13704.4,-1827.01 13641,-1770 13408,-1560.47 13743.1,-1277.93 13501,-1079 13419.5,-1012.02 6006.59,-1071.5 5905.01,-1043 5859.5,-1030.23 5813.97,-1010.51 5770.97,-987.852"/>
 <polygon fill="black" stroke="black" points="5762.13,-983.128 5773.07,-983.868 5766.54,-985.483 5770.95,-987.838 5770.95,-987.838 5770.95,-987.838 5766.54,-985.483 5768.83,-991.807 5762.13,-983.128 5762.13,-983.128"/>
 </g>
 <!-- ndServiceMsg -->
@@ -5156,8 +5157,8 @@
 </g>
 <!-- ndElderCandidates&#45;&gt;ndSectionAuthorityProvider -->
 <g id="edge373" class="edge"><title>ndElderCandidates&#45;&gt;ndSectionAuthorityProvider</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M13795.1,-8694.43C13777.1,-8686.22 13758.9,-8678.57 13741,-8672 13672.2,-8646.69 13629.2,-8690.42 13580,-8636 13525.7,-8575.88 13553.7,-8353.27 13537,-8274 13511.9,-8154.94 13472.3,-8024.46 13438.1,-7921.36"/>
-<polygon fill="black" stroke="black" points="13434.9,-7911.78 13442.4,-7919.85 13436.5,-7916.53 13438.1,-7921.27 13438.1,-7921.27 13438.1,-7921.27 13436.5,-7916.53 13433.8,-7922.69 13434.9,-7911.78 13434.9,-7911.78"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M13795.1,-8694.43C13777.1,-8686.22 13758.9,-8678.57 13741,-8672 13672.2,-8646.69 13629.2,-8690.42 13580,-8636 13525.7,-8575.88 13553.7,-8353.27 13537,-8274 13512.5,-8157.86 13474.3,-8030.85 13440.7,-7928.99"/>
+<polygon fill="black" stroke="black" points="13437.4,-7919.21 13444.8,-7927.29 13439,-7923.96 13440.6,-7928.7 13440.6,-7928.7 13440.6,-7928.7 13439,-7923.96 13436.3,-7930.12 13437.4,-7919.21 13437.4,-7919.21"/>
 </g>
 <!-- ndElderCandidates&#45;&gt;ndSession -->
 <g id="edge376" class="edge"><title>ndElderCandidates&#45;&gt;ndSession</title>
