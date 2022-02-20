@@ -809,28 +809,27 @@
 <!-- ndSignatureAggregator -->
 <g id="node66" class="node"><title>ndSignatureAggregator</title>
 <g id="a_node66_25"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/messaging/signature_aggregator.rs#:~:text=struct%20SignatureAggregator" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="8135.53,-3145 8135.53,-3182 8644.53,-3182 8644.53,-3145 8135.53,-3145"/>
-<polygon fill="none" stroke="black" points="8135.53,-3145 8135.53,-3182 8644.53,-3182 8644.53,-3145 8135.53,-3145"/>
-<text text-anchor="start" x="8316.53" y="-3160.8" font-family="Arial" font-weight="bold" font-size="14.00">SignatureAggregator</text>
-<polygon fill="white" stroke="none" points="8135.53,-3093 8135.53,-3145 8644.53,-3145 8644.53,-3093 8135.53,-3093"/>
-<polygon fill="none" stroke="black" points="8135.53,-3093 8135.53,-3145 8644.53,-3145 8644.53,-3093 8135.53,-3093"/>
-<text text-anchor="start" x="8146.53" y="-3122.8" font-family="Arial" font-size="14.00">&#45; map: Arc&lt;DashMap&lt;Digest256, State&gt;&gt;</text>
-<text text-anchor="start" x="8146.53" y="-3107.8" font-family="Arial" font-size="14.00">&#45; expiration: Duration</text>
-<polygon fill="white" stroke="none" points="8135.53,-2996 8135.53,-3093 8644.53,-3093 8644.53,-2996 8135.53,-2996"/>
-<polygon fill="none" stroke="black" points="8135.53,-2996 8135.53,-3093 8644.53,-3093 8644.53,-2996 8135.53,-2996"/>
-<text text-anchor="start" x="8146.53" y="-3070.8" font-family="Arial" font-size="14.00">&#45; new() &#45;&gt; Self</text>
-<text text-anchor="start" x="8146.53" y="-3055.8" font-family="Arial" font-size="14.00">&#45; with_expiration(expiration: Duration) &#45;&gt; Self</text>
-<text text-anchor="start" x="8146.53" y="-3040.8" font-family="Arial" font-size="14.00">&#45; add(&amp;self, payload: &amp;[u8], sig_share: SigShare) &#45;&gt; Result&lt;KeyedSig, Error&gt;</text>
-<text text-anchor="start" x="8146.53" y="-3025.8" font-family="Arial" font-size="14.00">&#45; remove_expired(&amp;self)</text>
-<text text-anchor="start" x="8146.53" y="-3010.8" font-family="Arial" font-size="14.00">&#45; default() &#45;&gt; Self</text>
-<polygon fill="none" stroke="black" points="8134.03,-2995 8134.03,-3183 8645.03,-3183 8645.03,-2995 8134.03,-2995"/>
+<polygon fill="lightblue" stroke="none" points="8135.53,-3137 8135.53,-3174 8644.53,-3174 8644.53,-3137 8135.53,-3137"/>
+<polygon fill="none" stroke="black" points="8135.53,-3137 8135.53,-3174 8644.53,-3174 8644.53,-3137 8135.53,-3137"/>
+<text text-anchor="start" x="8316.53" y="-3152.8" font-family="Arial" font-weight="bold" font-size="14.00">SignatureAggregator</text>
+<polygon fill="white" stroke="none" points="8135.53,-3085 8135.53,-3137 8644.53,-3137 8644.53,-3085 8135.53,-3085"/>
+<polygon fill="none" stroke="black" points="8135.53,-3085 8135.53,-3137 8644.53,-3137 8644.53,-3085 8135.53,-3085"/>
+<text text-anchor="start" x="8146.53" y="-3114.8" font-family="Arial" font-size="14.00">&#45; map: Arc&lt;DashMap&lt;Digest256, State&gt;&gt;</text>
+<text text-anchor="start" x="8146.53" y="-3099.8" font-family="Arial" font-size="14.00">&#45; expiration: Duration</text>
+<polygon fill="white" stroke="none" points="8135.53,-3003 8135.53,-3085 8644.53,-3085 8644.53,-3003 8135.53,-3003"/>
+<polygon fill="none" stroke="black" points="8135.53,-3003 8135.53,-3085 8644.53,-3085 8644.53,-3003 8135.53,-3003"/>
+<text text-anchor="start" x="8146.53" y="-3062.8" font-family="Arial" font-size="14.00">&#45; with_expiration(expiration: Duration) &#45;&gt; Self</text>
+<text text-anchor="start" x="8146.53" y="-3047.8" font-family="Arial" font-size="14.00">&#45; add(&amp;self, payload: &amp;[u8], sig_share: SigShare) &#45;&gt; Result&lt;KeyedSig, Error&gt;</text>
+<text text-anchor="start" x="8146.53" y="-3032.8" font-family="Arial" font-size="14.00">&#45; remove_expired(&amp;self)</text>
+<text text-anchor="start" x="8146.53" y="-3017.8" font-family="Arial" font-size="14.00">&#45; default() &#45;&gt; Self</text>
+<polygon fill="none" stroke="black" points="8134.03,-3002.5 8134.03,-3175.5 8645.03,-3175.5 8645.03,-3002.5 8134.03,-3002.5"/>
 </a>
 </g>
 </g>
 <!-- ndError&#45;&gt;ndSignatureAggregator -->
 <g id="edge20" class="edge"><title>ndError&#45;&gt;ndSignatureAggregator</title>
-<path fill="none" stroke="black" d="M4436.98,-3653.58C5023.29,-3634.44 7539.41,-3549.79 7698.53,-3502 7912.43,-3437.75 8128.71,-3293.03 8260.95,-3193.42"/>
-<polygon fill="black" stroke="black" points="8269.14,-3187.23 8263.88,-3196.85 8265.15,-3190.24 8261.16,-3193.26 8261.16,-3193.26 8261.16,-3193.26 8265.15,-3190.24 8258.45,-3189.67 8269.14,-3187.23 8269.14,-3187.23"/>
+<path fill="none" stroke="black" d="M4436.98,-3653.58C5023.29,-3634.44 7539.41,-3549.79 7698.53,-3502 7918,-3436.08 8139.97,-3285.44 8271.1,-3185.74"/>
+<polygon fill="black" stroke="black" points="8279.22,-3179.54 8274,-3189.19 8275.24,-3182.58 8271.27,-3185.61 8271.27,-3185.61 8271.27,-3185.61 8275.24,-3182.58 8268.54,-3182.03 8279.22,-3179.54 8279.22,-3179.54"/>
 </g>
 <!-- ndState -->
 <g id="node67" class="node"><title>ndState</title>
@@ -3697,8 +3696,8 @@
 </g>
 <!-- ndKeyedSig&#45;&gt;ndSignatureAggregator -->
 <g id="edge229" class="edge"><title>ndKeyedSig&#45;&gt;ndSignatureAggregator</title>
-<path fill="none" stroke="black" d="M10694,-6680.97C10656.4,-6531.26 10562.6,-6174.65 10496.5,-6070 10089.3,-5424.76 9818.85,-5395.72 9225.53,-4916 9048.08,-4772.53 8946.58,-4791.88 8818.53,-4603 8737.24,-4483.09 8495.87,-3522.06 8415.73,-3197.01"/>
-<polygon fill="black" stroke="black" points="8413.29,-3187.11 8420.05,-3195.74 8414.49,-3191.97 8415.68,-3196.82 8415.68,-3196.82 8415.68,-3196.82 8414.49,-3191.97 8411.31,-3197.9 8413.29,-3187.11 8413.29,-3187.11"/>
+<path fill="none" stroke="black" d="M10694,-6680.97C10656.4,-6531.26 10562.6,-6174.65 10496.5,-6070 10089.3,-5424.76 9818.85,-5395.72 9225.53,-4916 9048.08,-4772.53 8946.58,-4791.88 8818.53,-4603 8736.62,-4482.17 8492.16,-3507.29 8413.91,-3189.65"/>
+<polygon fill="black" stroke="black" points="8411.42,-3179.53 8418.18,-3188.17 8412.62,-3184.39 8413.81,-3189.25 8413.81,-3189.25 8413.81,-3189.25 8412.62,-3184.39 8409.45,-3190.32 8411.42,-3179.53 8411.42,-3179.53"/>
 </g>
 <!-- ndKeyedSig&#45;&gt;ndSession -->
 <g id="edge230" class="edge"><title>ndKeyedSig&#45;&gt;ndSession</title>
@@ -3753,8 +3752,8 @@
 </g>
 <!-- ndSigShare&#45;&gt;ndSignatureAggregator -->
 <g id="edge233" class="edge"><title>ndSigShare&#45;&gt;ndSignatureAggregator</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7522.46,-8746.98C7547.06,-8723.27 7570.89,-8695.7 7587.53,-8666 7791.78,-8301.51 7785.53,-8164.82 7785.53,-7747 7785.53,-7747 7785.53,-7747 7785.53,-6748 7785.53,-6597.1 7732.96,-6190.7 7823.53,-6070 7852.39,-6031.55 7896.91,-6072.63 7925.53,-6034 7978.24,-5962.87 7949.89,-5325.89 7960.53,-5238 8056.49,-4445.78 8283.39,-3509.04 8362.08,-3197.03"/>
-<polygon fill="black" stroke="black" points="8364.6,-3187.09 8366.51,-3197.88 8363.37,-3191.93 8362.15,-3196.78 8362.15,-3196.78 8362.15,-3196.78 8363.37,-3191.93 8357.78,-3195.68 8364.6,-3187.09 8364.6,-3187.09"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7522.46,-8746.98C7547.06,-8723.27 7570.89,-8695.7 7587.53,-8666 7791.78,-8301.51 7785.53,-8164.82 7785.53,-7747 7785.53,-7747 7785.53,-7747 7785.53,-6748 7785.53,-6597.1 7732.96,-6190.7 7823.53,-6070 7852.39,-6031.55 7896.91,-6072.63 7925.53,-6034 7978.24,-5962.87 7949.89,-5325.89 7960.53,-5238 8057.23,-4439.64 8286.91,-3494.51 8363.89,-3189.89"/>
+<polygon fill="black" stroke="black" points="8366.45,-3179.76 8368.36,-3190.55 8365.22,-3184.6 8364,-3189.45 8364,-3189.45 8364,-3189.45 8365.22,-3184.6 8359.64,-3188.35 8366.45,-3179.76 8366.45,-3179.76"/>
 </g>
 <!-- ndSigShare&#45;&gt;ndState -->
 <g id="edge234" class="edge"><title>ndSigShare&#45;&gt;ndState</title>
@@ -3816,12 +3815,12 @@
 </g>
 <!-- ndSignatureAggregator&#45;&gt;ndSectionAuth -->
 <g id="edge239" class="edge"><title>ndSignatureAggregator&#45;&gt;ndSectionAuth</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8475.89,-2990.72C8562.81,-2898.13 8704.82,-2760.71 8852.53,-2676 8891.98,-2653.38 8934.34,-2632.9 8977.7,-2614.46"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8469,-2998.08C8555.18,-2905.54 8700.86,-2762.98 8852.53,-2676 8891.98,-2653.38 8934.34,-2632.9 8977.7,-2614.46"/>
 <polygon fill="black" stroke="black" points="8986.97,-2610.55 8979.5,-2618.58 8982.36,-2612.5 8977.75,-2614.44 8977.75,-2614.44 8977.75,-2614.44 8982.36,-2612.5 8976.01,-2610.29 8986.97,-2610.55 8986.97,-2610.55"/>
 </g>
 <!-- ndSignatureAggregator&#45;&gt;ndNode -->
 <g id="edge240" class="edge"><title>ndSignatureAggregator&#45;&gt;ndNode</title>
-<path fill="none" stroke="black" d="M8409.78,-3187.14C8441.05,-3345.87 8497.53,-3671.09 8497.53,-3949.5 8497.53,-4760.5 8497.53,-4760.5 8497.53,-4760.5 8497.53,-4916.75 8537.37,-5082 8586.44,-5226.27"/>
+<path fill="none" stroke="black" d="M8408.28,-3179.56C8439.21,-3335.32 8497.53,-3666.57 8497.53,-3949.5 8497.53,-4760.5 8497.53,-4760.5 8497.53,-4760.5 8497.53,-4916.75 8537.37,-5082 8586.44,-5226.27"/>
 <polygon fill="black" stroke="black" points="8586.56,-5226.6 8592.29,-5230.98 8590.45,-5237.95 8584.72,-5233.57 8586.56,-5226.6"/>
 </g>
 <!-- ndSectionAuthorityProvider&#45;&gt;ndNetworkPrefixMap -->
