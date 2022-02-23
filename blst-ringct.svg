@@ -161,18 +161,20 @@
 <!-- ndError -->
 <g id="node2" class="node"><title>ndError</title>
 <g id="a_node2_6"><a xlink:href="https://github.com/maidsafe/blst-ringct/blob/master/src/error.rs#:~:text=enum%20Error" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="none" points="1057,-981 1057,-1018 1465,-1018 1465,-981 1057,-981"/>
-<polygon fill="none" stroke="black" points="1057,-981 1057,-1018 1465,-1018 1465,-981 1057,-981"/>
-<text text-anchor="start" x="1242.5" y="-996.8" font-family="Arial" font-weight="bold" font-size="14.00">Error</text>
-<polygon fill="white" stroke="none" points="1057,-869 1057,-981 1465,-981 1465,-869 1057,-869"/>
-<polygon fill="none" stroke="black" points="1057,-869 1057,-981 1465,-981 1465,-869 1057,-869"/>
-<text text-anchor="start" x="1068" y="-958.8" font-family="Arial" font-size="14.00">ExpectedAPublicCommitmentsForEachRingEntry</text>
-<text text-anchor="start" x="1068" y="-943.8" font-family="Arial" font-size="14.00">InvalidHiddenCommitmentInRing</text>
-<text text-anchor="start" x="1068" y="-928.8" font-family="Arial" font-size="14.00">InputPseudoCommitmentsDoNotSumToOutputCommitments</text>
-<text text-anchor="start" x="1068" y="-913.8" font-family="Arial" font-size="14.00">InvalidRingSignature</text>
-<text text-anchor="start" x="1068" y="-898.8" font-family="Arial" font-size="14.00">KeyImageNotOnCurve</text>
-<text text-anchor="start" x="1068" y="-883.8" font-family="Arial" font-size="14.00">BulletProofs(bulletproofs::ProofError)</text>
-<polygon fill="none" stroke="black" points="1056,-868.5 1056,-1019.5 1466,-1019.5 1466,-868.5 1056,-868.5"/>
+<polygon fill="yellow" stroke="none" points="1057,-996 1057,-1033 1465,-1033 1465,-996 1057,-996"/>
+<polygon fill="none" stroke="black" points="1057,-996 1057,-1033 1465,-1033 1465,-996 1057,-996"/>
+<text text-anchor="start" x="1242.5" y="-1011.8" font-family="Arial" font-weight="bold" font-size="14.00">Error</text>
+<polygon fill="white" stroke="none" points="1057,-854 1057,-996 1465,-996 1465,-854 1057,-854"/>
+<polygon fill="none" stroke="black" points="1057,-854 1057,-996 1465,-996 1465,-854 1057,-854"/>
+<text text-anchor="start" x="1068" y="-973.8" font-family="Arial" font-size="14.00">ExpectedAPublicCommitmentsForEachRingEntry</text>
+<text text-anchor="start" x="1068" y="-958.8" font-family="Arial" font-size="14.00">InvalidHiddenCommitmentInRing</text>
+<text text-anchor="start" x="1068" y="-943.8" font-family="Arial" font-size="14.00">InputPseudoCommitmentsDoNotSumToOutputCommitments</text>
+<text text-anchor="start" x="1068" y="-928.8" font-family="Arial" font-size="14.00">InvalidRingSignature</text>
+<text text-anchor="start" x="1068" y="-913.8" font-family="Arial" font-size="14.00">KeyImageNotOnCurve</text>
+<text text-anchor="start" x="1068" y="-898.8" font-family="Arial" font-size="14.00">BulletProofs(bulletproofs::ProofError)</text>
+<text text-anchor="start" x="1068" y="-883.8" font-family="Arial" font-size="14.00">TransactionMustHaveAnInput</text>
+<text text-anchor="start" x="1068" y="-868.8" font-family="Arial" font-size="14.00">KeyImageNotUniqueAcrossInputs</text>
+<polygon fill="none" stroke="black" points="1056,-853.5 1056,-1034.5 1466,-1034.5 1466,-853.5 1056,-853.5"/>
 </a>
 </g>
 </g>
