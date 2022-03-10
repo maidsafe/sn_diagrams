@@ -32,7 +32,7 @@
 <polygon fill="white" stroke="none" points="9.5,-162 9.5,-214 176.5,-214 176.5,-162 9.5,-162"/>
 <polygon fill="none" stroke="black" points="9.5,-162 9.5,-214 176.5,-214 176.5,-162 9.5,-162"/>
 <text text-anchor="start" x="20.5" y="-191.8" font-family="Arial" font-size="14.00">+ public_key: G1Affine</text>
-<text text-anchor="start" x="20.5" y="-176.8" font-family="Arial" font-size="14.00">+ amount: u64</text>
+<text text-anchor="start" x="20.5" y="-176.8" font-family="Arial" font-size="14.00">+ amount: Amount</text>
 <polygon fill="none" stroke="black" points="8,-161.5 8,-252.5 177,-252.5 177,-161.5 8,-161.5"/>
 </a>
 </g>
@@ -96,7 +96,7 @@
 </g>
 <!-- ndRevealedCommitment&#45;&gt;ndTrueInput -->
 <g id="edge4" class="edge"><title>ndRevealedCommitment&#45;&gt;ndTrueInput</title>
-<path fill="none" stroke="black" d="M460.672,-539.965C488.94,-511.484 524.818,-475.335 554.489,-445.44"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M460.672,-539.965C488.94,-511.484 524.818,-475.335 554.489,-445.44"/>
 <polygon fill="black" stroke="black" points="554.628,-445.301 556.016,-438.224 563.082,-436.783 561.694,-443.86 554.628,-445.301"/>
 </g>
 <!-- ndMlsagMaterial -->

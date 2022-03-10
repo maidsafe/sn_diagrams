@@ -76,7 +76,7 @@
 </g>
 <!-- ndRevealedCommitment&#45;&gt;ndTrueInput -->
 <g id="edge4" class="edge"><title>ndRevealedCommitment&#45;&gt;ndTrueInput</title>
-<path fill="none" stroke="black" d="M317.842,-248.937C326.389,-240.494 336.255,-230.748 345.451,-221.665"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M317.842,-248.937C326.389,-240.494 336.255,-230.748 345.451,-221.665"/>
 <polygon fill="black" stroke="black" points="345.459,-221.656 346.917,-214.594 353.997,-213.223 352.539,-220.285 345.459,-221.656"/>
 </g>
 <!-- ndMlsagMaterial -->

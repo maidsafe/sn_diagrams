@@ -33,26 +33,27 @@
 <!-- ndOutput -->
 <g id="node3" class="node"><title>ndOutput</title>
 <g id="a_node3_1"><a xlink:href="https://github.com/maidsafe/blst-ringct/blob/master/src/ringct.rs#:~:text=struct%20Output" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="9,-461 9,-498 501,-498 501,-461 9,-461"/>
-<polygon fill="none" stroke="black" points="9,-461 9,-498 501,-498 501,-461 9,-461"/>
-<text text-anchor="start" x="231" y="-476.8" font-family="Arial" font-weight="bold" font-size="14.00">Output</text>
-<polygon fill="white" stroke="none" points="9,-409 9,-461 501,-461 501,-409 9,-409"/>
-<polygon fill="none" stroke="black" points="9,-409 9,-461 501,-461 501,-409 9,-409"/>
-<text text-anchor="start" x="20" y="-438.8" font-family="Arial" font-size="14.00">+ public_key: G1Affine</text>
-<text text-anchor="start" x="20" y="-423.8" font-family="Arial" font-size="14.00">+ amount: u64</text>
-<polygon fill="white" stroke="none" points="9,-342 9,-409 501,-409 501,-342 9,-342"/>
-<polygon fill="none" stroke="black" points="9,-342 9,-409 501,-409 501,-342 9,-342"/>
-<text text-anchor="start" x="20" y="-386.8" font-family="Arial" font-size="14.00">&#45; public_key(&amp;self) &#45;&gt; G1Affine</text>
-<text text-anchor="start" x="20" y="-371.8" font-family="Arial" font-size="14.00">&#45; amount(&amp;self) &#45;&gt; u64</text>
-<text text-anchor="start" x="20" y="-356.8" font-family="Arial" font-size="14.00">&#45; random_commitment(&amp;self, rng: impl RngCore) &#45;&gt; RevealedCommitment</text>
-<polygon fill="none" stroke="black" points="8,-341 8,-499 502,-499 502,-341 8,-341"/>
+<polygon fill="lightblue" stroke="none" points="9,-468 9,-505 501,-505 501,-468 9,-468"/>
+<polygon fill="none" stroke="black" points="9,-468 9,-505 501,-505 501,-468 9,-468"/>
+<text text-anchor="start" x="231" y="-483.8" font-family="Arial" font-weight="bold" font-size="14.00">Output</text>
+<polygon fill="white" stroke="none" points="9,-416 9,-468 501,-468 501,-416 9,-416"/>
+<polygon fill="none" stroke="black" points="9,-416 9,-468 501,-468 501,-416 9,-416"/>
+<text text-anchor="start" x="20" y="-445.8" font-family="Arial" font-size="14.00">+ public_key: G1Affine</text>
+<text text-anchor="start" x="20" y="-430.8" font-family="Arial" font-size="14.00">+ amount: Amount</text>
+<polygon fill="white" stroke="none" points="9,-334 9,-416 501,-416 501,-334 9,-334"/>
+<polygon fill="none" stroke="black" points="9,-334 9,-416 501,-416 501,-334 9,-334"/>
+<text text-anchor="start" x="20" y="-393.8" font-family="Arial" font-size="14.00">&#45; new(public_key: G, amount: Amount) &#45;&gt; Self</text>
+<text text-anchor="start" x="20" y="-378.8" font-family="Arial" font-size="14.00">&#45; public_key(&amp;self) &#45;&gt; G1Affine</text>
+<text text-anchor="start" x="20" y="-363.8" font-family="Arial" font-size="14.00">&#45; amount(&amp;self) &#45;&gt; Amount</text>
+<text text-anchor="start" x="20" y="-348.8" font-family="Arial" font-size="14.00">&#45; random_commitment(&amp;self, rng: impl RngCore) &#45;&gt; RevealedCommitment</text>
+<polygon fill="none" stroke="black" points="8,-333.5 8,-506.5 502,-506.5 502,-333.5 8,-333.5"/>
 </a>
 </g>
 </g>
 <!-- ndRevealedCommitment&#45;&gt;ndOutput -->
 <g id="edge1" class="edge"><title>ndRevealedCommitment&#45;&gt;ndOutput</title>
-<path fill="none" stroke="black" d="M682.175,-845.734C585.461,-749.573 438.72,-603.671 344.871,-510.357"/>
-<polygon fill="black" stroke="black" points="337.645,-503.173 347.909,-507.033 341.191,-506.698 344.737,-510.224 344.737,-510.224 344.737,-510.224 341.191,-506.698 341.564,-513.415 337.645,-503.173 337.645,-503.173"/>
+<path fill="none" stroke="black" d="M682.175,-845.734C588.064,-752.16 446.581,-611.486 352.559,-518.001"/>
+<polygon fill="black" stroke="black" points="345.309,-510.793 355.573,-514.652 348.854,-514.318 352.4,-517.844 352.4,-517.844 352.4,-517.844 348.854,-514.318 349.227,-521.035 345.309,-510.793 345.309,-510.793"/>
 </g>
 <!-- ndRevealedOutputCommitment -->
 <g id="node4" class="node"><title>ndRevealedOutputCommitment</title>
@@ -106,27 +107,28 @@
 <!-- ndTrueInput -->
 <g id="node8" class="node"><title>ndTrueInput</title>
 <g id="a_node8_4"><a xlink:href="https://github.com/maidsafe/blst-ringct/blob/master/src/mlsag.rs#:~:text=struct%20TrueInput" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="817,-745 817,-782 1365,-782 1365,-745 817,-745"/>
-<polygon fill="none" stroke="black" points="817,-745 817,-782 1365,-782 1365,-745 817,-745"/>
-<text text-anchor="start" x="1057" y="-760.8" font-family="Arial" font-weight="bold" font-size="14.00">TrueInput</text>
-<polygon fill="white" stroke="none" points="817,-693 817,-745 1365,-745 1365,-693 817,-693"/>
-<polygon fill="none" stroke="black" points="817,-693 817,-745 1365,-745 1365,-693 817,-693"/>
-<text text-anchor="start" x="828" y="-722.8" font-family="Arial" font-size="14.00">+ secret_key: Scalar</text>
-<text text-anchor="start" x="828" y="-707.8" font-family="Arial" font-size="14.00">+ revealed_commitment: RevealedCommitment</text>
-<polygon fill="white" stroke="none" points="817,-611 817,-693 1365,-693 1365,-611 817,-611"/>
-<polygon fill="none" stroke="black" points="817,-611 817,-693 1365,-693 1365,-611 817,-611"/>
-<text text-anchor="start" x="828" y="-670.8" font-family="Arial" font-size="14.00">&#45; public_key(&amp;self) &#45;&gt; G1Projective</text>
-<text text-anchor="start" x="828" y="-655.8" font-family="Arial" font-size="14.00">&#45; revealed_commitment(&amp;self) &#45;&gt; &amp;RevealedCommitment</text>
-<text text-anchor="start" x="828" y="-640.8" font-family="Arial" font-size="14.00">&#45; key_image(&amp;self) &#45;&gt; G1Projective</text>
-<text text-anchor="start" x="828" y="-625.8" font-family="Arial" font-size="14.00">&#45; random_pseudo_commitment(&amp;self, rng: impl RngCore) &#45;&gt; RevealedCommitment</text>
-<polygon fill="none" stroke="black" points="816,-610.5 816,-783.5 1366,-783.5 1366,-610.5 816,-610.5"/>
+<polygon fill="lightblue" stroke="none" points="817,-753 817,-790 1365,-790 1365,-753 817,-753"/>
+<polygon fill="none" stroke="black" points="817,-753 817,-790 1365,-790 1365,-753 817,-753"/>
+<text text-anchor="start" x="1057" y="-768.8" font-family="Arial" font-weight="bold" font-size="14.00">TrueInput</text>
+<polygon fill="white" stroke="none" points="817,-701 817,-753 1365,-753 1365,-701 817,-701"/>
+<polygon fill="none" stroke="black" points="817,-701 817,-753 1365,-753 1365,-701 817,-701"/>
+<text text-anchor="start" x="828" y="-730.8" font-family="Arial" font-size="14.00">+ secret_key: Scalar</text>
+<text text-anchor="start" x="828" y="-715.8" font-family="Arial" font-size="14.00">+ revealed_commitment: RevealedCommitment</text>
+<polygon fill="white" stroke="none" points="817,-604 817,-701 1365,-701 1365,-604 817,-604"/>
+<polygon fill="none" stroke="black" points="817,-604 817,-701 1365,-701 1365,-604 817,-604"/>
+<text text-anchor="start" x="828" y="-678.8" font-family="Arial" font-size="14.00">&#45; new(secret_key: S, revealed_commitment: RevealedCommitment) &#45;&gt; Self</text>
+<text text-anchor="start" x="828" y="-663.8" font-family="Arial" font-size="14.00">&#45; public_key(&amp;self) &#45;&gt; G1Projective</text>
+<text text-anchor="start" x="828" y="-648.8" font-family="Arial" font-size="14.00">&#45; revealed_commitment(&amp;self) &#45;&gt; &amp;RevealedCommitment</text>
+<text text-anchor="start" x="828" y="-633.8" font-family="Arial" font-size="14.00">&#45; key_image(&amp;self) &#45;&gt; G1Projective</text>
+<text text-anchor="start" x="828" y="-618.8" font-family="Arial" font-size="14.00">&#45; random_pseudo_commitment(&amp;self, rng: impl RngCore) &#45;&gt; RevealedCommitment</text>
+<polygon fill="none" stroke="black" points="816,-603 816,-791 1366,-791 1366,-603 816,-603"/>
 </a>
 </g>
 </g>
 <!-- ndRevealedCommitment&#45;&gt;ndTrueInput -->
 <g id="edge4" class="edge"><title>ndRevealedCommitment&#45;&gt;ndTrueInput</title>
-<path fill="none" stroke="black" d="M903.362,-845.818C924.539,-829.134 946.548,-811.796 967.724,-795.115"/>
-<polygon fill="black" stroke="black" points="967.962,-794.927 970.199,-788.072 977.388,-787.501 975.15,-794.357 967.962,-794.927"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M903.362,-845.818C921.414,-831.597 940.07,-816.9 958.299,-802.539"/>
+<polygon fill="black" stroke="black" points="958.361,-802.491 960.599,-795.636 967.787,-795.065 965.549,-801.92 958.361,-802.491"/>
 </g>
 <!-- ndMlsagMaterial -->
 <g id="node10" class="node"><title>ndMlsagMaterial</title>
@@ -180,7 +182,7 @@
 </g>
 <!-- ndOutput&#45;&gt;ndRingCtMaterial -->
 <g id="edge6" class="edge"><title>ndOutput&#45;&gt;ndRingCtMaterial</title>
-<path fill="none" stroke="black" d="M413.48,-336.895C447.768,-320.796 484.191,-304.918 519,-292 549.066,-280.842 580.229,-270.098 611.841,-259.819"/>
+<path fill="none" stroke="black" d="M429.471,-329.477C458.956,-315.972 489.556,-302.927 519,-292 549.066,-280.842 580.229,-270.098 611.841,-259.819"/>
 <polygon fill="black" stroke="black" points="612.087,-259.739 616.568,-254.09 623.507,-256.053 619.026,-261.703 612.087,-259.739"/>
 </g>
 <!-- ndRevealedOutputCommitment&#45;&gt;ndRingCtMaterial -->
@@ -246,8 +248,8 @@
 </g>
 <!-- ndTrueInput&#45;&gt;ndMlsagMaterial -->
 <g id="edge11" class="edge"><title>ndTrueInput&#45;&gt;ndMlsagMaterial</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1176.43,-606.335C1191.43,-590.585 1207.35,-573.879 1223.24,-557.198"/>
-<polygon fill="black" stroke="black" points="1223.27,-557.171 1224.51,-550.068 1231.54,-548.483 1230.3,-555.586 1223.27,-557.171"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1183.74,-598.658C1196.66,-585.095 1210.13,-570.961 1223.57,-556.849"/>
+<polygon fill="black" stroke="black" points="1223.66,-556.76 1224.9,-549.656 1231.94,-548.071 1230.69,-555.175 1223.66,-556.76"/>
 </g>
 <!-- ndDecoyInput -->
 <g id="node9" class="node"><title>ndDecoyInput</title>
