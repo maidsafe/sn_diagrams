@@ -2799,41 +2799,40 @@
 <!-- ndCmd -->
 <g id="node164" class="node"><title>ndCmd</title>
 <g id="a_node164_85"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/node/api/cmds.rs#:~:text=enum%20Cmd" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="none" points="5733.28,-3548.5 5733.28,-3585.5 6088.28,-3585.5 6088.28,-3548.5 5733.28,-3548.5"/>
-<polygon fill="none" stroke="black" points="5733.28,-3548.5 5733.28,-3585.5 6088.28,-3585.5 6088.28,-3548.5 5733.28,-3548.5"/>
-<text text-anchor="start" x="5894.28" y="-3564.3" font-family="Arial" font-weight="bold" font-size="14.00">Cmd</text>
-<polygon fill="white" stroke="none" points="5733.28,-3241.5 5733.28,-3548.5 6088.28,-3548.5 6088.28,-3241.5 5733.28,-3241.5"/>
-<polygon fill="none" stroke="black" points="5733.28,-3241.5 5733.28,-3548.5 6088.28,-3548.5 6088.28,-3241.5 5733.28,-3241.5"/>
-<text text-anchor="start" x="5744.28" y="-3526.3" font-family="Arial" font-size="14.00">CleanupPeerLinks</text>
-<text text-anchor="start" x="5744.28" y="-3511.3" font-family="Arial" font-size="14.00">HandleMsg</text>
-<text text-anchor="start" x="5744.28" y="-3496.3" font-family="Arial" font-size="14.00">HandleSystemMsg</text>
-<text text-anchor="start" x="5744.28" y="-3481.3" font-family="Arial" font-size="14.00">HandleTimeout(u64)</text>
-<text text-anchor="start" x="5744.28" y="-3466.3" font-family="Arial" font-size="14.00">HandlePeerLost(Peer)</text>
-<text text-anchor="start" x="5744.28" y="-3451.3" font-family="Arial" font-size="14.00">HandleAgreement</text>
-<text text-anchor="start" x="5744.28" y="-3436.3" font-family="Arial" font-size="14.00">HandleNewNodeOnline(SectionAuth&lt;NodeState&gt;)</text>
-<text text-anchor="start" x="5744.28" y="-3421.3" font-family="Arial" font-size="14.00">HandleNewEldersAgreement</text>
-<text text-anchor="start" x="5744.28" y="-3406.3" font-family="Arial" font-size="14.00">HandleDkgOutcome</text>
-<text text-anchor="start" x="5744.28" y="-3391.3" font-family="Arial" font-size="14.00">HandleDkgFailure(DkgFailureSigSet)</text>
-<text text-anchor="start" x="5744.28" y="-3376.3" font-family="Arial" font-size="14.00">SendMsg</text>
-<text text-anchor="start" x="5744.28" y="-3361.3" font-family="Arial" font-size="14.00">ThrottledSendBatchMsgs</text>
-<text text-anchor="start" x="5744.28" y="-3346.3" font-family="Arial" font-size="14.00">SignOutgoingSystemMsg</text>
-<text text-anchor="start" x="5744.28" y="-3331.3" font-family="Arial" font-size="14.00">SendMsgDeliveryGroup</text>
-<text text-anchor="start" x="5744.28" y="-3316.3" font-family="Arial" font-size="14.00">ScheduleTimeout</text>
-<text text-anchor="start" x="5744.28" y="-3301.3" font-family="Arial" font-size="14.00">SendAcceptedOnlineShare</text>
-<text text-anchor="start" x="5744.28" y="-3286.3" font-family="Arial" font-size="14.00">ProposeOffline(XorName)</text>
-<text text-anchor="start" x="5744.28" y="-3271.3" font-family="Arial" font-size="14.00">StartConnectivityTest(XorName)</text>
-<text text-anchor="start" x="5744.28" y="-3256.3" font-family="Arial" font-size="14.00">TestConnectivity(XorName)</text>
-<polygon fill="white" stroke="none" points="5733.28,-3204.5 5733.28,-3241.5 6088.28,-3241.5 6088.28,-3204.5 5733.28,-3204.5"/>
-<polygon fill="none" stroke="black" points="5733.28,-3204.5 5733.28,-3241.5 6088.28,-3241.5 6088.28,-3204.5 5733.28,-3204.5"/>
-<text text-anchor="start" x="5744.28" y="-3219.3" font-family="Arial" font-size="14.00">&#45; fmt(&amp;self, f: &amp;mut fmt::Formatter&lt;&#39;_&gt;) &#45;&gt; fmt::Result</text>
-<polygon fill="none" stroke="black" points="5731.78,-3204 5731.78,-3587 6088.78,-3587 6088.78,-3204 5731.78,-3204"/>
+<polygon fill="yellow" stroke="none" points="5733.28,-3541.5 5733.28,-3578.5 6088.28,-3578.5 6088.28,-3541.5 5733.28,-3541.5"/>
+<polygon fill="none" stroke="black" points="5733.28,-3541.5 5733.28,-3578.5 6088.28,-3578.5 6088.28,-3541.5 5733.28,-3541.5"/>
+<text text-anchor="start" x="5894.28" y="-3557.3" font-family="Arial" font-weight="bold" font-size="14.00">Cmd</text>
+<polygon fill="white" stroke="none" points="5733.28,-3249.5 5733.28,-3541.5 6088.28,-3541.5 6088.28,-3249.5 5733.28,-3249.5"/>
+<polygon fill="none" stroke="black" points="5733.28,-3249.5 5733.28,-3541.5 6088.28,-3541.5 6088.28,-3249.5 5733.28,-3249.5"/>
+<text text-anchor="start" x="5744.28" y="-3519.3" font-family="Arial" font-size="14.00">CleanupPeerLinks</text>
+<text text-anchor="start" x="5744.28" y="-3504.3" font-family="Arial" font-size="14.00">HandleMsg</text>
+<text text-anchor="start" x="5744.28" y="-3489.3" font-family="Arial" font-size="14.00">HandleTimeout(u64)</text>
+<text text-anchor="start" x="5744.28" y="-3474.3" font-family="Arial" font-size="14.00">HandlePeerLost(Peer)</text>
+<text text-anchor="start" x="5744.28" y="-3459.3" font-family="Arial" font-size="14.00">HandleAgreement</text>
+<text text-anchor="start" x="5744.28" y="-3444.3" font-family="Arial" font-size="14.00">HandleNewNodeOnline(SectionAuth&lt;NodeState&gt;)</text>
+<text text-anchor="start" x="5744.28" y="-3429.3" font-family="Arial" font-size="14.00">HandleNewEldersAgreement</text>
+<text text-anchor="start" x="5744.28" y="-3414.3" font-family="Arial" font-size="14.00">HandleDkgOutcome</text>
+<text text-anchor="start" x="5744.28" y="-3399.3" font-family="Arial" font-size="14.00">HandleDkgFailure(DkgFailureSigSet)</text>
+<text text-anchor="start" x="5744.28" y="-3384.3" font-family="Arial" font-size="14.00">SendMsg</text>
+<text text-anchor="start" x="5744.28" y="-3369.3" font-family="Arial" font-size="14.00">ThrottledSendBatchMsgs</text>
+<text text-anchor="start" x="5744.28" y="-3354.3" font-family="Arial" font-size="14.00">SignOutgoingSystemMsg</text>
+<text text-anchor="start" x="5744.28" y="-3339.3" font-family="Arial" font-size="14.00">SendMsgDeliveryGroup</text>
+<text text-anchor="start" x="5744.28" y="-3324.3" font-family="Arial" font-size="14.00">ScheduleTimeout</text>
+<text text-anchor="start" x="5744.28" y="-3309.3" font-family="Arial" font-size="14.00">SendAcceptedOnlineShare</text>
+<text text-anchor="start" x="5744.28" y="-3294.3" font-family="Arial" font-size="14.00">ProposeOffline(XorName)</text>
+<text text-anchor="start" x="5744.28" y="-3279.3" font-family="Arial" font-size="14.00">StartConnectivityTest(XorName)</text>
+<text text-anchor="start" x="5744.28" y="-3264.3" font-family="Arial" font-size="14.00">TestConnectivity(XorName)</text>
+<polygon fill="white" stroke="none" points="5733.28,-3212.5 5733.28,-3249.5 6088.28,-3249.5 6088.28,-3212.5 5733.28,-3212.5"/>
+<polygon fill="none" stroke="black" points="5733.28,-3212.5 5733.28,-3249.5 6088.28,-3249.5 6088.28,-3212.5 5733.28,-3212.5"/>
+<text text-anchor="start" x="5744.28" y="-3227.3" font-family="Arial" font-size="14.00">&#45; fmt(&amp;self, f: &amp;mut fmt::Formatter&lt;&#39;_&gt;) &#45;&gt; fmt::Result</text>
+<polygon fill="none" stroke="black" points="5731.78,-3211.5 5731.78,-3579.5 6088.78,-3579.5 6088.78,-3211.5 5731.78,-3211.5"/>
 </a>
 </g>
 </g>
 <!-- ndPeer&#45;&gt;ndCmd -->
 <g id="edge149" class="edge"><title>ndPeer&#45;&gt;ndCmd</title>
-<path fill="none" stroke="black" d="M6232.87,-7672.91C6132.43,-7565.34 6010.6,-7411.14 5954.28,-7248 5943.18,-7215.84 5912.28,-4832.53 5912.28,-4798.5 5912.28,-4798.5 5912.28,-4798.5 5912.28,-4145 5912.28,-3961.86 5911.68,-3753.51 5911.13,-3603.22"/>
-<polygon fill="black" stroke="black" points="5911.13,-3603.14 5907.11,-3597.15 5911.09,-3591.14 5915.11,-3597.12 5911.13,-3603.14"/>
+<path fill="none" stroke="black" d="M6232.87,-7672.91C6132.43,-7565.34 6010.6,-7411.14 5954.28,-7248 5943.18,-7215.84 5912.28,-4832.53 5912.28,-4798.5 5912.28,-4798.5 5912.28,-4798.5 5912.28,-4145 5912.28,-3958.85 5911.66,-3746.67 5911.1,-3595.87"/>
+<polygon fill="black" stroke="black" points="5911.1,-3595.75 5907.08,-3589.77 5911.06,-3583.75 5915.08,-3589.74 5911.1,-3595.75"/>
 </g>
 <!-- ndRegisterAddress -->
 <g id="node39" class="node"><title>ndRegisterAddress</title>
@@ -3404,8 +3403,8 @@
 </g>
 <!-- ndSectionAuth&#45;&gt;ndCmd -->
 <g id="edge198" class="edge"><title>ndSectionAuth&#45;&gt;ndCmd</title>
-<path fill="none" stroke="black" d="M7158.19,-3750.18C6716.2,-3704.33 6129.82,-3641.57 6106.28,-3629 6090.52,-3620.58 6075.51,-3610.33 6061.31,-3598.87"/>
-<polygon fill="black" stroke="black" points="6061.31,-3598.87 6054.14,-3598.09 6052.1,-3591.18 6059.27,-3591.96 6061.31,-3598.87"/>
+<path fill="none" stroke="black" d="M7158.19,-3750.18C6716.2,-3704.33 6129.82,-3641.57 6106.28,-3629 6087.32,-3618.88 6069.44,-3606.09 6052.76,-3591.75"/>
+<polygon fill="black" stroke="black" points="6052.6,-3591.6 6045.45,-3590.6 6043.63,-3583.63 6050.77,-3584.62 6052.6,-3591.6"/>
 </g>
 <!-- ndSystemMsg&#45;&gt;ndWireMsg -->
 <g id="edge199" class="edge"><title>ndSystemMsg&#45;&gt;ndWireMsg</title>
@@ -3543,8 +3542,8 @@
 </g>
 <!-- ndNodeState&#45;&gt;ndCmd -->
 <g id="edge213" class="edge"><title>ndNodeState&#45;&gt;ndCmd</title>
-<path fill="none" stroke="black" d="M6648.51,-4013.28C6605.99,-3998.73 6562.84,-3984.9 6521.28,-3973 6445.36,-3951.27 6407.6,-3987.97 6347.28,-3937 6248.18,-3853.26 6337.97,-3751.51 6241.28,-3665 6195.01,-3623.59 6158.71,-3662.27 6106.28,-3629 6092.47,-3620.24 6079.13,-3610.19 6066.36,-3599.3"/>
-<polygon fill="black" stroke="black" points="6066.17,-3599.14 6059.03,-3598.19 6057.15,-3591.22 6064.3,-3592.17 6066.17,-3599.14"/>
+<path fill="none" stroke="black" d="M6648.51,-4013.28C6605.99,-3998.73 6562.84,-3984.9 6521.28,-3973 6445.36,-3951.27 6407.6,-3987.97 6347.28,-3937 6248.18,-3853.26 6337.97,-3751.51 6241.28,-3665 6195.01,-3623.59 6158.71,-3662.27 6106.28,-3629 6089.42,-3618.3 6073.26,-3605.69 6057.97,-3591.96"/>
+<polygon fill="black" stroke="black" points="6057.89,-3591.88 6050.77,-3590.76 6049.07,-3583.75 6056.19,-3584.87 6057.89,-3591.88"/>
 </g>
 <!-- ndMembershipState -->
 <g id="node55" class="node"><title>ndMembershipState</title>
@@ -5541,18 +5540,18 @@
 </g>
 <!-- ndCmd&#45;&gt;ndSession -->
 <g id="edge405" class="edge"><title>ndCmd&#45;&gt;ndSession</title>
-<path fill="none" stroke="black" d="M6055.27,-3199.77C6071.3,-3185.57 6088.36,-3172.66 6106.28,-3162 6174.53,-3121.4 6231.11,-3187.55 6281.28,-3126 6339.27,-3054.86 6341.77,-2369.02 6281.28,-2300 6241.1,-2254.15 6069.57,-2273.14 6009.28,-2264 5754.9,-2225.45 5474.52,-2178.33 5234.91,-2136.66"/>
+<path fill="none" stroke="black" d="M6046.84,-3207.44C6065.28,-3190.21 6085.18,-3174.55 6106.28,-3162 6174.53,-3121.4 6231.11,-3187.55 6281.28,-3126 6339.27,-3054.86 6341.77,-2369.02 6281.28,-2300 6241.1,-2254.15 6069.57,-2273.14 6009.28,-2264 5754.9,-2225.45 5474.52,-2178.33 5234.91,-2136.66"/>
 <polygon fill="black" stroke="black" points="5224.97,-2134.93 5235.59,-2132.21 5229.89,-2135.78 5234.82,-2136.64 5234.82,-2136.64 5234.82,-2136.64 5229.89,-2135.78 5234.05,-2141.07 5224.97,-2134.93 5224.97,-2134.93"/>
 </g>
 <!-- ndCmd&#45;&gt;ndClient -->
 <g id="edge406" class="edge"><title>ndCmd&#45;&gt;ndClient</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M6053.96,-3199.91C6070.34,-3185.52 6087.83,-3172.55 6106.28,-3162 6189.25,-3114.57 6251.31,-3194.18 6318.28,-3126 6578.45,-2861.1 6178,-2559.78 6443.28,-2300 6531.98,-2213.14 6638.35,-2357.27 6720.28,-2264 6754.45,-2225.1 6754.66,-1836.72 6720.28,-1798 6587.91,-1648.9 5399.66,-1559.35 4689.46,-1518.69"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M6045.81,-3207.26C6064.5,-3189.94 6084.74,-3174.31 6106.28,-3162 6189.25,-3114.57 6251.31,-3194.18 6318.28,-3126 6578.45,-2861.1 6178,-2559.78 6443.28,-2300 6531.98,-2213.14 6638.35,-2357.27 6720.28,-2264 6754.45,-2225.1 6754.66,-1836.72 6720.28,-1798 6587.91,-1648.9 5399.66,-1559.35 4689.46,-1518.69"/>
 <polygon fill="black" stroke="black" points="4679.3,-1518.11 4689.54,-1514.19 4684.29,-1518.4 4689.29,-1518.68 4689.29,-1518.68 4689.29,-1518.68 4684.29,-1518.4 4689.03,-1523.18 4679.3,-1518.11 4679.3,-1518.11"/>
 </g>
 <!-- ndCmd&#45;&gt;ndDkgVoter -->
 <g id="edge407" class="edge"><title>ndCmd&#45;&gt;ndDkgVoter</title>
-<path fill="none" stroke="black" d="M5823.37,-3199.95C5769.6,-3079.59 5702.43,-2929.23 5657.16,-2827.89"/>
-<polygon fill="black" stroke="black" points="5652.99,-2818.55 5661.18,-2825.84 5655.03,-2823.11 5657.07,-2827.68 5657.07,-2827.68 5657.07,-2827.68 5655.03,-2823.11 5652.96,-2829.52 5652.99,-2818.55 5652.99,-2818.55"/>
+<path fill="none" stroke="black" d="M5826.61,-3207.2C5772.36,-3085.75 5703.43,-2931.47 5657.25,-2828.1"/>
+<polygon fill="black" stroke="black" points="5653.13,-2818.88 5661.32,-2826.17 5655.17,-2823.44 5657.21,-2828.01 5657.21,-2828.01 5657.21,-2828.01 5655.17,-2823.44 5653.11,-2829.84 5653.13,-2818.88 5653.13,-2818.88"/>
 </g>
 <!-- ndCmd&#45;&gt;ndRegisterStorage -->
 <g id="edge408" class="edge"><title>ndCmd&#45;&gt;ndRegisterStorage</title>
@@ -5561,17 +5560,17 @@
 </g>
 <!-- ndCmd&#45;&gt;ndNode -->
 <g id="edge409" class="edge"><title>ndCmd&#45;&gt;ndNode</title>
-<path fill="none" stroke="black" d="M6060.67,-3591.07C6075.26,-3604.8 6090.53,-3617.67 6106.28,-3629 6141.59,-3654.4 6170.03,-3631.1 6197.28,-3665 6274.02,-3760.43 6194.27,-3823.92 6241.28,-3937 6457.55,-4457.2 6750.31,-4453.38 6977.28,-4969 7116.66,-5285.63 7061.57,-5393.7 7154.28,-5727 7185.21,-5838.17 7163.87,-5882.58 7234.28,-5974 7241.61,-5983.52 7249.21,-5992.89 7257.05,-6002.11"/>
+<path fill="none" stroke="black" d="M6052.98,-3583.71C6069.88,-3600.2 6087.75,-3615.67 6106.28,-3629 6141.59,-3654.4 6170.03,-3631.1 6197.28,-3665 6274.02,-3760.43 6194.27,-3823.92 6241.28,-3937 6457.55,-4457.2 6750.31,-4453.38 6977.28,-4969 7116.66,-5285.63 7061.57,-5393.7 7154.28,-5727 7185.21,-5838.17 7163.87,-5882.58 7234.28,-5974 7241.61,-5983.52 7249.21,-5992.89 7257.05,-6002.11"/>
 <polygon fill="black" stroke="black" points="7263.69,-6009.82 7253.76,-6005.18 7260.43,-6006.04 7257.17,-6002.25 7257.17,-6002.25 7257.17,-6002.25 7260.43,-6006.04 7260.58,-5999.31 7263.69,-6009.82 7263.69,-6009.82"/>
 </g>
 <!-- ndCmd&#45;&gt;ndJoiningAsRelocated -->
 <g id="edge410" class="edge"><title>ndCmd&#45;&gt;ndJoiningAsRelocated</title>
-<path fill="none" stroke="black" d="M6052.09,-3199.8C6068.96,-3185.23 6087.07,-3172.25 6106.28,-3162 6235.29,-3093.19 6293.46,-3168.75 6433.28,-3126 6632.42,-3065.11 6840.27,-2953.34 6991.88,-2861.57"/>
+<path fill="none" stroke="black" d="M6043.61,-3207.35C6062.84,-3189.72 6083.81,-3173.99 6106.28,-3162 6235.29,-3093.19 6293.46,-3168.75 6433.28,-3126 6632.42,-3065.11 6840.27,-2953.34 6991.88,-2861.57"/>
 <polygon fill="black" stroke="black" points="7000.88,-2856.11 6994.66,-2865.14 6996.6,-2858.7 6992.33,-2861.3 6992.33,-2861.3 6992.33,-2861.3 6996.6,-2858.7 6989.99,-2857.45 7000.88,-2856.11 7000.88,-2856.11"/>
 </g>
 <!-- ndCmd&#45;&gt;ndDispatcher -->
 <g id="edge411" class="edge"><title>ndCmd&#45;&gt;ndDispatcher</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M6048.24,-3199.99C6066.1,-3184.88 6085.49,-3171.74 6106.28,-3162 6186.32,-3124.52 12399.7,-3180.53 12469.3,-3126 12565.9,-3050.22 12951.6,-1312.46 13076.8,-738.28"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M6039.74,-3207.43C6059.89,-3189.2 6082.14,-3173.31 6106.28,-3162 6186.32,-3124.52 12399.7,-3180.53 12469.3,-3126 12565.9,-3050.22 12951.6,-1312.46 13076.8,-738.28"/>
 <polygon fill="black" stroke="black" points="13079,-728.249 13081.2,-738.978 13077.9,-733.134 13076.8,-738.02 13076.8,-738.02 13076.8,-738.02 13077.9,-733.134 13072.5,-737.061 13079,-728.249 13079,-728.249"/>
 </g>
 <!-- ndNetworkPhase -->
