@@ -111,7 +111,7 @@
 <polygon fill="none" stroke="black" points="51,-784 51,-1076 431,-1076 431,-784 51,-784"/>
 <text text-anchor="start" x="62" y="-1053.8" font-family="Arial" font-size="14.00">&#45; from_content(content: &amp;[u8]) &#45;&gt; Self</text>
 <text text-anchor="start" x="62" y="-1038.8" font-family="Arial" font-size="14.00">&#45; from_content_parts(content_parts: &amp;[&amp;[u8]]) &#45;&gt; Self</text>
-<text text-anchor="start" x="62" y="-1023.8" font-family="Arial" font-size="14.00">&#45; random() &#45;&gt; Self</text>
+<text text-anchor="start" x="62" y="-1023.8" font-family="Arial" font-size="14.00">&#45; random(rng: &amp;mut T) &#45;&gt; Self</text>
 <text text-anchor="start" x="62" y="-1008.8" font-family="Arial" font-size="14.00">&#45; bit(&amp;self, i: u8) &#45;&gt; bool</text>
 <text text-anchor="start" x="62" y="-993.8" font-family="Arial" font-size="14.00">&#45; cmp_distance(&amp;self, lhs: &amp;Self, rhs: &amp;Self) &#45;&gt; Ordering</text>
 <text text-anchor="start" x="62" y="-978.8" font-family="Arial" font-size="14.00">&#45; with_bit(mut self, i: u8, bit: bool) &#45;&gt; Self</text>
