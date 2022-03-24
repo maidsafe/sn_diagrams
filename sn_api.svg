@@ -306,7 +306,7 @@
 <text text-anchor="start" x="1602" y="-64.8" font-family="Arial" font-size="14.00">&#45; resolve_mediatype(&amp;self, input_url: SafeUrl, metadata: Option&lt;FileInfo&gt;, retrieve_data: bool, range: Range, media_type_str: String) &#45;&gt; Result&lt;SafeData&gt;</text>
 <text text-anchor="start" x="1602" y="-49.8" font-family="Arial" font-size="14.00">&#45; resolve_file_container(&amp;self, mut input_url: SafeUrl, resolve_path: bool) &#45;&gt; Result&lt;SafeData&gt;</text>
 <text text-anchor="start" x="1602" y="-34.8" font-family="Arial" font-size="14.00">&#45; retrieve_data(&amp;self, input_url: &amp;SafeUrl, retrieve_data: bool, media_type: Option&lt;String&gt;, metadata: &amp;Option&lt;FileInfo&gt;, range: Range) &#45;&gt; Result&lt;SafeData&gt;</text>
-<text text-anchor="start" x="1602" y="-19.8" font-family="Arial" font-size="14.00">&#45; auth_app(app_id: &amp;str, app_name: &amp;str, app_vendor: &amp;str, endpoint: Option&lt;&amp;str&gt;) &#45;&gt; Result&lt;Keypair&gt;</text>
+<text text-anchor="start" x="1602" y="-19.8" font-family="Arial" font-size="14.00">&#45; auth_app(app_id: &amp;str, app_name: &amp;str, app_vendor: &amp;str, endpoint: Option&lt;&amp;str&gt;, authd_cert_path: impl AsRef&lt;Path&gt;) &#45;&gt; Result&lt;Keypair&gt;</text>
 <polygon fill="none" stroke="black" points="1590,-4 1590,-522 2738,-522 2738,-4 1590,-4"/>
 </a>
 </g>
@@ -407,42 +407,45 @@
 <!-- ndSafeAuthdClient -->
 <g id="node18" class="node"><title>ndSafeAuthdClient</title>
 <g id="a_node18_17"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/authd_client/authd_client_api.rs#:~:text=struct%20SafeAuthdClient" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="4241,-1623 4241,-1660 4790,-1660 4790,-1623 4241,-1623"/>
-<polygon fill="none" stroke="black" points="4241,-1623 4241,-1660 4790,-1660 4790,-1623 4241,-1623"/>
-<text text-anchor="start" x="4459.5" y="-1638.8" font-family="Arial" font-weight="bold" font-size="14.00">SafeAuthdClient</text>
-<polygon fill="white" stroke="none" points="4241,-1571 4241,-1623 4790,-1623 4790,-1571 4241,-1571"/>
-<polygon fill="none" stroke="black" points="4241,-1571 4241,-1623 4790,-1623 4790,-1571 4241,-1571"/>
-<text text-anchor="start" x="4252" y="-1600.8" font-family="Arial" font-size="14.00">+ authd_endpoint: String</text>
-<text text-anchor="start" x="4252" y="-1585.8" font-family="Arial" font-size="14.00">&#45; subscribed_endpoint: Option&lt;(String, task::JoinHandle&lt;()&gt;, task::JoinHandle&lt;()&gt;)&gt;</text>
-<polygon fill="white" stroke="none" points="4241,-1264 4241,-1571 4790,-1571 4790,-1264 4241,-1264"/>
-<polygon fill="none" stroke="black" points="4241,-1264 4241,-1571 4790,-1571 4790,-1264 4241,-1264"/>
-<text text-anchor="start" x="4252" y="-1548.8" font-family="Arial" font-size="14.00">&#45; drop(&amp;mut self)</text>
-<text text-anchor="start" x="4252" y="-1533.8" font-family="Arial" font-size="14.00">&#45; new(endpoint: Option&lt;String&gt;) &#45;&gt; Self</text>
-<text text-anchor="start" x="4252" y="-1518.8" font-family="Arial" font-size="14.00">&#45; version(&amp;self, authd_path: Option&lt;&amp;str&gt;) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="4252" y="-1503.8" font-family="Arial" font-size="14.00">&#45; update(&amp;self, authd_path: Option&lt;&amp;str&gt;) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="4252" y="-1488.8" font-family="Arial" font-size="14.00">&#45; start(&amp;self, authd_path: Option&lt;&amp;str&gt;) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="4252" y="-1473.8" font-family="Arial" font-size="14.00">&#45; stop(&amp;self, authd_path: Option&lt;&amp;str&gt;) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="4252" y="-1458.8" font-family="Arial" font-size="14.00">&#45; restart(&amp;self, authd_path: Option&lt;&amp;str&gt;) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="4252" y="-1443.8" font-family="Arial" font-size="14.00">&#45; status(&amp;mut self) &#45;&gt; Result&lt;AuthdStatus&gt;</text>
-<text text-anchor="start" x="4252" y="-1428.8" font-family="Arial" font-size="14.00">&#45; unlock(&amp;mut self, passphrase: &amp;str, password: &amp;str) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="4252" y="-1413.8" font-family="Arial" font-size="14.00">&#45; lock(&amp;mut self) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="4252" y="-1398.8" font-family="Arial" font-size="14.00">&#45; create(&amp;self, passphrase: &amp;str, password: &amp;str) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="4252" y="-1383.8" font-family="Arial" font-size="14.00">&#45; authed_apps(&amp;self) &#45;&gt; Result&lt;AuthedAppsList&gt;</text>
-<text text-anchor="start" x="4252" y="-1368.8" font-family="Arial" font-size="14.00">&#45; revoke_app(&amp;self, app_id: &amp;str) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="4252" y="-1353.8" font-family="Arial" font-size="14.00">&#45; auth_reqs(&amp;self) &#45;&gt; Result&lt;PendingAuthReqs&gt;</text>
-<text text-anchor="start" x="4252" y="-1338.8" font-family="Arial" font-size="14.00">&#45; allow(&amp;self, req_id: SafeAuthReqId) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="4252" y="-1323.8" font-family="Arial" font-size="14.00">&#45; deny(&amp;self, req_id: SafeAuthReqId) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="4252" y="-1308.8" font-family="Arial" font-size="14.00">&#45; subscribe(&amp;mut self, endpoint_url: &amp;str, _app_id: &amp;str, allow_cb: CB) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="4252" y="-1293.8" font-family="Arial" font-size="14.00">&#45; subscribe_url(&amp;self, endpoint_url: &amp;str) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="4252" y="-1278.8" font-family="Arial" font-size="14.00">&#45; unsubscribe(&amp;mut self, endpoint_url: &amp;str) &#45;&gt; Result&lt;()&gt;</text>
-<polygon fill="none" stroke="black" points="4239.5,-1263 4239.5,-1661 4790.5,-1661 4790.5,-1263 4239.5,-1263"/>
+<polygon fill="lightblue" stroke="none" points="4151,-1645 4151,-1682 4879,-1682 4879,-1645 4151,-1645"/>
+<polygon fill="none" stroke="black" points="4151,-1645 4151,-1682 4879,-1682 4879,-1645 4151,-1645"/>
+<text text-anchor="start" x="4459" y="-1660.8" font-family="Arial" font-weight="bold" font-size="14.00">SafeAuthdClient</text>
+<polygon fill="white" stroke="none" points="4151,-1548 4151,-1645 4879,-1645 4879,-1548 4151,-1548"/>
+<polygon fill="none" stroke="black" points="4151,-1548 4151,-1645 4879,-1645 4879,-1548 4151,-1548"/>
+<text text-anchor="start" x="4162" y="-1622.8" font-family="Arial" font-size="14.00">+ authd_endpoint: String</text>
+<text text-anchor="start" x="4162" y="-1607.8" font-family="Arial" font-size="14.00">+ authd_cert_path: PathBuf</text>
+<text text-anchor="start" x="4162" y="-1592.8" font-family="Arial" font-size="14.00">+ authd_notify_cert_path: PathBuf</text>
+<text text-anchor="start" x="4162" y="-1577.8" font-family="Arial" font-size="14.00">+ authd_notify_key_path: PathBuf</text>
+<text text-anchor="start" x="4162" y="-1562.8" font-family="Arial" font-size="14.00">&#45; subscribed_endpoint: Option&lt;(String, task::JoinHandle&lt;()&gt;, task::JoinHandle&lt;()&gt;)&gt;</text>
+<polygon fill="white" stroke="none" points="4151,-1241 4151,-1548 4879,-1548 4879,-1241 4151,-1241"/>
+<polygon fill="none" stroke="black" points="4151,-1241 4151,-1548 4879,-1548 4879,-1241 4151,-1241"/>
+<text text-anchor="start" x="4162" y="-1525.8" font-family="Arial" font-size="14.00">&#45; drop(&amp;mut self)</text>
+<text text-anchor="start" x="4162" y="-1510.8" font-family="Arial" font-size="14.00">&#45; new(endpoint: Option&lt;String&gt;, authd_cert_path: P, authd_notify_cert_path: P, authd_notify_key_path: P) &#45;&gt; Self</text>
+<text text-anchor="start" x="4162" y="-1495.8" font-family="Arial" font-size="14.00">&#45; version(&amp;self, authd_path: Option&lt;&amp;str&gt;) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="4162" y="-1480.8" font-family="Arial" font-size="14.00">&#45; update(&amp;self, authd_path: Option&lt;&amp;str&gt;) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="4162" y="-1465.8" font-family="Arial" font-size="14.00">&#45; start(&amp;self, authd_path: Option&lt;&amp;str&gt;) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="4162" y="-1450.8" font-family="Arial" font-size="14.00">&#45; stop(&amp;self, authd_path: Option&lt;&amp;str&gt;) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="4162" y="-1435.8" font-family="Arial" font-size="14.00">&#45; restart(&amp;self, authd_path: Option&lt;&amp;str&gt;) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="4162" y="-1420.8" font-family="Arial" font-size="14.00">&#45; status(&amp;mut self) &#45;&gt; Result&lt;AuthdStatus&gt;</text>
+<text text-anchor="start" x="4162" y="-1405.8" font-family="Arial" font-size="14.00">&#45; unlock(&amp;mut self, passphrase: &amp;str, password: &amp;str) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="4162" y="-1390.8" font-family="Arial" font-size="14.00">&#45; lock(&amp;mut self) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="4162" y="-1375.8" font-family="Arial" font-size="14.00">&#45; create(&amp;self, passphrase: &amp;str, password: &amp;str) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="4162" y="-1360.8" font-family="Arial" font-size="14.00">&#45; authed_apps(&amp;self) &#45;&gt; Result&lt;AuthedAppsList&gt;</text>
+<text text-anchor="start" x="4162" y="-1345.8" font-family="Arial" font-size="14.00">&#45; revoke_app(&amp;self, app_id: &amp;str) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="4162" y="-1330.8" font-family="Arial" font-size="14.00">&#45; auth_reqs(&amp;self) &#45;&gt; Result&lt;PendingAuthReqs&gt;</text>
+<text text-anchor="start" x="4162" y="-1315.8" font-family="Arial" font-size="14.00">&#45; allow(&amp;self, req_id: SafeAuthReqId) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="4162" y="-1300.8" font-family="Arial" font-size="14.00">&#45; deny(&amp;self, req_id: SafeAuthReqId) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="4162" y="-1285.8" font-family="Arial" font-size="14.00">&#45; subscribe(&amp;mut self, endpoint_url: &amp;str, _app_id: &amp;str, allow_cb: CB) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="4162" y="-1270.8" font-family="Arial" font-size="14.00">&#45; subscribe_url(&amp;self, endpoint_url: &amp;str) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="4162" y="-1255.8" font-family="Arial" font-size="14.00">&#45; unsubscribe(&amp;mut self, endpoint_url: &amp;str) &#45;&gt; Result&lt;()&gt;</text>
+<polygon fill="none" stroke="black" points="4150,-1240.5 4150,-1683.5 4880,-1683.5 4880,-1240.5 4150,-1240.5"/>
 </a>
 </g>
 </g>
 <!-- ndAuthdStatus&#45;&gt;ndSafeAuthdClient -->
 <g id="edge12" class="edge"><title>ndAuthdStatus&#45;&gt;ndSafeAuthdClient</title>
-<path fill="none" stroke="black" d="M4515,-2214.39C4515,-2099.95 4515,-1854.6 4515,-1675.28"/>
-<polygon fill="black" stroke="black" points="4515,-1665.18 4519.5,-1675.18 4515,-1670.18 4515,-1675.18 4515,-1675.18 4515,-1675.18 4515,-1670.18 4510.5,-1675.18 4515,-1665.18 4515,-1665.18"/>
+<path fill="none" stroke="black" d="M4515,-2214.39C4515,-2104.69 4515,-1874.71 4515,-1697.9"/>
+<polygon fill="black" stroke="black" points="4515,-1687.66 4519.5,-1697.66 4515,-1692.66 4515,-1697.66 4515,-1697.66 4515,-1697.66 4515,-1692.66 4510.5,-1697.66 4515,-1687.66 4515,-1687.66"/>
 </g>
 <!-- ndVersionHashError -->
 <g id="node19" class="node"><title>ndVersionHashError</title>

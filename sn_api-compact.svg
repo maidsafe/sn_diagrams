@@ -321,21 +321,24 @@
 <!-- ndSafeAuthdClient -->
 <g id="node18" class="node"><title>ndSafeAuthdClient</title>
 <g id="a_node18_17"><a xlink:href="https://github.com/maidsafe/safe_network/blob/master/src/authd_client/authd_client_api.rs#:~:text=struct%20SafeAuthdClient" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="2519,-521.5 2519,-558.5 3068,-558.5 3068,-521.5 2519,-521.5"/>
-<polygon fill="none" stroke="black" points="2519,-521.5 2519,-558.5 3068,-558.5 3068,-521.5 2519,-521.5"/>
-<text text-anchor="start" x="2737.5" y="-537.3" font-family="Arial" font-weight="bold" font-size="14.00">SafeAuthdClient</text>
-<polygon fill="white" stroke="none" points="2519,-469.5 2519,-521.5 3068,-521.5 3068,-469.5 2519,-469.5"/>
-<polygon fill="none" stroke="black" points="2519,-469.5 2519,-521.5 3068,-521.5 3068,-469.5 2519,-469.5"/>
-<text text-anchor="start" x="2530" y="-499.3" font-family="Arial" font-size="14.00">+ authd_endpoint: String</text>
-<text text-anchor="start" x="2530" y="-484.3" font-family="Arial" font-size="14.00">&#45; subscribed_endpoint: Option&lt;(String, task::JoinHandle&lt;()&gt;, task::JoinHandle&lt;()&gt;)&gt;</text>
-<polygon fill="none" stroke="black" points="2517.5,-469 2517.5,-560 3068.5,-560 3068.5,-469 2517.5,-469"/>
+<polygon fill="lightblue" stroke="none" points="2519,-544.5 2519,-581.5 3068,-581.5 3068,-544.5 2519,-544.5"/>
+<polygon fill="none" stroke="black" points="2519,-544.5 2519,-581.5 3068,-581.5 3068,-544.5 2519,-544.5"/>
+<text text-anchor="start" x="2737.5" y="-560.3" font-family="Arial" font-weight="bold" font-size="14.00">SafeAuthdClient</text>
+<polygon fill="white" stroke="none" points="2519,-447.5 2519,-544.5 3068,-544.5 3068,-447.5 2519,-447.5"/>
+<polygon fill="none" stroke="black" points="2519,-447.5 2519,-544.5 3068,-544.5 3068,-447.5 2519,-447.5"/>
+<text text-anchor="start" x="2530" y="-522.3" font-family="Arial" font-size="14.00">+ authd_endpoint: String</text>
+<text text-anchor="start" x="2530" y="-507.3" font-family="Arial" font-size="14.00">+ authd_cert_path: PathBuf</text>
+<text text-anchor="start" x="2530" y="-492.3" font-family="Arial" font-size="14.00">+ authd_notify_cert_path: PathBuf</text>
+<text text-anchor="start" x="2530" y="-477.3" font-family="Arial" font-size="14.00">+ authd_notify_key_path: PathBuf</text>
+<text text-anchor="start" x="2530" y="-462.3" font-family="Arial" font-size="14.00">&#45; subscribed_endpoint: Option&lt;(String, task::JoinHandle&lt;()&gt;, task::JoinHandle&lt;()&gt;)&gt;</text>
+<polygon fill="none" stroke="black" points="2517.5,-446.5 2517.5,-582.5 3068.5,-582.5 3068.5,-446.5 2517.5,-446.5"/>
 </a>
 </g>
 </g>
 <!-- ndAuthdStatus&#45;&gt;ndSafeAuthdClient -->
 <g id="edge12" class="edge"><title>ndAuthdStatus&#45;&gt;ndSafeAuthdClient</title>
-<path fill="none" stroke="black" d="M2793,-719.988C2793,-675.852 2793,-617.453 2793,-574.367"/>
-<polygon fill="black" stroke="black" points="2793,-564.315 2797.5,-574.314 2793,-569.315 2793,-574.315 2793,-574.315 2793,-574.315 2793,-569.315 2788.5,-574.315 2793,-564.315 2793,-564.315"/>
+<path fill="none" stroke="black" d="M2793,-719.988C2793,-683.108 2793,-636.27 2793,-596.729"/>
+<polygon fill="black" stroke="black" points="2793,-586.58 2797.5,-596.58 2793,-591.58 2793,-596.58 2793,-596.58 2793,-596.58 2793,-591.58 2788.5,-596.58 2793,-586.58 2793,-586.58"/>
 </g>
 <!-- ndVersionHashError -->
 <g id="node19" class="node"><title>ndVersionHashError</title>
