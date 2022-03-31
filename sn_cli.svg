@@ -17,7 +17,7 @@
 <text text-anchor="start" x="272.5" y="-196.3" font-family="Arial" font-weight="bold" font-size="14.00">CmdArgs</text>
 <polygon fill="white" stroke="none" points="183.5,-83.5 183.5,-180.5 427.5,-180.5 427.5,-83.5 183.5,-83.5"/>
 <polygon fill="none" stroke="black" points="183.5,-83.5 183.5,-180.5 427.5,-180.5 427.5,-83.5 183.5,-83.5"/>
-<text text-anchor="start" x="194.5" y="-158.3" font-family="Arial" font-size="14.00">+ cmd: Option&lt;SubCommands&gt;</text>
+<text text-anchor="start" x="194.5" y="-158.3" font-family="Arial" font-size="14.00">+ cmd: SubCommands</text>
 <text text-anchor="start" x="194.5" y="-143.3" font-family="Arial" font-size="14.00">&#45; output_fmt: Option&lt;OutputFmt&gt;</text>
 <text text-anchor="start" x="194.5" y="-128.3" font-family="Arial" font-size="14.00">&#45; output_json: bool</text>
 <text text-anchor="start" x="194.5" y="-113.3" font-family="Arial" font-size="14.00">&#45; dry: bool</text>
